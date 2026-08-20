@@ -1,0 +1,288 @@
+{
+  "identifier": "NG3230",
+  "full_title": "Angel (Left Hand)",
+  "short_title": "Angel (Left Hand)",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "egg tempera on wood",
+  "dimensions": "43.5 × 61.5 cm",
+  "production_date": "1455-60",
+  "brief_description": "This angel comes from a pala (an altarpiece with a single, unified surface) which was sawn into pieces in the eighteenth century but reassembled by the National Gallery in the 1930s. It was made for a confraternity of priests, and shows the Trinity (God the Father, Christ and the Holy Ghost as a dove) with saints and angels.\n\nGiven its history, this fragment is in surprisingly good condition. The angel's wings have darkened and the green robe has discoloured, so that it contrasts less with the yellow lining. The underdrawing (the preliminary outlining of a composition) for the whole panel is very detailed, and some of it is visible: look closely and you can see the drawing of the angel's face and hair.",
+  "accession_date": "1929-01-01",
+  "current_location": "Room 60, The National Gallery (London)",
+  "credit_line": "Bought, 1917",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Francesco Pesellino",
+    "birth_date": "1422",
+    "death_date": "1457",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3230-00-000006-web.jpg",
+    "filename": "N-3230-00-000006-web.jpg",
+    "image_key": "N-3230-00-000006",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1448,
+    "aspect_ratio": 1.326,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 691929
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 699,
+    "horizontal_lines": 193,
+    "vertical_lines": 34,
+    "diagonal_lines": 472,
+    "edge_density": 0.0499,
+    "dominant_angles": [
+      -38.1,
+      -33.9,
+      -27.7,
+      -45.0,
+      -45.0,
+      -40.0,
+      -5.9,
+      -27.8,
+      -29.1,
+      -32.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      70,
+      74,
+      74
+    ],
+    "mean_color_hex": "#464a4a",
+    "color_palette": [
+      "#355270",
+      "#2a2419",
+      "#496480",
+      "#4b351b",
+      "#22405a",
+      "#6e4e25",
+      "#8f6d41",
+      "#293335",
+      "#444e4f",
+      "#b0906d"
+    ],
+    "unique_colors": 95742,
+    "color_diversity": 0.0344,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 72.99,
+    "contrast_level": "low",
+    "contrast_value": 0.221,
+    "dynamic_range": 188,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 68.75,
+    "midtones_percentage": 30.96,
+    "highlights_percentage": 0.29
+  },
+  "object_detection": {
+    "detected_objects": [],
+    "object_count": 0,
+    "object_types": {},
+    "unique_classes": 0
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          158,
+          663,
+          202,
+          707
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1568,
+          614,
+          1630,
+          676
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          290,
+          1359,
+          350,
+          1419
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1745.22,
+          "y": 630.63,
+          "visibility": 2,
+          "confidence": 0.9458
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3173
+        },
+        {
+          "name": "right_eye",
+          "x": 1747.79,
+          "y": 588.87,
+          "visibility": 2,
+          "confidence": 0.9787
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0515
+        },
+        {
+          "name": "right_ear",
+          "x": 1628.53,
+          "y": 583.88,
+          "visibility": 2,
+          "confidence": 0.9826
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1394.7,
+          "y": 771.74,
+          "visibility": 2,
+          "confidence": 0.9698
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1446.04,
+          "y": 663.66,
+          "visibility": 2,
+          "confidence": 0.9886
+        },
+        {
+          "name": "left_elbow",
+          "x": 1342.9,
+          "y": 939.3,
+          "visibility": 2,
+          "confidence": 0.5548
+        },
+        {
+          "name": "right_elbow",
+          "x": 1523.5,
+          "y": 777.98,
+          "visibility": 2,
+          "confidence": 0.9495
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4844
+        },
+        {
+          "name": "right_wrist",
+          "x": 1687.34,
+          "y": 765.44,
+          "visibility": 2,
+          "confidence": 0.8167
+        },
+        {
+          "name": "left_hip",
+          "x": 773.43,
+          "y": 825.39,
+          "visibility": 2,
+          "confidence": 0.8998
+        },
+        {
+          "name": "right_hip",
+          "x": 778.49,
+          "y": 765.66,
+          "visibility": 2,
+          "confidence": 0.9323
+        },
+        {
+          "name": "left_knee",
+          "x": 892.57,
+          "y": 731.77,
+          "visibility": 2,
+          "confidence": 0.798
+        },
+        {
+          "name": "right_knee",
+          "x": 863.77,
+          "y": 679.54,
+          "visibility": 2,
+          "confidence": 0.8788
+        },
+        {
+          "name": "left_ankle",
+          "x": 535.84,
+          "y": 780.54,
+          "visibility": 2,
+          "confidence": 0.7877
+        },
+        {
+          "name": "right_ankle",
+          "x": 499.38,
+          "y": 759.72,
+          "visibility": 2,
+          "confidence": 0.7973
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -85.06
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D4Q-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D4Q-0001-0000-0000.json"
+  }
+}

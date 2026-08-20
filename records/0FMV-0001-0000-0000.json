@@ -1,0 +1,281 @@
+{
+  "identifier": "NG2528",
+  "full_title": "Portrait of a Man holding Gloves",
+  "short_title": "Portrait of a Man holding Gloves",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "78.5 × 67.3 cm",
+  "production_date": "about 1645",
+  "brief_description": "The sitter in this portrait is clearly a prosperous man, conventionally but expensively dressed in the style of the mid-1640s. Beyond that, no evidence has survived -- we don’t know who he is. Nevertheless, this portrait is a good example of Hals's ability both to capture a convincing likeness and to make his sitters seem to come alive. The man here leans back slightly, thrusting his elbow towards us. This, and the way that he tilts his head and grasps his gloves in his left hand, lifting them slightly as he does so, implies movement -- a moment captured.\n\nHals had to work on the pose to achieve this effect. If you look carefully at the outline of the man’s hat and left arm, you can see that the artist made changes to his first draft, shifting the sitter back slightly in a way that emphasises the tilt of the head and the jut of the elbow.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Frans Hals",
+    "birth_date": "1582",
+    "death_date": "1666",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2528-00-000029-web.jpg",
+    "filename": "N-2528-00-000029-web.jpg",
+    "image_key": "N-2528-00-000029",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2239,
+    "aspect_ratio": 0.8575,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 625387
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 218,
+    "horizontal_lines": 12,
+    "vertical_lines": 50,
+    "diagonal_lines": 156,
+    "edge_density": 0.0091,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      25,
+      20,
+      14
+    ],
+    "mean_color_hex": "#19140e",
+    "color_palette": [
+      "#050605",
+      "#231b10",
+      "#1a140d",
+      "#2b2115",
+      "#0e0d09",
+      "#46311d",
+      "#684427",
+      "#855937",
+      "#4e463d",
+      "#6b6156"
+    ],
+    "unique_colors": 27533,
+    "color_diversity": 0.0064,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 21.48,
+    "contrast_level": "low",
+    "contrast_value": 0.1477,
+    "dynamic_range": 209,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 97.78,
+    "midtones_percentage": 2.22,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9243,
+        "bbox": [
+          25.59,
+          113.28,
+          1801.66,
+          2235.7
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          696,
+          417,
+          1193,
+          914
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 984.02,
+          "y": 682.33,
+          "visibility": 2,
+          "confidence": 0.9995
+        },
+        {
+          "name": "left_eye",
+          "x": 1032.66,
+          "y": 588.32,
+          "visibility": 2,
+          "confidence": 0.9949
+        },
+        {
+          "name": "right_eye",
+          "x": 865.01,
+          "y": 602.74,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3833
+        },
+        {
+          "name": "right_ear",
+          "x": 676.25,
+          "y": 647.5,
+          "visibility": 2,
+          "confidence": 0.9881
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1189.87,
+          "y": 1043.64,
+          "visibility": 2,
+          "confidence": 0.9956
+        },
+        {
+          "name": "right_shoulder",
+          "x": 515.44,
+          "y": 1028.66,
+          "visibility": 2,
+          "confidence": 0.9978
+        },
+        {
+          "name": "left_elbow",
+          "x": 1445.54,
+          "y": 1483.8,
+          "visibility": 2,
+          "confidence": 0.9482
+        },
+        {
+          "name": "right_elbow",
+          "x": 227.71,
+          "y": 1494.6,
+          "visibility": 2,
+          "confidence": 0.9768
+        },
+        {
+          "name": "left_wrist",
+          "x": 1572.16,
+          "y": 1718.99,
+          "visibility": 2,
+          "confidence": 0.9405
+        },
+        {
+          "name": "right_wrist",
+          "x": 542.28,
+          "y": 1876.61,
+          "visibility": 2,
+          "confidence": 0.9721
+        },
+        {
+          "name": "left_hip",
+          "x": 1131.71,
+          "y": 2003.06,
+          "visibility": 2,
+          "confidence": 0.7506
+        },
+        {
+          "name": "right_hip",
+          "x": 694.31,
+          "y": 2032.94,
+          "visibility": 2,
+          "confidence": 0.7955
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0171
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0228
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -3.47
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FMV-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FMV-0001-0000-0000.json"
+  }
+}

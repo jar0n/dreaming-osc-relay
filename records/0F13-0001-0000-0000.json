@@ -1,0 +1,292 @@
+{
+  "identifier": "NG683",
+  "full_title": "Mrs Siddons",
+  "short_title": "Mrs Siddons",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "126 × 99.5 cm",
+  "production_date": "1785",
+  "brief_description": "Mrs Siddons (1755--1831) was the greatest tragic actress of her time, remaining at the top of her profession for 30 years. Gainsborough painted her in the winter of 1784--5, during her third London season.\n\nMost of Mrs Siddons's earlier portraits depict her in character, but Gainsborough portrayed her off-stage and in fashionable contemporary dress. She wears a black beaver hat trimmed with ribbon and ostrich feathers, and a blue striped 'wrapping-gown', yellow mantle and fox-fur muff. Gainsborough apparently found some difficulty in capturing Mrs Siddons's distinctive features, and is said to have exclaimed: 'Confound the nose, there's no end to it!'\n\nAt the time Gainsborough painted her, Mrs Siddons was playing the greatest of all her roles -- Lady Macbeth. Something of the power and passion of that part can be felt in the portrait, considered by some as the artist's masterpiece.",
+  "accession_date": "1862-01-01",
+  "current_location": "Room 34, The National Gallery (London)",
+  "credit_line": "Bought, 1862",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "Thomas Gainsborough",
+    "birth_date": "1727",
+    "death_date": "1788",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0683-00-000032-web.jpg",
+    "filename": "N-0683-00-000032-web.jpg",
+    "image_key": "N-0683-00-000032",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2430,
+    "aspect_ratio": 0.7901,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1128337
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1236,
+    "horizontal_lines": 129,
+    "vertical_lines": 442,
+    "diagonal_lines": 665,
+    "edge_density": 0.0418,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -50.7,
+      -45.0,
+      -45.0,
+      -45.0,
+      -68.8,
+      -70.0,
+      -45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      54,
+      43,
+      34
+    ],
+    "mean_color_hex": "#362b22",
+    "color_palette": [
+      "#241b16",
+      "#1a1210",
+      "#381e14",
+      "#2d2d26",
+      "#483620",
+      "#44483e",
+      "#827a60",
+      "#626455",
+      "#685536",
+      "#a39472"
+    ],
+    "unique_colors": 59876,
+    "color_diversity": 0.0128,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 45.97,
+    "contrast_level": "low",
+    "contrast_value": 0.2514,
+    "dynamic_range": 194,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 86.36,
+    "midtones_percentage": 13.55,
+    "highlights_percentage": 0.08
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5155,
+        "bbox": [
+          17.28,
+          115.62,
+          1855.72,
+          2425.65
+        ]
+      },
+      {
+        "class": "couch",
+        "confidence": 0.2737,
+        "bbox": [
+          11.37,
+          5.26,
+          1899.77,
+          2412.81
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "couch": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          883,
+          464,
+          1186,
+          767
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 998.11,
+          "y": 632.01,
+          "visibility": 2,
+          "confidence": 0.9565
+        },
+        {
+          "name": "left_eye",
+          "x": 1067.03,
+          "y": 569.07,
+          "visibility": 2,
+          "confidence": 0.963
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4029
+        },
+        {
+          "name": "left_ear",
+          "x": 1256.62,
+          "y": 611.07,
+          "visibility": 2,
+          "confidence": 0.9789
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0318
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1467.27,
+          "y": 989.19,
+          "visibility": 2,
+          "confidence": 0.9904
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1061.74,
+          "y": 902.79,
+          "visibility": 2,
+          "confidence": 0.9898
+        },
+        {
+          "name": "left_elbow",
+          "x": 1443.2,
+          "y": 1585.13,
+          "visibility": 2,
+          "confidence": 0.9767
+        },
+        {
+          "name": "right_elbow",
+          "x": 874.51,
+          "y": 1292.67,
+          "visibility": 2,
+          "confidence": 0.9661
+        },
+        {
+          "name": "left_wrist",
+          "x": 973.73,
+          "y": 1779.41,
+          "visibility": 2,
+          "confidence": 0.973
+        },
+        {
+          "name": "right_wrist",
+          "x": 602.43,
+          "y": 1547.8,
+          "visibility": 2,
+          "confidence": 0.9501
+        },
+        {
+          "name": "left_hip",
+          "x": 1313.56,
+          "y": 1797.07,
+          "visibility": 2,
+          "confidence": 0.9911
+        },
+        {
+          "name": "right_hip",
+          "x": 1016.81,
+          "y": 1704.04,
+          "visibility": 2,
+          "confidence": 0.9923
+        },
+        {
+          "name": "left_knee",
+          "x": 976.37,
+          "y": 2217.37,
+          "visibility": 2,
+          "confidence": 0.8022
+        },
+        {
+          "name": "right_knee",
+          "x": 516.84,
+          "y": 2099.25,
+          "visibility": 2,
+          "confidence": 0.7901
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1022
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1147
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -10.77
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F13-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F13-0001-0000-0000.json"
+  }
+}

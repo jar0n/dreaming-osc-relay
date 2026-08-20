@@ -1,0 +1,322 @@
+{
+  "identifier": "NG681",
+  "full_title": "Captain Robert Orme",
+  "short_title": "Captain Robert Orme",
+  "object_name": "Picture",
+  "style": "academic",
+  "material": "oil on canvas",
+  "dimensions": "239 × 147 cm",
+  "production_date": "1756",
+  "brief_description": "This portrait shows Captain Robert Orme (1725--90) at the age of 31, during the war against the French for supremacy in the North American colonies. Reynolds painted it on speculation in the hope of selling it or displaying it to gain more work.\n\nOrme was aide-de-camp to General Edward Braddock, commander-in-chief of the British forces in America, and was friends with the young George Washington. On 9 July 1755, General Braddock and his forces were ambushed and defeated by French and Native American riflemen near Fort Du Quesne on the Ohio River. In Reynolds’s portrait, Orme seems about to leap on his horse and ride off with reports of the battle. The dispatch he holds is illegible but may carry news of Braddock’s death. The poses of Orme and his horse are derived from a fresco by Jacopo Ligozzi in the church of Ognissanti in Florence, which Reynolds drew in 1752 in his Italian sketchbook.",
+  "accession_date": "1862-01-01",
+  "current_location": "Room 34, The National Gallery (London)",
+  "credit_line": "Bought, 1862",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "Sir Joshua Reynolds",
+    "birth_date": "1723",
+    "death_date": "1792",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0681-00-000047-web.jpg",
+    "filename": "N-0681-00-000047-web.jpg",
+    "image_key": "N-0681-00-000047",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3137,
+    "aspect_ratio": 0.612,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1015321
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 642,
+    "horizontal_lines": 29,
+    "vertical_lines": 56,
+    "diagonal_lines": 557,
+    "edge_density": 0.0156,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      65.0,
+      -77.1,
+      -76.0,
+      63.1,
+      64.1,
+      61.0,
+      -78.1,
+      61.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      50,
+      42,
+      33
+    ],
+    "mean_color_hex": "#322a21",
+    "color_palette": [
+      "#1a130d",
+      "#231b12",
+      "#30251a",
+      "#464a49",
+      "#3e3526",
+      "#5a5f5d",
+      "#5a2d19",
+      "#7a7d73",
+      "#979f95",
+      "#665331"
+    ],
+    "unique_colors": 61749,
+    "color_diversity": 0.0103,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 44.04,
+    "contrast_level": "low",
+    "contrast_value": 0.246,
+    "dynamic_range": 214,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 88.98,
+    "midtones_percentage": 10.56,
+    "highlights_percentage": 0.46
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8072,
+        "bbox": [
+          684.05,
+          497.85,
+          1631.62,
+          3003.17
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.349,
+        "bbox": [
+          55.8,
+          880.45,
+          1840.15,
+          3084.36
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.334,
+        "bbox": [
+          55.22,
+          907.15,
+          1133.47,
+          3100.64
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "horse": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          193,
+          2739,
+          247,
+          2793
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1136,
+          1812,
+          1253,
+          1929
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1103,
+          653,
+          1294,
+          844
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1196.36,
+          "y": 768.12,
+          "visibility": 2,
+          "confidence": 0.9827
+        },
+        {
+          "name": "left_eye",
+          "x": 1237.87,
+          "y": 720.83,
+          "visibility": 2,
+          "confidence": 0.9858
+        },
+        {
+          "name": "right_eye",
+          "x": 1159.36,
+          "y": 728.86,
+          "visibility": 2,
+          "confidence": 0.864
+        },
+        {
+          "name": "left_ear",
+          "x": 1324.39,
+          "y": 749.61,
+          "visibility": 2,
+          "confidence": 0.9513
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2161
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1435.72,
+          "y": 1035.53,
+          "visibility": 2,
+          "confidence": 0.9966
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1107.65,
+          "y": 1034.04,
+          "visibility": 2,
+          "confidence": 0.9495
+        },
+        {
+          "name": "left_elbow",
+          "x": 1521.92,
+          "y": 1422.89,
+          "visibility": 2,
+          "confidence": 0.9857
+        },
+        {
+          "name": "right_elbow",
+          "x": 1041.04,
+          "y": 1351.08,
+          "visibility": 2,
+          "confidence": 0.6194
+        },
+        {
+          "name": "left_wrist",
+          "x": 1461.82,
+          "y": 1751.62,
+          "visibility": 2,
+          "confidence": 0.9706
+        },
+        {
+          "name": "right_wrist",
+          "x": 1072.4,
+          "y": 1558.39,
+          "visibility": 2,
+          "confidence": 0.6753
+        },
+        {
+          "name": "left_hip",
+          "x": 1352.51,
+          "y": 1729.83,
+          "visibility": 2,
+          "confidence": 0.9985
+        },
+        {
+          "name": "right_hip",
+          "x": 1143.19,
+          "y": 1730.63,
+          "visibility": 2,
+          "confidence": 0.9933
+        },
+        {
+          "name": "left_knee",
+          "x": 1368.1,
+          "y": 2240.03,
+          "visibility": 2,
+          "confidence": 0.9978
+        },
+        {
+          "name": "right_knee",
+          "x": 1188.34,
+          "y": 2257.71,
+          "visibility": 2,
+          "confidence": 0.9916
+        },
+        {
+          "name": "left_ankle",
+          "x": 1331.57,
+          "y": 2754.81,
+          "visibility": 2,
+          "confidence": 0.9829
+        },
+        {
+          "name": "right_ankle",
+          "x": 1156.93,
+          "y": 2777.41,
+          "visibility": 2,
+          "confidence": 0.9618
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -6.83
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FQ0-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FQ0-0001-0000-0000.json"
+  }
+}

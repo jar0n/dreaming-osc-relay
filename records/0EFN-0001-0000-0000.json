@@ -1,0 +1,221 @@
+{
+  "identifier": "NG6464",
+  "full_title": "The Mouth of an Estuary with a Gateway",
+  "short_title": "The Mouth of an Estuary with a Gateway",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "33.2 × 47.6 cm",
+  "production_date": "1649",
+  "brief_description": "The huge sky and the grey -- but luminous -- tones of this painting are typical of Jan van Goyen’s landscapes and seascapes. About three quarters of the composition is devoted to the towering clouds and the grey haze which obscures the brighter blues above; still more space is used to capture the bright reflections in the waters of the estuary.\n\nBut this picture isn’t only about the sea and the sky, it is also a portrayal of everyday life. In the shadowy foreground we see passengers being rowed in a ferry and a woman dipping a basket over the quay. Two men moor a boat; others deliver cargo. The building at the left appears to be a water-gate of a type which appeared at the entrance of many Dutch towns.\n\nAlong with Salomon van Ruysdael, van Goyen was one of the pioneers of a naturalistic approach to landscapes and seascapes. This work was made towards the end of his career.",
+  "accession_date": "1981-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs Alice Bleecker, 1981",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van Goyen",
+    "birth_date": "1596",
+    "death_date": "1656",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6464-00-000009-web.jpg",
+    "filename": "N-6464-00-000009-web.jpg",
+    "image_key": "N-6464-00-000009",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1422,
+    "aspect_ratio": 1.3502,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 661645
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 210,
+    "horizontal_lines": 169,
+    "vertical_lines": 10,
+    "diagonal_lines": 31,
+    "edge_density": 0.019,
+    "dominant_angles": [
+      1.2,
+      1.0,
+      1.1,
+      2.0,
+      3.4,
+      2.9,
+      0.0,
+      2.7,
+      2.0,
+      0.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      142,
+      132,
+      105
+    ],
+    "mean_color_hex": "#8e8469",
+    "color_palette": [
+      "#968c6f",
+      "#baab84",
+      "#aa9c78",
+      "#838070",
+      "#cbbb94",
+      "#483e2d",
+      "#362d22",
+      "#5e523c",
+      "#989687",
+      "#76694d"
+    ],
+    "unique_colors": 34542,
+    "color_diversity": 0.0127,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 132.29,
+    "contrast_level": "medium",
+    "contrast_value": 0.3259,
+    "dynamic_range": 206,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 18.85,
+    "midtones_percentage": 62.91,
+    "highlights_percentage": 18.24
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.5789,
+        "bbox": [
+          1307.72,
+          987.9,
+          1430.54,
+          1131.24
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.369,
+        "bbox": [
+          524.03,
+          603.92,
+          880.67,
+          1220.66
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3451,
+        "bbox": [
+          882.95,
+          994.26,
+          1109.92,
+          1192.82
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3139,
+        "bbox": [
+          1604.32,
+          1128.46,
+          1637.84,
+          1183.82
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2707,
+        "bbox": [
+          1645.96,
+          1144.31,
+          1679.78,
+          1189.7
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2699,
+        "bbox": [
+          1520.17,
+          1119.92,
+          1726.37,
+          1223.48
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2613,
+        "bbox": [
+          1689.11,
+          1148.89,
+          1722.22,
+          1216.07
+        ]
+      }
+    ],
+    "object_count": 7,
+    "object_types": {
+      "boat": 4,
+      "person": 3
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          180,
+          992,
+          270,
+          1082
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          966,
+          799,
+          1207,
+          1040
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EFN-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EFN-0001-0000-0000.json"
+  }
+}

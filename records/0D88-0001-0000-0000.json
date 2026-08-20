@@ -1,0 +1,172 @@
+{
+  "identifier": "NG3832",
+  "full_title": "A Peepshow with Views of the Interior of a Dutch House",
+  "short_title": "A Peepshow with Views of the Interior of a Dutch House",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "58 × 88 × 60.5 cm",
+  "production_date": "about 1655-60",
+  "brief_description": "This peculiar object is a perspective box -- a rectangular wooden cabinet painted on the inside and outside, and open on one end to let in light. The inside is painted in such a way that it's only when we peer through a peephole -- there's one on either side of the cabinet -- that we see the illusion of a three-dimensional seventeenth-century Dutch house. The rooms are quiet: one woman lies asleep in bed, while another reads in a chair. The only other living being in the house is a dog, though a man outside peeks in through a window.\n\nReflecting a fascination with perspective and optical devices, such boxes were produced in the Dutch Republic from about 1650, for a relatively short period of about 25 years. Only six survive today, and this one is the most complex and sophisticated.",
+  "accession_date": "1924-01-01",
+  "current_location": "Room 17a, The National Gallery (London)",
+  "credit_line": "Presented by Sir Robert and Lady Witt through the Art Fund, 1924",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Samuel van Hoogstraten",
+    "birth_date": "1627",
+    "death_date": "1678",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3832-00-000078-web-g.jpg",
+    "filename": "N-3832-00-000078-web-g.jpg",
+    "image_key": "N-3832-00-000078",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2669,
+    "aspect_ratio": 0.7194,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 672878
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1079,
+    "horizontal_lines": 522,
+    "vertical_lines": 436,
+    "diagonal_lines": 121,
+    "edge_density": 0.039,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      70,
+      55,
+      50
+    ],
+    "mean_color_hex": "#463732",
+    "color_palette": [
+      "#3b3b3f",
+      "#200f12",
+      "#381918",
+      "#60442f",
+      "#442b23",
+      "#695e50",
+      "#7d522f",
+      "#662d14",
+      "#8d7e67",
+      "#beb695"
+    ],
+    "unique_colors": 89667,
+    "color_diversity": 0.0175,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.12,
+    "contrast_level": "low",
+    "contrast_value": 0.2128,
+    "dynamic_range": 249,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 87.75,
+    "midtones_percentage": 11.45,
+    "highlights_percentage": 0.8
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bench",
+        "confidence": 0.7469,
+        "bbox": [
+          380.43,
+          1976.44,
+          1486.71,
+          2631.93
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.4032,
+        "bbox": [
+          1209.52,
+          1310.04,
+          1365.8,
+          1537.89
+        ]
+      },
+      {
+        "class": "chair",
+        "confidence": 0.3729,
+        "bbox": [
+          338.36,
+          538.62,
+          668.9,
+          907.19
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "bench": 1,
+      "bird": 1,
+      "chair": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          835,
+          1577,
+          890,
+          1632
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D88-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D88-0001-0000-0000.json"
+  }
+}

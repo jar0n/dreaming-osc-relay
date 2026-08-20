@@ -1,0 +1,190 @@
+{
+  "identifier": "NG2629",
+  "full_title": "A Flood",
+  "short_title": "A Flood",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "54 × 65.1 cm",
+  "production_date": "probably 1870-5",
+  "brief_description": "A river runs from the left edge of this painting to the bottom right corner. A bank rises gently towards the right. A lone figure dressed in a red shawl and bright yellow hat stands motionless under the leaning tree. In the centre a group of houses with steep gabled roofs stands amid a further group of trees. These buildings often appear in Corot’s late landscapes painted in the studio, many of which were based on real places.\n\nThe pervading silvery grey tonality is particularly striking, the restrained use of colour and the numerous reflections in the river making it hard to decipher the line between water and land. As was his custom, Corot painted the sky last, bringing it down over the roofs of the houses, in one case obscuring the roof entirely. He also added tree trunks at a late stage, such as the silver birch hovering to the right of the principal tree.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2629-00-000007-web.jpg",
+    "filename": "N-2629-00-000007-web.jpg",
+    "image_key": "N-2629-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1590,
+    "aspect_ratio": 1.2075,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 699939
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 205,
+    "horizontal_lines": 40,
+    "vertical_lines": 37,
+    "diagonal_lines": 128,
+    "edge_density": 0.0255,
+    "dominant_angles": [
+      30.1,
+      -90.0,
+      58.7,
+      -15.3,
+      32.9,
+      61.3,
+      -90.0,
+      45.0,
+      -1.1,
+      60.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      124,
+      115,
+      83
+    ],
+    "mean_color_hex": "#7c7353",
+    "color_palette": [
+      "#504831",
+      "#605637",
+      "#3f3b2b",
+      "#7e724c",
+      "#6f6441",
+      "#b4ab86",
+      "#8b7f57",
+      "#bdb694",
+      "#998d64",
+      "#a79d76"
+    ],
+    "unique_colors": 34778,
+    "color_diversity": 0.0114,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 114.51,
+    "contrast_level": "medium",
+    "contrast_value": 0.3129,
+    "dynamic_range": 190,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 29.79,
+    "midtones_percentage": 56.09,
+    "highlights_percentage": 14.12
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.4258,
+        "bbox": [
+          1390.98,
+          1116.73,
+          1464.6,
+          1252.53
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1311,
+          853,
+          1373,
+          915
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          912,
+          938,
+          994,
+          1020
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1331,
+          1020,
+          1433,
+          1122
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1433,
+          1068,
+          1534,
+          1169
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          723,
+          854,
+          846,
+          977
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FZK-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FZK-0001-0000-0000.json"
+  }
+}

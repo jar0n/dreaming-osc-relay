@@ -1,0 +1,200 @@
+{
+  "identifier": "NG1001",
+  "full_title": "Hollyhocks and Other Flowers in a Vase",
+  "short_title": "Hollyhocks and Other Flowers in a Vase",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "62.1 × 52.3 cm",
+  "production_date": "1702-20",
+  "brief_description": "Pale flowers glow in a soft light against the dark wall of an anonymous room. Pink hollyhocks flaunt dozens of tiny petals. Delicate white poppies face out towards us, the yellow pistil holding our gaze like a tiny eye. Above them a tall stem curves upwards, fat little buds clinging on to it, their pink tips held tight by the green sepals till they burst into flower. All these flowers nestle against enormous leaves. Each vein, each frilled edge turning brown in places, is made almost tangible by the minute detail of the artist's brushwork\n\nVan Huysum lived in Amsterdam, the centre of culture, trade and scientific exploration – especially in horticulture. He had access to the main plant nurseries in his home town and in Haarlem close by, and grew specimen flowers in his own garden. Dramatic lighting against a black background to display the new cultivated flowers in paintings was fashionable, and van Huysum became one of the most sought after artists in the Dutch Republic.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van Huysum",
+    "birth_date": "1682",
+    "death_date": "1749",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1001-00-000047-web.jpg",
+    "filename": "N-1001-00-000047-web.jpg",
+    "image_key": "N-1001-00-000047",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2306,
+    "aspect_ratio": 0.8326,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 698003
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 305,
+    "horizontal_lines": 14,
+    "vertical_lines": 73,
+    "diagonal_lines": 218,
+    "edge_density": 0.03,
+    "dominant_angles": [
+      -45.0,
+      67.3,
+      67.2,
+      -87.7,
+      -59.8,
+      -73.0,
+      -61.0,
+      -88.1,
+      -86.4,
+      -73.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      53,
+      46,
+      34
+    ],
+    "mean_color_hex": "#352e22",
+    "color_palette": [
+      "#282118",
+      "#211a13",
+      "#352f20",
+      "#3c3f33",
+      "#53543e",
+      "#6b654f",
+      "#837966",
+      "#9c937c",
+      "#5a371c",
+      "#875021"
+    ],
+    "unique_colors": 80725,
+    "color_diversity": 0.0182,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 46.8,
+    "contrast_level": "low",
+    "contrast_value": 0.215,
+    "dynamic_range": 169,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 88.66,
+    "midtones_percentage": 11.3,
+    "highlights_percentage": 0.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.4112,
+        "bbox": [
+          98.36,
+          130.67,
+          1814.07,
+          2290.65
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "potted plant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          770,
+          1108,
+          815,
+          1153
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1055,
+          1495,
+          1109,
+          1549
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          737,
+          1310,
+          811,
+          1384
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1140,
+          1603,
+          1224,
+          1687
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          533,
+          735,
+          642,
+          844
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          466,
+          1065,
+          799,
+          1398
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FMK-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FMK-0001-0000-0000.json"
+  }
+}

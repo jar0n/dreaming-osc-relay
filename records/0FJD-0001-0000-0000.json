@@ -1,0 +1,321 @@
+{
+  "identifier": "NG2613.1",
+  "full_title": "Philip the Handsome",
+  "short_title": "Philip the Handsome",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "22.6 × 15.5 cm",
+  "production_date": "about 1493-5",
+  "brief_description": "This young man with flowing hair is Philip the Handsome, son of the Holy Roman Emperor and founder of the Habsburg dynasty in Spain, so-called because of his fair hair and attractive grey eyes. The painting is one wing of a diptych (a panel painting in two parts). The other, showing his sister, Margaret of Austria, is also in the National Gallery's collection.\n\nPhilip wears the collar of the Order of the Golden Fleece, a prestigious chivalric order founded by Philip the Good, Duke of Burgundy, in the 1430s. The artist has minimised his prognathism -- an inherited condition where the lower jaw sticks out forwards, the so-called 'Habsburg jaw'.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Pieter van Coninxloo",
+    "birth_date": "1479",
+    "death_date": "1513",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2613-01-000018-web-g.jpg",
+    "filename": "N-2613-01-000018-web-g.jpg",
+    "image_key": "N-2613-01-000018",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2668,
+    "aspect_ratio": 0.7196,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1594716
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3865,
+    "horizontal_lines": 131,
+    "vertical_lines": 1954,
+    "diagonal_lines": 1780,
+    "edge_density": 0.1223,
+    "dominant_angles": [
+      89.2,
+      -89.0,
+      87.9,
+      -88.1,
+      -45.0,
+      -45.0,
+      -72.4,
+      -90.0,
+      -90.0,
+      88.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      86,
+      60,
+      39
+    ],
+    "mean_color_hex": "#563c27",
+    "color_palette": [
+      "#51331e",
+      "#402a1c",
+      "#613f1f",
+      "#27201a",
+      "#75572e",
+      "#614633",
+      "#856541",
+      "#3d3b3d",
+      "#6a2822",
+      "#9d7a5c"
+    ],
+    "unique_colors": 89716,
+    "color_diversity": 0.0175,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 65.6,
+    "contrast_level": "low",
+    "contrast_value": 0.175,
+    "dynamic_range": 242,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 80.82,
+    "midtones_percentage": 19.13,
+    "highlights_percentage": 0.05
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.742,
+        "bbox": [
+          363.43,
+          1341.63,
+          1354.63,
+          2614.42
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1639,
+          2271,
+          1691,
+          2323
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1292,
+          1142,
+          1353,
+          1203
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          414,
+          1201,
+          484,
+          1271
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          613,
+          2295,
+          814,
+          2496
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          783,
+          1540,
+          1258,
+          2015
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1051.3,
+          "y": 1815.35,
+          "visibility": 2,
+          "confidence": 0.99
+        },
+        {
+          "name": "left_eye",
+          "x": 1109.61,
+          "y": 1696.98,
+          "visibility": 2,
+          "confidence": 0.9686
+        },
+        {
+          "name": "right_eye",
+          "x": 911.49,
+          "y": 1697.64,
+          "visibility": 2,
+          "confidence": 0.9942
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2507
+        },
+        {
+          "name": "right_ear",
+          "x": 680.11,
+          "y": 1763.55,
+          "visibility": 2,
+          "confidence": 0.9666
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1287.87,
+          "y": 2299.22,
+          "visibility": 2,
+          "confidence": 0.7983
+        },
+        {
+          "name": "right_shoulder",
+          "x": 477.33,
+          "y": 2285.65,
+          "visibility": 2,
+          "confidence": 0.7739
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0398
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0324
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0636
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0734
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0052
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0046
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0039
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0035
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0047
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0038
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FJD-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FJD-0001-0000-0000.json"
+  }
+}

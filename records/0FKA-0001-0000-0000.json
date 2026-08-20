@@ -1,0 +1,341 @@
+{
+  "identifier": "NG769",
+  "full_title": "Saint Michael",
+  "short_title": "Saint Michael",
+  "object_name": "Picture",
+  "style": "early Renaissance",
+  "material": "oil on wood",
+  "dimensions": "133 × 59.5 cm",
+  "production_date": "completed 1469",
+  "brief_description": "The Archangel Michael led an army of angels to battle against the devil and cast him down from heaven (Revelation 12: 9). Piero shows him as a beautiful, youthful soldier. He clutches the severed head of the devil, represented as a snake with pointy ears.\n\nThe panel was part of a polyptych (multi-panelled altarpiece) made for the church of Sant'Agostino in Piero's hometown of Borgo Sansepolcro. It was placed to the immediate left of the central panel, now lost, which depicted the Virgin and Child. The lower right corner of the panel includes part of the step of the Virgin's throne and part of her cloth of gold cloak. The other side panels are in collections around the world.\n\nMichael may have been included to honour the patron, Angelo di Giovanni. The archangel was very popular with the citizens of Sansepolcro, who made pilgrimages to Monte Sant' Angelo in southern Italy, where he was thought to have appeared miraculously.",
+  "accession_date": "1867-01-01",
+  "current_location": "Room 66, The National Gallery (London)",
+  "credit_line": "Bought, 1867",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Piero della Francesca",
+    "birth_date": "1415",
+    "death_date": "1492",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0769-00-000069-web.jpg",
+    "filename": "N-0769-00-000069-web.jpg",
+    "image_key": "N-0769-00-000069",
+    "image_type": "web",
+    "width": 1920,
+    "height": 4436,
+    "aspect_ratio": 0.4328,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 3049085
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 14776,
+    "horizontal_lines": 250,
+    "vertical_lines": 8056,
+    "diagonal_lines": 6470,
+    "edge_density": 0.1608,
+    "dominant_angles": [
+      -86.1,
+      -87.9,
+      87.5,
+      -80.0,
+      -81.9,
+      -80.8,
+      -80.9,
+      -77.0,
+      82.8,
+      -77.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      118,
+      114,
+      98
+    ],
+    "mean_color_hex": "#767262",
+    "color_palette": [
+      "#59402b",
+      "#6f5b3a",
+      "#5a7681",
+      "#2a261e",
+      "#b8b496",
+      "#9f9779",
+      "#887752",
+      "#d3d2b4",
+      "#44545e",
+      "#7a99ab"
+    ],
+    "unique_colors": 208854,
+    "color_diversity": 0.0245,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 114.03,
+    "contrast_level": "medium",
+    "contrast_value": 0.3892,
+    "dynamic_range": 252,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 31.43,
+    "midtones_percentage": 51.63,
+    "highlights_percentage": 16.93
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.849,
+        "bbox": [
+          204.64,
+          302.52,
+          1850.62,
+          4394.37
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 7,
+    "faces_detected": 7,
+    "faces": [
+      {
+        "bbox": [
+          1620,
+          3133,
+          1660,
+          3173
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          193,
+          4003,
+          240,
+          4050
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1790,
+          2256,
+          1838,
+          2304
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          403,
+          1973,
+          476,
+          2046
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1462,
+          1806,
+          1524,
+          1868
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          515,
+          1290,
+          609,
+          1384
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          877,
+          423,
+          1237,
+          783
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1059.67,
+          "y": 612.64,
+          "visibility": 2,
+          "confidence": 0.9943
+        },
+        {
+          "name": "left_eye",
+          "x": 1128.85,
+          "y": 540.61,
+          "visibility": 2,
+          "confidence": 0.9602
+        },
+        {
+          "name": "right_eye",
+          "x": 975.86,
+          "y": 526.78,
+          "visibility": 2,
+          "confidence": 0.987
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4923
+        },
+        {
+          "name": "right_ear",
+          "x": 812.04,
+          "y": 573.2,
+          "visibility": 2,
+          "confidence": 0.8949
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1275.3,
+          "y": 1096.39,
+          "visibility": 2,
+          "confidence": 0.9945
+        },
+        {
+          "name": "right_shoulder",
+          "x": 619.04,
+          "y": 1045.13,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "left_elbow",
+          "x": 1361.37,
+          "y": 1675.21,
+          "visibility": 2,
+          "confidence": 0.9654
+        },
+        {
+          "name": "right_elbow",
+          "x": 318.58,
+          "y": 1703.3,
+          "visibility": 2,
+          "confidence": 0.9876
+        },
+        {
+          "name": "left_wrist",
+          "x": 1570.22,
+          "y": 2075.42,
+          "visibility": 2,
+          "confidence": 0.9716
+        },
+        {
+          "name": "right_wrist",
+          "x": 475.92,
+          "y": 2267.43,
+          "visibility": 2,
+          "confidence": 0.9871
+        },
+        {
+          "name": "left_hip",
+          "x": 1192.58,
+          "y": 2253.75,
+          "visibility": 2,
+          "confidence": 0.9995
+        },
+        {
+          "name": "right_hip",
+          "x": 791.8,
+          "y": 2254.09,
+          "visibility": 2,
+          "confidence": 0.9996
+        },
+        {
+          "name": "left_knee",
+          "x": 1095.33,
+          "y": 3153.11,
+          "visibility": 2,
+          "confidence": 0.9989
+        },
+        {
+          "name": "right_knee",
+          "x": 796.02,
+          "y": 3163.69,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "left_ankle",
+          "x": 923.27,
+          "y": 4025.98,
+          "visibility": 2,
+          "confidence": 0.9855
+        },
+        {
+          "name": "right_ankle",
+          "x": 723.43,
+          "y": 4077.65,
+          "visibility": 2,
+          "confidence": 0.9877
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -4.09
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FKA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FKA-0001-0000-0000.json"
+  }
+}

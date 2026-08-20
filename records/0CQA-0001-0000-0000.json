@@ -1,0 +1,292 @@
+{
+  "identifier": "NG3252",
+  "full_title": "The Duc d'Orléans",
+  "short_title": "The Duc d'Orléans",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "54.3 × 45.1 cm",
+  "production_date": "after 1842",
+  "brief_description": "This head and shoulders portrait is based upon a three-quarter length portrait of the Duc d’Orléans (1810--1842), the eldest son of King Louis Philippe and heir to the French throne, which Ingres completed in 1842. Following the Duke’s death in a carriage accident in July the same year, Ingres was instructed to make copies of the portrait. These ranged from modified versions of the complete picture to paintings of the head only. Numerous copies were made, although probably only five are by Ingres himself. The rest are by his studio or by other artists.\n\nThis painting is signed by Ingres, which suggests some of it was painted by him. It is not an exact copy: in this version the Duke wears a cloak, which covers the gold epaulettes and military decorations on display in the original painting. The cloak, together with the Duke's unusually pale complexion, gives him a dashing, romantic appearance.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Auguste-Dominique Ingres",
+    "birth_date": "1780",
+    "death_date": "1867",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3252-00-000015-web.jpg",
+    "filename": "N-3252-00-000015-web.jpg",
+    "image_key": "N-3252-00-000015",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2305,
+    "aspect_ratio": 0.833,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 799576
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 88,
+    "horizontal_lines": 7,
+    "vertical_lines": 16,
+    "diagonal_lines": 65,
+    "edge_density": 0.0051,
+    "dominant_angles": [
+      26.1,
+      -86.0,
+      33.1,
+      28.6,
+      26.3,
+      -85.8,
+      28.4,
+      26.6,
+      -88.2,
+      60.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      73,
+      68,
+      56
+    ],
+    "mean_color_hex": "#494438",
+    "color_palette": [
+      "#31302a",
+      "#282622",
+      "#3f3d35",
+      "#47443c",
+      "#1d1a19",
+      "#8c8163",
+      "#786d54",
+      "#645a47",
+      "#a2946f",
+      "#cab582"
+    ],
+    "unique_colors": 26768,
+    "color_diversity": 0.006,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 68.44,
+    "contrast_level": "medium",
+    "contrast_value": 0.3041,
+    "dynamic_range": 204,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 75.83,
+    "midtones_percentage": 21.38,
+    "highlights_percentage": 2.79
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.88,
+        "bbox": [
+          0.0,
+          326.76,
+          1815.84,
+          2295.49
+        ]
+      },
+      {
+        "class": "banana",
+        "confidence": 0.4716,
+        "bbox": [
+          0.0,
+          1447.35,
+          1826.69,
+          2303.51
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "banana": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          614,
+          457,
+          1390,
+          1233
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1006.8,
+          "y": 915.64,
+          "visibility": 2,
+          "confidence": 0.9967
+        },
+        {
+          "name": "left_eye",
+          "x": 1130.84,
+          "y": 766.94,
+          "visibility": 2,
+          "confidence": 0.9967
+        },
+        {
+          "name": "right_eye",
+          "x": 865.37,
+          "y": 759.5,
+          "visibility": 2,
+          "confidence": 0.9969
+        },
+        {
+          "name": "left_ear",
+          "x": 1302.07,
+          "y": 899.76,
+          "visibility": 2,
+          "confidence": 0.9325
+        },
+        {
+          "name": "right_ear",
+          "x": 651.81,
+          "y": 891.17,
+          "visibility": 2,
+          "confidence": 0.9397
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1608.94,
+          "y": 1838.96,
+          "visibility": 2,
+          "confidence": 0.9023
+        },
+        {
+          "name": "right_shoulder",
+          "x": 210.1,
+          "y": 1778.64,
+          "visibility": 2,
+          "confidence": 0.9685
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0102
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0251
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0241
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0382
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0009
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CQA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CQA-0001-0000-0000.json"
+  }
+}

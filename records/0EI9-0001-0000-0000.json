@@ -1,0 +1,291 @@
+{
+  "identifier": "NG4177",
+  "full_title": "A Female Figure resting on a Sword, probably Saint Catherine of Alexandria",
+  "short_title": "A Female Figure resting on a Sword",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "53.3 × 45.7 cm",
+  "production_date": "early 17th century",
+  "brief_description": "A young woman leans on the hilt of a sword and there is what appears to be a fragment of a wheel next to her shoulder. She is probably Saint Catherine of Alexandria, the fourth-century martyr who was tortured by being bound to a wheel studded with iron spikes and later beheaded.\n\nWe don’t know who painted this picture, but it is quite sophisticated in its handling. The soft modelling of the clasped hands is quite different to the crisp modelling of the white undershirt. The figure appears all the more three-dimensional for being set against a plain dark background.\n\nAlthough the painting is now classified as Italian, it may be by a French artist working in Rome in the seventeenth century, perhaps in the circle of Simon Vouet or Carlo Saraceni. The picture is painted on top of another one, which appears to be considerably earlier in date.",
+  "accession_date": "1926-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by F.D. Lycett Green through the Art Fund, 1926",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Italian",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4177-00-000012-web.jpg",
+    "filename": "N-4177-00-000012-web.jpg",
+    "image_key": "N-4177-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2234,
+    "aspect_ratio": 0.8594,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 765954
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 330,
+    "horizontal_lines": 120,
+    "vertical_lines": 57,
+    "diagonal_lines": 153,
+    "edge_density": 0.0176,
+    "dominant_angles": [
+      0.0,
+      -19.0,
+      0.0,
+      -15.9,
+      7.1,
+      10.1,
+      1.8,
+      -19.0,
+      0.0,
+      6.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      80,
+      63,
+      50
+    ],
+    "mean_color_hex": "#503f32",
+    "color_palette": [
+      "#1f1a18",
+      "#2d251f",
+      "#493424",
+      "#843529",
+      "#654d34",
+      "#977d5e",
+      "#7e674b",
+      "#a1947b",
+      "#c0b294",
+      "#daceae"
+    ],
+    "unique_colors": 55674,
+    "color_diversity": 0.013,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 66.81,
+    "contrast_level": "medium",
+    "contrast_value": 0.3895,
+    "dynamic_range": 237,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 74.73,
+    "midtones_percentage": 18.69,
+    "highlights_percentage": 6.58
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.917,
+        "bbox": [
+          25.65,
+          260.97,
+          1869.78,
+          2221.68
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          763,
+          2119,
+          844,
+          2200
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          460,
+          537,
+          1086,
+          1163
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 729.83,
+          "y": 913.04,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "left_eye",
+          "x": 901.28,
+          "y": 796.33,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "right_eye",
+          "x": 685.88,
+          "y": 749.08,
+          "visibility": 2,
+          "confidence": 0.9701
+        },
+        {
+          "name": "left_ear",
+          "x": 1205.33,
+          "y": 890.55,
+          "visibility": 2,
+          "confidence": 0.9966
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0717
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1453.93,
+          "y": 1658.89,
+          "visibility": 2,
+          "confidence": 0.9598
+        },
+        {
+          "name": "right_shoulder",
+          "x": 662.9,
+          "y": 1372.32,
+          "visibility": 2,
+          "confidence": 0.9835
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0917
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4044
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3433
+        },
+        {
+          "name": "right_wrist",
+          "x": 351.75,
+          "y": 1716.85,
+          "visibility": 2,
+          "confidence": 0.6127
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0044
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0127
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0013
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EI9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EI9-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "identifier": "NG935",
+  "full_title": "A Coastal Scene",
+  "short_title": "A Coastal Scene",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "88.9 × 118.8 cm",
+  "production_date": "probably 18th century",
+  "brief_description": "This picture, inspired by the landscapes of Salvator Rosa, was probably painted by an Italian artist working during the eighteenth century. A rock in the foreground to the right of the figures bears a prominent 'SR' monogram -- a ruse to encourage potential buyers to believe that the painting was a genuine Rosa.\n\nWe look down a gentle incline towards a calm lake. The buildings dotted around it are made small by the steeply sloped mountain that towers above them, emphasising man's fragility in the face of nature's grandeur and power. In the foreground peasants rest and cattle gather at the water's edge.\n\nThe scene is filled with a golden Italianate light, though the landscape itself is almost certainly fictitious. The broken and silhouetted branches growing out of the rocky outcrop on the left are typical of Rosa's landscapes, and were likely included to emulate his style.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Italian (Neapolitan)",
+  "creator": {
+    "name": "Salvator Rosa",
+    "birth_date": "1615",
+    "death_date": "1673",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0935-00-000009-web.jpg",
+    "filename": "N-0935-00-000009-web.jpg",
+    "image_key": "N-0935-00-000009",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1438,
+    "aspect_ratio": 1.3352,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 746735
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1010,
+    "horizontal_lines": 223,
+    "vertical_lines": 257,
+    "diagonal_lines": 530,
+    "edge_density": 0.0499,
+    "dominant_angles": [
+      -86.9,
+      86.3,
+      -45.0,
+      -88.1,
+      87.3,
+      84.6,
+      83.9,
+      -90.0,
+      45.0,
+      85.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      101,
+      94,
+      71
+    ],
+    "mean_color_hex": "#655e47",
+    "color_palette": [
+      "#352c1d",
+      "#251e14",
+      "#888777",
+      "#98967f",
+      "#493d25",
+      "#5d5035",
+      "#827c61",
+      "#736644",
+      "#b0a881",
+      "#9e9163"
+    ],
+    "unique_colors": 43346,
+    "color_diversity": 0.0157,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 93.9,
+    "contrast_level": "medium",
+    "contrast_value": 0.3628,
+    "dynamic_range": 201,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 46.85,
+    "midtones_percentage": 51.6,
+    "highlights_percentage": 1.56
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6446,
+        "bbox": [
+          364.06,
+          1056.25,
+          485.09,
+          1213.61
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5616,
+        "bbox": [
+          549.94,
+          1166.88,
+          612.03,
+          1269.0
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4651,
+        "bbox": [
+          464.18,
+          1133.75,
+          549.2,
+          1218.87
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4084,
+        "bbox": [
+          407.5,
+          1056.34,
+          484.17,
+          1209.65
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3521,
+        "bbox": [
+          937.12,
+          1173.59,
+          968.93,
+          1248.72
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "person": 5
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          81,
+          214,
+          144,
+          277
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F6C-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F6C-0001-0000-0000.json"
+  }
+}

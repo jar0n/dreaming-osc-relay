@@ -1,0 +1,221 @@
+{
+  "identifier": "NG2714",
+  "full_title": "Grandfather's Birthday",
+  "short_title": "Grandfather's Birthday",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on wood",
+  "dimensions": "24.1 × 28.9 cm",
+  "production_date": "1866",
+  "brief_description": "Although titled Grandfather’s Birthday, an inscription on the wooden support on the reverse of this small oak panel reads Le Nouveau Né (The Newborn), which may be a more appropriate title. We are looking at an intergenerational family group ranging from a young infant to an elderly man. The mix of ages is replicated by the dogs, which include a young puppy.\n\nThe son of the court portrait painter and miniaturist Jean-Baptiste Isabey, under whom he also trained, Louis-Gabriele-Eugène Isabey was a successful painter, lithographer and watercolourist who painted a diverse range of subjects including historical and genre pictures. This animated scene shows a miniaturist’s eye for detail and was most likely inspired by seventeenth-century Dutch and Flemish paintings of domestic life. The people wear historical costume that appears to date from the early seventeenth century, rather than contemporary clothes -- an instance, perhaps, of a French fascination with the France of earlier times.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by J.C.J. Drucker, 1910",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Louis-Gabriel-Eugène Isabey",
+    "birth_date": "1803",
+    "death_date": "1886",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2714-00-000007-web.jpg",
+    "filename": "N-2714-00-000007-web.jpg",
+    "image_key": "N-2714-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1624,
+    "aspect_ratio": 1.1823,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 942251
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2341,
+    "horizontal_lines": 476,
+    "vertical_lines": 146,
+    "diagonal_lines": 1719,
+    "edge_density": 0.0832,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -45.0,
+      -5.2,
+      -45.0,
+      45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -38.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      78,
+      56,
+      33
+    ],
+    "mean_color_hex": "#4e3821",
+    "color_palette": [
+      "#332317",
+      "#422814",
+      "#261b13",
+      "#52341a",
+      "#5d4324",
+      "#6c522c",
+      "#3f3121",
+      "#7b6139",
+      "#8d774e",
+      "#a89466"
+    ],
+    "unique_colors": 77006,
+    "color_diversity": 0.0247,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 60.49,
+    "contrast_level": "low",
+    "contrast_value": 0.2191,
+    "dynamic_range": 238,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 80.68,
+    "midtones_percentage": 19.2,
+    "highlights_percentage": 0.12
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5673,
+        "bbox": [
+          973.02,
+          1082.51,
+          1140.09,
+          1426.83
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.38,
+        "bbox": [
+          1114.12,
+          643.66,
+          1295.69,
+          914.94
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3342,
+        "bbox": [
+          792.51,
+          677.74,
+          987.26,
+          1004.58
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2972,
+        "bbox": [
+          363.24,
+          947.75,
+          671.8,
+          1501.42
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2961,
+        "bbox": [
+          804.53,
+          1125.07,
+          965.76,
+          1480.18
+        ]
+      },
+      {
+        "class": "chair",
+        "confidence": 0.2565,
+        "bbox": [
+          1244.21,
+          828.12,
+          1669.09,
+          1454.6
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "person": 5,
+      "chair": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1465,
+          327,
+          1546,
+          408
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          433,
+          694,
+          513,
+          774
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          496,
+          1439,
+          619,
+          1562
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GNQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GNQ-0001-0000-0000.json"
+  }
+}

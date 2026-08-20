@@ -1,0 +1,222 @@
+{
+  "identifier": "NG5800",
+  "full_title": "Fruit and Flowers",
+  "short_title": "Fruit and Flowers",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on wood",
+  "dimensions": "78.4 × 61 cm",
+  "production_date": "1789",
+  "brief_description": "Paulus Theodorus van Brussel’s arrangement of fruit and flowers reveals the eighteenth-century taste for paintings depicting the exotic and expensive set in artful disarray against the faint background of a garden. It's a celebration of the bounty of nature and is, at the same time, an appealing way of showing prize specimens. It also demonstrates his skill in painting texture.\n\nHe has included poppies, hollyhocks and celosia, but the flowers -- not as rare and pricey as they had been a century before the picture was painted -- seem to take second place to the abundant fruits. These are mostly hothouse grown, and therefore costly: melons, black and translucent green grapes, peaches and a pineapple with its spiky crown at the top of the arrangement, almost seeming to float in space. Among them, busy insects -- interesting specimens themselves -- investigate the oozing juices, crisp leaves and fragrant petals.",
+  "accession_date": "1947-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Frederick John Nettlefold, 1947",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Paulus Theodorus van Brussel",
+    "birth_date": "1754",
+    "death_date": "1795",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5800-00-000008-web.jpg",
+    "filename": "N-5800-00-000008-web.jpg",
+    "image_key": "N-5800-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2450,
+    "aspect_ratio": 0.7837,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1025449
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 954,
+    "horizontal_lines": 60,
+    "vertical_lines": 203,
+    "diagonal_lines": 691,
+    "edge_density": 0.0565,
+    "dominant_angles": [
+      -63.0,
+      -64.1,
+      -45.0,
+      45.0,
+      80.3,
+      -67.4,
+      -52.1,
+      67.8,
+      -53.9,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      96,
+      82,
+      41
+    ],
+    "mean_color_hex": "#605229",
+    "color_palette": [
+      "#635c27",
+      "#3a3c20",
+      "#4c4c24",
+      "#3f2a15",
+      "#6f401b",
+      "#7c6c30",
+      "#a1874c",
+      "#697952",
+      "#a0572b",
+      "#bca670"
+    ],
+    "unique_colors": 197921,
+    "color_diversity": 0.0421,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 82.03,
+    "contrast_level": "low",
+    "contrast_value": 0.2352,
+    "dynamic_range": 217,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 59.01,
+    "midtones_percentage": 39.75,
+    "highlights_percentage": 1.24
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "orange",
+        "confidence": 0.5506,
+        "bbox": [
+          217.54,
+          708.32,
+          345.92,
+          843.24
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.4291,
+        "bbox": [
+          31.18,
+          0.0,
+          1858.95,
+          2429.34
+        ]
+      },
+      {
+        "class": "orange",
+        "confidence": 0.4015,
+        "bbox": [
+          350.04,
+          660.97,
+          482.3,
+          803.95
+        ]
+      },
+      {
+        "class": "apple",
+        "confidence": 0.2646,
+        "bbox": [
+          739.97,
+          1664.81,
+          998.84,
+          1885.32
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "orange": 2,
+      "potted plant": 1,
+      "apple": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1416,
+          59,
+          1489,
+          132
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1218,
+          102,
+          1319,
+          203
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          714,
+          848,
+          820,
+          954
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          502,
+          859,
+          668,
+          1025
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          729,
+          509,
+          901,
+          681
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0E4T-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0E4T-0001-0000-0000.json"
+  }
+}

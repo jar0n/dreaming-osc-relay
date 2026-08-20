@@ -1,0 +1,229 @@
+{
+  "identifier": "NG1448",
+  "full_title": "The Meadow",
+  "short_title": "The Meadow",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on canvas",
+  "dimensions": "45.7 × 55.2 cm",
+  "production_date": "1869",
+  "brief_description": "Formerly titled A Village Green in France, this is a view near Verberie, between Senlis and Compiègne, in the north-eastern department of Oise. We see a large flat field, in which cows are grazing, beneath a pale blue sky, which fills most of the picture. A row of trees with full foliage on the right of the picture casts dark shadows on the grass. A low hedge in the background divides the field from trees and houses in the distance.\n\nBonvin exhibited at the Salon from 1847, primarily painting still lifes (for example, Still Life with Book, Papers and Inkwell, also in the National Gallery) and scenes of everyday life, but from 1869 he turned to landscape painting. This picture shows the influence of seventeenth-century Dutch paintings, which Bonvin had studied at the Louvre. Along with other artists, including Corot, Bonvin was commissioned by the artist Alexandre-Gabriel Decamps to paint pictures for his house at Fontainebleau.",
+  "accession_date": "1895-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs Edwin Edwards, 1895",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "François Bonvin",
+    "birth_date": "1817",
+    "death_date": "1887",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1448-00-000008-web.jpg",
+    "filename": "N-1448-00-000008-web.jpg",
+    "image_key": "N-1448-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1585,
+    "aspect_ratio": 1.2114,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 776380
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 551,
+    "horizontal_lines": 177,
+    "vertical_lines": 199,
+    "diagonal_lines": 175,
+    "edge_density": 0.041,
+    "dominant_angles": [
+      -88.7,
+      -90.0,
+      -90.0,
+      -90.0,
+      -88.8,
+      -90.0,
+      -89.3,
+      -70.1,
+      0.0,
+      -72.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      130,
+      125,
+      94
+    ],
+    "mean_color_hex": "#827d5e",
+    "color_palette": [
+      "#b3ab84",
+      "#aaa27b",
+      "#3d3c23",
+      "#bfb88f",
+      "#23241d",
+      "#2e2f24",
+      "#4a4a2e",
+      "#d1c89b",
+      "#9b946d",
+      "#6c684d"
+    ],
+    "unique_colors": 32400,
+    "color_diversity": 0.0106,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 123.64,
+    "contrast_level": "medium",
+    "contrast_value": 0.4645,
+    "dynamic_range": 230,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 38.76,
+    "midtones_percentage": 34.56,
+    "highlights_percentage": 26.68
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.8106,
+        "bbox": [
+          714.63,
+          1139.64,
+          886.79,
+          1255.34
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.7181,
+        "bbox": [
+          933.94,
+          1142.53,
+          1103.89,
+          1229.13
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.541,
+        "bbox": [
+          982.45,
+          1144.76,
+          1104.19,
+          1230.01
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.5257,
+        "bbox": [
+          1418.73,
+          1144.34,
+          1463.06,
+          1194.05
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.4774,
+        "bbox": [
+          350.13,
+          1173.52,
+          539.04,
+          1243.1
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3879,
+        "bbox": [
+          1355.6,
+          1140.99,
+          1463.01,
+          1195.68
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3704,
+        "bbox": [
+          356.09,
+          1137.93,
+          545.72,
+          1242.75
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3047,
+        "bbox": [
+          932.66,
+          1141.21,
+          1026.25,
+          1223.43
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3011,
+        "bbox": [
+          1277.87,
+          1129.41,
+          1336.56,
+          1175.99
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.2957,
+        "bbox": [
+          934.4,
+          1142.85,
+          1010.93,
+          1200.07
+        ]
+      }
+    ],
+    "object_count": 10,
+    "object_types": {
+      "cow": 10
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FN1-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FN1-0001-0000-0000.json"
+  }
+}

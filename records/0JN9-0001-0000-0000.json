@@ -1,0 +1,200 @@
+{
+  "identifier": "NG6613",
+  "full_title": "A Still Life of Flowers in a Wan-Li Vase on a Ledge with further Flowers, Shells and a Butterfly",
+  "short_title": "A Still Life of Flowers in a Wan-Li Vase",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on copper",
+  "dimensions": "68.6 × 50.7 cm",
+  "production_date": "1609-10",
+  "brief_description": "Tulips, roses, jonquils, carnations, fritillaries and a single blue iris are massed into a Chinese vase; costly flowers in a costly container. Above them all, Madonna lilies rise like shining white trumpets at the peak of the bouquet, made slightly less regal by the tiny beetle making its way up a spotless petal. Other insects play hide-and-seek in the shadows made by leaves.\n\nThe picture was probably made to impress one of the wealthy burghers of Middelburg, the prosperous town where the artist lived. Such a person would have had an interest in, even a passion for, the many exotic plants being grown in the town's new botanical gardens. So Bosschaert's work is more than a lovely picture. He shows individual specimens of great value and scientific interest, and the buyer and their guests would have had their magnifying glasses out to indulge themselves in the 'science of looking'.",
+  "accession_date": "2010-01-22",
+  "current_location": "Room 28, The National Gallery (London)",
+  "credit_line": "Accepted by HM Government in lieu of Inheritance Tax and allocated to the National Gallery, 2010",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Ambrosius Bosschaert the Elder",
+    "birth_date": "1573",
+    "death_date": "1621",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6613-00-000007-web.jpg",
+    "filename": "N-6613-00-000007-web.jpg",
+    "image_key": "N-6613-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2646,
+    "aspect_ratio": 0.7256,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 917757
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1373,
+    "horizontal_lines": 83,
+    "vertical_lines": 550,
+    "diagonal_lines": 740,
+    "edge_density": 0.0483,
+    "dominant_angles": [
+      85.2,
+      -22.6,
+      81.7,
+      -88.9,
+      -90.0,
+      83.0,
+      -88.2,
+      87.2,
+      74.6,
+      59.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      57,
+      50,
+      41
+    ],
+    "mean_color_hex": "#393229",
+    "color_palette": [
+      "#161411",
+      "#5c594c",
+      "#2f2619",
+      "#403e33",
+      "#786c61",
+      "#86827c",
+      "#683021",
+      "#7f5239",
+      "#9c9c90",
+      "#a39057"
+    ],
+    "unique_colors": 156035,
+    "color_diversity": 0.0307,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 51.52,
+    "contrast_level": "medium",
+    "contrast_value": 0.3224,
+    "dynamic_range": 194,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 75.29,
+    "midtones_percentage": 24.46,
+    "highlights_percentage": 0.25
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.7279,
+        "bbox": [
+          674.99,
+          1753.23,
+          1253.99,
+          2423.99
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.2603,
+        "bbox": [
+          672.81,
+          1773.2,
+          1211.87,
+          2217.5
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "vase": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1362,
+          1523,
+          1414,
+          1575
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1283,
+          1602,
+          1343,
+          1662
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1615,
+          1044,
+          1681,
+          1110
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          926,
+          1380,
+          998,
+          1452
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1160,
+          1514,
+          1249,
+          1603
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0JN9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0JN9-0001-0000-0000.json"
+  }
+}

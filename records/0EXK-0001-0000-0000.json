@@ -1,0 +1,291 @@
+{
+  "identifier": "NG3945",
+  "full_title": "Portrait of a Man in a Large Black Hat",
+  "short_title": "Portrait of a Man in a Large Black Hat",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "60.7 × 49.2 cm",
+  "production_date": "probably 1520s",
+  "brief_description": "This unidentified bearded man is depicted bust length, gazing obliquely into the distance. His right hand holds the edge of his black robe, revealing a small gold ring with a green stone on his little finger. He wears sober, unostentatious clothes, and a black skullcap with a large black hat.\n\nThe composition is based on implied diagonal lines that follow the angles of the man’s hat and shoulders and cross in the centre of the panel, focusing our attention on his face. The colour palette is restricted to black, buff-brown and white, with what appears to be the sweep of a crimson shadow or curtain on the right. The painting is damaged and the varnish covering it has discoloured, affecting its appearance.\n\nThe portrait was formerly thought to be by the Lombard artist Girolamo Savoldo. It has been recently likened to portraits from the 1520s by the Venetian painter Marco Basaiti, but the condition of the picture makes it difficult to tell with any certainty who painted it.",
+  "accession_date": "1924-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Mond Bequest, 1924",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Italian, North",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3945-00-000009-web.jpg",
+    "filename": "N-3945-00-000009-web.jpg",
+    "image_key": "N-3945-00-000009",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2340,
+    "aspect_ratio": 0.8205,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 760892
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 305,
+    "horizontal_lines": 68,
+    "vertical_lines": 220,
+    "diagonal_lines": 17,
+    "edge_density": 0.0135,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      41,
+      29,
+      13
+    ],
+    "mean_color_hex": "#291d0d",
+    "color_palette": [
+      "#14100c",
+      "#20160e",
+      "#39250a",
+      "#2f1c0b",
+      "#442f0a",
+      "#543812",
+      "#674821",
+      "#3f2e1c",
+      "#86612f",
+      "#b7a796"
+    ],
+    "unique_colors": 42397,
+    "color_diversity": 0.0094,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 31.03,
+    "contrast_level": "low",
+    "contrast_value": 0.1367,
+    "dynamic_range": 253,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 98.43,
+    "midtones_percentage": 1.53,
+    "highlights_percentage": 0.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8594,
+        "bbox": [
+          45.4,
+          375.89,
+          1871.84,
+          2331.49
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          798,
+          1783,
+          1038,
+          2023
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          541,
+          512,
+          1071,
+          1042
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 756.34,
+          "y": 838.35,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_eye",
+          "x": 901.8,
+          "y": 720.37,
+          "visibility": 2,
+          "confidence": 0.9985
+        },
+        {
+          "name": "right_eye",
+          "x": 692.07,
+          "y": 723.58,
+          "visibility": 2,
+          "confidence": 0.9937
+        },
+        {
+          "name": "left_ear",
+          "x": 1164.8,
+          "y": 828.32,
+          "visibility": 2,
+          "confidence": 0.9859
+        },
+        {
+          "name": "right_ear",
+          "x": 635.18,
+          "y": 790.82,
+          "visibility": 2,
+          "confidence": 0.6573
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1516.51,
+          "y": 1528.83,
+          "visibility": 2,
+          "confidence": 0.9816
+        },
+        {
+          "name": "right_shoulder",
+          "x": 348.16,
+          "y": 1470.61,
+          "visibility": 2,
+          "confidence": 0.9947
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2282
+        },
+        {
+          "name": "right_elbow",
+          "x": 105.23,
+          "y": 2203.76,
+          "visibility": 2,
+          "confidence": 0.5722
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.476
+        },
+        {
+          "name": "right_wrist",
+          "x": 681.04,
+          "y": 2166.28,
+          "visibility": 2,
+          "confidence": 0.6589
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0087
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0178
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EXK-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EXK-0001-0000-0000.json"
+  }
+}

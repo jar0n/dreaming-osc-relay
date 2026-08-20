@@ -1,0 +1,190 @@
+{
+  "identifier": "NG814",
+  "full_title": "Ships lying off Flushing",
+  "short_title": "Ships lying off Flushing",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on wood",
+  "dimensions": "59.9 × 86.8 cm",
+  "production_date": "1869",
+  "brief_description": "Paul Jean Clays’ heavy working boats are motionless, their sails hanging like sculptured banners glowing in the sun. But their power is palpable, three great vessels ready to surge forward with the first breath of wind. Although the vessels are stately and we see the detail of rigging, the painting seems to be more about reflected light -- the gleaming reflections that spread, shimmering, across the still water to the edge of the picture, almost under our feet.\n\nTaught in Paris by Horace Vernet and afterwards by Théodore Gudin, Clays broke free of the Romantic tradition of marine paintings depicting storms, naval battles and tragedies at sea. He seems to have reverted to the practices of seventeenth-century Dutch masters like Willem van de Velde, for whom the accuracy and detail of each vessel was paramount, and Jan van de Cappelle, who focused on the serene atmosphere of a calm sea.",
+  "accession_date": "1870-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by J.M. Parsons, 1870",
+  "associated_concepts": "Belgian",
+  "creator": {
+    "name": "Paul Jean Clays",
+    "birth_date": "1819",
+    "death_date": "1900",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0814-00-000016-web.jpg",
+    "filename": "N-0814-00-000016-web.jpg",
+    "image_key": "N-0814-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1315,
+    "aspect_ratio": 1.4601,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 612757
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 467,
+    "horizontal_lines": 216,
+    "vertical_lines": 63,
+    "diagonal_lines": 188,
+    "edge_density": 0.0347,
+    "dominant_angles": [
+      0.0,
+      3.5,
+      0.0,
+      0.0,
+      2.1,
+      1.0,
+      -1.3,
+      3.4,
+      2.4,
+      0.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      129,
+      131,
+      126
+    ],
+    "mean_color_hex": "#81837e",
+    "color_palette": [
+      "#96a0a7",
+      "#8a9297",
+      "#4f4b3b",
+      "#66624c",
+      "#737986",
+      "#b3b9b9",
+      "#392f20",
+      "#d5d4c5",
+      "#8f835f",
+      "#beae83"
+    ],
+    "unique_colors": 64554,
+    "color_diversity": 0.0256,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 130.36,
+    "contrast_level": "medium",
+    "contrast_value": 0.3256,
+    "dynamic_range": 239,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 19.26,
+    "midtones_percentage": 67.7,
+    "highlights_percentage": 13.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.6984,
+        "bbox": [
+          1360.97,
+          723.01,
+          1727.5,
+          991.41
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4014,
+        "bbox": [
+          895.7,
+          716.23,
+          1165.63,
+          952.25
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3389,
+        "bbox": [
+          167.9,
+          677.52,
+          357.0,
+          974.78
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3215,
+        "bbox": [
+          454.07,
+          250.28,
+          917.36,
+          976.85
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "boat": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          652,
+          530,
+          707,
+          585
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1015,
+          734,
+          1087,
+          806
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FQ5-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FQ5-0001-0000-0000.json"
+  }
+}

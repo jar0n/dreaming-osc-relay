@@ -1,0 +1,180 @@
+{
+  "identifier": "NG6401",
+  "full_title": "Lilac",
+  "short_title": "Lilac",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "50 × 37 cm",
+  "production_date": "about 1860-1902",
+  "brief_description": "Five or six stems of lilac in a tall glass vase are set against a two-tone neutral grey background. Flower still lifes enjoyed enormous success in the late nineteenth century, with artists like Henri Fantin-Latour becoming wealthy on their pictures of cut flowers in vases. Such images were admired for their truth to nature and sense of fleeting beauty. Scholderer’s composition, although not his choice of flowers, is similar to Fantin-Latour’s Roses, painted in England in 1864 and on loan to the National Gallery from Tate. Fantin-Latour’s flower paintings helped to make his reputation in Britain and were highly sought-after by British collectors.\n\nScholderer was a successful German painter of portraits and still lifes, also working in London from 1871 to 1899, and this spray of lilacs shows off his considerable skill. His Portrait of the Artist's Wife is also in the National Gallery's collection.",
+  "accession_date": "1971-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Dr J.V. Scholderer, son of the painter, 1971",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Otto Franz Scholderer",
+    "birth_date": "1834",
+    "death_date": "1902",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6401-00-000008-web.jpg",
+    "filename": "N-6401-00-000008-web.jpg",
+    "image_key": "N-6401-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2614,
+    "aspect_ratio": 0.7345,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1187368
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 2191,
+    "horizontal_lines": 552,
+    "vertical_lines": 482,
+    "diagonal_lines": 1157,
+    "edge_density": 0.0482,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      22.0,
+      -45.0,
+      -50.9,
+      45.0,
+      -45.0,
+      -53.1,
+      -45.0,
+      9.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      85,
+      82,
+      75
+    ],
+    "mean_color_hex": "#55524b",
+    "color_palette": [
+      "#44433c",
+      "#4f4c44",
+      "#363532",
+      "#5a564c",
+      "#696563",
+      "#7e7977",
+      "#948e8d",
+      "#aba5a3",
+      "#c6c0ba",
+      "#697641"
+    ],
+    "unique_colors": 75168,
+    "color_diversity": 0.015,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 82.82,
+    "contrast_level": "low",
+    "contrast_value": 0.2312,
+    "dynamic_range": 222,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 71.42,
+    "midtones_percentage": 25.85,
+    "highlights_percentage": 2.73
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.8718,
+        "bbox": [
+          698.82,
+          1430.69,
+          1212.7,
+          2516.03
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "vase": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          655,
+          735,
+          719,
+          799
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1113,
+          1425,
+          1171,
+          1483
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1112,
+          1482,
+          1243,
+          1613
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          961,
+          1312,
+          1209,
+          1560
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EG0-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EG0-0001-0000-0000.json"
+  }
+}

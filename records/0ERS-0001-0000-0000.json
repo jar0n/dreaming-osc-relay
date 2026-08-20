@@ -1,0 +1,170 @@
+{
+  "identifier": "NG4583",
+  "full_title": "River Scene",
+  "short_title": "River Scene",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "52.1 × 80 cm",
+  "production_date": "1860-80",
+  "brief_description": "A solitary man stands in a boat on a river in a rural landscape. The sun has just set, leaving a warm glow and a tranquil atmosphere. The small boats on the riverbank and the ship in the distance suggest the bustle of activity that had taken place on the river earlier in the day. A large ship was originally depicted on the right; it may have been part of a previous picture that the artist then painted over.\n\nThe location of the scene has not been identified. Johan Barthold Jongkind was born in Holland, but spend most of his working life in Paris. This picture was probably made in a period when Jongkind was producing paintings of both his native country and his adoptive city.",
+  "accession_date": "1956-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Hans Velten to the Tate Gallery, 1931; transferred, 1956",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Johan Barthold Jongkind",
+    "birth_date": "1819",
+    "death_date": "1891",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4583-00-000014-web.jpg",
+    "filename": "N-4583-00-000014-web.jpg",
+    "image_key": "N-4583-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1249,
+    "aspect_ratio": 1.5372,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 469302
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 214,
+    "horizontal_lines": 148,
+    "vertical_lines": 0,
+    "diagonal_lines": 66,
+    "edge_density": 0.0235,
+    "dominant_angles": [
+      0.0,
+      18.1,
+      11.9,
+      17.5,
+      16.8,
+      21.0,
+      19.0,
+      15.6,
+      17.5,
+      2.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      119,
+      103,
+      61
+    ],
+    "mean_color_hex": "#77673d",
+    "color_palette": [
+      "#897c52",
+      "#796e49",
+      "#9c8141",
+      "#8a743f",
+      "#574c30",
+      "#403827",
+      "#6e5e37",
+      "#ae9249",
+      "#2d261c",
+      "#bea560"
+    ],
+    "unique_colors": 41958,
+    "color_diversity": 0.0175,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 103.78,
+    "contrast_level": "low",
+    "contrast_value": 0.2523,
+    "dynamic_range": 206,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 28.58,
+    "midtones_percentage": 70.74,
+    "highlights_percentage": 0.68
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3961,
+        "bbox": [
+          202.11,
+          683.01,
+          247.88,
+          804.76
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3783,
+        "bbox": [
+          72.7,
+          660.2,
+          129.19,
+          796.99
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2988,
+        "bbox": [
+          1117.03,
+          950.0,
+          1445.49,
+          1031.78
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.254,
+        "bbox": [
+          202.1,
+          683.96,
+          244.51,
+          766.59
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 3,
+      "boat": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ERS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ERS-0001-0000-0000.json"
+  }
+}

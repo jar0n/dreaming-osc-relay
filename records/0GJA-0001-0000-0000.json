@@ -1,0 +1,312 @@
+{
+  "identifier": "NG2293",
+  "full_title": "Holy Family with the Infant Saint John the Baptist, Saint Elizabeth and Three Figures",
+  "short_title": "The Holy Family with Saints and Angels",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "31.6 × 22.6 cm",
+  "production_date": "about 1642",
+  "brief_description": "The Virgin Mary clasps two small children -- Christ and John the Baptist -- to her lap. Saint Elizabeth, mother of the Baptist, kneels beside her. In shadow, behind the brightly lit group in the foreground, are Mary's husband Joseph and angels. Although the characters in this scene are from the Bible, the meeting between the two families isn't recorded there.\n\nMany areas of Baugin's picture have been thinly painted. Its sketchy, unfinished appearance is partly due to worn areas of paint, as can be seen in the faded colour of the Virgin's red sleeve and the angel's wings. A boy in the centre of the picture is only faintly indicated and the trees are simply sketched in with single lines and dashes of paint. The mountains are painted in shades of blue, reflecting the way that colour appears to change as we look into distance.",
+  "accession_date": "1908-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by George Fielder, 1908",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Lubin Baugin",
+    "birth_date": "1612",
+    "death_date": "1663",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2293-00-000033-web.jpg",
+    "filename": "N-2293-00-000033-web.jpg",
+    "image_key": "N-2293-00-000033",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2714,
+    "aspect_ratio": 0.7074,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1229120
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 943,
+    "horizontal_lines": 285,
+    "vertical_lines": 328,
+    "diagonal_lines": 330,
+    "edge_density": 0.0389,
+    "dominant_angles": [
+      -90.0,
+      -3.2,
+      -86.2,
+      -83.8,
+      -90.0,
+      6.8,
+      3.3,
+      4.0,
+      -86.5,
+      3.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      98,
+      88,
+      79
+    ],
+    "mean_color_hex": "#62584f",
+    "color_palette": [
+      "#626e74",
+      "#3e3228",
+      "#2e1c15",
+      "#7d8c95",
+      "#aa916b",
+      "#6a3f1f",
+      "#56524a",
+      "#8a6646",
+      "#293956",
+      "#d8b99c"
+    ],
+    "unique_colors": 165902,
+    "color_diversity": 0.0318,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 90.5,
+    "contrast_level": "medium",
+    "contrast_value": 0.3401,
+    "dynamic_range": 236,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 47.93,
+    "midtones_percentage": 48.42,
+    "highlights_percentage": 3.65
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8055,
+        "bbox": [
+          229.85,
+          1296.78,
+          1813.5,
+          2434.7
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6382,
+        "bbox": [
+          8.19,
+          933.79,
+          709.16,
+          2356.78
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3146,
+        "bbox": [
+          0.0,
+          472.61,
+          805.13,
+          1435.42
+        ]
+      },
+      {
+        "class": "dog",
+        "confidence": 0.2639,
+        "bbox": [
+          899.85,
+          1201.3,
+          1911.86,
+          2243.75
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 3,
+      "dog": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1544,
+          1449,
+          1599,
+          1504
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 596.3,
+          "y": 1602.14,
+          "visibility": 2,
+          "confidence": 0.7462
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1193
+        },
+        {
+          "name": "right_eye",
+          "x": 565.91,
+          "y": 1572.63,
+          "visibility": 2,
+          "confidence": 0.8597
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0161
+        },
+        {
+          "name": "right_ear",
+          "x": 467.49,
+          "y": 1584.94,
+          "visibility": 2,
+          "confidence": 0.9356
+        },
+        {
+          "name": "left_shoulder",
+          "x": 500.04,
+          "y": 1639.1,
+          "visibility": 2,
+          "confidence": 0.8136
+        },
+        {
+          "name": "right_shoulder",
+          "x": 393.14,
+          "y": 1688.17,
+          "visibility": 2,
+          "confidence": 0.9703
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4502
+        },
+        {
+          "name": "right_elbow",
+          "x": 502.84,
+          "y": 1829.17,
+          "visibility": 2,
+          "confidence": 0.9219
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3938
+        },
+        {
+          "name": "right_wrist",
+          "x": 597.57,
+          "y": 1775.51,
+          "visibility": 2,
+          "confidence": 0.8763
+        },
+        {
+          "name": "left_hip",
+          "x": 626.13,
+          "y": 1946.7,
+          "visibility": 2,
+          "confidence": 0.8801
+        },
+        {
+          "name": "right_hip",
+          "x": 554.63,
+          "y": 2011.19,
+          "visibility": 2,
+          "confidence": 0.9516
+        },
+        {
+          "name": "left_knee",
+          "x": 1151.76,
+          "y": 1783.81,
+          "visibility": 2,
+          "confidence": 0.9211
+        },
+        {
+          "name": "right_knee",
+          "x": 1085.65,
+          "y": 1835.15,
+          "visibility": 2,
+          "confidence": 0.9747
+        },
+        {
+          "name": "left_ankle",
+          "x": 1477.88,
+          "y": 2214.6,
+          "visibility": 2,
+          "confidence": 0.9173
+        },
+        {
+          "name": "right_ankle",
+          "x": 1484.36,
+          "y": 2264.39,
+          "visibility": 2,
+          "confidence": 0.9568
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 22.29
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GJA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GJA-0001-0000-0000.json"
+  }
+}

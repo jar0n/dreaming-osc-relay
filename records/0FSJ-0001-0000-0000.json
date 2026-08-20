@@ -1,0 +1,303 @@
+{
+  "identifier": "NG1258",
+  "full_title": "Still Life with Bottle, Glass and Loaf",
+  "short_title": "Still Life with Bottle, Glass and Loaf",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "38.1 × 45.1 cm",
+  "production_date": "19th century",
+  "brief_description": "When this small still life was given to the National Gallery in 1888, it was believed to have been painted by Chardin. However, within 20 years there were already doubts about its authenticity.\n\nFor a while it was thought that François Bonvin, or one of his contemporaries, had painted the picture, as there had been a revival of interest in Chardin among French artists during the third quarter of the nineteenth century. However, this attribution has also been rejected. Technical examination of the earlier layers of paint indicates that the painting was most likely begun in the eighteenth century, although it may have been completed in the nineteenth century.\n\nAs the style, the handling of the paint and the signature are not consistent with confirmed works by Chardin, the painting is now judged to be a skilful pastiche by a sophisticated imitator.",
+  "accession_date": "1888-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Lord Savile, 1888",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Siméon Chardin",
+    "birth_date": "1699",
+    "death_date": "1779",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1258-00-000035-web.jpg",
+    "filename": "N-1258-00-000035-web.jpg",
+    "image_key": "N-1258-00-000035",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1613,
+    "aspect_ratio": 1.1903,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 670770
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1105,
+    "horizontal_lines": 695,
+    "vertical_lines": 45,
+    "diagonal_lines": 365,
+    "edge_density": 0.0615,
+    "dominant_angles": [
+      10.6,
+      12.7,
+      -17.6,
+      3.9,
+      9.3,
+      13.0,
+      0.0,
+      2.7,
+      0.9,
+      6.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      69,
+      53,
+      40
+    ],
+    "mean_color_hex": "#453528",
+    "color_palette": [
+      "#322318",
+      "#3c2c21",
+      "#261a11",
+      "#55402f",
+      "#bea98c",
+      "#665748",
+      "#7e7265",
+      "#9a8f81",
+      "#895f39",
+      "#ac845a"
+    ],
+    "unique_colors": 50678,
+    "color_diversity": 0.0164,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 56.64,
+    "contrast_level": "low",
+    "contrast_value": 0.2918,
+    "dynamic_range": 238,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 83.25,
+    "midtones_percentage": 14.5,
+    "highlights_percentage": 2.25
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bottle",
+        "confidence": 0.6515,
+        "bbox": [
+          726.2,
+          114.62,
+          1155.41,
+          1180.1
+        ]
+      },
+      {
+        "class": "knife",
+        "confidence": 0.5505,
+        "bbox": [
+          643.5,
+          1171.42,
+          1861.1,
+          1536.21
+        ]
+      },
+      {
+        "class": "cup",
+        "confidence": 0.3277,
+        "bbox": [
+          389.42,
+          921.49,
+          678.85,
+          1289.22
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "bottle": 1,
+      "knife": 1,
+      "cup": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          652,
+          1020,
+          758,
+          1126
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 937.21,
+          "y": 153.98,
+          "visibility": 2,
+          "confidence": 0.9162
+        },
+        {
+          "name": "left_eye",
+          "x": 945.23,
+          "y": 143.08,
+          "visibility": 2,
+          "confidence": 0.8515
+        },
+        {
+          "name": "right_eye",
+          "x": 927.13,
+          "y": 145.65,
+          "visibility": 2,
+          "confidence": 0.8101
+        },
+        {
+          "name": "left_ear",
+          "x": 959.22,
+          "y": 147.97,
+          "visibility": 2,
+          "confidence": 0.6154
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4831
+        },
+        {
+          "name": "left_shoulder",
+          "x": 975.74,
+          "y": 195.14,
+          "visibility": 2,
+          "confidence": 0.9685
+        },
+        {
+          "name": "right_shoulder",
+          "x": 905.23,
+          "y": 204.51,
+          "visibility": 2,
+          "confidence": 0.9286
+        },
+        {
+          "name": "left_elbow",
+          "x": 1015.08,
+          "y": 222.15,
+          "visibility": 2,
+          "confidence": 0.8658
+        },
+        {
+          "name": "right_elbow",
+          "x": 881.25,
+          "y": 242.25,
+          "visibility": 2,
+          "confidence": 0.6716
+        },
+        {
+          "name": "left_wrist",
+          "x": 999.57,
+          "y": 202.15,
+          "visibility": 2,
+          "confidence": 0.7948
+        },
+        {
+          "name": "right_wrist",
+          "x": 886.88,
+          "y": 228.13,
+          "visibility": 2,
+          "confidence": 0.6257
+        },
+        {
+          "name": "left_hip",
+          "x": 961.78,
+          "y": 319.86,
+          "visibility": 2,
+          "confidence": 0.9715
+        },
+        {
+          "name": "right_hip",
+          "x": 916.1,
+          "y": 322.94,
+          "visibility": 2,
+          "confidence": 0.9539
+        },
+        {
+          "name": "left_knee",
+          "x": 963.83,
+          "y": 432.55,
+          "visibility": 2,
+          "confidence": 0.9493
+        },
+        {
+          "name": "right_knee",
+          "x": 918.13,
+          "y": 434.88,
+          "visibility": 2,
+          "confidence": 0.9216
+        },
+        {
+          "name": "left_ankle",
+          "x": 975.66,
+          "y": 546.7,
+          "visibility": 2,
+          "confidence": 0.8688
+        },
+        {
+          "name": "right_ankle",
+          "x": 914.62,
+          "y": 548.74,
+          "visibility": 2,
+          "confidence": 0.8287
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -6.39
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FSJ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FSJ-0001-0000-0000.json"
+  }
+}

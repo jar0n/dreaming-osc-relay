@@ -1,0 +1,291 @@
+{
+  "identifier": "NG5762",
+  "full_title": "Cleopatra",
+  "short_title": "Cleopatra",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "46 × 45.7 cm",
+  "production_date": "possibly 1540s",
+  "brief_description": "A naked woman reclines on a luxurious bed, a small pink snake wriggling through her fingers. This is Cleopatra, the last Ptolemaic queen of Egypt, encouraging an asp to bite and poison her -- according to some accounts, the cause of her death. Famous for her beauty and her love affairs with the Roman generals Julius Caesar and Mark Antony, she died in 30 BC after the defeat of her and Mark Antony's forces by Octavian, the future Roman emperor.\n\nWorking out who made this painting is made difficult by the fact that the artist was a poor draughtsman and an incompetent painter, but seems to have been copying the work of a more skilful and imaginative artist. There is a strong stylistic resemblance between this painting and pictures by Simon de Mailly, who is known for creating pastiches based on paintings by better artists. The original composition may have been devised by one of Raphael's assistants.",
+  "accession_date": "1947-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Maurice Woolff Jacobson, 1943; entered the collection, 1947",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Simon de Mailly (de Châlons)",
+    "birth_date": "1532",
+    "death_date": "1562",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5762-00-000018-web-g.jpg",
+    "filename": "N-5762-00-000018-web-g.jpg",
+    "image_key": "N-5762-00-000018",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1927,
+    "aspect_ratio": 0.9964,
+    "ratio_type": "square (1:1)",
+    "orientation": "portrait",
+    "file_size_bytes": 751004
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 703,
+    "horizontal_lines": 191,
+    "vertical_lines": 103,
+    "diagonal_lines": 409,
+    "edge_density": 0.0443,
+    "dominant_angles": [
+      0.0,
+      -90.0,
+      0.0,
+      -22.6,
+      -90.0,
+      0.0,
+      -3.2,
+      -9.9,
+      -24.8,
+      -4.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      87,
+      67,
+      49
+    ],
+    "mean_color_hex": "#574331",
+    "color_palette": [
+      "#3b3c3f",
+      "#251d13",
+      "#36291b",
+      "#624123",
+      "#6f4e2f",
+      "#4f341d",
+      "#7d5c3c",
+      "#906c4b",
+      "#a17c5a",
+      "#ac9674"
+    ],
+    "unique_colors": 57314,
+    "color_diversity": 0.0155,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 71.54,
+    "contrast_level": "low",
+    "contrast_value": 0.2366,
+    "dynamic_range": 247,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 71.33,
+    "midtones_percentage": 28.56,
+    "highlights_percentage": 0.11
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.913,
+        "bbox": [
+          101.23,
+          127.43,
+          1905.47,
+          1910.59
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1341,
+          101,
+          1409,
+          169
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          25,
+          1189,
+          111,
+          1275
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1402.49,
+          "y": 296.74,
+          "visibility": 2,
+          "confidence": 0.9565
+        },
+        {
+          "name": "left_eye",
+          "x": 1443.08,
+          "y": 276.05,
+          "visibility": 2,
+          "confidence": 0.9697
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4341
+        },
+        {
+          "name": "left_ear",
+          "x": 1535.17,
+          "y": 350.37,
+          "visibility": 2,
+          "confidence": 0.9607
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0936
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1599.44,
+          "y": 573.5,
+          "visibility": 2,
+          "confidence": 0.997
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1410.91,
+          "y": 501.9,
+          "visibility": 2,
+          "confidence": 0.9856
+        },
+        {
+          "name": "left_elbow",
+          "x": 1710.55,
+          "y": 798.34,
+          "visibility": 2,
+          "confidence": 0.992
+        },
+        {
+          "name": "right_elbow",
+          "x": 1195.34,
+          "y": 722.54,
+          "visibility": 2,
+          "confidence": 0.9242
+        },
+        {
+          "name": "left_wrist",
+          "x": 1630.28,
+          "y": 818.96,
+          "visibility": 2,
+          "confidence": 0.9923
+        },
+        {
+          "name": "right_wrist",
+          "x": 1118.36,
+          "y": 774.92,
+          "visibility": 2,
+          "confidence": 0.927
+        },
+        {
+          "name": "left_hip",
+          "x": 1370.66,
+          "y": 1014.79,
+          "visibility": 2,
+          "confidence": 0.999
+        },
+        {
+          "name": "right_hip",
+          "x": 1236.28,
+          "y": 939.69,
+          "visibility": 2,
+          "confidence": 0.9979
+        },
+        {
+          "name": "left_knee",
+          "x": 992.68,
+          "y": 1184.5,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "right_knee",
+          "x": 715.81,
+          "y": 1086.96,
+          "visibility": 2,
+          "confidence": 0.997
+        },
+        {
+          "name": "left_ankle",
+          "x": 851.12,
+          "y": 1619.28,
+          "visibility": 2,
+          "confidence": 0.9878
+        },
+        {
+          "name": "right_ankle",
+          "x": 412.3,
+          "y": 1478.69,
+          "visibility": 2,
+          "confidence": 0.9791
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -27.4
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EER-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EER-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "identifier": "NG670",
+  "full_title": "A Knight of S. Stefano",
+  "short_title": "A Knight of S. Stefano",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "209.5 × 121.2 cm",
+  "production_date": "after 1563",
+  "brief_description": "The sitter wears the red cross of the military order of S. Stefano, founded in Pisa in 1561 by the Grand Duke of Tuscany, Cosimo I de' Medici. Behind the man’s head  is a niche containing a sculpture group of a woman and child. Several books of various sizes are propped up on the ledge of the panelling and against the niche. The letters, pen and inkstand on the table, and the books and statue above, allude to his status and learned interests.\n\nIndependent life-size and full-length portraits are fairly rare in Tuscan sixteenth-century art. The painting was once thought to be by Alessandro Allori, successor to Bronzino as painter to the Medici court in Florence. However, it is closer in style to the work of Girolamo Macchietti who  worked for the Medici as well and who painted The Charity of Saint Nicholas of Bari, also in the National Gallery collection.",
+  "accession_date": "1861-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by G.F. Watts RA, 1861",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Girolamo Macchietti",
+    "birth_date": "1535",
+    "death_date": "1592",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0670-00-000018-web.jpg",
+    "filename": "N-0670-00-000018-web.jpg",
+    "image_key": "N-0670-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3303,
+    "aspect_ratio": 0.5813,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1100736
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 154,
+    "horizontal_lines": 75,
+    "vertical_lines": 44,
+    "diagonal_lines": 35,
+    "edge_density": 0.0078,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      0.0,
+      -90.0,
+      -0.9,
+      -0.9,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      39,
+      31,
+      24
+    ],
+    "mean_color_hex": "#271f18",
+    "color_palette": [
+      "#130e0c",
+      "#1a1512",
+      "#2d1b0e",
+      "#22201b",
+      "#342f28",
+      "#817760",
+      "#978c72",
+      "#523319",
+      "#78522c",
+      "#59503e"
+    ],
+    "unique_colors": 45934,
+    "color_diversity": 0.0072,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 33.32,
+    "contrast_level": "low",
+    "contrast_value": 0.2335,
+    "dynamic_range": 236,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.68,
+    "midtones_percentage": 8.26,
+    "highlights_percentage": 0.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8773,
+        "bbox": [
+          372.89,
+          315.12,
+          1871.72,
+          3202.44
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          258,
+          2153,
+          390,
+          2285
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          857,
+          440,
+          1109,
+          692
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 973.85,
+          "y": 583.69,
+          "visibility": 2,
+          "confidence": 0.9967
+        },
+        {
+          "name": "left_eye",
+          "x": 1037.28,
+          "y": 522.11,
+          "visibility": 2,
+          "confidence": 0.988
+        },
+        {
+          "name": "right_eye",
+          "x": 924.57,
+          "y": 526.7,
+          "visibility": 2,
+          "confidence": 0.9911
+        },
+        {
+          "name": "left_ear",
+          "x": 1149.1,
+          "y": 552.41,
+          "visibility": 2,
+          "confidence": 0.9023
+        },
+        {
+          "name": "right_ear",
+          "x": 875.24,
+          "y": 561.67,
+          "visibility": 2,
+          "confidence": 0.8262
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1367.12,
+          "y": 859.57,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "right_shoulder",
+          "x": 772.74,
+          "y": 914.34,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_elbow",
+          "x": 1612.7,
+          "y": 1236.34,
+          "visibility": 2,
+          "confidence": 0.8554
+        },
+        {
+          "name": "right_elbow",
+          "x": 576.41,
+          "y": 1322.65,
+          "visibility": 2,
+          "confidence": 0.9962
+        },
+        {
+          "name": "left_wrist",
+          "x": 1582.38,
+          "y": 1618.42,
+          "visibility": 2,
+          "confidence": 0.8525
+        },
+        {
+          "name": "right_wrist",
+          "x": 350.64,
+          "y": 1674.67,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "left_hip",
+          "x": 1336.77,
+          "y": 1709.03,
+          "visibility": 2,
+          "confidence": 0.9973
+        },
+        {
+          "name": "right_hip",
+          "x": 938.2,
+          "y": 1719.1,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_knee",
+          "x": 1370.93,
+          "y": 2236.68,
+          "visibility": 2,
+          "confidence": 0.9887
+        },
+        {
+          "name": "right_knee",
+          "x": 799.79,
+          "y": 2241.27,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "left_ankle",
+          "x": 1386.52,
+          "y": 2853.5,
+          "visibility": 2,
+          "confidence": 0.9097
+        },
+        {
+          "name": "right_ankle",
+          "x": 784.28,
+          "y": 2826.27,
+          "visibility": 2,
+          "confidence": 0.9689
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -2.05
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FSW-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FSW-0001-0000-0000.json"
+  }
+}

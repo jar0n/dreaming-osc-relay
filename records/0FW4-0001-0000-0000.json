@@ -1,0 +1,210 @@
+{
+  "identifier": "NG796",
+  "full_title": "Flowers in a Terracotta Vase",
+  "short_title": "Flowers in a Terracotta Vase",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "133.5 × 91.5 cm",
+  "production_date": "1736-7",
+  "brief_description": "This is no shy, hide-in-a-corner painting. It’s meant to dazzle and it does. It would have taken a long time to identify each flower and this is part of the picture's purpose. Van Huysum is after, and achieves, excess: a celebration of nature, an entertaining puzzle and a display of wealth, culture and fashion.\n\nThere are more than 30 species in the vase -- from florid roses, peonies, mauve and red poppies to the more humble primroses, apple blossom and bachelor's buttons. He adds insects and hothouse fruit to the exotic mix. But one or two of the luscious grapes are past their best, perhaps suggesting the brevity of life -- but more likely indicating that a painting lives on long after fruit and flowers have vanished.\n\nThis is a rich man's bouquet made to look winsome and natural, but in reality it's carefully orchestrated, displaying not only a passion for flowers but an immense knowledge and understanding of them.",
+  "accession_date": "1869-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1869",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van Huysum",
+    "birth_date": "1682",
+    "death_date": "1749",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0796-00-000031-web-g.jpg",
+    "filename": "N-0796-00-000031-web-g.jpg",
+    "image_key": "N-0796-00-000031",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2771,
+    "aspect_ratio": 0.6929,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1217813
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1383,
+    "horizontal_lines": 93,
+    "vertical_lines": 398,
+    "diagonal_lines": 892,
+    "edge_density": 0.0634,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      71.0,
+      -34.1,
+      -64.0,
+      -45.0,
+      -45.0,
+      -63.9,
+      -65.4,
+      -64.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      96,
+      87,
+      65
+    ],
+    "mean_color_hex": "#605741",
+    "color_palette": [
+      "#3b3526",
+      "#323e3c",
+      "#5b5237",
+      "#7e6e46",
+      "#a05f37",
+      "#823c24",
+      "#988b6a",
+      "#557562",
+      "#205353",
+      "#b3ac95"
+    ],
+    "unique_colors": 273550,
+    "color_diversity": 0.0514,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 87.36,
+    "contrast_level": "low",
+    "contrast_value": 0.2589,
+    "dynamic_range": 213,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 53.82,
+    "midtones_percentage": 43.58,
+    "highlights_percentage": 2.6
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.4186,
+        "bbox": [
+          86.44,
+          86.22,
+          1849.51,
+          2567.88
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "potted plant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 7,
+    "faces_detected": 7,
+    "faces": [
+      {
+        "bbox": [
+          1455,
+          2546,
+          1519,
+          2610
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1319,
+          2203,
+          1383,
+          2267
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1644,
+          2581,
+          1725,
+          2662
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1170,
+          1615,
+          1249,
+          1694
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1209,
+          2104,
+          1281,
+          2176
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1219,
+          2154,
+          1288,
+          2223
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          491,
+          1288,
+          574,
+          1371
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FW4-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FW4-0001-0000-0000.json"
+  }
+}

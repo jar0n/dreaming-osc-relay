@@ -1,0 +1,303 @@
+{
+  "identifier": "NG173",
+  "full_title": "Portrait of a Gentleman",
+  "short_title": "Portrait of a Gentleman",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "119.5 × 98 cm",
+  "production_date": "about 1590-1600",
+  "brief_description": "A dark-haired young man turns to look at us sidelong. Who is he? Tantalising clues have been included in the painting.\n\nHe wears two red-stoned rings on the little finger of his left hand, and may be holding a folded glove, which is sometimes the symbol of a love pledge. A coat of arms was once painted below his right wrist. His broad, soft white collar is of a style worn between about 1590 and 1600.\n\nThe glass vase on the table may suggest that the man was connected with the Venetian glass industry, but a vase can also be a symbol of purity or chastity. It contains a sprig of dark green leaves that look like juniper. The juniper may relate to the man's name or emblem, or to that of his beloved: Ginevra, the Italian for juniper, was a popular female name at the time.",
+  "accession_date": "1839-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Henry Gally Knight, 1839",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Domenico Tintoretto",
+    "birth_date": "1560",
+    "death_date": "1635",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0173-00-000013-web.jpg",
+    "filename": "N-0173-00-000013-web.jpg",
+    "image_key": "N-0173-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2342,
+    "aspect_ratio": 0.8198,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1037724
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 622,
+    "horizontal_lines": 91,
+    "vertical_lines": 317,
+    "diagonal_lines": 214,
+    "edge_density": 0.0218,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -89.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      42,
+      34,
+      20
+    ],
+    "mean_color_hex": "#2a2214",
+    "color_palette": [
+      "#1b1610",
+      "#221d17",
+      "#251d0f",
+      "#2d2413",
+      "#423316",
+      "#302a21",
+      "#5a4418",
+      "#745a21",
+      "#47453d",
+      "#8f783b"
+    ],
+    "unique_colors": 40121,
+    "color_diversity": 0.0089,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 35.24,
+    "contrast_level": "low",
+    "contrast_value": 0.133,
+    "dynamic_range": 240,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 96.98,
+    "midtones_percentage": 3.02,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7238,
+        "bbox": [
+          547.81,
+          290.72,
+          1720.8,
+          2309.77
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.4592,
+        "bbox": [
+          1029.43,
+          629.14,
+          1319.96,
+          913.86
+        ]
+      },
+      {
+        "class": "banana",
+        "confidence": 0.4306,
+        "bbox": [
+          220.15,
+          1776.06,
+          621.05,
+          2017.31
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "tie": 1,
+      "banana": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          910,
+          419,
+          1179,
+          688
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1029.49,
+          "y": 576.13,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "left_eye",
+          "x": 1100.22,
+          "y": 513.59,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "right_eye",
+          "x": 998.81,
+          "y": 514.84,
+          "visibility": 2,
+          "confidence": 0.9619
+        },
+        {
+          "name": "left_ear",
+          "x": 1252.68,
+          "y": 545.27,
+          "visibility": 2,
+          "confidence": 0.9904
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2358
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1414.16,
+          "y": 927.54,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "right_shoulder",
+          "x": 927.79,
+          "y": 904.36,
+          "visibility": 2,
+          "confidence": 0.996
+        },
+        {
+          "name": "left_elbow",
+          "x": 1459.04,
+          "y": 1458.48,
+          "visibility": 2,
+          "confidence": 0.9886
+        },
+        {
+          "name": "right_elbow",
+          "x": 770.85,
+          "y": 1343.01,
+          "visibility": 2,
+          "confidence": 0.9657
+        },
+        {
+          "name": "left_wrist",
+          "x": 1171.32,
+          "y": 1977.92,
+          "visibility": 2,
+          "confidence": 0.9701
+        },
+        {
+          "name": "right_wrist",
+          "x": 653.54,
+          "y": 1774.74,
+          "visibility": 2,
+          "confidence": 0.929
+        },
+        {
+          "name": "left_hip",
+          "x": 1327.71,
+          "y": 1858.75,
+          "visibility": 2,
+          "confidence": 0.9889
+        },
+        {
+          "name": "right_hip",
+          "x": 969.08,
+          "y": 1830.86,
+          "visibility": 2,
+          "confidence": 0.9855
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.218
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1679
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0065
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0059
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -5.3
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F1Q-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F1Q-0001-0000-0000.json"
+  }
+}

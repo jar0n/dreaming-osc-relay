@@ -1,0 +1,181 @@
+{
+  "identifier": "NG1252",
+  "full_title": "Still Life of Fruit and Vegetables with Two Monkeys",
+  "short_title": "Still Life of Fruit and Vegetables with Two Monkeys",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "102.9 × 135.5 cm",
+  "production_date": "about 1620",
+  "brief_description": "A monkey pauses while picking peaches from a pile of fruit to snarl viciously at another monkey gazing longingly at the hoard. The setting is ambiguous: the rich display of corn, grapes, apples, pears, quinces and peaches is positioned on a stone ledge and overflows onto a smooth floor, where two suggestively shaped gourds are prominently positioned. Monkeys were sometimes kept as exotic pets, so this scene might depict the discovery of fruit in store ahead of a stately banquet.\n\nThe composition is derived from the work of the Flemish hunt, animal and still-life painter Frans Snijders, to whom this picture was once attributed, but the lesser quality of its execution points to the work of Snijders' pupil Jan Roos. It was probably painted in Genoa where, having found high demand for his work, Roos settled permanently from 1616.",
+  "accession_date": "1888-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Miss Emily Jane Wood at the wish of her uncle, Decimus Burton, 1888",
+  "associated_concepts": "Flemish",
+  "creator": {
+    "name": "Jan Roos",
+    "birth_date": "1591",
+    "death_date": "1638",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1252-00-000028-web.jpg",
+    "filename": "N-1252-00-000028-web.jpg",
+    "image_key": "N-1252-00-000028",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1458,
+    "aspect_ratio": 1.3169,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 689269
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 820,
+    "horizontal_lines": 524,
+    "vertical_lines": 6,
+    "diagonal_lines": 290,
+    "edge_density": 0.0489,
+    "dominant_angles": [
+      11.1,
+      -1.0,
+      13.1,
+      -6.1,
+      -6.1,
+      -6.9,
+      0.9,
+      9.3,
+      5.2,
+      -8.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      58,
+      49,
+      36
+    ],
+    "mean_color_hex": "#3a3124",
+    "color_palette": [
+      "#221d17",
+      "#2b261e",
+      "#3d3829",
+      "#3d2a18",
+      "#4d4b39",
+      "#593d22",
+      "#755735",
+      "#8d7c59",
+      "#686750",
+      "#af9f7a"
+    ],
+    "unique_colors": 88646,
+    "color_diversity": 0.0317,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 50.96,
+    "contrast_level": "low",
+    "contrast_value": 0.2167,
+    "dynamic_range": 215,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 88.43,
+    "midtones_percentage": 11.22,
+    "highlights_percentage": 0.35
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "apple",
+        "confidence": 0.5155,
+        "bbox": [
+          783.76,
+          1346.94,
+          917.72,
+          1455.71
+        ]
+      },
+      {
+        "class": "apple",
+        "confidence": 0.4118,
+        "bbox": [
+          198.11,
+          1343.05,
+          335.49,
+          1456.04
+        ]
+      },
+      {
+        "class": "dog",
+        "confidence": 0.2764,
+        "bbox": [
+          1066.22,
+          43.51,
+          1911.32,
+          795.01
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "apple": 2,
+      "dog": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          851,
+          249,
+          931,
+          329
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          952,
+          526,
+          1052,
+          626
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FS4-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FS4-0001-0000-0000.json"
+  }
+}

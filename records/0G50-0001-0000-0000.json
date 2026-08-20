@@ -1,0 +1,160 @@
+{
+  "identifier": "NG2904",
+  "full_title": "A Ruin Caprice",
+  "short_title": "A Ruin Caprice",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "13.4 × 19.4 cm",
+  "production_date": "19th century",
+  "brief_description": "An imaginary ruined castle or fortress, bathed in gentle sunlight, stands on a piece of land that juts into the water. A fishing boat is moored in a sheltered cove, and two figures -- perhaps off fishing, as one holds a rod -- walk past it along the water's edge. A gentle breeze coming off the water catches and tilts the white sails of boats towards the horizon. You can sense the movement of the clouds, made up of thick white paint, which give way to an expanse of blue sky.\n\nThis imaginary scene and its companion, A Ruin Caprice, entered the National Gallery's collection as the work of Guardi -- the artist's expressive brushstrokes and heavy-set lines certainly imitate Guardi's style. Both are now thought to be by a nineteenth-century imitator.",
+  "accession_date": "1912-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lady Lindsay, 1912",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2904-00-000012-web.jpg",
+    "filename": "N-2904-00-000012-web.jpg",
+    "image_key": "N-2904-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1284,
+    "aspect_ratio": 1.4953,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 640023
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 660,
+    "horizontal_lines": 307,
+    "vertical_lines": 30,
+    "diagonal_lines": 323,
+    "edge_density": 0.0553,
+    "dominant_angles": [
+      0.0,
+      10.2,
+      13.6,
+      0.0,
+      8.1,
+      10.0,
+      -1.2,
+      0.0,
+      6.2,
+      -2.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      101,
+      97,
+      70
+    ],
+    "mean_color_hex": "#656146",
+    "color_palette": [
+      "#717056",
+      "#65654b",
+      "#5b593f",
+      "#807c5c",
+      "#534c2f",
+      "#433d28",
+      "#8f8967",
+      "#302d22",
+      "#a19a74",
+      "#736336"
+    ],
+    "unique_colors": 42322,
+    "color_diversity": 0.0172,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 95.97,
+    "contrast_level": "low",
+    "contrast_value": 0.2186,
+    "dynamic_range": 227,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 33.51,
+    "midtones_percentage": 66.34,
+    "highlights_percentage": 0.15
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3257,
+        "bbox": [
+          1119.39,
+          1036.93,
+          1158.28,
+          1135.42
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          563,
+          718,
+          616,
+          771
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          383,
+          708,
+          440,
+          765
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G50-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G50-0001-0000-0000.json"
+  }
+}

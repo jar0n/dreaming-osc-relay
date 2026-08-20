@@ -1,0 +1,212 @@
+{
+  "identifier": "NG2514",
+  "full_title": "Venice: Upper Reaches of the Grand Canal facing Santa Croce",
+  "short_title": "Venice: The Grand Canal facing Santa Croce",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "59.7 × 92.1 cm",
+  "production_date": "about 1738",
+  "brief_description": "This is a very early work by Bernardo Bellotto, the talented nephew of the influential Venetian artist Canaletto. It was painted in around 1738, when he was only about 16 years old and working in his uncle’s studio in Venice. By this time Bellotto was creating his own versions of some of Canaletto's most popular views.\n\nHe prepared this composition, which shows the Grand Canal with the church of Santa Croce to the right, in a drawing (Hessisches Landesmuseum, Darmstadt), itself based on a design by Canaletto (Royal Collection, Windsor Castle). While Bellotto has followed Canaletto's scene quite closely here -- the beautiful barge or burchiello to the left appears in both -- he altered the figures and boats in the foreground.\n\nBellotto's distinctive style can be seen even at this early stage. Here, he tends towards a silvery light and cool palette, and has used thick, broad brushstrokes to create clouds and give texture to the turquoise water.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Bernardo Bellotto",
+    "birth_date": "1722",
+    "death_date": "1780",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2514-00-000017-web.jpg",
+    "filename": "N-2514-00-000017-web.jpg",
+    "image_key": "N-2514-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1227,
+    "aspect_ratio": 1.5648,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 613815
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1679,
+    "horizontal_lines": 1483,
+    "vertical_lines": 26,
+    "diagonal_lines": 170,
+    "edge_density": 0.0839,
+    "dominant_angles": [
+      3.1,
+      14.9,
+      9.8,
+      13.3,
+      6.2,
+      -0.6,
+      5.1,
+      11.0,
+      -9.0,
+      11.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      116,
+      126,
+      120
+    ],
+    "mean_color_hex": "#747e78",
+    "color_palette": [
+      "#758b8e",
+      "#82989a",
+      "#6c7f79",
+      "#434034",
+      "#5b5342",
+      "#ac957a",
+      "#6c6b58",
+      "#8c836a",
+      "#2c2922",
+      "#9da9a2"
+    ],
+    "unique_colors": 70391,
+    "color_diversity": 0.0299,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 123.07,
+    "contrast_level": "low",
+    "contrast_value": 0.2527,
+    "dynamic_range": 197,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 15.8,
+    "midtones_percentage": 82.77,
+    "highlights_percentage": 1.43
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "clock",
+        "confidence": 0.7421,
+        "bbox": [
+          1656.95,
+          585.14,
+          1714.85,
+          642.57
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.456,
+        "bbox": [
+          888.12,
+          994.66,
+          933.58,
+          1107.84
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3999,
+        "bbox": [
+          24.57,
+          899.16,
+          557.77,
+          1141.28
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3766,
+        "bbox": [
+          702.15,
+          955.66,
+          727.49,
+          1007.28
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3511,
+        "bbox": [
+          864.24,
+          889.02,
+          956.23,
+          943.91
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2823,
+        "bbox": [
+          626.98,
+          993.31,
+          1193.12,
+          1150.67
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2692,
+        "bbox": [
+          653.76,
+          935.55,
+          693.28,
+          1006.84
+        ]
+      }
+    ],
+    "object_count": 7,
+    "object_types": {
+      "clock": 1,
+      "person": 3,
+      "boat": 3
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          653,
+          786,
+          717,
+          850
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D1Y-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D1Y-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "identifier": "NG6482",
+  "full_title": "Self Portrait at the Age of about Nineteen",
+  "short_title": "Self Portrait at the Age of about Nineteen",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "53 × 41.6 cm",
+  "production_date": "about 1819",
+  "brief_description": "William Boxall (1800--1879) painted this self-portrait when he was around 19 and about to enter the Royal Academy Schools to train as a painter. He gave it to his sister Anne. The head is rather less than three-quarters life-size. The picture may have been made as a preparatory study for the life-sized self portrait painted at about the same time, which was hanging in Boxall's house when he died.\n\nAmong Boxall's closest friends were Sir Charles Eastlake, the first Director of the National Gallery from 1855 to 1865, and Lady Eastlake, whose portrait Boxall painted in 1854. Boxall accompanied them on picture-hunting tours in Italy.\n\nOn 9 February 1866 Queen Victoria approved Boxall's appointment as the second Director of the National Gallery. He exhibited no further work after this but proved to be an able Director, purchasing Michelangelo's Entombment and his Madonna and Child with Saint John and Angels for the Gallery. He was knighted in 1871 and died on 6 December 1879.",
+  "accession_date": "1983-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Christopher Wood, 1983",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "Sir William Boxall",
+    "birth_date": "1800",
+    "death_date": "1879",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6482-00-000011-web.jpg",
+    "filename": "N-6482-00-000011-web.jpg",
+    "image_key": "N-6482-00-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2361,
+    "aspect_ratio": 0.8132,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1048064
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 100,
+    "horizontal_lines": 5,
+    "vertical_lines": 26,
+    "diagonal_lines": 69,
+    "edge_density": 0.0145,
+    "dominant_angles": [
+      63.4,
+      59.2,
+      57.9,
+      77.0,
+      62.1,
+      58.7,
+      56.3,
+      -90.0,
+      52.6,
+      62.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      51,
+      44,
+      32
+    ],
+    "mean_color_hex": "#332c20",
+    "color_palette": [
+      "#1b1612",
+      "#232118",
+      "#2c2a1e",
+      "#363527",
+      "#4f432e",
+      "#473020",
+      "#ad8761",
+      "#6a5138",
+      "#8f6f50",
+      "#cda875"
+    ],
+    "unique_colors": 43169,
+    "color_diversity": 0.0095,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 45.66,
+    "contrast_level": "low",
+    "contrast_value": 0.2369,
+    "dynamic_range": 213,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.94,
+    "midtones_percentage": 6.95,
+    "highlights_percentage": 1.1
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8818,
+        "bbox": [
+          0.0,
+          206.15,
+          1686.2,
+          2356.96
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          517,
+          396,
+          1382,
+          1261
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 967.07,
+          "y": 912.42,
+          "visibility": 2,
+          "confidence": 0.9961
+        },
+        {
+          "name": "left_eye",
+          "x": 1101.2,
+          "y": 763.81,
+          "visibility": 2,
+          "confidence": 0.9944
+        },
+        {
+          "name": "right_eye",
+          "x": 786.29,
+          "y": 752.9,
+          "visibility": 2,
+          "confidence": 0.9955
+        },
+        {
+          "name": "left_ear",
+          "x": 1242.69,
+          "y": 861.03,
+          "visibility": 2,
+          "confidence": 0.7631
+        },
+        {
+          "name": "right_ear",
+          "x": 510.96,
+          "y": 864.4,
+          "visibility": 2,
+          "confidence": 0.9455
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1335.45,
+          "y": 1569.12,
+          "visibility": 2,
+          "confidence": 0.9628
+        },
+        {
+          "name": "right_shoulder",
+          "x": 272.71,
+          "y": 1675.39,
+          "visibility": 2,
+          "confidence": 0.951
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1503
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0471
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1945
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0946
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0163
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0094
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0032
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0021
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.002
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0015
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ELD-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ELD-0001-0000-0000.json"
+  }
+}

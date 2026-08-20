@@ -1,0 +1,180 @@
+{
+  "identifier": "NG2256",
+  "full_title": "A River Scene",
+  "short_title": "A River Scene",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on canvas",
+  "dimensions": "21 × 23.2 cm",
+  "production_date": "about 1850-70",
+  "brief_description": "Henri-Joseph Harpignies saw himself as a painter of real life. From the outset, he dissociated himself from his older contemporaries -- from the smooth, meticulous style of neo-classical artists and from the flamboyance of the Romantics. Yet in this tiny picture, made very early in his career, the silhouetted trees against a luminous sky, the reflections in the glowing water and the solitary figures walking away from us have a certain romantic appeal.\n\nAlthough he was interested in depicting the real world, Harpignies never became a realist in the style of the Barbizon group of painters, with their gritty, often painful scenes of manual labour. His landscapes were more allied with the harmonious scenes of nature by his friend and fellow artist Corot, inspired by the work of Claude and Poussin, the seventeenth-century classical artists of Rome.",
+  "accession_date": "1908-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Miss E. Ponsonby McGhee, 1908",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Henri-Joseph Harpignies",
+    "birth_date": "1819",
+    "death_date": "1916",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2256-00-000008-web.jpg",
+    "filename": "N-2256-00-000008-web.jpg",
+    "image_key": "N-2256-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1762,
+    "aspect_ratio": 1.0897,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 1069190
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 2148,
+    "horizontal_lines": 791,
+    "vertical_lines": 95,
+    "diagonal_lines": 1262,
+    "edge_density": 0.1047,
+    "dominant_angles": [
+      -4.0,
+      17.0,
+      4.7,
+      4.3,
+      25.0,
+      2.0,
+      35.9,
+      -86.2,
+      -23.5,
+      26.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      87,
+      78,
+      55
+    ],
+    "mean_color_hex": "#574e37",
+    "color_palette": [
+      "#2d2515",
+      "#211b11",
+      "#3a311a",
+      "#b8ac84",
+      "#aca079",
+      "#4c412a",
+      "#9b8f69",
+      "#847957",
+      "#645a3e",
+      "#d3c59c"
+    ],
+    "unique_colors": 56293,
+    "color_diversity": 0.0166,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 78.8,
+    "contrast_level": "medium",
+    "contrast_value": 0.4418,
+    "dynamic_range": 241,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 66.09,
+    "midtones_percentage": 26.14,
+    "highlights_percentage": 7.76
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5917,
+        "bbox": [
+          1514.77,
+          1138.12,
+          1559.75,
+          1265.47
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3224,
+        "bbox": [
+          1556.79,
+          1147.5,
+          1591.57,
+          1265.18
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3134,
+        "bbox": [
+          1132.23,
+          1136.98,
+          1219.54,
+          1250.85
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3127,
+        "bbox": [
+          1110.91,
+          1121.22,
+          1220.21,
+          1251.25
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1516,
+          1512,
+          1612,
+          1608
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G7L-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G7L-0001-0000-0000.json"
+  }
+}

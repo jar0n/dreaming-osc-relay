@@ -1,0 +1,181 @@
+{
+  "identifier": "NG6549",
+  "full_title": "Flowers in a Glass Vase",
+  "short_title": "Flowers in a Glass Vase",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on copper",
+  "dimensions": "26 × 20.5 cm",
+  "production_date": "1614",
+  "brief_description": "If pictures had a smell, then Ambrosius Bosschaert's paintings would fill the air with exotic scent. His many different flowers are displayed against a dark  background to show their colours, shapes and textures to the fullest -- pale roses, yellow and white narcissi, a single yellow chrysanthemum. The delicate petals of a purple cyclamen hide behind its broad leaf in the shadows at the base of the arrangement, where a fritillary hangs its head close to a red rosebud. A mauve anemone seems suspended in the dark space between two handsome tulips, one white, one yellow, streaked with flames of red, standing out stiff and proud against the profusion of petals below them.\n\nBut roses, cyclamen and narcissi aren't in bloom at the same time of the year. Bosschaert is likely to have made a watercolour drawing of each flower to record it in bloom, and then used these drawings to paint them into the picture at a later stage.",
+  "accession_date": "1994-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Mrs Sally Speelman and Mr Anthony Speelman in memory of Mr Edward Speelman, 1994",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Ambrosius Bosschaert the Elder",
+    "birth_date": "1573",
+    "death_date": "1621",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6549-00-000009-web.jpg",
+    "filename": "N-6549-00-000009-web.jpg",
+    "image_key": "N-6549-00-000009",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2392,
+    "aspect_ratio": 0.8027,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 957204
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 905,
+    "horizontal_lines": 190,
+    "vertical_lines": 244,
+    "diagonal_lines": 471,
+    "edge_density": 0.04,
+    "dominant_angles": [
+      -90.0,
+      0.0,
+      0.0,
+      -90.0,
+      -90.0,
+      0.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      52,
+      43,
+      30
+    ],
+    "mean_color_hex": "#342b1e",
+    "color_palette": [
+      "#16110e",
+      "#242113",
+      "#3e3217",
+      "#524227",
+      "#675549",
+      "#80786d",
+      "#9a978c",
+      "#917c3c",
+      "#b5a64e",
+      "#803d22"
+    ],
+    "unique_colors": 160629,
+    "color_diversity": 0.035,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 44.88,
+    "contrast_level": "medium",
+    "contrast_value": 0.3094,
+    "dynamic_range": 219,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 85.22,
+    "midtones_percentage": 13.95,
+    "highlights_percentage": 0.84
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.6789,
+        "bbox": [
+          712.52,
+          1838.99,
+          1218.19,
+          2243.02
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.4785,
+        "bbox": [
+          97.07,
+          35.62,
+          1786.62,
+          2324.76
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "vase": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          934,
+          1011,
+          973,
+          1050
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          482,
+          733,
+          535,
+          786
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          673,
+          587,
+          812,
+          726
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F0P-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F0P-0001-0000-0000.json"
+  }
+}

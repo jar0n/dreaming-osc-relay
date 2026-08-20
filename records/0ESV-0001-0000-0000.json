@@ -1,0 +1,160 @@
+{
+  "identifier": "NG521",
+  "full_title": "The Parting of Hero and Leander - from the Greek of Musaeus",
+  "short_title": "The Parting of Hero and Leander",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on canvas",
+  "dimensions": "146 × 236 cm",
+  "production_date": "before 1837",
+  "brief_description": "This picture illustrates an ancient Greek myth that was retold by later writers, including the English romantic poet, Lord Byron. Hero, a priestess of Aphrodite, lived in a tower on the Hellespont strait, which separates Europe from Asia. She was in love with Leander, a young man from the Asian side. Every night she would hold up a lamp to guide him as he swam through the water to be with her. One night the lamp blew out, and he was drowned. Hero threw herself off her tower to join him in death.\n\nTurner breaks with the conventions of history painting, which required the principal characters be in or near the centre of the picture, almost hiding the doomed couple in shadow at the water’s edge as Leander prepares to leave. Above them on the terrace, a winged Cupid holds up a lamp and a torch. Turner constructs an exotic location of classical architecture and large, jagged rocks set against a turbulent night sky.",
+  "accession_date": "1856-01-01",
+  "current_location": "Room 36, The National Gallery (London)",
+  "credit_line": "Turner Bequest, 1856",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "Joseph Mallord William Turner",
+    "birth_date": "1775",
+    "death_date": "1851",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0521-00-000011-web.jpg",
+    "filename": "N-0521-00-000011-web.jpg",
+    "image_key": "N-0521-00-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1189,
+    "aspect_ratio": 1.6148,
+    "ratio_type": "golden ratio",
+    "orientation": "landscape",
+    "file_size_bytes": 451722
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 293,
+    "horizontal_lines": 152,
+    "vertical_lines": 16,
+    "diagonal_lines": 125,
+    "edge_density": 0.0233,
+    "dominant_angles": [
+      -90.0,
+      0.0,
+      -90.0,
+      0.0,
+      0.0,
+      33.9,
+      9.3,
+      16.1,
+      13.8,
+      11.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      111,
+      99,
+      85
+    ],
+    "mean_color_hex": "#6f6355",
+    "color_palette": [
+      "#433c33",
+      "#534a3f",
+      "#73695d",
+      "#80786c",
+      "#968975",
+      "#5d5953",
+      "#6d5a48",
+      "#8d745b",
+      "#ac9c83",
+      "#d1bf9e"
+    ],
+    "unique_colors": 36811,
+    "color_diversity": 0.0161,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 101.59,
+    "contrast_level": "low",
+    "contrast_value": 0.2437,
+    "dynamic_range": 200,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 34.4,
+    "midtones_percentage": 63.19,
+    "highlights_percentage": 2.41
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.3936,
+        "bbox": [
+          1203.41,
+          622.04,
+          1593.09,
+          983.37
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1094,
+          869,
+          1235,
+          1010
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1570,
+          609,
+          1740,
+          779
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ESV-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ESV-0001-0000-0000.json"
+  }
+}

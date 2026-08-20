@@ -1,0 +1,353 @@
+{
+  "identifier": "NG5225",
+  "full_title": "A Young Woman seated drawing",
+  "short_title": "A Young Woman seated drawing",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "36.3 × 30.7 cm",
+  "production_date": "about 1655-60",
+  "brief_description": "This woman is engrossed in sketching a stone bust; hanging over the edge of the table is an engraving. Copying sculpture and images such as this was part of an artist’s training. In the background we can see an easel, as well as books, a globe and a classical arch and column, which evoke a wider world of learning and intellectual enquiry.\n\nImages of women quietly absorbed in their work were particularly popular at the time -- often they were maids or women of modest means doing domestic chores. But while a few women did work as artists, this room is too grand to be a painter’s studio, and the woman is expensively dressed. So this image goes beyond a simple lesson on the virtues considered ideal for women. It elevates artistic practice by stressing its intellectual context and also, by inference, it confirms the status of women as artists.",
+  "accession_date": "1940-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by the 1st Viscount Rothermere, 1940",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Gabriel Metsu",
+    "birth_date": "1629",
+    "death_date": "1667",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5225-00-000014-web.jpg",
+    "filename": "N-5225-00-000014-web.jpg",
+    "image_key": "N-5225-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2272,
+    "aspect_ratio": 0.8451,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 645984
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 90,
+    "horizontal_lines": 11,
+    "vertical_lines": 66,
+    "diagonal_lines": 13,
+    "edge_density": 0.0056,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      88.7,
+      89.1,
+      -90.0,
+      88.7,
+      88.8,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      57,
+      37,
+      18
+    ],
+    "mean_color_hex": "#392512",
+    "color_palette": [
+      "#261b10",
+      "#1c160e",
+      "#321f0f",
+      "#4d3212",
+      "#3d2813",
+      "#643012",
+      "#664c1e",
+      "#842817",
+      "#826b32",
+      "#9b864a"
+    ],
+    "unique_colors": 51201,
+    "color_diversity": 0.0117,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 41.41,
+    "contrast_level": "low",
+    "contrast_value": 0.1698,
+    "dynamic_range": 216,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 95.18,
+    "midtones_percentage": 4.81,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6677,
+        "bbox": [
+          546.95,
+          601.71,
+          1511.61,
+          2105.9
+        ]
+      },
+      {
+        "class": "teddy bear",
+        "confidence": 0.6667,
+        "bbox": [
+          150.76,
+          896.17,
+          444.6,
+          1151.56
+        ]
+      },
+      {
+        "class": "handbag",
+        "confidence": 0.5121,
+        "bbox": [
+          1.28,
+          1107.29,
+          512.57,
+          1506.18
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "teddy bear": 1,
+      "handbag": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          425,
+          1162,
+          479,
+          1216
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          926,
+          675,
+          984,
+          733
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1006,
+          716,
+          1060,
+          770
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          152,
+          895,
+          291,
+          1034
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1105,
+          1156,
+          1235,
+          1286
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          125,
+          984,
+          312,
+          1171
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 926.6,
+          "y": 797.54,
+          "visibility": 2,
+          "confidence": 0.9882
+        },
+        {
+          "name": "left_eye",
+          "x": 949.2,
+          "y": 755.58,
+          "visibility": 2,
+          "confidence": 0.9924
+        },
+        {
+          "name": "right_eye",
+          "x": 919.35,
+          "y": 763.66,
+          "visibility": 2,
+          "confidence": 0.7109
+        },
+        {
+          "name": "left_ear",
+          "x": 1045.44,
+          "y": 748.64,
+          "visibility": 2,
+          "confidence": 0.9807
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0364
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1204.4,
+          "y": 928.7,
+          "visibility": 2,
+          "confidence": 0.9935
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1006.73,
+          "y": 913.53,
+          "visibility": 2,
+          "confidence": 0.9605
+        },
+        {
+          "name": "left_elbow",
+          "x": 1218.11,
+          "y": 1251.54,
+          "visibility": 2,
+          "confidence": 0.9894
+        },
+        {
+          "name": "right_elbow",
+          "x": 906.43,
+          "y": 1138.57,
+          "visibility": 2,
+          "confidence": 0.8252
+        },
+        {
+          "name": "left_wrist",
+          "x": 911.75,
+          "y": 1245.24,
+          "visibility": 2,
+          "confidence": 0.9924
+        },
+        {
+          "name": "right_wrist",
+          "x": 755.29,
+          "y": 1145.72,
+          "visibility": 2,
+          "confidence": 0.9079
+        },
+        {
+          "name": "left_hip",
+          "x": 1199.61,
+          "y": 1400.77,
+          "visibility": 2,
+          "confidence": 0.9789
+        },
+        {
+          "name": "right_hip",
+          "x": 1065.7,
+          "y": 1360.57,
+          "visibility": 2,
+          "confidence": 0.9474
+        },
+        {
+          "name": "left_knee",
+          "x": 839.79,
+          "y": 1418.13,
+          "visibility": 2,
+          "confidence": 0.9791
+        },
+        {
+          "name": "right_knee",
+          "x": 664.86,
+          "y": 1364.98,
+          "visibility": 2,
+          "confidence": 0.9356
+        },
+        {
+          "name": "left_ankle",
+          "x": 964.36,
+          "y": 1884.82,
+          "visibility": 2,
+          "confidence": 0.8524
+        },
+        {
+          "name": "right_ankle",
+          "x": 774.29,
+          "y": 1832.69,
+          "visibility": 2,
+          "confidence": 0.7576
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -0.58
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EY3-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EY3-0001-0000-0000.json"
+  }
+}

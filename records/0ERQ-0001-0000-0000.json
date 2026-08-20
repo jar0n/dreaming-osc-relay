@@ -1,0 +1,181 @@
+{
+  "identifier": "NG6466",
+  "full_title": "The Oak in the Valley",
+  "short_title": "The Oak in the Valley",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "39.8 × 52.8 cm",
+  "production_date": "1871",
+  "brief_description": "This view was one of several pictures that Corot painted in May 1871, when he was staying with his friend Alfred Robaut in Douai. While many of the pictures are of specific sites, this particular view has not been identified and was probably painted in the studio.\n\nThe handling, particularly of the tree and foliage, is very typical of Corot’s late style, and the paint varies greatly in thickness. Corot used the handle-end of the brush to scratch the forms of grasses into the paint in the right foreground and at a late stage added a series of bright olive-green highlights, for example along the bottom edge. The characteristic red hat worn by the man on the left of the group adds a contrasting note of bright colour in the green landscape.",
+  "accession_date": "1981-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs Alice Bleecker, 1981",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6466-00-000014-web.jpg",
+    "filename": "N-6466-00-000014-web.jpg",
+    "image_key": "N-6466-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1437,
+    "aspect_ratio": 1.3361,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 740442
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1713,
+    "horizontal_lines": 734,
+    "vertical_lines": 61,
+    "diagonal_lines": 918,
+    "edge_density": 0.0722,
+    "dominant_angles": [
+      45.0,
+      17.0,
+      16.2,
+      17.8,
+      15.9,
+      14.0,
+      15.6,
+      15.0,
+      45.0,
+      13.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      96,
+      90,
+      67
+    ],
+    "mean_color_hex": "#605a43",
+    "color_palette": [
+      "#3c3825",
+      "#49442d",
+      "#575037",
+      "#2e2a1c",
+      "#645c43",
+      "#746d53",
+      "#ada789",
+      "#999379",
+      "#868067",
+      "#c2bb9a"
+    ],
+    "unique_colors": 47022,
+    "color_diversity": 0.017,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.39,
+    "contrast_level": "medium",
+    "contrast_value": 0.3127,
+    "dynamic_range": 224,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 57.82,
+    "midtones_percentage": 36.65,
+    "highlights_percentage": 5.52
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.6257,
+        "bbox": [
+          1066.72,
+          1084.82,
+          1272.2,
+          1301.91
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.448,
+        "bbox": [
+          1072.58,
+          1072.59,
+          1150.33,
+          1301.44
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "horse": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1702,
+          104,
+          1764,
+          166
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          533,
+          696,
+          599,
+          762
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1453,
+          628,
+          1766,
+          941
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ERQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ERQ-0001-0000-0000.json"
+  }
+}

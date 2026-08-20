@@ -1,0 +1,231 @@
+{
+  "identifier": "NG2102",
+  "full_title": "Buildings and Figures near a River with Shipping",
+  "short_title": "Buildings and Figures near a River with Shipping",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "60.7 × 91.8 cm",
+  "production_date": "1735-43",
+  "brief_description": "A meandering river leads our eye from a working watermill on the right and folk washing clothes at the shoreline towards a jumble of buildings, one with its chimney gently smoking, and the crew of a boat unloading their cargo. As the river curves out of view we come to a peaceful landscape, with trees lining the horizon. The bright sun highlights the details of the buildings and the figure on horseback giving money to a beggar, and contrasts with patches of deep shadow that also guide us through the picture.\n\nLike its companion painting, Buildings and Figures near a River with Rapids, this work was inspired by the Italian countryside, particularly the areas surrounding Michele Marieschi's home city of Venice, where he spent most of his career.",
+  "accession_date": "1906-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by the Misses Cohen as part of the John Samuel collection, 1906",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Michele Marieschi",
+    "birth_date": "1710",
+    "death_date": "1743",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2102-00-000012-web.jpg",
+    "filename": "N-2102-00-000012-web.jpg",
+    "image_key": "N-2102-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1268,
+    "aspect_ratio": 1.5142,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 632455
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1458,
+    "horizontal_lines": 1071,
+    "vertical_lines": 30,
+    "diagonal_lines": 357,
+    "edge_density": 0.0722,
+    "dominant_angles": [
+      0.0,
+      5.9,
+      4.8,
+      8.1,
+      3.2,
+      45.0,
+      3.3,
+      6.8,
+      1.1,
+      6.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      124,
+      126,
+      105
+    ],
+    "mean_color_hex": "#7c7e69",
+    "color_palette": [
+      "#9db0a2",
+      "#372f1f",
+      "#8a998c",
+      "#b8c5b0",
+      "#4b432d",
+      "#717d72",
+      "#5f593f",
+      "#837047",
+      "#a7905c",
+      "#ccb479"
+    ],
+    "unique_colors": 103991,
+    "color_diversity": 0.0427,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 123.74,
+    "contrast_level": "medium",
+    "contrast_value": 0.3833,
+    "dynamic_range": 233,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 28.36,
+    "midtones_percentage": 48.97,
+    "highlights_percentage": 22.67
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.4529,
+        "bbox": [
+          1100.22,
+          1024.96,
+          1153.99,
+          1181.87
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4083,
+        "bbox": [
+          407.37,
+          910.14,
+          464.65,
+          1044.0
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3811,
+        "bbox": [
+          1121.31,
+          1103.82,
+          1228.59,
+          1214.07
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3726,
+        "bbox": [
+          676.77,
+          943.58,
+          776.03,
+          1072.41
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3302,
+        "bbox": [
+          673.73,
+          963.37,
+          780.02,
+          1139.73
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.317,
+        "bbox": [
+          1158.11,
+          1107.78,
+          1228.42,
+          1211.18
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.308,
+        "bbox": [
+          682.85,
+          1019.93,
+          779.23,
+          1139.42
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3074,
+        "bbox": [
+          405.99,
+          908.25,
+          465.39,
+          1044.88
+        ]
+      }
+    ],
+    "object_count": 8,
+    "object_types": {
+      "person": 3,
+      "horse": 5
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          146,
+          1021,
+          212,
+          1087
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          140,
+          1043,
+          214,
+          1117
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GO0-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GO0-0001-0000-0000.json"
+  }
+}

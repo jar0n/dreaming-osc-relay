@@ -1,0 +1,302 @@
+{
+  "identifier": "NG1041",
+  "full_title": "The Dream of Saint Helena",
+  "short_title": "The Dream of Saint Helena",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "197.5 × 115.6 cm",
+  "production_date": "about 1570",
+  "brief_description": "Helen or Helena was mother of the first Christian emperor, Constantine. She dreamed that an angel revealed to her the location of the cross on which Christ was crucified and urged her to travel to the Holy Land to find it. She dug up three crosses and, by testing their healing power, was able to identify Christ's, known as the True Cross.\n\nSaint Helena sits with one foot up on a stone bench in a window alcove, her head resting in her hand, her elbow on the window ledge. As she sleeps, two winged cherubs appear in the sky carrying the True Cross. The deterioration of the pigment smalt has caused the sky to turn from pale blue to yellow-grey.\n\nVeronese’s painting has probably been cropped at the top and bottom. It  was clearly designed to be seen from below, and may have been painted as decoration for an organ shutter, perhaps with a now lost opposite shutter showing Constantine.",
+  "accession_date": "1878-01-01",
+  "current_location": "Room 9, The National Gallery (London)",
+  "credit_line": "Bought, 1878",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Paolo Veronese",
+    "birth_date": "1528",
+    "death_date": "1588",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1041-00-000032-web.jpg",
+    "filename": "N-1041-00-000032-web.jpg",
+    "image_key": "N-1041-00-000032",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3290,
+    "aspect_ratio": 0.5836,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 2047859
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 6013,
+    "horizontal_lines": 192,
+    "vertical_lines": 2585,
+    "diagonal_lines": 3236,
+    "edge_density": 0.1027,
+    "dominant_angles": [
+      -60.8,
+      -45.0,
+      -76.3,
+      -59.0,
+      -65.8,
+      -45.0,
+      69.9,
+      -84.0,
+      -60.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      109,
+      85,
+      63
+    ],
+    "mean_color_hex": "#6d553f",
+    "color_palette": [
+      "#332a21",
+      "#805f43",
+      "#714f37",
+      "#61402b",
+      "#907051",
+      "#4e3022",
+      "#443c31",
+      "#9d8262",
+      "#ab977a",
+      "#c0b094"
+    ],
+    "unique_colors": 56047,
+    "color_diversity": 0.0089,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 90.09,
+    "contrast_level": "low",
+    "contrast_value": 0.2963,
+    "dynamic_range": 220,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 50.88,
+    "midtones_percentage": 45.48,
+    "highlights_percentage": 3.64
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6557,
+        "bbox": [
+          12.95,
+          898.21,
+          1918.87,
+          3286.9
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6392,
+        "bbox": [
+          39.21,
+          2.92,
+          1335.23,
+          815.52
+        ]
+      },
+      {
+        "class": "skateboard",
+        "confidence": 0.3623,
+        "bbox": [
+          473.6,
+          409.96,
+          997.04,
+          1004.95
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 2,
+      "skateboard": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1210,
+          1072,
+          1256,
+          1118
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1262.9,
+          "y": 1042.95,
+          "visibility": 2,
+          "confidence": 0.9742
+        },
+        {
+          "name": "left_eye",
+          "x": 1322.43,
+          "y": 974.99,
+          "visibility": 2,
+          "confidence": 0.973
+        },
+        {
+          "name": "right_eye",
+          "x": 1263.49,
+          "y": 987.61,
+          "visibility": 2,
+          "confidence": 0.6613
+        },
+        {
+          "name": "left_ear",
+          "x": 1489.61,
+          "y": 1024.39,
+          "visibility": 2,
+          "confidence": 0.9458
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0751
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1681.47,
+          "y": 1341.59,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1332.12,
+          "y": 1262.14,
+          "visibility": 2,
+          "confidence": 0.974
+        },
+        {
+          "name": "left_elbow",
+          "x": 1635.18,
+          "y": 1824.51,
+          "visibility": 2,
+          "confidence": 0.9424
+        },
+        {
+          "name": "right_elbow",
+          "x": 1181.85,
+          "y": 1397.19,
+          "visibility": 2,
+          "confidence": 0.9379
+        },
+        {
+          "name": "left_wrist",
+          "x": 1164.57,
+          "y": 1839.2,
+          "visibility": 2,
+          "confidence": 0.9762
+        },
+        {
+          "name": "right_wrist",
+          "x": 1117.02,
+          "y": 1126.42,
+          "visibility": 2,
+          "confidence": 0.953
+        },
+        {
+          "name": "left_hip",
+          "x": 1431.91,
+          "y": 2105.68,
+          "visibility": 2,
+          "confidence": 0.9013
+        },
+        {
+          "name": "right_hip",
+          "x": 1193.11,
+          "y": 2021.41,
+          "visibility": 2,
+          "confidence": 0.9117
+        },
+        {
+          "name": "left_knee",
+          "x": 820.75,
+          "y": 1951.67,
+          "visibility": 2,
+          "confidence": 0.9263
+        },
+        {
+          "name": "right_knee",
+          "x": 531.15,
+          "y": 1895.46,
+          "visibility": 2,
+          "confidence": 0.9169
+        },
+        {
+          "name": "left_ankle",
+          "x": 811.61,
+          "y": 2895.14,
+          "visibility": 2,
+          "confidence": 0.6849
+        },
+        {
+          "name": "right_ankle",
+          "x": 587.61,
+          "y": 2836.68,
+          "visibility": 2,
+          "confidence": 0.6964
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "raised",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -18.09
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FXX-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FXX-0001-0000-0000.json"
+  }
+}

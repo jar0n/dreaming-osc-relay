@@ -1,0 +1,291 @@
+{
+  "identifier": "NG3163",
+  "full_title": "The Sacrifice of Isaac",
+  "short_title": "The Sacrifice of Isaac",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "201.2 × 133.4 cm",
+  "production_date": "probably after 1735",
+  "brief_description": "Piazzetta left this large canvas – probably intended as an altarpiece – unfinished. It depicts the Old Testament story in which Abraham’s faith is tested when he is ordered to sacrifice his only son, Isaac.\n\nWild-eyed, Abraham raises his arm and looks heavenward in despair. His bearded head is amongst the most finished passages of the painting, while the knife he wields has barely been sketched in. Isaac cowers in fear at his side, his torso roughly rendered in pale paint, as an angel intervenes to save him.\n\nIn the early twentieth century, this painting was owned by Roger Fry (1866–1934), the Bloomsbury Group painter and art critic. It seems likely that Fry ‘finished’ the picture, covering much of Piazzetta’s original brushwork. Conservation treatment carried out from 2020 to 2022 removed these additions and revealed that The Sacrifice of Isaac is painted directly on top of another unfinished composition. Piazzetta’s bold handling of paint can now be fully appreciated for the first time in a hundred years.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Sir Robert Witt through the Art Fund, 1917",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Giovanni Battista Piazzetta",
+    "birth_date": "1683",
+    "death_date": "1754",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3163-00-000043-web.jpg",
+    "filename": "N-3163-00-000043-web.jpg",
+    "image_key": "N-3163-00-000043",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2905,
+    "aspect_ratio": 0.6609,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1297522
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 359,
+    "horizontal_lines": 29,
+    "vertical_lines": 178,
+    "diagonal_lines": 152,
+    "edge_density": 0.019,
+    "dominant_angles": [
+      -80.8,
+      82.9,
+      -61.8,
+      -59.0,
+      -58.7,
+      -61.8,
+      -58.2,
+      -62.3,
+      -79.2,
+      -69.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      72,
+      55,
+      42
+    ],
+    "mean_color_hex": "#48372a",
+    "color_palette": [
+      "#392b23",
+      "#43342a",
+      "#2f251f",
+      "#452d21",
+      "#4e3f31",
+      "#523727",
+      "#5d4734",
+      "#6c543d",
+      "#7f664b",
+      "#947d60"
+    ],
+    "unique_colors": 27400,
+    "color_diversity": 0.0049,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.15,
+    "contrast_level": "low",
+    "contrast_value": 0.1424,
+    "dynamic_range": 171,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 90.67,
+    "midtones_percentage": 9.33,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.498,
+        "bbox": [
+          55.51,
+          418.63,
+          1066.45,
+          2249.8
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1212,
+          1867,
+          1262,
+          1917
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          950,
+          1399,
+          1082,
+          1531
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 820.05,
+          "y": 946.63,
+          "visibility": 2,
+          "confidence": 0.8719
+        },
+        {
+          "name": "left_eye",
+          "x": 838.29,
+          "y": 929.88,
+          "visibility": 2,
+          "confidence": 0.7177
+        },
+        {
+          "name": "right_eye",
+          "x": 818.83,
+          "y": 915.25,
+          "visibility": 2,
+          "confidence": 0.6552
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3665
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3496
+        },
+        {
+          "name": "left_shoulder",
+          "x": 806.65,
+          "y": 1009.71,
+          "visibility": 2,
+          "confidence": 0.942
+        },
+        {
+          "name": "right_shoulder",
+          "x": 680.64,
+          "y": 923.27,
+          "visibility": 2,
+          "confidence": 0.9449
+        },
+        {
+          "name": "left_elbow",
+          "x": 690.03,
+          "y": 998.49,
+          "visibility": 2,
+          "confidence": 0.9031
+        },
+        {
+          "name": "right_elbow",
+          "x": 410.19,
+          "y": 834.92,
+          "visibility": 2,
+          "confidence": 0.8693
+        },
+        {
+          "name": "left_wrist",
+          "x": 573.8,
+          "y": 732.44,
+          "visibility": 2,
+          "confidence": 0.9176
+        },
+        {
+          "name": "right_wrist",
+          "x": 229.02,
+          "y": 679.6,
+          "visibility": 2,
+          "confidence": 0.8758
+        },
+        {
+          "name": "left_hip",
+          "x": 594.69,
+          "y": 1288.36,
+          "visibility": 2,
+          "confidence": 0.9923
+        },
+        {
+          "name": "right_hip",
+          "x": 514.64,
+          "y": 1240.07,
+          "visibility": 2,
+          "confidence": 0.9913
+        },
+        {
+          "name": "left_knee",
+          "x": 395.82,
+          "y": 1625.4,
+          "visibility": 2,
+          "confidence": 0.9919
+        },
+        {
+          "name": "right_knee",
+          "x": 356.24,
+          "y": 1569.81,
+          "visibility": 2,
+          "confidence": 0.9896
+        },
+        {
+          "name": "left_ankle",
+          "x": 353.81,
+          "y": 2063.05,
+          "visibility": 2,
+          "confidence": 0.9557
+        },
+        {
+          "name": "right_ankle",
+          "x": 336.28,
+          "y": 2033.12,
+          "visibility": 2,
+          "confidence": 0.9481
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "raised",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -37.26
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G0R-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G0R-0001-0000-0000.json"
+  }
+}

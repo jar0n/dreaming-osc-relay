@@ -1,0 +1,192 @@
+{
+  "identifier": "NG6669",
+  "full_title": "Still Life of Lemons, Day Lilies, Carnations, Roses and a Lemon Blossom in a Wicker Basket, together with a Goldfinch perched on a Porcelain Bowl of Water, on top of a Silver Tray, all arranged upon a Stone Ledge",
+  "short_title": "Still Life with Lemons in a Wicker Basket",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "81.4 × 108.5 cm",
+  "production_date": "about 1643-9",
+  "brief_description": "A wicker basket is piled high with fresh lemons, seemingly just picked from a tree, their leaves still attached. Sprigs of flowers -- lemon blossom, red carnations, blue delphiniums, white roses, day lilies and a tulip -- are scattered throughout the composition.\n\nA goldfinch perches on the edge of a delicate porcelain bowl filled with water, and a single lily floats on the surface. These are almost certainly intended to be symbolic: the water and lily refer to the purity of the Virgin Mary, and the goldfinch is often associated with Christ’s Passion (his torture and crucifixion) and sacrifice.\n\nThis is one of a dozen or so surviving paintings by Juan de Zurbarán, son of the celebrated painter Francisco de Zurbarán. Juan delights in conveying the texture of each object -- coarse lemon rind, waxy leaves, the reflective surface of the silver tazza. In this still life he successfully combines a straightforward design with a remarkably subtle handling of paint.",
+  "accession_date": "2017-10-13",
+  "current_location": "Room 25, The National Gallery (London)",
+  "credit_line": "Bought with the support of the American Friends of the National Gallery, and the National Gallery Trust, 2017",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Juan de Zurbarán",
+    "birth_date": "1620",
+    "death_date": "1649",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6669-00-000059-web.jpg",
+    "filename": "N-6669-00-000059-web.jpg",
+    "image_key": "N-6669-00-000059",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1435,
+    "aspect_ratio": 1.338,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 654118
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1218,
+    "horizontal_lines": 342,
+    "vertical_lines": 53,
+    "diagonal_lines": 823,
+    "edge_density": 0.058,
+    "dominant_angles": [
+      -21.0,
+      -16.8,
+      -23.1,
+      -19.2,
+      -23.0,
+      -22.0,
+      0.0,
+      -18.7,
+      -20.3,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      47,
+      37,
+      22
+    ],
+    "mean_color_hex": "#2f2516",
+    "color_palette": [
+      "#15120c",
+      "#1d1810",
+      "#2c2214",
+      "#3f2d17",
+      "#523b1f",
+      "#5d4c30",
+      "#7b5126",
+      "#97743a",
+      "#726346",
+      "#ab915c"
+    ],
+    "unique_colors": 60920,
+    "color_diversity": 0.0221,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 38.53,
+    "contrast_level": "low",
+    "contrast_value": 0.2273,
+    "dynamic_range": 226,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.02,
+    "midtones_percentage": 8.9,
+    "highlights_percentage": 0.08
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bowl",
+        "confidence": 0.7513,
+        "bbox": [
+          124.96,
+          873.19,
+          417.38,
+          1070.74
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.4081,
+        "bbox": [
+          478.7,
+          567.89,
+          1470.25,
+          1185.96
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.2772,
+        "bbox": [
+          427.45,
+          105.83,
+          1880.7,
+          1202.24
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "bowl": 1,
+      "vase": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          865,
+          525,
+          957,
+          617
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          925,
+          512,
+          1022,
+          609
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          37,
+          970,
+          153,
+          1086
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0NQ7-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0NQ7-0001-0000-0000.json"
+  }
+}

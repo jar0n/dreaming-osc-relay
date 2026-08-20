@@ -1,0 +1,210 @@
+{
+  "identifier": "NG2519",
+  "full_title": "An Architectural Caprice",
+  "short_title": "An Architectural Caprice",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "22.1 × 17.2 cm",
+  "production_date": "probably 1770s",
+  "brief_description": "Although capricci views like this one show scenes that are essentially imaginary, Guardi often used details of real buildings in his. The staircase here is based on the one in the courtyard of the Doge's Palace in Venice, though Guardi has removed some of its statues. He also reduced the size of the square, creating a more intimate space.\n\nA sunlit courtyard lies beyond the dark shadows of the arcade, and the illuminated figures crossing it catch our attention. More figures, suggested by dabs of paint, lead us up the stairs; high above, two people drape a blue cloth over the pale stone. Guardi has shown only part of the right-hand arch, placed at an unusual angle to the dark row of arches on the right and those across the square, so that we feel that the scene continues beyond the picture.",
+  "accession_date": "1910-01-01",
+  "current_location": "Room 33, The National Gallery (London)",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2519-00-000018-web.jpg",
+    "filename": "N-2519-00-000018-web.jpg",
+    "image_key": "N-2519-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2554,
+    "aspect_ratio": 0.7518,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1664670
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 7343,
+    "horizontal_lines": 406,
+    "vertical_lines": 2427,
+    "diagonal_lines": 4510,
+    "edge_density": 0.1593,
+    "dominant_angles": [
+      45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      69.1,
+      45.0,
+      -45.0,
+      -45.0,
+      -58.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      73,
+      66,
+      48
+    ],
+    "mean_color_hex": "#494230",
+    "color_palette": [
+      "#30271a",
+      "#3b3122",
+      "#251d13",
+      "#483e2c",
+      "#5a5036",
+      "#6c6343",
+      "#807753",
+      "#719394",
+      "#9b8f67",
+      "#b4b393"
+    ],
+    "unique_colors": 71628,
+    "color_diversity": 0.0146,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 66.52,
+    "contrast_level": "low",
+    "contrast_value": 0.2726,
+    "dynamic_range": 245,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 73.83,
+    "midtones_percentage": 25.59,
+    "highlights_percentage": 0.59
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7032,
+        "bbox": [
+          1535.29,
+          1920.08,
+          1782.48,
+          2378.87
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6636,
+        "bbox": [
+          1060.04,
+          1919.72,
+          1131.33,
+          2134.61
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6522,
+        "bbox": [
+          929.94,
+          1994.17,
+          1025.28,
+          2192.59
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3833,
+        "bbox": [
+          807.14,
+          1914.16,
+          890.43,
+          2202.96
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2875,
+        "bbox": [
+          485.14,
+          1943.56,
+          527.75,
+          2109.32
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2589,
+        "bbox": [
+          572.97,
+          1920.49,
+          620.75,
+          2032.22
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "person": 6
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          246,
+          1236,
+          310,
+          1300
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          86,
+          638,
+          1354,
+          1906
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FNC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FNC-0001-0000-0000.json"
+  }
+}

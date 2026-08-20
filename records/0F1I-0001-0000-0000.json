@@ -1,0 +1,221 @@
+{
+  "identifier": "NG975",
+  "full_title": "A Stag Hunt",
+  "short_title": "A Stag Hunt",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "75 × 104.2 cm",
+  "production_date": "about 1665",
+  "brief_description": "A group of fashionably dressed aristocrats canter and prance round a stag at bay, threatened by hounds in for the kill. Other riders gallop up or splash through the shallow river to join in the excitement, hat feathers flying and horns whooping. The horses in particular are beautifully painted in Wouwerman's flowing style, skilfully suggesting the speed and noise of the hunt. One of Wouwerman's characteristic white horses leads the chase, ridden by a red-coated man; another carries a woman hunter in an elegant gown, riding side-saddle and holding her hat.\n\nThe hermit outside his rickety cottage high on the hill on the right was perhaps intended as a moral contrast to the leisurely pursuits of the aristocratic hunters. Far from hunting on horseback being a way of feeding a household, it was a privilege reserved for the aristocracy, with severe penalties for anyone encroaching on their rights.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Philips Wouwerman",
+    "birth_date": "1619",
+    "death_date": "1668",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0975-00-000034-web.jpg",
+    "filename": "N-0975-00-000034-web.jpg",
+    "image_key": "N-0975-00-000034",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1367,
+    "aspect_ratio": 1.4045,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 611808
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1513,
+    "horizontal_lines": 209,
+    "vertical_lines": 178,
+    "diagonal_lines": 1126,
+    "edge_density": 0.0594,
+    "dominant_angles": [
+      45.0,
+      -84.5,
+      34.9,
+      33.9,
+      45.0,
+      45.0,
+      33.9,
+      45.0,
+      56.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      89,
+      92,
+      89
+    ],
+    "mean_color_hex": "#595c59",
+    "color_palette": [
+      "#322e26",
+      "#423f37",
+      "#201b15",
+      "#646662",
+      "#6d7579",
+      "#52544e",
+      "#6d899e",
+      "#8a8b86",
+      "#a29e96",
+      "#8c9eaa"
+    ],
+    "unique_colors": 42272,
+    "color_diversity": 0.0161,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 91.27,
+    "contrast_level": "medium",
+    "contrast_value": 0.331,
+    "dynamic_range": 206,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 45.64,
+    "midtones_percentage": 53.33,
+    "highlights_percentage": 1.03
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.5547,
+        "bbox": [
+          1203.22,
+          1064.56,
+          1368.31,
+          1243.94
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4784,
+        "bbox": [
+          1387.9,
+          929.98,
+          1520.6,
+          1093.63
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3472,
+        "bbox": [
+          1538.67,
+          909.6,
+          1618.54,
+          981.94
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3131,
+        "bbox": [
+          1200.66,
+          1065.75,
+          1319.82,
+          1242.19
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3035,
+        "bbox": [
+          1490.72,
+          870.6,
+          1537.78,
+          974.48
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3006,
+        "bbox": [
+          690.92,
+          948.54,
+          748.15,
+          1065.52
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "horse": 3,
+      "person": 3
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          670,
+          574,
+          737,
+          641
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1016,
+          597,
+          1111,
+          692
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          828,
+          365,
+          1007,
+          544
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F1I-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F1I-0001-0000-0000.json"
+  }
+}

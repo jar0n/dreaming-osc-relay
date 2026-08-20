@@ -1,0 +1,281 @@
+{
+  "identifier": "NG6319",
+  "full_title": "A Bather",
+  "short_title": "A Bather",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "39.4 × 29.2 cm",
+  "production_date": "probably 1885-90",
+  "brief_description": "Before the 1880s Renoir painted very few nudes. But the artist’s journey to Italy in 1881, where he was absorbed by Roman sculpture and Renaissance painting, rekindled his interest and he began painting them far more often. This small and intimate picture is probably one of a series made during the second half of the 1880s. Renoir has added some recognisably contemporary touches, such as the striped fabric of the towel or the discarded dress that the model is sitting on, and the fact that her hair, which she is fixing (or unfixing), is in one of the fashions of the time. But by showing the figure seated on a rock by a pool or a stream -- suggested by the flash of bright blue on the left-hand side of the picture -- rather than a contemporary interior, he was reflecting the longer tradition of classical nudes.",
+  "accession_date": "1961-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Sir Antony and Lady Hornby, 1961",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Pierre-Auguste Renoir",
+    "birth_date": "1841",
+    "death_date": "1919",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6319-00-000007-web.jpg",
+    "filename": "N-6319-00-000007-web.jpg",
+    "image_key": "N-6319-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2572,
+    "aspect_ratio": 0.7465,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1248976
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1440,
+    "horizontal_lines": 371,
+    "vertical_lines": 608,
+    "diagonal_lines": 461,
+    "edge_density": 0.0432,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -89.3,
+      -89.0,
+      88.9,
+      -89.1,
+      -89.2,
+      -90.0,
+      -90.0,
+      89.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      98,
+      93,
+      67
+    ],
+    "mean_color_hex": "#625d43",
+    "color_palette": [
+      "#464834",
+      "#55563e",
+      "#544f32",
+      "#665c38",
+      "#63634a",
+      "#796b4a",
+      "#363b2e",
+      "#a08a6d",
+      "#8c7a5c",
+      "#ae9e86"
+    ],
+    "unique_colors": 68986,
+    "color_diversity": 0.014,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 92.03,
+    "contrast_level": "low",
+    "contrast_value": 0.2025,
+    "dynamic_range": 206,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 47.29,
+    "midtones_percentage": 52.21,
+    "highlights_percentage": 0.5
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7633,
+        "bbox": [
+          99.08,
+          178.73,
+          1685.78,
+          2416.7
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1137,
+          1856,
+          1217,
+          1936
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 668.01,
+          "y": 588.9,
+          "visibility": 2,
+          "confidence": 0.8977
+        },
+        {
+          "name": "left_eye",
+          "x": 684.59,
+          "y": 544.74,
+          "visibility": 2,
+          "confidence": 0.9635
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0878
+        },
+        {
+          "name": "left_ear",
+          "x": 810.98,
+          "y": 533.38,
+          "visibility": 2,
+          "confidence": 0.973
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0121
+        },
+        {
+          "name": "left_shoulder",
+          "x": 826.5,
+          "y": 673.5,
+          "visibility": 2,
+          "confidence": 0.9908
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1040.67,
+          "y": 708.79,
+          "visibility": 2,
+          "confidence": 0.804
+        },
+        {
+          "name": "left_elbow",
+          "x": 503.54,
+          "y": 644.38,
+          "visibility": 2,
+          "confidence": 0.9911
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3639
+        },
+        {
+          "name": "left_wrist",
+          "x": 488.13,
+          "y": 461.1,
+          "visibility": 2,
+          "confidence": 0.9772
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.475
+        },
+        {
+          "name": "left_hip",
+          "x": 1070.19,
+          "y": 1410.71,
+          "visibility": 2,
+          "confidence": 0.9939
+        },
+        {
+          "name": "right_hip",
+          "x": 1198.64,
+          "y": 1402.92,
+          "visibility": 2,
+          "confidence": 0.9673
+        },
+        {
+          "name": "left_knee",
+          "x": 468.58,
+          "y": 1528.09,
+          "visibility": 2,
+          "confidence": 0.9976
+        },
+        {
+          "name": "right_knee",
+          "x": 607.02,
+          "y": 1550.49,
+          "visibility": 2,
+          "confidence": 0.9829
+        },
+        {
+          "name": "left_ankle",
+          "x": 720.21,
+          "y": 2104.25,
+          "visibility": 2,
+          "confidence": 0.9853
+        },
+        {
+          "name": "right_ankle",
+          "x": 727.18,
+          "y": 2131.21,
+          "visibility": 2,
+          "confidence": 0.9528
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "raised",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 18.29
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EG9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EG9-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "identifier": "NG3862",
+  "full_title": "Van Gogh's Chair",
+  "short_title": "Van Gogh's Chair",
+  "object_name": "Picture",
+  "style": "post-Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "91.8 × 73 cm",
+  "production_date": "1888",
+  "brief_description": "This painting of a simple chair set on a bare floor of terracotta tiles is one of Van Gogh’s most iconic images. It was painted in late 1888, soon after fellow artist Paul Gauguin had joined him in Arles in the south of France. The picture was a pair to another painting, Gauguin’s Chair (Van Gogh Museum, Amsterdam). They were to be hung together, with one chair turned to the right, the other to the left.\n\nBoth chairs function as surrogate portraits, representing the personalities and distinct artistic outlooks of the two artists. While Van Gogh's chair is simple and functional, Gauguin’s is an elegant and finely carved armchair. Van Gogh’s chair, on which he placed his pipe and tobacco, is shown in bright daylight. Gauguin’s, with two novels on its seat, was painted at night and is illuminated by a candle and gas light.",
+  "accession_date": "1924-01-01",
+  "current_location": "Room 43, The National Gallery (London)",
+  "credit_line": "Bought, Courtauld Fund, 1924",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Vincent van Gogh",
+    "birth_date": "1853",
+    "death_date": "1890",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3862-00-000042-web.jpg",
+    "filename": "N-3862-00-000042-web.jpg",
+    "image_key": "N-3862-00-000042",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2463,
+    "aspect_ratio": 0.7795,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1435257
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3150,
+    "horizontal_lines": 72,
+    "vertical_lines": 1425,
+    "diagonal_lines": 1653,
+    "edge_density": 0.1073,
+    "dominant_angles": [
+      -88.1,
+      79.9,
+      -72.8,
+      45.0,
+      88.4,
+      53.2,
+      45.0,
+      87.0,
+      45.0,
+      81.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      124,
+      128,
+      86
+    ],
+    "mean_color_hex": "#7c8056",
+    "color_palette": [
+      "#706238",
+      "#837842",
+      "#4e7066",
+      "#92965a",
+      "#608479",
+      "#5c4b32",
+      "#8aab8a",
+      "#a1bca3",
+      "#a09736",
+      "#bebc5f"
+    ],
+    "unique_colors": 199931,
+    "color_diversity": 0.0423,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 122.09,
+    "contrast_level": "low",
+    "contrast_value": 0.236,
+    "dynamic_range": 229,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 6.79,
+    "midtones_percentage": 84.12,
+    "highlights_percentage": 9.09
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "chair",
+        "confidence": 0.4708,
+        "bbox": [
+          342.31,
+          104.97,
+          1589.98,
+          2408.55
+        ]
+      },
+      {
+        "class": "bed",
+        "confidence": 0.275,
+        "bbox": [
+          347.29,
+          100.71,
+          1597.49,
+          2327.26
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "chair": 1,
+      "bed": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          281,
+          709,
+          349,
+          777
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          967,
+          1132,
+          1022,
+          1187
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1008,
+          522,
+          1075,
+          589
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          626,
+          1165,
+          716,
+          1255
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          410,
+          1755,
+          508,
+          1853
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          419,
+          1782,
+          538,
+          1901
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0DDQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0DDQ-0001-0000-0000.json"
+  }
+}

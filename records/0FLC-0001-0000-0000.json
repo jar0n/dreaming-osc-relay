@@ -1,0 +1,221 @@
+{
+  "identifier": "NG1058",
+  "full_title": "Venice: Entrance to the Cannaregio",
+  "short_title": "Venice: Entrance to the Cannaregio",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "48 × 80.2 cm",
+  "production_date": "probably 1734-42",
+  "brief_description": "Gondolas glide across the water, passing fishing boats which direct our gaze towards the mouth of the Cannaregio Canal, Venice's largest waterway after the Grand Canal.\n\nThe Ponte delle Guglie (‘bridge of the obelisks’) spans the water. We can just make out the tiny silhouettes of people crossing it, while others emerge into the sunlight along the waterfront. Beyond this is an area known as the ghetto, where, from the early sixteenth century, the Jewish population was forced by decree to live.\n\nCanaletto altered the view to make a more dramatic composition: the facade of the house on the far right is at a sharper angle here than in reality, the bridge is closer to us and the Cannaregio more open, making it easier to see the buildings on both sides. Canaletto's scenes from the late 1730s tend to have have a cooler, more wintry light, which we can see here -- especially in the wispy pink clouds.",
+  "accession_date": "1879-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by John Henderson, 1879",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Canaletto",
+    "birth_date": "1697",
+    "death_date": "1768",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1058-00-000018-web.jpg",
+    "filename": "N-1058-00-000018-web.jpg",
+    "image_key": "N-1058-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1120,
+    "aspect_ratio": 1.7143,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 566769
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1476,
+    "horizontal_lines": 1144,
+    "vertical_lines": 137,
+    "diagonal_lines": 195,
+    "edge_density": 0.0864,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.6,
+      0.0,
+      -3.4,
+      -2.1,
+      6.6,
+      1.9,
+      0.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      118,
+      121,
+      109
+    ],
+    "mean_color_hex": "#76796d",
+    "color_palette": [
+      "#859496",
+      "#698489",
+      "#9d9f9e",
+      "#4b4534",
+      "#4e6457",
+      "#8d7a59",
+      "#302d24",
+      "#6f5f44",
+      "#b09771",
+      "#c4af96"
+    ],
+    "unique_colors": 85965,
+    "color_diversity": 0.04,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 119.07,
+    "contrast_level": "medium",
+    "contrast_value": 0.3021,
+    "dynamic_range": 204,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 22.19,
+    "midtones_percentage": 72.77,
+    "highlights_percentage": 5.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.4811,
+        "bbox": [
+          1081.37,
+          873.04,
+          1123.58,
+          970.92
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4792,
+        "bbox": [
+          1269.66,
+          877.64,
+          1304.81,
+          965.94
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4534,
+        "bbox": [
+          802.31,
+          881.32,
+          892.4,
+          913.84
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4181,
+        "bbox": [
+          29.1,
+          947.91,
+          96.17,
+          1071.04
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3879,
+        "bbox": [
+          935.97,
+          926.59,
+          1353.09,
+          1014.75
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2816,
+        "bbox": [
+          1564.64,
+          913.04,
+          1917.89,
+          1076.76
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2672,
+        "bbox": [
+          1016.17,
+          909.66,
+          1050.86,
+          983.0
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2656,
+        "bbox": [
+          44.93,
+          975.84,
+          88.51,
+          1075.15
+        ]
+      }
+    ],
+    "object_count": 8,
+    "object_types": {
+      "person": 5,
+      "boat": 3
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          371,
+          529,
+          436,
+          594
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FLC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FLC-0001-0000-0000.json"
+  }
+}

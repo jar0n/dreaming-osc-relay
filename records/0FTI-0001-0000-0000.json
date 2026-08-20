@@ -1,0 +1,210 @@
+{
+  "identifier": "NG1206",
+  "full_title": "Mountainous Landscape with Figures",
+  "short_title": "Mountainous Landscape with Figures",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "76.5 × 111.5 cm",
+  "production_date": "after 17th century",
+  "brief_description": "Salvator Rosa's dramatic late landscapes presented nature as wild and dangerous, and were filled with striking effects of broken light, jagged trees and remote signs of civilisation. This picture is thought to be by an imitator working in Rosa's style during the late seventeenth century: it lacks the rich colouring and the variety and clarity of detail for which Rosa was celebrated in Rome during the 1650s and 1660s.\n\nThe figures in this picture appear to derive from Rosa's The Crucifixion of Polycrates (The Art Institute of Chicago), painted around 1664, where a group is shown recoiling in horror on seeing Polycrates' withered and limp body. Here, something or someone just out of view to the right of the picture has caught their attention. High on the side of a rocky hill are more figures eager to take a look.",
+  "accession_date": "1886-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Mrs F.L. Ricketts, 1886",
+  "associated_concepts": "Italian (Neapolitan)",
+  "creator": {
+    "name": "Salvator Rosa",
+    "birth_date": "1615",
+    "death_date": "1673",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1206-00-000012-web.jpg",
+    "filename": "N-1206-00-000012-web.jpg",
+    "image_key": "N-1206-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1292,
+    "aspect_ratio": 1.4861,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 593858
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 561,
+    "horizontal_lines": 210,
+    "vertical_lines": 40,
+    "diagonal_lines": 311,
+    "edge_density": 0.0425,
+    "dominant_angles": [
+      23.9,
+      0.0,
+      19.3,
+      22.9,
+      19.9,
+      21.0,
+      18.1,
+      22.5,
+      23.0,
+      21.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      83,
+      73,
+      49
+    ],
+    "mean_color_hex": "#534931",
+    "color_palette": [
+      "#352c20",
+      "#423724",
+      "#282119",
+      "#51432a",
+      "#615332",
+      "#8c825c",
+      "#73653d",
+      "#747057",
+      "#a09468",
+      "#bdab72"
+    ],
+    "unique_colors": 37920,
+    "color_diversity": 0.0153,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 73.53,
+    "contrast_level": "low",
+    "contrast_value": 0.2761,
+    "dynamic_range": 204,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 69.07,
+    "midtones_percentage": 30.11,
+    "highlights_percentage": 0.81
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7018,
+        "bbox": [
+          722.85,
+          988.38,
+          784.0,
+          1083.98
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5899,
+        "bbox": [
+          607.96,
+          947.4,
+          705.28,
+          1095.9
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5679,
+        "bbox": [
+          1424.83,
+          931.36,
+          1491.19,
+          1036.04
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5009,
+        "bbox": [
+          1858.84,
+          891.81,
+          1919.38,
+          1275.97
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3363,
+        "bbox": [
+          1490.72,
+          975.91,
+          1554.0,
+          1069.71
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.316,
+        "bbox": [
+          1233.74,
+          950.56,
+          1315.45,
+          1203.07
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2708,
+        "bbox": [
+          1236.54,
+          972.22,
+          1294.14,
+          1206.77
+        ]
+      }
+    ],
+    "object_count": 7,
+    "object_types": {
+      "person": 7
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1432,
+          960,
+          1504,
+          1032
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FTI-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FTI-0001-0000-0000.json"
+  }
+}

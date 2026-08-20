@@ -1,0 +1,281 @@
+{
+  "identifier": "NG3239",
+  "full_title": "A Peasant Woman",
+  "short_title": "A Peasant Woman",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "31.8 × 29.2 cm",
+  "production_date": "before 1913",
+  "brief_description": "In this pensive study, a woman is dressed in traditional Italian costume. Her distinctive headdress is a tovaglia, a piece of folded linen or other cloth worn flat on the head and covering the neck. With increased Italian migration to France from the middle of the nineteenth century, the subject of women wearing picturesque dress became popular among French artists, Corot included.\n\nAlthough this painting entered the National Gallery's collection as a work by Corot himself, it is now thought to be by an imitator. The restrained colours and thin application of paint contrast with Corot’s juxtapositions of bright colour in his own late portrayals of women. This work probably dates from the early years of the twentieth century, a period when the appeal of Corot’s late silvery landscapes was on the wane, and the demand for his late figure paintings was on the rise.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display, Dublin City Gallery The Hugh Lane",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "Dublin City Gallery The Hugh Lane",
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3239-00-000025-web.jpg",
+    "filename": "N-3239-00-000025-web.jpg",
+    "image_key": "N-3239-00-000025",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2075,
+    "aspect_ratio": 0.9253,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 996472
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1700,
+    "horizontal_lines": 41,
+    "vertical_lines": 504,
+    "diagonal_lines": 1155,
+    "edge_density": 0.0546,
+    "dominant_angles": [
+      76.0,
+      89.1,
+      71.4,
+      75.0,
+      -83.2,
+      69.2,
+      76.9,
+      70.6,
+      78.1,
+      74.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      71,
+      61,
+      45
+    ],
+    "mean_color_hex": "#473d2d",
+    "color_palette": [
+      "#534834",
+      "#4b402d",
+      "#22201c",
+      "#2b2924",
+      "#5d503b",
+      "#413626",
+      "#38291d",
+      "#705c43",
+      "#836e50",
+      "#988669"
+    ],
+    "unique_colors": 23677,
+    "color_diversity": 0.0059,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 62.51,
+    "contrast_level": "low",
+    "contrast_value": 0.1721,
+    "dynamic_range": 195,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 88.47,
+    "midtones_percentage": 11.51,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8831,
+        "bbox": [
+          28.62,
+          183.89,
+          1723.53,
+          2075.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          643,
+          334,
+          1192,
+          883
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 935.31,
+          "y": 664.94,
+          "visibility": 2,
+          "confidence": 0.9985
+        },
+        {
+          "name": "left_eye",
+          "x": 1029.66,
+          "y": 541.22,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "right_eye",
+          "x": 841.82,
+          "y": 568.79,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "left_ear",
+          "x": 1198.48,
+          "y": 584.84,
+          "visibility": 2,
+          "confidence": 0.9593
+        },
+        {
+          "name": "right_ear",
+          "x": 744.31,
+          "y": 635.77,
+          "visibility": 2,
+          "confidence": 0.8248
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1386.78,
+          "y": 1155.1,
+          "visibility": 2,
+          "confidence": 0.9697
+        },
+        {
+          "name": "right_shoulder",
+          "x": 506.35,
+          "y": 1156.95,
+          "visibility": 2,
+          "confidence": 0.9941
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2682
+        },
+        {
+          "name": "right_elbow",
+          "x": 111.53,
+          "y": 1757.92,
+          "visibility": 2,
+          "confidence": 0.6613
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3863
+        },
+        {
+          "name": "right_wrist",
+          "x": 608.49,
+          "y": 1881.33,
+          "visibility": 2,
+          "confidence": 0.6413
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0236
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0451
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0017
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0035
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0014
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GMW-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GMW-0001-0000-0000.json"
+  }
+}

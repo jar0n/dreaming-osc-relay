@@ -1,0 +1,291 @@
+{
+  "identifier": "NG6707",
+  "full_title": "King David",
+  "short_title": "King David",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "223.5 × 170.2 cm",
+  "production_date": "1651",
+  "brief_description": "King David was a biblical warrior king and musician, who is credited with writing several Psalms in the Old Testament. Here, David is not young but not yet old. He looks at a tablet inscribed with a line from a Psalm: ‘Glorious things of thee are spoken, O City of God’ (GLORIOSA / DICTA SVNT / DE TE CIVITAS / DEI). The luminous colouring and complex psychology exemplify Guercino’s achievements as a mature painter.\n\nThe painting was commissioned in 1651 by Giuseppe Locatelli of Cesena, together with a painting of one of the ancient Sibyls. David and the Sibyls were considered prophets of the coming of Christ. The original pendant to King David, the Cumaean Sibyl with a Putto (National Gallery), was replaced by a second Samian Sibyl with a Putto (also National Gallery). King David and the Samian Sibyl have hung together for centuries, first in Cesena then in Spencer House, London.",
+  "accession_date": "2025-03-27",
+  "current_location": "Room 32, The National Gallery (London)",
+  "credit_line": "Accepted in lieu of Inheritance Tax by HM Government and allocated to the National Gallery, 2025",
+  "associated_concepts": "Italian (Bolognese)",
+  "creator": {
+    "name": "Guercino",
+    "birth_date": "1591",
+    "death_date": "1666",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6707-00-000003-web.jpg",
+    "filename": "N-6707-00-000003-web.jpg",
+    "image_key": "N-6707-00-000003",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2402,
+    "aspect_ratio": 0.7993,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1086975
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3098,
+    "horizontal_lines": 1529,
+    "vertical_lines": 1421,
+    "diagonal_lines": 148,
+    "edge_density": 0.1059,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      88.1,
+      -90.0,
+      88.9,
+      88.0,
+      -87.8,
+      88.0,
+      -90.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      102,
+      81,
+      60
+    ],
+    "mean_color_hex": "#66513c",
+    "color_palette": [
+      "#3b2f23",
+      "#573c29",
+      "#2a221b",
+      "#6c492e",
+      "#805c38",
+      "#997747",
+      "#fefefe",
+      "#827155",
+      "#ae9161",
+      "#dab97d"
+    ],
+    "unique_colors": 80627,
+    "color_diversity": 0.0175,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 85.66,
+    "contrast_level": "medium",
+    "contrast_value": 0.427,
+    "dynamic_range": 255,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 63.74,
+    "midtones_percentage": 28.9,
+    "highlights_percentage": 7.36
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.477,
+        "bbox": [
+          348.25,
+          596.32,
+          1632.67,
+          2160.5
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1174,
+          1249,
+          1252,
+          1327
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          894,
+          739,
+          1063,
+          908
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 987.06,
+          "y": 838.38,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "left_eye",
+          "x": 1016.36,
+          "y": 803.38,
+          "visibility": 2,
+          "confidence": 0.9592
+        },
+        {
+          "name": "right_eye",
+          "x": 948.88,
+          "y": 795.46,
+          "visibility": 2,
+          "confidence": 0.9965
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3064
+        },
+        {
+          "name": "right_ear",
+          "x": 855.69,
+          "y": 784.4,
+          "visibility": 2,
+          "confidence": 0.9826
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1122.53,
+          "y": 1009.33,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "right_shoulder",
+          "x": 723.62,
+          "y": 935.15,
+          "visibility": 2,
+          "confidence": 0.9995
+        },
+        {
+          "name": "left_elbow",
+          "x": 1329.95,
+          "y": 1191.77,
+          "visibility": 2,
+          "confidence": 0.9432
+        },
+        {
+          "name": "right_elbow",
+          "x": 489.47,
+          "y": 1059.6,
+          "visibility": 2,
+          "confidence": 0.9947
+        },
+        {
+          "name": "left_wrist",
+          "x": 1431.55,
+          "y": 1331.51,
+          "visibility": 2,
+          "confidence": 0.9257
+        },
+        {
+          "name": "right_wrist",
+          "x": 651.45,
+          "y": 1158.13,
+          "visibility": 2,
+          "confidence": 0.9881
+        },
+        {
+          "name": "left_hip",
+          "x": 1057.63,
+          "y": 1523.97,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "right_hip",
+          "x": 815.72,
+          "y": 1498.7,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_knee",
+          "x": 948.96,
+          "y": 1671.84,
+          "visibility": 2,
+          "confidence": 0.9936
+        },
+        {
+          "name": "right_knee",
+          "x": 736.14,
+          "y": 1637.97,
+          "visibility": 2,
+          "confidence": 0.9971
+        },
+        {
+          "name": "left_ankle",
+          "x": 841.91,
+          "y": 1914.78,
+          "visibility": 2,
+          "confidence": 0.9573
+        },
+        {
+          "name": "right_ankle",
+          "x": 672.05,
+          "y": 1887.18,
+          "visibility": 2,
+          "confidence": 0.9717
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -7.19
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0KAG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0KAG-0001-0000-0000.json"
+  }
+}

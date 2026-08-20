@@ -1,0 +1,200 @@
+{
+  "identifier": "NG1878",
+  "full_title": "Cattle",
+  "short_title": "Cattle",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on wood",
+  "dimensions": "46.4 × 61 cm",
+  "production_date": "1794",
+  "brief_description": "Two elegantly curved birch trees frame this harmoniously composed painting. A herdsman lazily contemplates three large oxen from behind a fence, their stillness contrasted with the large rolling clouds above.\n\nSchweickhardt trained in The Hague, Holland, before settling in England; he moved to London in 1787. He made a number of paintings of cattle inspired by Dutch artists of the seventeenth century, particularly Aelbert Cuyp. This may be the painting entitled 'Cattle' that was exhibited by the artist at the Royal Academy in 1794.",
+  "accession_date": "1852-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Mrs S.F. Hodges, 1852",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Heinrich Wilhelm Schweickhardt",
+    "birth_date": "1746",
+    "death_date": "1797",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1878-00-000028-web.jpg",
+    "filename": "N-1878-00-000028-web.jpg",
+    "image_key": "N-1878-00-000028",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1462,
+    "aspect_ratio": 1.3133,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 592096
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 733,
+    "horizontal_lines": 174,
+    "vertical_lines": 105,
+    "diagonal_lines": 454,
+    "edge_density": 0.0378,
+    "dominant_angles": [
+      -1.1,
+      -1.0,
+      45.0,
+      -22.8,
+      -16.0,
+      -15.8,
+      -6.0,
+      -45.0,
+      -45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      128,
+      105,
+      87
+    ],
+    "mean_color_hex": "#806957",
+    "color_palette": [
+      "#502f19",
+      "#aea99e",
+      "#654124",
+      "#a6978c",
+      "#96847a",
+      "#362011",
+      "#bdb2a3",
+      "#785637",
+      "#7f6c61",
+      "#9a7649"
+    ],
+    "unique_colors": 66205,
+    "color_diversity": 0.0236,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 110.51,
+    "contrast_level": "medium",
+    "contrast_value": 0.389,
+    "dynamic_range": 209,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 40.21,
+    "midtones_percentage": 43.53,
+    "highlights_percentage": 16.26
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.9022,
+        "bbox": [
+          598.66,
+          812.22,
+          1221.49,
+          1179.64
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.8478,
+        "bbox": [
+          1108.59,
+          606.26,
+          1637.74,
+          1049.64
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.7654,
+        "bbox": [
+          337.5,
+          966.06,
+          576.33,
+          1296.76
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.5241,
+        "bbox": [
+          1072.43,
+          823.48,
+          1400.98,
+          1165.65
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3544,
+        "bbox": [
+          498.91,
+          903.52,
+          555.64,
+          931.31
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3431,
+        "bbox": [
+          1230.53,
+          829.32,
+          1401.24,
+          1094.44
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "cow": 6
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          147,
+          301,
+          346,
+          500
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G7R-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G7R-0001-0000-0000.json"
+  }
+}

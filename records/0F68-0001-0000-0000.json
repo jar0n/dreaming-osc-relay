@@ -1,0 +1,292 @@
+{
+  "identifier": "NG6564",
+  "full_title": "Italian Landscape",
+  "short_title": "Italian Landscape",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "47.8 × 68.4 cm",
+  "production_date": "1811",
+  "brief_description": "At the centre of the composition stands a building with four arches, the third of which leads to a furnace.  In the foreground, a cart laden with fuel and drawn by two oxen is led by a man wearing a classical tunic. Smoke pours out of the vents in the tiled roof and the rolling storm clouds at the left give way to rosy sky at the right.\n\nWhile this is an ideal landscape painted in the studio, the scenery is based on the heavily wooded hilly region around the thermal town of Bagni di Lucca, to the north-west of Florence, where Fabre spent much of his life from 1793. He made numerous sketching expeditions in this area. It has been suggested that the central building is a charcoal burner, but it is more likely to represent a lime kiln or a furnace for smelting iron ore.",
+  "accession_date": "1996-07-13",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs Linda Murray in memory of her husband Peter Murray through the Art Fund, 1996",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "François-Xavier Fabre",
+    "birth_date": "1766",
+    "death_date": "1837",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6564-00-000024-web.jpg",
+    "filename": "N-6564-00-000024-web.jpg",
+    "image_key": "N-6564-00-000024",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1335,
+    "aspect_ratio": 1.4382,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 675731
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1221,
+    "horizontal_lines": 424,
+    "vertical_lines": 87,
+    "diagonal_lines": 710,
+    "edge_density": 0.0694,
+    "dominant_angles": [
+      45.0,
+      45.0,
+      43.1,
+      45.0,
+      82.5,
+      -70.9,
+      45.0,
+      -60.8,
+      44.4,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      70,
+      57,
+      40
+    ],
+    "mean_color_hex": "#463928",
+    "color_palette": [
+      "#312819",
+      "#251d11",
+      "#40321a",
+      "#3c372b",
+      "#524225",
+      "#bd917c",
+      "#50493c",
+      "#75655c",
+      "#6e5736",
+      "#957463"
+    ],
+    "unique_colors": 54163,
+    "color_diversity": 0.0211,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.69,
+    "contrast_level": "low",
+    "contrast_value": 0.2609,
+    "dynamic_range": 175,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 82.6,
+    "midtones_percentage": 17.35,
+    "highlights_percentage": 0.05
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "giraffe",
+        "confidence": 0.7084,
+        "bbox": [
+          988.11,
+          1001.88,
+          1123.64,
+          1192.14
+        ]
+      },
+      {
+        "class": "train",
+        "confidence": 0.5102,
+        "bbox": [
+          839.77,
+          742.89,
+          1385.2,
+          969.35
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "giraffe": 1,
+      "train": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          818,
+          182,
+          868,
+          232
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2206
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3391
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0459
+        },
+        {
+          "name": "left_ear",
+          "x": 1832.08,
+          "y": 607.2,
+          "visibility": 2,
+          "confidence": 0.7633
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0801
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1832.35,
+          "y": 668.72,
+          "visibility": 2,
+          "confidence": 0.949
+        },
+        {
+          "name": "right_shoulder",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4927
+        },
+        {
+          "name": "left_elbow",
+          "x": 1823.11,
+          "y": 758.56,
+          "visibility": 2,
+          "confidence": 0.8839
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.123
+        },
+        {
+          "name": "left_wrist",
+          "x": 1804.14,
+          "y": 831.04,
+          "visibility": 2,
+          "confidence": 0.6998
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1176
+        },
+        {
+          "name": "left_hip",
+          "x": 1843.41,
+          "y": 811.95,
+          "visibility": 2,
+          "confidence": 0.9247
+        },
+        {
+          "name": "right_hip",
+          "x": 1874.27,
+          "y": 806.97,
+          "visibility": 2,
+          "confidence": 0.7307
+        },
+        {
+          "name": "left_knee",
+          "x": 1842.03,
+          "y": 927.62,
+          "visibility": 2,
+          "confidence": 0.8694
+        },
+        {
+          "name": "right_knee",
+          "x": 1863.19,
+          "y": 922.94,
+          "visibility": 2,
+          "confidence": 0.6174
+        },
+        {
+          "name": "left_ankle",
+          "x": 1862.14,
+          "y": 1039.18,
+          "visibility": 2,
+          "confidence": 0.7134
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4978
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "unknown",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": 4.42
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F68-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F68-0001-0000-0000.json"
+  }
+}

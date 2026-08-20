@@ -1,0 +1,281 @@
+{
+  "identifier": "NG968",
+  "full_title": "Portrait of a Young Woman",
+  "short_title": "Portrait of a Young Woman",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "14.5 × 11.7 cm",
+  "production_date": "about 1655",
+  "brief_description": "This painting has in the past been described as a portrait of the painter’s wife, but we now know Gerrit Dou never married. Perhaps it was something about the intimacy and sensitivity of this tiny image which led people to assume that there was a relationship between the artist and the sitter.\n\nThough we will probably never know the name of the subject, we can tell she comes from a wealthy family. She is wearing teardrop pearl earrings as well as a pearl necklace -- jewellery which was fashionable, coveted and expensive at the time. Otherwise, however, she is dressed informally in an open-necked blouse and a fur-trimmed jacket which, though a sign of wealth, was commonly worn by women in the home. Dou specialised in minutely painted scenes of everyday life, and produced a small number of tiny portraits such as this.",
+  "accession_date": "1876-01-01",
+  "current_location": "Room 15a, The National Gallery (London)",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Gerrit Dou",
+    "birth_date": "1613",
+    "death_date": "1675",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0968-00-000023-web-g.jpg",
+    "filename": "N-0968-00-000023-web-g.jpg",
+    "image_key": "N-0968-00-000023",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2339,
+    "aspect_ratio": 0.8209,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 621854
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 912,
+    "horizontal_lines": 112,
+    "vertical_lines": 246,
+    "diagonal_lines": 554,
+    "edge_density": 0.027,
+    "dominant_angles": [
+      -27.0,
+      -45.0,
+      -28.9,
+      -45.0,
+      -29.0,
+      -37.3,
+      -31.0,
+      -30.0,
+      -45.0,
+      -23.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      72,
+      67,
+      59
+    ],
+    "mean_color_hex": "#48433b",
+    "color_palette": [
+      "#463f34",
+      "#3b3c3f",
+      "#3a342a",
+      "#2e2921",
+      "#5f5040",
+      "#8a7d6b",
+      "#9c9181",
+      "#7f674d",
+      "#6a655c",
+      "#b1a99b"
+    ],
+    "unique_colors": 25818,
+    "color_diversity": 0.0057,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 68.01,
+    "contrast_level": "low",
+    "contrast_value": 0.2087,
+    "dynamic_range": 217,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 85.07,
+    "midtones_percentage": 14.15,
+    "highlights_percentage": 0.78
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6591,
+        "bbox": [
+          503.9,
+          368.66,
+          1843.1,
+          2296.89
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          690,
+          558,
+          1225,
+          1093
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 915.91,
+          "y": 881.84,
+          "visibility": 2,
+          "confidence": 0.9978
+        },
+        {
+          "name": "left_eye",
+          "x": 1046.7,
+          "y": 776.37,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "right_eye",
+          "x": 846.1,
+          "y": 772.87,
+          "visibility": 2,
+          "confidence": 0.9881
+        },
+        {
+          "name": "left_ear",
+          "x": 1274.7,
+          "y": 831.77,
+          "visibility": 2,
+          "confidence": 0.982
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3962
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1495.55,
+          "y": 1389.19,
+          "visibility": 2,
+          "confidence": 0.9519
+        },
+        {
+          "name": "right_shoulder",
+          "x": 652.98,
+          "y": 1320.51,
+          "visibility": 2,
+          "confidence": 0.9861
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1562
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4997
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.17
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4008
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0363
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0761
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0021
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0047
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FD9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FD9-0001-0000-0000.json"
+  }
+}

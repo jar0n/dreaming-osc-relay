@@ -1,0 +1,161 @@
+{
+  "identifier": "NG6325",
+  "full_title": "Autumn Evening",
+  "short_title": "Autumn Evening",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "116.8 × 160 cm",
+  "production_date": "1894",
+  "brief_description": "The sombre colours and dying glow of the evening light in this rustic landscape evoke autumn, the inevitable passage of time and a certain melancholy. Leaves on the cluster of poplar trees are crisp and beginning to turn brown. On the scrubby grass beneath the trees, a few dabs of paint suggest late blooming flowers or perhaps leaves already fallen.\n\nWe don’t know where the scene is set. It’s most likely to be from Harpignies’ imagination, but based on his knowledge of and affection for the countryside of the Yonne, the area south of Paris that he visited often and where he lived in his retirement. Harpignies was familiar with the gritty realism of contemporary landscape but, influenced by the classical artists of seventeenth-century Rome, he preferred to portray nature in a state of harmony.",
+  "accession_date": "1928-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Pandeli Ralli, 1928",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Henri-Joseph Harpignies",
+    "birth_date": "1819",
+    "death_date": "1916",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6325-00-000018-web.jpg",
+    "filename": "N-6325-00-000018-web.jpg",
+    "image_key": "N-6325-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1390,
+    "aspect_ratio": 1.3813,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 803963
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3981,
+    "horizontal_lines": 1883,
+    "vertical_lines": 127,
+    "diagonal_lines": 1971,
+    "edge_density": 0.1423,
+    "dominant_angles": [
+      45.0,
+      29.0,
+      27.8,
+      24.9,
+      32.5,
+      31.0,
+      29.9,
+      40.1,
+      45.0,
+      38.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      124,
+      118,
+      96
+    ],
+    "mean_color_hex": "#7c7660",
+    "color_palette": [
+      "#433e2c",
+      "#544e38",
+      "#bdbba8",
+      "#332e21",
+      "#c8b68d",
+      "#6a6047",
+      "#a6aca5",
+      "#d1caad",
+      "#867a5e",
+      "#a99a77"
+    ],
+    "unique_colors": 61933,
+    "color_diversity": 0.0232,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 117.79,
+    "contrast_level": "medium",
+    "contrast_value": 0.4392,
+    "dynamic_range": 222,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 42.89,
+    "midtones_percentage": 23.92,
+    "highlights_percentage": 33.19
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "fire hydrant",
+        "confidence": 0.2924,
+        "bbox": [
+          1676.81,
+          1066.77,
+          1703.36,
+          1125.9
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2684,
+        "bbox": [
+          1675.46,
+          1066.49,
+          1704.23,
+          1126.97
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "fire hydrant": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          925,
+          672,
+          1055,
+          802
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EZS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EZS-0001-0000-0000.json"
+  }
+}

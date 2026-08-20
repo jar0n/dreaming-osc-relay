@@ -1,0 +1,292 @@
+{
+  "identifier": "NG3949",
+  "full_title": "Portrait of Girolamo Fracastoro",
+  "short_title": "Portrait of Girolamo Fracastoro",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "84 × 73.5 cm",
+  "production_date": "about 1528",
+  "brief_description": "Girolamo Fracastoro (1476/8--1553), a celebrated medical doctor, as well as an astronomer, mathematician and poet, proposed the theory of contagion and in 1530 wrote an epic poem that gave the name 'syphilis' to the virulent, sexually transmitted disease that was ravaging Italy in that period.\n\nAlthough the painting is damaged and most of the modelling of the black parts of the coat has been lost, Titian's touch seems especially apparent in the painting of the lynx fur collar. The thick broken brushstrokes down the brightly lit left edge of the fur remain remarkably fresh, as do the fine lines scratched into the white paint of the fur tufts trapped in the seams of the sleeve.\n\nThe sitter's dynamic pose, turning to look at us over his shoulder with his arm resting on a parapet, is reminiscent of Titian's Portrait of Gerolamo (?) Barbarigo of about 1510, also in the National Gallery.",
+  "accession_date": "1924-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Mond Bequest, 1924",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Titian",
+    "birth_date": "1506",
+    "death_date": "1576",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3949-00-000054-web.jpg",
+    "filename": "N-3949-00-000054-web.jpg",
+    "image_key": "N-3949-00-000054",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2190,
+    "aspect_ratio": 0.8767,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1015371
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1346,
+    "horizontal_lines": 225,
+    "vertical_lines": 85,
+    "diagonal_lines": 1036,
+    "edge_density": 0.0351,
+    "dominant_angles": [
+      -45.0,
+      -60.0,
+      -55.0,
+      -54.0,
+      -61.9,
+      -72.9,
+      -74.9,
+      -72.1,
+      -4.8,
+      -70.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      52,
+      45,
+      39
+    ],
+    "mean_color_hex": "#342d27",
+    "color_palette": [
+      "#1d1a17",
+      "#27221d",
+      "#312a23",
+      "#3a332a",
+      "#473f34",
+      "#584e41",
+      "#686053",
+      "#797367",
+      "#92644b",
+      "#8f897c"
+    ],
+    "unique_colors": 21731,
+    "color_diversity": 0.0052,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 46.95,
+    "contrast_level": "low",
+    "contrast_value": 0.1782,
+    "dynamic_range": 188,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.41,
+    "midtones_percentage": 8.59,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7282,
+        "bbox": [
+          111.61,
+          118.09,
+          1748.75,
+          2180.04
+        ]
+      },
+      {
+        "class": "dog",
+        "confidence": 0.3525,
+        "bbox": [
+          127.66,
+          742.35,
+          1739.51,
+          2145.4
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "dog": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          813,
+          311,
+          1214,
+          712
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1043.99,
+          "y": 527.99,
+          "visibility": 2,
+          "confidence": 0.999
+        },
+        {
+          "name": "left_eye",
+          "x": 1081.92,
+          "y": 471.49,
+          "visibility": 2,
+          "confidence": 0.9898
+        },
+        {
+          "name": "right_eye",
+          "x": 954.2,
+          "y": 466.56,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3908
+        },
+        {
+          "name": "right_ear",
+          "x": 793.91,
+          "y": 557.83,
+          "visibility": 2,
+          "confidence": 0.9837
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1236.84,
+          "y": 1014.4,
+          "visibility": 2,
+          "confidence": 0.9959
+        },
+        {
+          "name": "right_shoulder",
+          "x": 584.72,
+          "y": 954.75,
+          "visibility": 2,
+          "confidence": 0.9969
+        },
+        {
+          "name": "left_elbow",
+          "x": 1454.75,
+          "y": 1637.65,
+          "visibility": 2,
+          "confidence": 0.8629
+        },
+        {
+          "name": "right_elbow",
+          "x": 396.74,
+          "y": 1559.07,
+          "visibility": 2,
+          "confidence": 0.9189
+        },
+        {
+          "name": "left_wrist",
+          "x": 1496.1,
+          "y": 1543.65,
+          "visibility": 2,
+          "confidence": 0.7206
+        },
+        {
+          "name": "right_wrist",
+          "x": 651.56,
+          "y": 1484.22,
+          "visibility": 2,
+          "confidence": 0.8479
+        },
+        {
+          "name": "left_hip",
+          "x": 1087.49,
+          "y": 1888.62,
+          "visibility": 2,
+          "confidence": 0.8433
+        },
+        {
+          "name": "right_hip",
+          "x": 643.3,
+          "y": 1885.35,
+          "visibility": 2,
+          "confidence": 0.8567
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1243
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1503
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0169
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0167
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -9.69
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EGB-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EGB-0001-0000-0000.json"
+  }
+}

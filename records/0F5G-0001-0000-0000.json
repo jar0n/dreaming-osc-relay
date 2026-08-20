@@ -1,0 +1,291 @@
+{
+  "identifier": "NG3068.2",
+  "full_title": "The Annunciation: The Virgin Mary",
+  "short_title": "The Annunciation: The Virgin Mary",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "58.4 × 58.4 cm",
+  "production_date": "1508-9",
+  "brief_description": "Interrupted from her reading, the Virgin Mary raises one hand in surprise at the Angel Gabriel's announcement that she will bear the son of God (Luke 1: 26-8). Rays of golden light beam down upon her as she conceives Christ by the word of God. Her lectern and folding chair, of the so-called 'Savonarola' type, reflect contemporary domestic furnishings. The door of the lower cupboard of the lectern is open, revealing the Virgin’s woven work basket containing her ball of wool and her shears.\n\nThis scene and its companion The Angel Gabriel, also in the National Gallery's collection, are related to a set of four other panels by Gaudenzio Ferrari which are now in the Galleria Sabauda, Turin. The panels came from an altarpiece painted between 1508—9 for the church of Sant’ Anna in Vercelli. It was commissioned by the local confraternity dedicated to Saint Anne (the Virgin's mother) for the altar of their oratory.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Gaudenzio Ferrari",
+    "birth_date": "1508",
+    "death_date": "1546",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3068-02-000005-web.jpg",
+    "filename": "N-3068-02-000005-web.jpg",
+    "image_key": "N-3068-02-000005",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1939,
+    "aspect_ratio": 0.9902,
+    "ratio_type": "square (1:1)",
+    "orientation": "portrait",
+    "file_size_bytes": 912250
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 817,
+    "horizontal_lines": 126,
+    "vertical_lines": 129,
+    "diagonal_lines": 562,
+    "edge_density": 0.0356,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      89.2,
+      -90.0,
+      -90.0,
+      89.0,
+      -90.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      78,
+      61,
+      38
+    ],
+    "mean_color_hex": "#4e3d26",
+    "color_palette": [
+      "#201f19",
+      "#3d271b",
+      "#6c4a20",
+      "#7c5b28",
+      "#59351d",
+      "#433f2d",
+      "#272e2b",
+      "#4c513e",
+      "#90713b",
+      "#a08b5f"
+    ],
+    "unique_colors": 87483,
+    "color_diversity": 0.0235,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 63.66,
+    "contrast_level": "low",
+    "contrast_value": 0.2188,
+    "dynamic_range": 225,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 77.67,
+    "midtones_percentage": 22.31,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8096,
+        "bbox": [
+          490.37,
+          115.67,
+          1879.02,
+          1926.36
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          202,
+          1474,
+          260,
+          1532
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1862,
+          1764,
+          1919,
+          1821
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1191.85,
+          "y": 382.03,
+          "visibility": 2,
+          "confidence": 0.9803
+        },
+        {
+          "name": "left_eye",
+          "x": 1227.37,
+          "y": 324.11,
+          "visibility": 2,
+          "confidence": 0.9759
+        },
+        {
+          "name": "right_eye",
+          "x": 1162.77,
+          "y": 349.8,
+          "visibility": 2,
+          "confidence": 0.6425
+        },
+        {
+          "name": "left_ear",
+          "x": 1354.63,
+          "y": 303.18,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0425
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1565.52,
+          "y": 518.22,
+          "visibility": 2,
+          "confidence": 0.9937
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1174.22,
+          "y": 545.97,
+          "visibility": 2,
+          "confidence": 0.9945
+        },
+        {
+          "name": "left_elbow",
+          "x": 1693.75,
+          "y": 740.42,
+          "visibility": 2,
+          "confidence": 0.9852
+        },
+        {
+          "name": "right_elbow",
+          "x": 934.65,
+          "y": 737.3,
+          "visibility": 2,
+          "confidence": 0.9818
+        },
+        {
+          "name": "left_wrist",
+          "x": 1559.66,
+          "y": 611.81,
+          "visibility": 2,
+          "confidence": 0.9908
+        },
+        {
+          "name": "right_wrist",
+          "x": 646.78,
+          "y": 738.33,
+          "visibility": 2,
+          "confidence": 0.9793
+        },
+        {
+          "name": "left_hip",
+          "x": 1349.11,
+          "y": 1174.44,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "right_hip",
+          "x": 1107.85,
+          "y": 1142.63,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "left_knee",
+          "x": 1045.44,
+          "y": 1534.66,
+          "visibility": 2,
+          "confidence": 0.9739
+        },
+        {
+          "name": "right_knee",
+          "x": 832.51,
+          "y": 1510.93,
+          "visibility": 2,
+          "confidence": 0.9731
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4716
+        },
+        {
+          "name": "right_ankle",
+          "x": 780.03,
+          "y": 1845.97,
+          "visibility": 2,
+          "confidence": 0.5009
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -18.25
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F5G-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F5G-0001-0000-0000.json"
+  }
+}

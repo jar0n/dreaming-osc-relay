@@ -1,0 +1,342 @@
+{
+  "identifier": "NG867",
+  "full_title": "A Farm with a Dead Tree",
+  "short_title": "A Farm with a Dead Tree",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "54.2 × 62.5 cm",
+  "production_date": "1658",
+  "brief_description": "Like many of Adriaen van de Velde's paintings, this is a quiet picture. The conversation between the milkmaid and the man with the basket seems amicable, with nothing to disturb the rhythmic swish of the milk into the pail. A pig hauls itself up on its haunches, looking as if it will roll over and snooze again in the spring sunshine. The skeleton of the dead oak tree stands out starkly against the sky, but the clouds are soft and fluffy, moving slowly.\n\nVan de Velde painted the picture when he was only 22 years old and it shows remarkable maturity. The three distinct groups of animals and figures, each a satisfying vignette on its own, are bound together by the wide, warm pool of sunlight. The brilliant blue of the milkmaid’s skirt enlivens the mellow browns, creams and greys of the foreground and harmonises with the blue of the sky.",
+  "accession_date": "1871-01-01",
+  "current_location": "Room 19, The National Gallery (London)",
+  "credit_line": "Bought, 1871",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Adriaen van de Velde",
+    "birth_date": "1636",
+    "death_date": "1672",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0867-00-000022-web.jpg",
+    "filename": "N-0867-00-000022-web.jpg",
+    "image_key": "N-0867-00-000022",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1665,
+    "aspect_ratio": 1.1532,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 655232
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 387,
+    "horizontal_lines": 69,
+    "vertical_lines": 91,
+    "diagonal_lines": 227,
+    "edge_density": 0.0246,
+    "dominant_angles": [
+      0.0,
+      -90.0,
+      -90.0,
+      45.0,
+      -90.0,
+      26.1,
+      -90.0,
+      45.0,
+      0.0,
+      27.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      122,
+      126,
+      126
+    ],
+    "mean_color_hex": "#7a7e7e",
+    "color_palette": [
+      "#959fa8",
+      "#2d2312",
+      "#a8afb1",
+      "#8ca1c6",
+      "#41361d",
+      "#758eba",
+      "#c4c2b4",
+      "#61512c",
+      "#a8b8cf",
+      "#7e785d"
+    ],
+    "unique_colors": 71499,
+    "color_diversity": 0.0224,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 125.14,
+    "contrast_level": "medium",
+    "contrast_value": 0.4422,
+    "dynamic_range": 227,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 31.83,
+    "midtones_percentage": 45.34,
+    "highlights_percentage": 22.84
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.8281,
+        "bbox": [
+          1199.23,
+          1319.04,
+          1524.17,
+          1559.78
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.7014,
+        "bbox": [
+          868.6,
+          1292.08,
+          1035.25,
+          1505.16
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.6316,
+        "bbox": [
+          1432.06,
+          1277.25,
+          1719.95,
+          1498.82
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5132,
+        "bbox": [
+          803.52,
+          1372.5,
+          934.64,
+          1517.04
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.384,
+        "bbox": [
+          192.7,
+          1368.81,
+          311.1,
+          1475.23
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3631,
+        "bbox": [
+          284.73,
+          1431.81,
+          401.47,
+          1519.52
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2571,
+        "bbox": [
+          696.65,
+          1255.04,
+          800.55,
+          1493.05
+        ]
+      }
+    ],
+    "object_count": 7,
+    "object_types": {
+      "cow": 5,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          679,
+          850,
+          872,
+          1043
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 769.56,
+          "y": 1294.94,
+          "visibility": 2,
+          "confidence": 0.872
+        },
+        {
+          "name": "left_eye",
+          "x": 771.32,
+          "y": 1290.53,
+          "visibility": 2,
+          "confidence": 0.6711
+        },
+        {
+          "name": "right_eye",
+          "x": 766.81,
+          "y": 1289.76,
+          "visibility": 2,
+          "confidence": 0.8793
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2842
+        },
+        {
+          "name": "right_ear",
+          "x": 755.95,
+          "y": 1287.74,
+          "visibility": 2,
+          "confidence": 0.8341
+        },
+        {
+          "name": "left_shoulder",
+          "x": 764.56,
+          "y": 1309.61,
+          "visibility": 2,
+          "confidence": 0.9824
+        },
+        {
+          "name": "right_shoulder",
+          "x": 740.58,
+          "y": 1308.17,
+          "visibility": 2,
+          "confidence": 0.9913
+        },
+        {
+          "name": "left_elbow",
+          "x": 775.68,
+          "y": 1340.99,
+          "visibility": 2,
+          "confidence": 0.791
+        },
+        {
+          "name": "right_elbow",
+          "x": 729.9,
+          "y": 1341.11,
+          "visibility": 2,
+          "confidence": 0.9362
+        },
+        {
+          "name": "left_wrist",
+          "x": 786.71,
+          "y": 1371.19,
+          "visibility": 2,
+          "confidence": 0.7345
+        },
+        {
+          "name": "right_wrist",
+          "x": 735.0,
+          "y": 1372.58,
+          "visibility": 2,
+          "confidence": 0.8847
+        },
+        {
+          "name": "left_hip",
+          "x": 747.5,
+          "y": 1369.66,
+          "visibility": 2,
+          "confidence": 0.9819
+        },
+        {
+          "name": "right_hip",
+          "x": 732.94,
+          "y": 1369.78,
+          "visibility": 2,
+          "confidence": 0.9864
+        },
+        {
+          "name": "left_knee",
+          "x": 756.54,
+          "y": 1415.86,
+          "visibility": 2,
+          "confidence": 0.9448
+        },
+        {
+          "name": "right_knee",
+          "x": 742.19,
+          "y": 1416.8,
+          "visibility": 2,
+          "confidence": 0.9619
+        },
+        {
+          "name": "left_ankle",
+          "x": 750.72,
+          "y": 1459.78,
+          "visibility": 2,
+          "confidence": 0.8864
+        },
+        {
+          "name": "right_ankle",
+          "x": 732.91,
+          "y": 1462.82,
+          "visibility": 2,
+          "confidence": 0.9145
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -15.86
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F9G-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F9G-0001-0000-0000.json"
+  }
+}

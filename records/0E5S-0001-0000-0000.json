@@ -1,0 +1,160 @@
+{
+  "identifier": "NG4927",
+  "full_title": "A Horse frightened by Lightning",
+  "short_title": "A Horse frightened by Lightning",
+  "object_name": "Picture",
+  "style": "Romantic",
+  "material": "oil on canvas",
+  "dimensions": "48.9 × 60.3 cm",
+  "production_date": "about 1813-14",
+  "brief_description": "Géricault was a keen horseman, and his passion for horses was matched by his expert understanding of their anatomy. In 1813 he produced a number of oil studies and finished paintings, possibly including this one, of horses at the Imperial stables at Versailles. These paintings are characterised by close observation and detailed naturalism.\n\nIn this picture, we see a fine thoroughbred. Géricault has shown the moment it reacts to a bolt of lightning (in the upper right corner), and presumably the accompanying clap of thunder. He avoided the more dramatic, and perhaps rather clichéd, image of a horse rearing, instead showing the animal in profile as it freezes in fear.\n\nGéricault brilliantly captured the sheen of the dappled coat as it is momentarily lit up against the near blackness of the night sky. Using short, staccato strokes of liquid paint, which precisely follow the contours of the horse's body, he created an effect of nervous energy that ripples across its silky surface.",
+  "accession_date": "1938-01-01",
+  "current_location": "Room 38, The National Gallery (London)",
+  "credit_line": "Bought, 1938",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Louis-André-Théodore Géricault",
+    "birth_date": "1791",
+    "death_date": "1824",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4927-00-000017-web.jpg",
+    "filename": "N-4927-00-000017-web.jpg",
+    "image_key": "N-4927-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1553,
+    "aspect_ratio": 1.2363,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 612448
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 118,
+    "horizontal_lines": 27,
+    "vertical_lines": 16,
+    "diagonal_lines": 75,
+    "edge_density": 0.0179,
+    "dominant_angles": [
+      -90.0,
+      -30.5,
+      -90.0,
+      -31.1,
+      -55.9,
+      -35.8,
+      -33.7,
+      -90.0,
+      13.3,
+      -34.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      56,
+      48,
+      30
+    ],
+    "mean_color_hex": "#38301e",
+    "color_palette": [
+      "#181817",
+      "#22231f",
+      "#3f321a",
+      "#30291a",
+      "#303328",
+      "#614b1d",
+      "#503d1a",
+      "#755a21",
+      "#49462e",
+      "#8e702d"
+    ],
+    "unique_colors": 28724,
+    "color_diversity": 0.0096,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 49.1,
+    "contrast_level": "low",
+    "contrast_value": 0.1714,
+    "dynamic_range": 188,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 92.52,
+    "midtones_percentage": 7.48,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.9141,
+        "bbox": [
+          225.67,
+          129.68,
+          1672.06,
+          1364.64
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          363,
+          1342,
+          450,
+          1429
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          441,
+          738,
+          562,
+          859
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0E5S-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0E5S-0001-0000-0000.json"
+  }
+}

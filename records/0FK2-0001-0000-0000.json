@@ -1,0 +1,301 @@
+{
+  "identifier": "NG2615",
+  "full_title": "The Magdalen (?)",
+  "short_title": "The Magdalen (?)",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "41.3 × 32.4 cm",
+  "production_date": "early 16th century",
+  "brief_description": "The ointment jar the woman holds is an attribute of Mary Magdalene, but this seems to be a portrait of a woman in the guise of the saint. The sitter’s hairstyle and distinctive necklace can be associated with early sixteenth-century medals and specifically with an anonymous portrait of the Spanish Queen Isabella I of Castile in the Museo del Prado, Madrid. The sitter’s identity is not known: a nineteenth-century label on the back of the picture identifies her as Mary Tudor, while other suggestions have included Marie of Anjou, Eleanor of Austria and the latter’s sister Catherine.\n\nThe edges of a book are visible underneath the ointment jar, indicating that the woman was not originally conceived as the Magdalen. Although Netherlandish in style, this painting was probably produced by a Spanish or Portuguese artist influenced by Netherlandish art. The panel’s thick gesso ground is more commonly found in paintings from southern Europe.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Spanish",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2615-00-000017-web-g.jpg",
+    "filename": "N-2615-00-000017-web-g.jpg",
+    "image_key": "N-2615-00-000017",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2467,
+    "aspect_ratio": 0.7783,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1245967
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2457,
+    "horizontal_lines": 415,
+    "vertical_lines": 480,
+    "diagonal_lines": 1562,
+    "edge_density": 0.0789,
+    "dominant_angles": [
+      -45.0,
+      0.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -23.4,
+      -22.9,
+      -45.0,
+      -45.0,
+      -32.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      87,
+      77,
+      53
+    ],
+    "mean_color_hex": "#574d35",
+    "color_palette": [
+      "#343621",
+      "#29291c",
+      "#3c3c3d",
+      "#4e3a26",
+      "#644a2d",
+      "#a8925e",
+      "#c1a76f",
+      "#78633e",
+      "#927c4d",
+      "#d5ba81"
+    ],
+    "unique_colors": 88677,
+    "color_diversity": 0.0187,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 77.87,
+    "contrast_level": "medium",
+    "contrast_value": 0.345,
+    "dynamic_range": 234,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 72.01,
+    "midtones_percentage": 21.07,
+    "highlights_percentage": 6.92
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8678,
+        "bbox": [
+          26.56,
+          477.44,
+          1917.44,
+          2464.37
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          552,
+          2368,
+          608,
+          2424
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1823,
+          2078,
+          1920,
+          2175
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          611,
+          695,
+          1180,
+          1264
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 863.72,
+          "y": 1036.15,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "left_eye",
+          "x": 977.95,
+          "y": 907.24,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "right_eye",
+          "x": 786.13,
+          "y": 916.76,
+          "visibility": 2,
+          "confidence": 0.99
+        },
+        {
+          "name": "left_ear",
+          "x": 1205.24,
+          "y": 947.12,
+          "visibility": 2,
+          "confidence": 0.9891
+        },
+        {
+          "name": "right_ear",
+          "x": 705.64,
+          "y": 948.83,
+          "visibility": 2,
+          "confidence": 0.5319
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1591.55,
+          "y": 1663.64,
+          "visibility": 2,
+          "confidence": 0.9771
+        },
+        {
+          "name": "right_shoulder",
+          "x": 478.69,
+          "y": 1631.22,
+          "visibility": 2,
+          "confidence": 0.9908
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2183
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4347
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2299
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3403
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0235
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0419
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0009
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0016
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FK2-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FK2-0001-0000-0000.json"
+  }
+}

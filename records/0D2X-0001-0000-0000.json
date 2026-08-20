@@ -1,0 +1,291 @@
+{
+  "identifier": "NG1301",
+  "full_title": "Portrait of Savonarola",
+  "short_title": "Portrait of Savonarola",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "21.2 × 16.5 cm",
+  "production_date": "perhaps about 1500-40",
+  "brief_description": "The identity of the tonsured friar portrayed here is made clear by the scene painted on the reverse of the panel, which records the execution of Girolamo Savonarola and his two companions. This took place in the Piazza della Signoria in Florence on 23 May 1498.\n\nSavonarola (1452--1498) was a Dominican preacher and leader in the populist revolution in Florence during the 1490s. He preached against the tyrannical abuses of the Medici rulers of the city and had numerous followers. His crusade against impiety and luxury gained him great political power in Florence, especially during the republic established after the death of Lorenzo de' Medici and the exile of Lorenzo's son Piero in 1494.\n\nOn the reverse of this panel, the three Dominican friars hang by their necks as a huge fire rages beneath them. This work seems to have been painted about 1500--40, perhaps based on an earlier print. The back and the front of the panel were probably painted by the same artist.",
+  "accession_date": "1890-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Dr William Radford, 1890",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Italian, Florentine",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1301-00-000016-web.jpg",
+    "filename": "N-1301-00-000016-web.jpg",
+    "image_key": "N-1301-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2416,
+    "aspect_ratio": 0.7947,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1016723
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 91,
+    "horizontal_lines": 8,
+    "vertical_lines": 31,
+    "diagonal_lines": 52,
+    "edge_density": 0.0166,
+    "dominant_angles": [
+      65.3,
+      -88.9,
+      79.4,
+      -88.5,
+      56.6,
+      56.1,
+      65.1,
+      72.1,
+      54.1,
+      -59.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      46,
+      38,
+      30
+    ],
+    "mean_color_hex": "#2e261e",
+    "color_palette": [
+      "#23201b",
+      "#1d1b16",
+      "#292622",
+      "#38271b",
+      "#4e311d",
+      "#623e23",
+      "#734d2e",
+      "#37332e",
+      "#855d39",
+      "#9a704a"
+    ],
+    "unique_colors": 26760,
+    "color_diversity": 0.0058,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 40.06,
+    "contrast_level": "low",
+    "contrast_value": 0.146,
+    "dynamic_range": 243,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 94.48,
+    "midtones_percentage": 5.51,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6816,
+        "bbox": [
+          239.04,
+          258.9,
+          1549.41,
+          1430.8
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          471,
+          541,
+          538,
+          608
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          117,
+          380,
+          1035,
+          1298
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 293.42,
+          "y": 922.83,
+          "visibility": 2,
+          "confidence": 0.9833
+        },
+        {
+          "name": "left_eye",
+          "x": 481.93,
+          "y": 767.54,
+          "visibility": 2,
+          "confidence": 0.9956
+        },
+        {
+          "name": "right_eye",
+          "x": 304.12,
+          "y": 751.62,
+          "visibility": 2,
+          "confidence": 0.5648
+        },
+        {
+          "name": "left_ear",
+          "x": 996.9,
+          "y": 831.16,
+          "visibility": 2,
+          "confidence": 0.9968
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0102
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1552.5,
+          "y": 1643.1,
+          "visibility": 2,
+          "confidence": 0.8923
+        },
+        {
+          "name": "right_shoulder",
+          "x": 368.04,
+          "y": 1484.01,
+          "visibility": 2,
+          "confidence": 0.9275
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0091
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0552
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.016
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0438
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0016
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0043
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D2X-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D2X-0001-0000-0000.json"
+  }
+}

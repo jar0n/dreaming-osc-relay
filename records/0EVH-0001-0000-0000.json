@@ -1,0 +1,291 @@
+{
+  "identifier": "NG712",
+  "full_title": "Christ Crowned with Thorns",
+  "short_title": "Christ Crowned with Thorns",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "36.8 × 27.8 cm",
+  "production_date": "probably about 1470-5",
+  "brief_description": "This small picture once made up a diptych (a folding painting in two parts) with another in our collection, the Mater Dolorosa. It was probably intended for private devotion: Christ's pain was meant to inspire empathy in the viewer, who was encouraged to meditate upon his suffering as a means of personal salvation. This painting might have been made in Bouts's workshop towards the end of his life.",
+  "accession_date": "1863-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Queen Victoria at the Prince Consort's wish, 1863",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Dirk Bouts",
+    "birth_date": "1400",
+    "death_date": "1475",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0712-00-000017-web.jpg",
+    "filename": "N-0712-00-000017-web.jpg",
+    "image_key": "N-0712-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2561,
+    "aspect_ratio": 0.7497,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1746593
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 8736,
+    "horizontal_lines": 401,
+    "vertical_lines": 2552,
+    "diagonal_lines": 5783,
+    "edge_density": 0.1508,
+    "dominant_angles": [
+      -89.0,
+      88.2,
+      83.1,
+      76.9,
+      -88.0,
+      -89.2,
+      -87.9,
+      86.0,
+      88.0,
+      85.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      130,
+      91,
+      54
+    ],
+    "mean_color_hex": "#825b36",
+    "color_palette": [
+      "#2a1b10",
+      "#b88b68",
+      "#a16752",
+      "#7b5d2d",
+      "#8d3732",
+      "#c9ac4c",
+      "#51381c",
+      "#66131a",
+      "#a48933",
+      "#efd265"
+    ],
+    "unique_colors": 163174,
+    "color_diversity": 0.0332,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 98.74,
+    "contrast_level": "medium",
+    "contrast_value": 0.4333,
+    "dynamic_range": 240,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 44.4,
+    "midtones_percentage": 44.53,
+    "highlights_percentage": 11.07
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9374,
+        "bbox": [
+          0.59,
+          102.44,
+          1917.82,
+          2550.02
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1356,
+          1780,
+          1484,
+          1908
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          474,
+          340,
+          1483,
+          1349
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 970.91,
+          "y": 988.06,
+          "visibility": 2,
+          "confidence": 0.997
+        },
+        {
+          "name": "left_eye",
+          "x": 1159.35,
+          "y": 727.26,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "right_eye",
+          "x": 778.0,
+          "y": 759.41,
+          "visibility": 2,
+          "confidence": 0.9945
+        },
+        {
+          "name": "left_ear",
+          "x": 1433.29,
+          "y": 774.16,
+          "visibility": 2,
+          "confidence": 0.9659
+        },
+        {
+          "name": "right_ear",
+          "x": 545.31,
+          "y": 833.22,
+          "visibility": 2,
+          "confidence": 0.8531
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1770.06,
+          "y": 1818.49,
+          "visibility": 2,
+          "confidence": 0.9353
+        },
+        {
+          "name": "right_shoulder",
+          "x": 172.68,
+          "y": 1820.17,
+          "visibility": 2,
+          "confidence": 0.969
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0228
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0362
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0696
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0763
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0009
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EVH-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EVH-0001-0000-0000.json"
+  }
+}

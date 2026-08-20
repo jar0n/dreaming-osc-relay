@@ -1,0 +1,200 @@
+{
+  "identifier": "NG1034",
+  "full_title": "'Mystic Nativity'",
+  "short_title": "'Mystic Nativity'",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "108.6 × 74.9 cm",
+  "production_date": "1500",
+  "brief_description": "The infant Christ reaches up towards the Virgin Mary, oblivious of his visitors -- the Three Kings on the left and the shepherds on the right. The golden dome of heaven has opened up and is circled by 12 angels holding olive branches entwined with scrolls and hung with crowns. In the foreground, three pairs of angels and men embrace; among their feet demons scuttle for shelter in the underworld through cracks in the rocks.\n\nThe Greek inscription mentions 'the troubles of Italy', a reference to the invasion of the French, who took Naples in 1494 and Milan in 1499, and to the civil strife in Florence itself. Botticelli associated these events with the turmoil mentioned in the biblical Book of Revelation, which talks about the end of the world and Christ's second coming. The period of upheaval it described would end upon Christ's return, when the devil would be buried, as in this picture.",
+  "accession_date": "1878-01-01",
+  "current_location": "Room 64, The National Gallery (London)",
+  "credit_line": "Bought, 1878",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Sandro Botticelli",
+    "birth_date": "1445",
+    "death_date": "1510",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1034-00-000077-web.jpg",
+    "filename": "N-1034-00-000077-web.jpg",
+    "image_key": "N-1034-00-000077",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2782,
+    "aspect_ratio": 0.6902,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1780708
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 8538,
+    "horizontal_lines": 486,
+    "vertical_lines": 3198,
+    "diagonal_lines": 4854,
+    "edge_density": 0.1507,
+    "dominant_angles": [
+      -80.8,
+      61.9,
+      -5.0,
+      -60.2,
+      -87.1,
+      -88.1,
+      0.0,
+      -9.9,
+      -45.0,
+      -72.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      95,
+      81,
+      60
+    ],
+    "mean_color_hex": "#5f513c",
+    "color_palette": [
+      "#272116",
+      "#413320",
+      "#786041",
+      "#634526",
+      "#8d7d63",
+      "#4f4c3e",
+      "#aa9e85",
+      "#a17841",
+      "#5f7c88",
+      "#869799"
+    ],
+    "unique_colors": 141388,
+    "color_diversity": 0.0265,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 82.91,
+    "contrast_level": "medium",
+    "contrast_value": 0.3149,
+    "dynamic_range": 198,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 56.18,
+    "midtones_percentage": 42.67,
+    "highlights_percentage": 1.15
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bird",
+        "confidence": 0.2914,
+        "bbox": [
+          671.47,
+          2311.6,
+          860.55,
+          2733.35
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "bird": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          426,
+          2422,
+          467,
+          2463
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          242,
+          1694,
+          303,
+          1755
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          119,
+          597,
+          189,
+          667
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          567,
+          1620,
+          638,
+          1691
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1144,
+          242,
+          1264,
+          362
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          200,
+          1378,
+          339,
+          1517
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D78-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D78-0001-0000-0000.json"
+  }
+}

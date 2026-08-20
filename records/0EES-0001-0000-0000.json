@@ -1,0 +1,171 @@
+{
+  "identifier": "NG6339",
+  "full_title": "Dardagny, Morning",
+  "short_title": "Dardagny, Morning",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "26 × 47 cm",
+  "production_date": "1853",
+  "brief_description": "A woman wearing a long dark dress and yellow straw hat stands next to a cow on a path which draws the viewer into the landscape. Long shadows are cast by the bushes and tree on the left.  In the background the lavender blue hills of the Jura descend from left to right.  The view is near Dardagny,  a village in Switzerland west of Geneva.\n\nCorot visited Switzerland more than any other country in Europe. In 1852 he was there in the company of the painters Armand Leleux and Charles-François Daubigny. When he returned the following year he stayed during July and August with Leleux’s parents-in-law in Dardagny. This view, with its fields full of ripe corn, was almost certainly painted then. Corot would have started the painting in the open air,  perhaps adding such details as the figure and the cow back in the studio.",
+  "accession_date": "1963-01-01",
+  "current_location": "Room 41, The National Gallery (London)",
+  "credit_line": "Presented by William Edward Brandt, Henry Augustus Brandt, Walter Augustus Brandt and Alice Mary Bleecker in memory of Rudolph Ernst Brandt, 1963",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6339-00-000017-web.jpg",
+    "filename": "N-6339-00-000017-web.jpg",
+    "image_key": "N-6339-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1052,
+    "aspect_ratio": 1.8251,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 573675
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1218,
+    "horizontal_lines": 907,
+    "vertical_lines": 29,
+    "diagonal_lines": 282,
+    "edge_density": 0.0744,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9,
+      1.1,
+      0.0,
+      2.2,
+      1.3,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      133,
+      133,
+      116
+    ],
+    "mean_color_hex": "#858574",
+    "color_palette": [
+      "#a7a89e",
+      "#b2b6ad",
+      "#4c4e35",
+      "#9e9b89",
+      "#5c5e42",
+      "#3c3c29",
+      "#757055",
+      "#91896a",
+      "#cac8b3",
+      "#697279"
+    ],
+    "unique_colors": 48835,
+    "color_diversity": 0.0242,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 131.83,
+    "contrast_level": "medium",
+    "contrast_value": 0.3605,
+    "dynamic_range": 214,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 23.92,
+    "midtones_percentage": 47.65,
+    "highlights_percentage": 28.42
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.6111,
+        "bbox": [
+          1247.46,
+          761.37,
+          1351.39,
+          897.3
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4408,
+        "bbox": [
+          1169.78,
+          740.65,
+          1234.05,
+          896.2
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "cow": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          448,
+          405,
+          538,
+          495
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1447,
+          166,
+          1601,
+          320
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EES-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EES-0001-0000-0000.json"
+  }
+}

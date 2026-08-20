@@ -1,0 +1,150 @@
+{
+  "identifier": "NG3088",
+  "full_title": "A Sparrowhawk",
+  "short_title": "A Sparrowhawk",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "17.8 × 10.8 cm",
+  "production_date": "1510s",
+  "brief_description": "This picture of a female sparrowhawk is one of two known paintings of birds by the Venetian artist Jacopo de' Barbari, who worked in the noble courts of Germany and the Netherlands. It is a probably a fragment of a larger painting made quite late in Jacopo's life, perhaps when he was working in the Netherlands.\n\nThe bird is painted alive, bathed in bright natural light -- the lean creature and its perch cast a strong shadow on the wall. A small bell just above its left foot would alert its handler to its whereabouts as it was flying. It is tied by a slender piece of rope, but its bright eye shows how keenly alert it is to the world.",
+  "accession_date": "1916-01-01",
+  "current_location": "Room 56, The National Gallery (London)",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Jacopo de' Barbari",
+    "birth_date": "1500",
+    "death_date": "1516",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3088-00-000010-web.jpg",
+    "filename": "N-3088-00-000010-web.jpg",
+    "image_key": "N-3088-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3050,
+    "aspect_ratio": 0.6295,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1349062
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 307,
+    "horizontal_lines": 4,
+    "vertical_lines": 119,
+    "diagonal_lines": 184,
+    "edge_density": 0.0232,
+    "dominant_angles": [
+      -64.9,
+      17.1,
+      -78.0,
+      15.9,
+      17.4,
+      -62.0,
+      -68.2,
+      -62.1,
+      -62.1,
+      -62.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      98,
+      83,
+      61
+    ],
+    "mean_color_hex": "#62533d",
+    "color_palette": [
+      "#44392b",
+      "#5c4e39",
+      "#504331",
+      "#695940",
+      "#93805f",
+      "#776648",
+      "#392e22",
+      "#867453",
+      "#271f19",
+      "#a18d69"
+    ],
+    "unique_colors": 24821,
+    "color_diversity": 0.0042,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 85.39,
+    "contrast_level": "low",
+    "contrast_value": 0.2409,
+    "dynamic_range": 246,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 53.23,
+    "midtones_percentage": 46.76,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bird",
+        "confidence": 0.4032,
+        "bbox": [
+          471.69,
+          556.61,
+          1472.47,
+          2571.71
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "bird": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          798,
+          1823,
+          880,
+          1905
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G00-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G00-0001-0000-0000.json"
+  }
+}

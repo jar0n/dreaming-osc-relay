@@ -1,0 +1,332 @@
+{
+  "identifier": "NG1400",
+  "full_title": "Ecce Homo",
+  "short_title": "Ecce Homo",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on paper, mounted on canvas",
+  "dimensions": "54.5 × 44.5 cm",
+  "production_date": "1634",
+  "brief_description": "'Ecce Homo', the Latin title of this painting, is taken from the Bible, and means 'Behold the man!’ These were the words of Pontius Pilate, the Roman governor of Judea, when he was sitting as the judge during the trial of Christ. Pilate, here shown wearing a turban and rising to his feet, is presenting Christ to the crowd. The picture evokes the fevered atmosphere of this show trial and is dominated by images of earthly power and authority. Christ stands slightly higher than his captors -- he's the only figure looking upwards towards the 'true' judge, God.\n\nThis small black and white painting (known as a grisaille) was not made for sale. It is a full-scale preparatory study for one of Rembrandt’s etchings -- the only known example of such a work. Rembrandt was a prolific print maker and his studio produced hundreds of images for sale. This was one of his most popular.",
+  "accession_date": "1894-01-01",
+  "current_location": "Room 22, The National Gallery (London)",
+  "credit_line": "Bought, 1894",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Rembrandt",
+    "birth_date": "1606",
+    "death_date": "1669",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1400-00-000035-web.jpg",
+    "filename": "N-1400-00-000035-web.jpg",
+    "image_key": "N-1400-00-000035",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2359,
+    "aspect_ratio": 0.8139,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1098009
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2373,
+    "horizontal_lines": 327,
+    "vertical_lines": 297,
+    "diagonal_lines": 1749,
+    "edge_density": 0.0603,
+    "dominant_angles": [
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      34.9,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      76,
+      55,
+      34
+    ],
+    "mean_color_hex": "#4c3722",
+    "color_palette": [
+      "#312115",
+      "#402b1a",
+      "#4f3620",
+      "#211710",
+      "#594830",
+      "#6e5433",
+      "#644322",
+      "#81623b",
+      "#9a794d",
+      "#b89c70"
+    ],
+    "unique_colors": 40090,
+    "color_diversity": 0.0089,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.44,
+    "contrast_level": "low",
+    "contrast_value": 0.2061,
+    "dynamic_range": 243,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 83.75,
+    "midtones_percentage": 16.06,
+    "highlights_percentage": 0.19
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.5822,
+        "bbox": [
+          212.77,
+          982.76,
+          932.93,
+          2035.32
+        ]
+      },
+      {
+        "class": "clock",
+        "confidence": 0.359,
+        "bbox": [
+          1431.1,
+          808.05,
+          1580.46,
+          1010.72
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "horse": 1,
+      "clock": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1008,
+          1519,
+          1043,
+          1554
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1193,
+          913,
+          1243,
+          963
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          929,
+          1751,
+          981,
+          1803
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          223,
+          1087,
+          302,
+          1166
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          180,
+          917,
+          264,
+          1001
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1764.17,
+          "y": 456.19,
+          "visibility": 2,
+          "confidence": 0.9517
+        },
+        {
+          "name": "left_eye",
+          "x": 1784.71,
+          "y": 436.77,
+          "visibility": 2,
+          "confidence": 0.9467
+        },
+        {
+          "name": "right_eye",
+          "x": 1747.66,
+          "y": 440.09,
+          "visibility": 2,
+          "confidence": 0.9054
+        },
+        {
+          "name": "left_ear",
+          "x": 1826.17,
+          "y": 451.77,
+          "visibility": 2,
+          "confidence": 0.8418
+        },
+        {
+          "name": "right_ear",
+          "x": 1743.5,
+          "y": 458.32,
+          "visibility": 2,
+          "confidence": 0.5713
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1864.95,
+          "y": 567.4,
+          "visibility": 2,
+          "confidence": 0.909
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1734.06,
+          "y": 566.85,
+          "visibility": 2,
+          "confidence": 0.93
+        },
+        {
+          "name": "left_elbow",
+          "x": 1875.98,
+          "y": 694.35,
+          "visibility": 2,
+          "confidence": 0.5144
+        },
+        {
+          "name": "right_elbow",
+          "x": 1702.02,
+          "y": 674.25,
+          "visibility": 2,
+          "confidence": 0.5678
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4146
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4564
+        },
+        {
+          "name": "left_hip",
+          "x": 1828.82,
+          "y": 832.68,
+          "visibility": 2,
+          "confidence": 0.7749
+        },
+        {
+          "name": "right_hip",
+          "x": 1748.22,
+          "y": 829.33,
+          "visibility": 2,
+          "confidence": 0.7959
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4803
+        },
+        {
+          "name": "right_knee",
+          "x": 1744.69,
+          "y": 980.27,
+          "visibility": 2,
+          "confidence": 0.5113
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2836
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3083
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -7.76
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FT3-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FT3-0001-0000-0000.json"
+  }
+}

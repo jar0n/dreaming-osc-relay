@@ -1,0 +1,292 @@
+{
+  "identifier": "NG1023",
+  "full_title": "Portrait of a Lady, perhaps Contessa Lucia Albani Avogadro ('La Dama in Rosso')",
+  "short_title": "Portrait of a Lady ('La Dama in Rosso')",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "155 × 106.8 cm",
+  "production_date": "about 1556-60",
+  "brief_description": "The portrait has long been known as 'La Dama in Rosso' -- the lady in red. Moroni especially favoured pink or orange-reds. Here he has complemented the colour of the dress in the pinky-orange circles of Verona marble set in the floor. The sitter's clothes are made of the most luxurious materials and must have been the latest fashion.\n\nThe woman is probably Contessa Lucia, wife of Faustino Avogadro, who is thought to be the man portrayed in A Knight with his Jousting Helmet (National Gallery, London). Lucia's grandfather, Francesco Albani, is probably the sitter in a portrait by Cariani which is also in the National Gallery.\n\nLucia took great delight in literature and poetry. She is said to have to have written a series of sonnets when she was 15 or 16 years old, and her literary reputation was also praised after her marriage. Her sonnets were collected after her death in a manuscript decorated with her profile portrait.",
+  "accession_date": "1876-01-01",
+  "current_location": "Room 4, The National Gallery (London)",
+  "credit_line": "Bought, 1876",
+  "associated_concepts": "Italian (Bergamo)",
+  "creator": {
+    "name": "Giovanni Battista Moroni",
+    "birth_date": "1520",
+    "death_date": "1579",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1023-00-000017-web.jpg",
+    "filename": "N-1023-00-000017-web.jpg",
+    "image_key": "N-1023-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2801,
+    "aspect_ratio": 0.6855,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1195389
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1136,
+    "horizontal_lines": 74,
+    "vertical_lines": 542,
+    "diagonal_lines": 520,
+    "edge_density": 0.0332,
+    "dominant_angles": [
+      0.0,
+      -86.0,
+      80.1,
+      80.4,
+      79.9,
+      45.0,
+      79.7,
+      79.0,
+      79.7,
+      79.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      107,
+      85,
+      73
+    ],
+    "mean_color_hex": "#6b5549",
+    "color_palette": [
+      "#582521",
+      "#717469",
+      "#744231",
+      "#45453e",
+      "#838375",
+      "#34261d",
+      "#5d5f57",
+      "#905b44",
+      "#a99f82",
+      "#b17360"
+    ],
+    "unique_colors": 124563,
+    "color_diversity": 0.0232,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 90.55,
+    "contrast_level": "low",
+    "contrast_value": 0.2692,
+    "dynamic_range": 245,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 45.95,
+    "midtones_percentage": 53.18,
+    "highlights_percentage": 0.87
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7057,
+        "bbox": [
+          354.04,
+          195.67,
+          1588.01,
+          2667.23
+        ]
+      },
+      {
+        "class": "bench",
+        "confidence": 0.2865,
+        "bbox": [
+          224.71,
+          832.39,
+          1667.94,
+          2627.31
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "bench": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          817,
+          281,
+          1106,
+          570
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1003.13,
+          "y": 419.77,
+          "visibility": 2,
+          "confidence": 0.9896
+        },
+        {
+          "name": "left_eye",
+          "x": 1041.63,
+          "y": 373.44,
+          "visibility": 2,
+          "confidence": 0.8517
+        },
+        {
+          "name": "right_eye",
+          "x": 954.72,
+          "y": 360.72,
+          "visibility": 2,
+          "confidence": 0.985
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1118
+        },
+        {
+          "name": "right_ear",
+          "x": 832.71,
+          "y": 382.51,
+          "visibility": 2,
+          "confidence": 0.9416
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1100.05,
+          "y": 681.32,
+          "visibility": 2,
+          "confidence": 0.9887
+        },
+        {
+          "name": "right_shoulder",
+          "x": 635.57,
+          "y": 669.43,
+          "visibility": 2,
+          "confidence": 0.9952
+        },
+        {
+          "name": "left_elbow",
+          "x": 1187.96,
+          "y": 1025.08,
+          "visibility": 2,
+          "confidence": 0.9651
+        },
+        {
+          "name": "right_elbow",
+          "x": 474.32,
+          "y": 1047.8,
+          "visibility": 2,
+          "confidence": 0.9891
+        },
+        {
+          "name": "left_wrist",
+          "x": 1241.47,
+          "y": 1270.39,
+          "visibility": 2,
+          "confidence": 0.9781
+        },
+        {
+          "name": "right_wrist",
+          "x": 694.23,
+          "y": 1196.29,
+          "visibility": 2,
+          "confidence": 0.9916
+        },
+        {
+          "name": "left_hip",
+          "x": 1017.4,
+          "y": 1389.52,
+          "visibility": 2,
+          "confidence": 0.9935
+        },
+        {
+          "name": "right_hip",
+          "x": 719.12,
+          "y": 1409.11,
+          "visibility": 2,
+          "confidence": 0.9954
+        },
+        {
+          "name": "left_knee",
+          "x": 1123.59,
+          "y": 1811.59,
+          "visibility": 2,
+          "confidence": 0.9777
+        },
+        {
+          "name": "right_knee",
+          "x": 839.32,
+          "y": 1850.95,
+          "visibility": 2,
+          "confidence": 0.9848
+        },
+        {
+          "name": "left_ankle",
+          "x": 950.29,
+          "y": 2418.4,
+          "visibility": 2,
+          "confidence": 0.6971
+        },
+        {
+          "name": "right_ankle",
+          "x": 748.92,
+          "y": 2436.93,
+          "visibility": 2,
+          "confidence": 0.7253
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -6.66
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FJJ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FJJ-0001-0000-0000.json"
+  }
+}

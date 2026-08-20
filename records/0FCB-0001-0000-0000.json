@@ -1,0 +1,170 @@
+{
+  "identifier": "NG966",
+  "full_title": "A River Scene with a Dutch Yacht firing a Salute as Two Barges pull away",
+  "short_title": "A River Scene with a Dutch Yacht firing a Salute",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "93 × 131 cm",
+  "production_date": "mid-1660s",
+  "brief_description": "This Dutch river mouth is a busy place. Vessels of all kinds are moored close to us, and others move across the water further out to sea. Jan van de Cappelle has broken up the vast sky with moving clouds that cast deep shadows in the foreground and with geometric -- almost abstract -- shapes made by the sails, masts and spars standing out against them.\n\nOn the right, a Statenjacht (state yacht) fires a salute as important visitors prepare to board from the barges close by. The rather odd patch of brilliant blue in the centre of the picture was perhaps once a canopy and decorative swags of fabric. The cloaks of the soldiers standing by with spears are painted with a similar colour, but it appears that there have been chemical changes to the pigment, making it brighter and lacking in light and shade.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van de Cappelle",
+    "birth_date": "1626",
+    "death_date": "1679",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0966-00-000023-web.jpg",
+    "filename": "N-0966-00-000023-web.jpg",
+    "image_key": "N-0966-00-000023",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1341,
+    "aspect_ratio": 1.4318,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 532468
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 132,
+    "horizontal_lines": 71,
+    "vertical_lines": 37,
+    "diagonal_lines": 24,
+    "edge_density": 0.0164,
+    "dominant_angles": [
+      -0.8,
+      0.0,
+      0.0,
+      -2.8,
+      -0.8,
+      0.0,
+      0.0,
+      -4.1,
+      -0.9,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      134,
+      130,
+      109
+    ],
+    "mean_color_hex": "#86826d",
+    "color_palette": [
+      "#a09a81",
+      "#352e20",
+      "#8f876e",
+      "#b7ae8e",
+      "#4c422d",
+      "#9ea59d",
+      "#808b88",
+      "#b9bba9",
+      "#6c6348",
+      "#d9d0ab"
+    ],
+    "unique_colors": 48596,
+    "color_diversity": 0.0189,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 129.25,
+    "contrast_level": "medium",
+    "contrast_value": 0.3874,
+    "dynamic_range": 233,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 25.95,
+    "midtones_percentage": 53.47,
+    "highlights_percentage": 20.59
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.6029,
+        "bbox": [
+          1046.75,
+          573.19,
+          1587.42,
+          1151.27
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.5456,
+        "bbox": [
+          613.75,
+          1067.75,
+          1062.52,
+          1204.29
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3514,
+        "bbox": [
+          0.62,
+          465.07,
+          314.64,
+          1150.4
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "boat": 3
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          24,
+          641,
+          308,
+          925
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FCB-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FCB-0001-0000-0000.json"
+  }
+}

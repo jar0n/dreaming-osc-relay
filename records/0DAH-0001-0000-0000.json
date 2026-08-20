@@ -1,0 +1,171 @@
+{
+  "identifier": "NG3289",
+  "full_title": "A Vase of Flowers",
+  "short_title": "A Vase of Flowers",
+  "object_name": "Picture",
+  "style": "Nabi",
+  "material": "oil on canvas",
+  "dimensions": "64 × 74 cm",
+  "production_date": "1896",
+  "brief_description": "Gauguin painted this still life soon after he had arrived in Tahiti for his second and final stay in 1895. Exotic red bougainvillea and hibiscus, white and yellow frangipani, white tiare and large blue leaves burst out of a dark clay pot. They look as though they are slightly past their best, and some blossoms have fallen onto the table top. What seems to have interested Gauguin is the pattern of decorative shapes and the delicate interweaving of reds, creams and blues against the gold background rather than the horticultural detail.\n\nGauguin may have started this extravagant bouquet as a study of an actual floral arrangement but finished it from imagination, as it has the same dream-like quality as his Tahitian figure paintings. In 1899, when the dealer Ambroise Vollard asked Gauguin to send him some flower paintings for sale, the artist replied that he had ‘done only a few’ because  ‘I do not copy nature – today even less than formerly. With me, everything happens in my exuberant imagination.’",
+  "accession_date": "1918-01-01",
+  "current_location": "Room 43, The National Gallery (London)",
+  "credit_line": "Bought, 1918",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Paul Gauguin",
+    "birth_date": "1848",
+    "death_date": "1903",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3289-00-000015-web.jpg",
+    "filename": "N-3289-00-000015-web.jpg",
+    "image_key": "N-3289-00-000015",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1644,
+    "aspect_ratio": 1.1679,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 851217
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 652,
+    "horizontal_lines": 264,
+    "vertical_lines": 74,
+    "diagonal_lines": 314,
+    "edge_density": 0.0565,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      6.6,
+      -90.0,
+      26.2,
+      -6.7,
+      -90.0,
+      -90.0,
+      -18.8,
+      25.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      93,
+      78,
+      52
+    ],
+    "mean_color_hex": "#5d4e34",
+    "color_palette": [
+      "#584428",
+      "#736034",
+      "#433524",
+      "#252426",
+      "#8d7532",
+      "#333c44",
+      "#80754e",
+      "#50554d",
+      "#a5925e",
+      "#7d3d27"
+    ],
+    "unique_colors": 161870,
+    "color_diversity": 0.0513,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 80.07,
+    "contrast_level": "low",
+    "contrast_value": 0.2365,
+    "dynamic_range": 225,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 60.35,
+    "midtones_percentage": 39.5,
+    "highlights_percentage": 0.15
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.8907,
+        "bbox": [
+          641.06,
+          855.14,
+          1281.84,
+          1401.09
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.3575,
+        "bbox": [
+          39.63,
+          59.83,
+          1690.63,
+          1398.98
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "vase": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          692,
+          1327,
+          738,
+          1373
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1205,
+          481,
+          1257,
+          533
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0DAH-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0DAH-0001-0000-0000.json"
+  }
+}

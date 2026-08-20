@@ -1,0 +1,312 @@
+{
+  "identifier": "NG2670",
+  "full_title": "Portrait of a Woman",
+  "short_title": "Portrait of a Woman",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "38.4 × 28.5 cm",
+  "production_date": "1495-1500",
+  "brief_description": "Although we don't know the identity of this woman, her clothing and the objects around her suggest that she was painted in around 1500 and most probably came from Cologne. The portrait was almost certainly part of a diptych (a painting made of two panels), which could have been hinged at the centre. The woman is turned towards the left-hand panel, which might have shown the Virgin Mary or perhaps an image of her betrothed or husband.\n\nThe symbols on the ledge -- the flowers in the cup and the apple -- could refer either to the Virgin or to marriage, but it is unclear which is intended without knowing the subject of the other panel in the diptych. The woman holds a rosary, used as an aid when reciting prayers to the Virgin.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "German (Cologne)",
+  "creator": {
+    "name": "Master of the Holy Kindred",
+    "birth_date": "1484",
+    "death_date": "1504",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2670-00-000024-web.jpg",
+    "filename": "N-2670-00-000024-web.jpg",
+    "image_key": "N-2670-00-000024",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2482,
+    "aspect_ratio": 0.7736,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1183536
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2194,
+    "horizontal_lines": 212,
+    "vertical_lines": 977,
+    "diagonal_lines": 1005,
+    "edge_density": 0.0605,
+    "dominant_angles": [
+      -90.0,
+      81.7,
+      -90.0,
+      -89.3,
+      -90.0,
+      -45.0,
+      -89.3,
+      -84.0,
+      -45.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      81,
+      65,
+      50
+    ],
+    "mean_color_hex": "#514132",
+    "color_palette": [
+      "#181612",
+      "#651f19",
+      "#2c251d",
+      "#cbb081",
+      "#2c5d58",
+      "#b8966a",
+      "#433c29",
+      "#466f66",
+      "#927d58",
+      "#6f5c3c"
+    ],
+    "unique_colors": 146448,
+    "color_diversity": 0.0307,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 68.45,
+    "contrast_level": "medium",
+    "contrast_value": 0.3728,
+    "dynamic_range": 211,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 71.94,
+    "midtones_percentage": 21.78,
+    "highlights_percentage": 6.28
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.9009,
+        "bbox": [
+          2.7,
+          794.76,
+          448.24,
+          1487.22
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.898,
+        "bbox": [
+          0.0,
+          199.21,
+          1804.74,
+          2467.89
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "potted plant": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1782,
+          849,
+          1861,
+          928
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          260,
+          1248,
+          488,
+          1476
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          546,
+          547,
+          1163,
+          1164
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 781.52,
+          "y": 930.43,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "left_eye",
+          "x": 945.13,
+          "y": 790.63,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "right_eye",
+          "x": 727.86,
+          "y": 754.72,
+          "visibility": 2,
+          "confidence": 0.9855
+        },
+        {
+          "name": "left_ear",
+          "x": 1230.19,
+          "y": 861.81,
+          "visibility": 2,
+          "confidence": 0.9912
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3779
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1475.77,
+          "y": 1714.88,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "right_shoulder",
+          "x": 457.12,
+          "y": 1528.98,
+          "visibility": 2,
+          "confidence": 0.9961
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2606
+        },
+        {
+          "name": "right_elbow",
+          "x": 207.1,
+          "y": 2096.1,
+          "visibility": 2,
+          "confidence": 0.6056
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.481
+        },
+        {
+          "name": "right_wrist",
+          "x": 344.52,
+          "y": 2201.73,
+          "visibility": 2,
+          "confidence": 0.647
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0359
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0739
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.002
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0044
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.001
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GH9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GH9-0001-0000-0000.json"
+  }
+}

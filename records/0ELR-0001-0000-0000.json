@@ -1,0 +1,200 @@
+{
+  "identifier": "NG5015",
+  "full_title": "A Vase of Wild Flowers",
+  "short_title": "A Vase of Wild Flowers",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on wood",
+  "dimensions": "61 × 47 cm",
+  "production_date": "probably 1870-80",
+  "brief_description": "A bunch of flowers in a ceramic vase is displayed on a table. The tablecloth is decorated with flowers and blue stripes that help create a sense of  recession into depth.\n\nLike most of Monticelli’s works, this picture is painted on a wood panel, much of which is left visible. Thick paint and blobs of pure colour have been used to suggest the flowers. The painting is similar in style to other still lifes by the artist in the National Gallery's collection such as Still Life: Oysters, Fish and Still Life: Fruits, which feature the same tablecloth and were probably painted around the same time.\n\nMonticelli was highly regarded by his contemporaries, and was especially influential on Vincent van Gogh, who bought a flower painting by him which  resembles this one. Vincent and his brother Theo were involved in publishing the first-ever book on Monticelli.",
+  "accession_date": "1956-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented as part of the 'Harry Wearne Collection of Twelve Paintings by Monticelli' to the Tate Gallery, 1939; transferred, 1956",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Adolphe Monticelli",
+    "birth_date": "1824",
+    "death_date": "1886",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5015-00-000038-web.jpg",
+    "filename": "N-5015-00-000038-web.jpg",
+    "image_key": "N-5015-00-000038",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2524,
+    "aspect_ratio": 0.7607,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1584515
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 7758,
+    "horizontal_lines": 1228,
+    "vertical_lines": 1463,
+    "diagonal_lines": 5067,
+    "edge_density": 0.1259,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      59,
+      44,
+      25
+    ],
+    "mean_color_hex": "#3b2c19",
+    "color_palette": [
+      "#120b06",
+      "#23170b",
+      "#3c2713",
+      "#5a3316",
+      "#575135",
+      "#7d7253",
+      "#a39375",
+      "#84551b",
+      "#cabb9f",
+      "#b5850b"
+    ],
+    "unique_colors": 294514,
+    "color_diversity": 0.0608,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 46.81,
+    "contrast_level": "medium",
+    "contrast_value": 0.3537,
+    "dynamic_range": 255,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 81.98,
+    "midtones_percentage": 15.61,
+    "highlights_percentage": 2.4
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.3009,
+        "bbox": [
+          222.5,
+          470.03,
+          1856.95,
+          2148.9
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "potted plant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          828,
+          562,
+          898,
+          632
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1708,
+          821,
+          1784,
+          897
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1713,
+          966,
+          1816,
+          1069
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1261,
+          1462,
+          1346,
+          1547
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          922,
+          1635,
+          1015,
+          1728
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          378,
+          800,
+          511,
+          933
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ELR-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ELR-0001-0000-0000.json"
+  }
+}

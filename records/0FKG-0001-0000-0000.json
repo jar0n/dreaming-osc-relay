@@ -1,0 +1,230 @@
+{
+  "identifier": "NG1222",
+  "full_title": "Birds, Butterflies and a Frog among Plants and Fungi",
+  "short_title": "Birds, Butterflies and a Frog among Plants and Fungi",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "68.3 × 56.8 cm",
+  "production_date": "1668",
+  "brief_description": "A frog, crouched in the foreground and glittering like a jewel, appears to be causing a stir. The male birds looking down at it seem angry or excited by its presence: they prowl, flutter their wings or glare, feathers ruffled. On a top branch is a chaffinch, fluffing out its plumage; its mate sits below, next to a tree sparrow. The bird closest to the frog, and about to attack, is probably a brambling, a kind of finch.\n\nThere was great interest in the natural sciences in seventeenth-century Holland. Many collectors prized pictures like this for their accuracy, displaying them alongside scientific instruments and specimens including stuffed birds and animals. Melchior d'Hondecoeter may well have drawn and sketched his creatures from such a collection; he may even have had one himself. Some collectors, however, bought works like his simply as exotic and dramatic additions to the decoration of their houses.",
+  "accession_date": "1886-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by J. Whitworth Shaw, 1886",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Melchior d'Hondecoeter",
+    "birth_date": "1636",
+    "death_date": "1695",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1222-00-000030-web.jpg",
+    "filename": "N-1222-00-000030-web.jpg",
+    "image_key": "N-1222-00-000030",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2325,
+    "aspect_ratio": 0.8258,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1152555
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2313,
+    "horizontal_lines": 143,
+    "vertical_lines": 907,
+    "diagonal_lines": 1263,
+    "edge_density": 0.0728,
+    "dominant_angles": [
+      10.9,
+      8.1,
+      7.2,
+      8.1,
+      6.0,
+      5.8,
+      8.1,
+      9.0,
+      7.0,
+      3.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      46,
+      39,
+      24
+    ],
+    "mean_color_hex": "#2e2718",
+    "color_palette": [
+      "#161308",
+      "#211b0e",
+      "#2d2514",
+      "#3d3018",
+      "#443c28",
+      "#4b4c45",
+      "#604b26",
+      "#67604b",
+      "#827557",
+      "#a29272"
+    ],
+    "unique_colors": 74555,
+    "color_diversity": 0.0167,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 40.07,
+    "contrast_level": "low",
+    "contrast_value": 0.1996,
+    "dynamic_range": 221,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 92.59,
+    "midtones_percentage": 7.39,
+    "highlights_percentage": 0.03
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bird",
+        "confidence": 0.5056,
+        "bbox": [
+          298.65,
+          1342.92,
+          645.99,
+          1683.48
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.4061,
+        "bbox": [
+          67.53,
+          1483.09,
+          278.1,
+          1645.0
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.318,
+        "bbox": [
+          1424.08,
+          1901.2,
+          1880.21,
+          2152.43
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.3163,
+        "bbox": [
+          1036.89,
+          1711.03,
+          1364.8,
+          1898.21
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "bird": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          1237,
+          568,
+          1291,
+          622
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1524,
+          1750,
+          1592,
+          1818
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1626,
+          994,
+          1692,
+          1060
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1625,
+          974,
+          1690,
+          1039
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          951,
+          990,
+          1040,
+          1079
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          998,
+          1057,
+          1078,
+          1137
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FKG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FKG-0001-0000-0000.json"
+  }
+}

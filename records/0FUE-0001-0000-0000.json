@@ -1,0 +1,281 @@
+{
+  "identifier": "NG2562",
+  "full_title": "A Ruined Castle Gateway",
+  "short_title": "A Ruined Castle Gateway",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood, later mounted on board",
+  "dimensions": "46.7 × 64.5 cm",
+  "production_date": "about 1650-5",
+  "brief_description": "Jacob van Ruisdael was the foremost seventeenth-century Dutch landscape painter, and even paved the way for the rural scenes Thomas Gainsborough painted in England in the eighteenth century. Gainsborough admired and made copies of van Ruisdael's work, but rather than the pastoral views that appealed to the British artist, here, van Ruisdael's vision is of a more unruly, turbulent landscape.\n\nWe are invited through the archway and yet there's a warning. The dog appears unwilling to follow its owner into the ruin. The little girl holding the man's hand looks up, as if enquiring why they are going into this eerie place and who the shadowy figure on the inside is. Van Ruisdael shows us a ruin in a landscape, but he is also creating a mood and appealing to our imagination.",
+  "accession_date": "1910-01-01",
+  "current_location": "Room 23, The National Gallery (London)",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jacob van Ruisdael",
+    "birth_date": "1628",
+    "death_date": "1682",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2562-00-000021-web.jpg",
+    "filename": "N-2562-00-000021-web.jpg",
+    "image_key": "N-2562-00-000021",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1388,
+    "aspect_ratio": 1.3833,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 766738
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2024,
+    "horizontal_lines": 861,
+    "vertical_lines": 35,
+    "diagonal_lines": 1128,
+    "edge_density": 0.0851,
+    "dominant_angles": [
+      -3.0,
+      24.9,
+      28.2,
+      33.9,
+      11.8,
+      24.8,
+      27.0,
+      26.3,
+      -3.0,
+      26.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      94,
+      84,
+      70
+    ],
+    "mean_color_hex": "#5e5446",
+    "color_palette": [
+      "#898378",
+      "#30281c",
+      "#221c14",
+      "#78756c",
+      "#413322",
+      "#53442e",
+      "#9a9486",
+      "#86735c",
+      "#625f55",
+      "#735134"
+    ],
+    "unique_colors": 60696,
+    "color_diversity": 0.0228,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 85.81,
+    "contrast_level": "medium",
+    "contrast_value": 0.3233,
+    "dynamic_range": 201,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 49.48,
+    "midtones_percentage": 50.26,
+    "highlights_percentage": 0.26
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.513,
+        "bbox": [
+          827.74,
+          1011.56,
+          871.98,
+          1118.46
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          594,
+          905,
+          672,
+          983
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2671
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1714
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2143
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1168
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1841
+        },
+        {
+          "name": "left_shoulder",
+          "x": 948.13,
+          "y": 768.86,
+          "visibility": 2,
+          "confidence": 0.8446
+        },
+        {
+          "name": "right_shoulder",
+          "x": 900.62,
+          "y": 769.99,
+          "visibility": 2,
+          "confidence": 0.8735
+        },
+        {
+          "name": "left_elbow",
+          "x": 960.43,
+          "y": 810.93,
+          "visibility": 2,
+          "confidence": 0.6977
+        },
+        {
+          "name": "right_elbow",
+          "x": 887.98,
+          "y": 816.23,
+          "visibility": 2,
+          "confidence": 0.7454
+        },
+        {
+          "name": "left_wrist",
+          "x": 965.14,
+          "y": 831.83,
+          "visibility": 2,
+          "confidence": 0.6746
+        },
+        {
+          "name": "right_wrist",
+          "x": 896.81,
+          "y": 840.2,
+          "visibility": 2,
+          "confidence": 0.7007
+        },
+        {
+          "name": "left_hip",
+          "x": 944.74,
+          "y": 854.98,
+          "visibility": 2,
+          "confidence": 0.9854
+        },
+        {
+          "name": "right_hip",
+          "x": 911.99,
+          "y": 856.65,
+          "visibility": 2,
+          "confidence": 0.9865
+        },
+        {
+          "name": "left_knee",
+          "x": 954.82,
+          "y": 951.81,
+          "visibility": 2,
+          "confidence": 0.987
+        },
+        {
+          "name": "right_knee",
+          "x": 916.28,
+          "y": 953.4,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "left_ankle",
+          "x": 964.12,
+          "y": 1041.62,
+          "visibility": 2,
+          "confidence": 0.9834
+        },
+        {
+          "name": "right_ankle",
+          "x": 918.81,
+          "y": 1043.23,
+          "visibility": 2,
+          "confidence": 0.9835
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -2.25
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FUE-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FUE-0001-0000-0000.json"
+  }
+}

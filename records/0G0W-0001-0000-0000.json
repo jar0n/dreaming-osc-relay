@@ -1,0 +1,291 @@
+{
+  "identifier": "NG2630",
+  "full_title": "Cows in a Marshy Landscape",
+  "short_title": "Cows in a Marshy Landscape",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "24.1 × 34.9 cm",
+  "production_date": "perhaps 1873-4",
+  "brief_description": "Despite the presence of a village in the background, it is not possible to be certain about the location of this pastoral scene. However, the composition is similar to a view of the village of Gisors in Normandy, which Corot painted in October 1873. This picture may be a pared-down view of Gisors, perhaps painted at the same time, but without any of the village’s distinguishing features, notably its distinctive church. The two paintings do have some common elements, however, including willow trees, a water-logged meadow, cows and a cowherd.\n\nThis silvery-grey landscape, with hints of pale green and blue, is typical of Corot’s late style, as is the extensive use of white to produce a light tone throughout. Sinuous willow trees are often present in Corot’s paintings. Here, the twisted trunk of the largest tree is partly echoed by the trees behind it, which together form a group that counter-balances the cowherd and his cows.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2630-00-000011-web.jpg",
+    "filename": "N-2630-00-000011-web.jpg",
+    "image_key": "N-2630-00-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1326,
+    "aspect_ratio": 1.448,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 667160
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1504,
+    "horizontal_lines": 420,
+    "vertical_lines": 37,
+    "diagonal_lines": 1047,
+    "edge_density": 0.0731,
+    "dominant_angles": [
+      17.6,
+      45.0,
+      21.9,
+      38.7,
+      18.9,
+      30.1,
+      45.0,
+      18.4,
+      17.9,
+      24.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      156,
+      143,
+      124
+    ],
+    "mean_color_hex": "#9c8f7c",
+    "color_palette": [
+      "#c5b9aa",
+      "#b4afa8",
+      "#86775f",
+      "#94846b",
+      "#786b54",
+      "#a0907a",
+      "#ae9e89",
+      "#645f44",
+      "#bead98",
+      "#554e3a"
+    ],
+    "unique_colors": 52383,
+    "color_diversity": 0.0206,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 145.43,
+    "contrast_level": "low",
+    "contrast_value": 0.2689,
+    "dynamic_range": 188,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 4.12,
+    "midtones_percentage": 59.42,
+    "highlights_percentage": 36.46
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.8872,
+        "bbox": [
+          1282.03,
+          941.57,
+          1628.98,
+          1191.16
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.7214,
+        "bbox": [
+          986.13,
+          928.48,
+          1133.75,
+          1115.32
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6623,
+        "bbox": [
+          1190.22,
+          931.11,
+          1258.1,
+          1133.02
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "cow": 2,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1209.48,
+          "y": 957.37,
+          "visibility": 2,
+          "confidence": 0.7819
+        },
+        {
+          "name": "left_eye",
+          "x": 1212.67,
+          "y": 953.13,
+          "visibility": 2,
+          "confidence": 0.7552
+        },
+        {
+          "name": "right_eye",
+          "x": 1207.47,
+          "y": 953.36,
+          "visibility": 2,
+          "confidence": 0.6448
+        },
+        {
+          "name": "left_ear",
+          "x": 1219.08,
+          "y": 954.37,
+          "visibility": 2,
+          "confidence": 0.7
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4317
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1226.92,
+          "y": 976.26,
+          "visibility": 2,
+          "confidence": 0.9806
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1210.66,
+          "y": 976.88,
+          "visibility": 2,
+          "confidence": 0.972
+        },
+        {
+          "name": "left_elbow",
+          "x": 1239.42,
+          "y": 1004.56,
+          "visibility": 2,
+          "confidence": 0.8956
+        },
+        {
+          "name": "right_elbow",
+          "x": 1208.99,
+          "y": 1005.23,
+          "visibility": 2,
+          "confidence": 0.7824
+        },
+        {
+          "name": "left_wrist",
+          "x": 1240.22,
+          "y": 1026.81,
+          "visibility": 2,
+          "confidence": 0.8185
+        },
+        {
+          "name": "right_wrist",
+          "x": 1202.87,
+          "y": 1026.09,
+          "visibility": 2,
+          "confidence": 0.6999
+        },
+        {
+          "name": "left_hip",
+          "x": 1226.47,
+          "y": 1035.14,
+          "visibility": 2,
+          "confidence": 0.9744
+        },
+        {
+          "name": "right_hip",
+          "x": 1217.73,
+          "y": 1035.06,
+          "visibility": 2,
+          "confidence": 0.9685
+        },
+        {
+          "name": "left_knee",
+          "x": 1226.97,
+          "y": 1081.15,
+          "visibility": 2,
+          "confidence": 0.9168
+        },
+        {
+          "name": "right_knee",
+          "x": 1219.3,
+          "y": 1081.47,
+          "visibility": 2,
+          "confidence": 0.8954
+        },
+        {
+          "name": "left_ankle",
+          "x": 1231.52,
+          "y": 1117.95,
+          "visibility": 2,
+          "confidence": 0.7914
+        },
+        {
+          "name": "right_ankle",
+          "x": 1222.67,
+          "y": 1117.39,
+          "visibility": 2,
+          "confidence": 0.759
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -0.44
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G0W-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G0W-0001-0000-0000.json"
+  }
+}

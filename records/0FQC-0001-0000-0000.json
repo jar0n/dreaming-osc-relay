@@ -1,0 +1,180 @@
+{
+  "identifier": "NG2533",
+  "full_title": "A Track by a Dune, with Peasants and a Horseman",
+  "short_title": "A Track by a Dune, with Peasants and a Horseman",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "29.7 × 36.8 cm",
+  "production_date": "1665",
+  "brief_description": "This undulating countryside of ancient sand dunes, found around Haarlem, forms the background to the vast majority of paintings by local artist Jan Wijnants. But while he captured the spirit and atmosphere of these sand hills, he also -- like most painters of the time -- exaggerated for effect. The range of what look like mountains in the distance in this picture, for example, must have been based on a line of much smaller dunes.\n\nIn the foreground we see the broken stump of a small tree. Wijnants often used this motif in his paintings to give a greater sense of depth to the landscape, but generally on a much larger scale. Here the dune itself dominates the picture, and the cart track meandering around it creates the illusion of depth and draws our eye into what is a relatively small picture.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Wijnants",
+    "birth_date": "1643",
+    "death_date": "1684",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2533-00-000018-web.jpg",
+    "filename": "N-2533-00-000018-web.jpg",
+    "image_key": "N-2533-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1550,
+    "aspect_ratio": 1.2387,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 769160
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1814,
+    "horizontal_lines": 875,
+    "vertical_lines": 29,
+    "diagonal_lines": 910,
+    "edge_density": 0.0788,
+    "dominant_angles": [
+      -10.9,
+      -6.9,
+      9.8,
+      1.9,
+      -31.8,
+      -36.1,
+      -8.0,
+      0.0,
+      -45.0,
+      15.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      101,
+      96,
+      80
+    ],
+    "mean_color_hex": "#656050",
+    "color_palette": [
+      "#7a838a",
+      "#52462d",
+      "#413621",
+      "#2f2616",
+      "#646d75",
+      "#665839",
+      "#969891",
+      "#7e6f4a",
+      "#bbb28f",
+      "#a18f63"
+    ],
+    "unique_colors": 79174,
+    "color_diversity": 0.0266,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 95.93,
+    "contrast_level": "medium",
+    "contrast_value": 0.3069,
+    "dynamic_range": 226,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 42.97,
+    "midtones_percentage": 53.81,
+    "highlights_percentage": 3.22
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7056,
+        "bbox": [
+          1189.46,
+          1153.78,
+          1276.69,
+          1383.7
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3942,
+        "bbox": [
+          931.47,
+          1057.84,
+          996.54,
+          1151.92
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.343,
+        "bbox": [
+          1005.78,
+          1058.83,
+          1069.85,
+          1168.64
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2707,
+        "bbox": [
+          918.17,
+          1062.69,
+          1000.99,
+          1173.39
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1045,
+          155,
+          1119,
+          229
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FQC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FQC-0001-0000-0000.json"
+  }
+}

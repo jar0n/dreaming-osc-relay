@@ -1,0 +1,182 @@
+{
+  "identifier": "NG1686",
+  "full_title": "The Rosy Wealth of June",
+  "short_title": "The Rosy Wealth of June",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on canvas",
+  "dimensions": "70.5 × 61.6 cm",
+  "production_date": "1886",
+  "brief_description": "A profusion of summer flowers has been packed tightly into an almost invisible vase. In the centre and to the right, deep blue delphiniums stand tall above the crowd of blossom, and are mirrored by the larkspur on the left. Pink begonias are tucked in among several varieties of rose, while two dahlias -- one red, one yellow -- nestle in at the top of the arrangement. The brilliant white of the phlox, radiant against the palest pink of the surrounding roses, sets off the kaleidoscope of colours around it.\n\nFantin-Latour lived in Paris, but this painting was exhibited at the Royal Academy in London in 1898. It’s possible that he made it while visiting his lifelong friends and patrons, Mr and Mrs Edwin Edwards, in Richmond. The couple not only bought his pictures but acted as his agents in England, where his academic style, with almost invisible brushstrokes and a smooth finish, was very popular.",
+  "accession_date": "1899-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs Edwin Edwards, 1899",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Ignace-Henri-Théodore Fantin-Latour",
+    "birth_date": "1836",
+    "death_date": "1904",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1686-00-000016-web.jpg",
+    "filename": "N-1686-00-000016-web.jpg",
+    "image_key": "N-1686-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2176,
+    "aspect_ratio": 0.8824,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1412248
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 5770,
+    "horizontal_lines": 553,
+    "vertical_lines": 982,
+    "diagonal_lines": 4235,
+    "edge_density": 0.1377,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -16.9,
+      45.0,
+      2.2,
+      -11.2,
+      -45.0,
+      -45.0,
+      45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      102,
+      85,
+      68
+    ],
+    "mean_color_hex": "#665544",
+    "color_palette": [
+      "#73624c",
+      "#7f6e56",
+      "#402f2a",
+      "#30241f",
+      "#655542",
+      "#504238",
+      "#8d7b61",
+      "#a49275",
+      "#b9aa8b",
+      "#742d2f"
+    ],
+    "unique_colors": 107218,
+    "color_diversity": 0.0257,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 88.33,
+    "contrast_level": "low",
+    "contrast_value": 0.266,
+    "dynamic_range": 230,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 41.87,
+    "midtones_percentage": 56.5,
+    "highlights_percentage": 1.63
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.3454,
+        "bbox": [
+          119.13,
+          367.52,
+          1871.77,
+          1904.55
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.3272,
+        "bbox": [
+          678.42,
+          1396.82,
+          1387.21,
+          1902.14
+        ]
+      },
+      {
+        "class": "dining table",
+        "confidence": 0.2723,
+        "bbox": [
+          76.73,
+          1304.88,
+          1890.81,
+          2168.8
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "potted plant": 1,
+      "vase": 1,
+      "dining table": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1439,
+          1184,
+          1495,
+          1240
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1647,
+          1804,
+          1714,
+          1871
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FI5-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FI5-0001-0000-0000.json"
+  }
+}

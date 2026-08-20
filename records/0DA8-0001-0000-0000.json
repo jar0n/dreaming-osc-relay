@@ -1,0 +1,292 @@
+{
+  "identifier": "NG2673",
+  "full_title": "Narcissus",
+  "short_title": "Narcissus",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "23.2 × 26.5 cm",
+  "production_date": "probably about 1500",
+  "brief_description": "In Greek mythology, Narcissus was an outstandingly beautiful young man who fell in love with his own reflection in a woodland pool, eventually pining away with unrequited passion. This tiny picture shows him dressed elegantly and with a wreath of leaves in his hair, gazing into a still basin of water. It is unusual for Narcissus to be shown in contemporary dress -- he is more usually depicted as a classical hunter or a beautiful, naked youth.\n\nThis painting and another version of it (Uffizi, Florence) were done by an artist close to Boltraffio, one of Leonardo da Vinci's most talented followers; both pictures recall Boltraffio's drawings of the profiles of an idealised youth with flowing hair and a wreath. These perhaps hark back to an original by Leonardo, reflecting the poetic culture of the Milanese court during the 1490s.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Giovanni Antonio Boltraffio",
+    "birth_date": "1467",
+    "death_date": "1516",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2673-00-000040-web.jpg",
+    "filename": "N-2673-00-000040-web.jpg",
+    "image_key": "N-2673-00-000040",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1710,
+    "aspect_ratio": 1.1228,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 774079
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 980,
+    "horizontal_lines": 380,
+    "vertical_lines": 28,
+    "diagonal_lines": 572,
+    "edge_density": 0.0458,
+    "dominant_angles": [
+      5.0,
+      11.0,
+      45.0,
+      7.3,
+      41.8,
+      13.9,
+      45.0,
+      41.7,
+      45.0,
+      10.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      83,
+      63,
+      42
+    ],
+    "mean_color_hex": "#533f2a",
+    "color_palette": [
+      "#372514",
+      "#231c11",
+      "#4c3018",
+      "#643c20",
+      "#8f6b4f",
+      "#7a5639",
+      "#a29f8e",
+      "#b08867",
+      "#7e897b",
+      "#43645a"
+    ],
+    "unique_colors": 79681,
+    "color_diversity": 0.0243,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 66.91,
+    "contrast_level": "medium",
+    "contrast_value": 0.3069,
+    "dynamic_range": 244,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 71.36,
+    "midtones_percentage": 28.24,
+    "highlights_percentage": 0.4
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8418,
+        "bbox": [
+          462.12,
+          114.92,
+          1919.07,
+          1681.91
+        ]
+      },
+      {
+        "class": "dog",
+        "confidence": 0.2703,
+        "bbox": [
+          0.76,
+          1209.67,
+          174.08,
+          1706.44
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "dog": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1252,
+          996,
+          1294,
+          1038
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 714.11,
+          "y": 864.11,
+          "visibility": 2,
+          "confidence": 0.9963
+        },
+        {
+          "name": "left_eye",
+          "x": 760.44,
+          "y": 737.44,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "right_eye",
+          "x": 658.56,
+          "y": 802.78,
+          "visibility": 2,
+          "confidence": 0.8159
+        },
+        {
+          "name": "left_ear",
+          "x": 1050.22,
+          "y": 647.89,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0158
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1551.86,
+          "y": 1100.76,
+          "visibility": 2,
+          "confidence": 0.9649
+        },
+        {
+          "name": "right_shoulder",
+          "x": 969.75,
+          "y": 1078.06,
+          "visibility": 2,
+          "confidence": 0.9873
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1762
+        },
+        {
+          "name": "right_elbow",
+          "x": 861.43,
+          "y": 1415.53,
+          "visibility": 2,
+          "confidence": 0.625
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3135
+        },
+        {
+          "name": "right_wrist",
+          "x": 744.1,
+          "y": 1175.75,
+          "visibility": 2,
+          "confidence": 0.6507
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0389
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1179
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0024
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0089
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0011
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0DA8-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0DA8-0001-0000-0000.json"
+  }
+}

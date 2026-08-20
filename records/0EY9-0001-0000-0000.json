@@ -1,0 +1,171 @@
+{
+  "identifier": "NG584.5",
+  "full_title": "Gabriel: Frame Roundel (Left)",
+  "short_title": "Gabriel: Frame Roundel (Left)",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "egg tempera on wood",
+  "dimensions": "13.2 × 13.2 cm",
+  "production_date": "about 1450?",
+  "brief_description": "This small roundel of the Angel Gabriel comes from a polyptych (a multi-panelled altarpiece) painted in Florence in about 1450. It was made for a side altar in the church of San Giovanni Evangelista in Pratovecchio.\n\nThis is half of an image of the Annunciation, the moment Gabriel appeared to the Virgin Mary to tell her that she would conceive the son of God. Mary is shown in another roundel on the opposite side of the altarpiece. Gabriel is holding a lily, a traditional symbol of the Virgin's purity, and raises his hand in a gesture of blessing.",
+  "accession_date": "1859-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1857",
+  "associated_concepts": "Italian (Tuscan)",
+  "creator": {
+    "name": "Jacopo di Antonio (Master of Pratovecchio?)",
+    "birth_date": "1427",
+    "death_date": "1454",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0584-05-000004-web-g.jpg",
+    "filename": "N-0584-05-000004-web-g.jpg",
+    "image_key": "N-0584-05-000004",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1161,
+    "aspect_ratio": 1.6537,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 461702
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1339,
+    "horizontal_lines": 710,
+    "vertical_lines": 58,
+    "diagonal_lines": 571,
+    "edge_density": 0.0774,
+    "dominant_angles": [
+      0.0,
+      45.0,
+      45.0,
+      28.1,
+      19.1,
+      -0.9,
+      0.0,
+      45.0,
+      45.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      99,
+      85,
+      64
+    ],
+    "mean_color_hex": "#635540",
+    "color_palette": [
+      "#3b3c3f",
+      "#655339",
+      "#574732",
+      "#715f41",
+      "#7f6b49",
+      "#473a29",
+      "#927b55",
+      "#af9467",
+      "#dabc81",
+      "#f9ecaf"
+    ],
+    "unique_colors": 35949,
+    "color_diversity": 0.0161,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 87.3,
+    "contrast_level": "low",
+    "contrast_value": 0.2357,
+    "dynamic_range": 238,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 53.14,
+    "midtones_percentage": 44.55,
+    "highlights_percentage": 2.32
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "toilet",
+        "confidence": 0.5311,
+        "bbox": [
+          41.56,
+          21.15,
+          1757.92,
+          1125.88
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2997,
+        "bbox": [
+          859.89,
+          628.94,
+          1110.12,
+          977.38
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "toilet": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          626,
+          759,
+          686,
+          819
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          952,
+          573,
+          1058,
+          679
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EY9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EY9-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "identifier": "NG2607",
+  "full_title": "Portrait of a Man (Alfonso de Valdés?)",
+  "short_title": "Portrait of a Man (Alfonso de Valdés?)",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "42 × 33.8 cm",
+  "production_date": "about 1531",
+  "brief_description": "The sitter, wearing a lynx-lined coat, holds up a medal showing a bearded man dressed as a cardinal; the Latin inscription identifies him as Mercurio Arbono di Gattinara, Grand Chancellor to Emperor Charles V. The sitter is probably Alfonso de Valdés, one of Gattinara's closest associates.\n\nJudging from the costume, the portrait was perhaps painted shortly after Gattinara's death in 1530. Alfonso was in the Low Countries in 1531; in October of that year he wrote to a friend and mentioned a portrait left unfinished in the Netherlands, of which copies were being made (he didn't name the artist of the original or the copy).\n\nAlthough the painting has been trimmed and is damaged and discoloured by retouching, stylistically it can be attributed to the principal associate of Jan Cornelisz Vermeyen, painter and tapestry designer to the Habsburgs. Vermeyen seems to have had a colleague who trained in the workshop of Bernaert van Orley and who worked on a number of his portraits, including this one.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Jan Cornelisz. Vermeyen",
+    "birth_date": "1504",
+    "death_date": "1559",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2607-00-000024-web.jpg",
+    "filename": "N-2607-00-000024-web.jpg",
+    "image_key": "N-2607-00-000024",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2401,
+    "aspect_ratio": 0.7997,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1001837
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 396,
+    "horizontal_lines": 40,
+    "vertical_lines": 55,
+    "diagonal_lines": 301,
+    "edge_density": 0.0267,
+    "dominant_angles": [
+      -21.8,
+      45.0,
+      -23.0,
+      -45.0,
+      -69.2,
+      -56.1,
+      -69.9,
+      -34.9,
+      15.1,
+      -18.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      60,
+      50,
+      33
+    ],
+    "mean_color_hex": "#3c3221",
+    "color_palette": [
+      "#13100e",
+      "#1f1e0d",
+      "#2c2911",
+      "#42341c",
+      "#60432d",
+      "#78583c",
+      "#988771",
+      "#947253",
+      "#b68768",
+      "#766959"
+    ],
+    "unique_colors": 67738,
+    "color_diversity": 0.0147,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 51.49,
+    "contrast_level": "medium",
+    "contrast_value": 0.3106,
+    "dynamic_range": 202,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 78.83,
+    "midtones_percentage": 21.12,
+    "highlights_percentage": 0.05
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7939,
+        "bbox": [
+          3.6,
+          188.59,
+          1913.98,
+          2382.15
+        ]
+      },
+      {
+        "class": "teddy bear",
+        "confidence": 0.3365,
+        "bbox": [
+          191.63,
+          1633.52,
+          632.52,
+          2125.36
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "teddy bear": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1199,
+          1678,
+          1254,
+          1733
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          412,
+          1688,
+          495,
+          1771
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1237,
+          1376,
+          1317,
+          1456
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1414,
+          1212,
+          1658,
+          1456
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          667,
+          344,
+          1250,
+          927
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 915.41,
+          "y": 694.08,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "left_eye",
+          "x": 1053.74,
+          "y": 579.77,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "right_eye",
+          "x": 859.24,
+          "y": 580.42,
+          "visibility": 2,
+          "confidence": 0.9828
+        },
+        {
+          "name": "left_ear",
+          "x": 1306.64,
+          "y": 667.44,
+          "visibility": 2,
+          "confidence": 0.9877
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2647
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1604.5,
+          "y": 1370.5,
+          "visibility": 2,
+          "confidence": 0.9863
+        },
+        {
+          "name": "right_shoulder",
+          "x": 556.64,
+          "y": 1237.41,
+          "visibility": 2,
+          "confidence": 0.9845
+        },
+        {
+          "name": "left_elbow",
+          "x": 1707.52,
+          "y": 2194.67,
+          "visibility": 2,
+          "confidence": 0.5832
+        },
+        {
+          "name": "right_elbow",
+          "x": 190.6,
+          "y": 1863.31,
+          "visibility": 2,
+          "confidence": 0.506
+        },
+        {
+          "name": "left_wrist",
+          "x": 1335.84,
+          "y": 2258.66,
+          "visibility": 2,
+          "confidence": 0.5657
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4965
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0474
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0446
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FOW-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FOW-0001-0000-0000.json"
+  }
+}

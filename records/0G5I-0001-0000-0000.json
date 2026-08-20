@@ -1,0 +1,333 @@
+{
+  "identifier": "NG3424",
+  "full_title": "The Virgin and Child",
+  "short_title": "The Virgin and Child",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "egg tempera on wood",
+  "dimensions": "76.6 × 61 cm",
+  "production_date": "about 1450-60",
+  "brief_description": "The Christ Child lies in the Virgin Mary's arms and holds a small bird to his lips. This tender image was intended to show the bond between Christ and his mother.\n\nChrist's pose is found in paintings of the Virgin adoring the Child that were produced by Lippi and his workshop, such as the so-called Annalena Adoration (Uffizi, Florence). But it's difficult to assess the degree of Lippi's involvement here: the picture has been repainted more than once, and once from scratch. Technical analysis has revealed the original version underneath the new one.\n\nThe coats of arms may have been added to celebrate a marriage which united two Florentine families -- the Strozzi (left) and the Gaetani (right) -- in the sixteenth century.",
+  "accession_date": "1919-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Lord Brownlow, 1919",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Fra Filippo Lippi",
+    "birth_date": "1406",
+    "death_date": "1469",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3424-00-000027-web.jpg",
+    "filename": "N-3424-00-000027-web.jpg",
+    "image_key": "N-3424-00-000027",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2424,
+    "aspect_ratio": 0.7921,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1279905
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2993,
+    "horizontal_lines": 500,
+    "vertical_lines": 1531,
+    "diagonal_lines": 962,
+    "edge_density": 0.083,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      88.9,
+      -90.0,
+      89.3,
+      -90.0,
+      0.0,
+      -90.0,
+      -89.3,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      106,
+      85,
+      65
+    ],
+    "mean_color_hex": "#6a5541",
+    "color_palette": [
+      "#201c17",
+      "#644425",
+      "#7d5a39",
+      "#443325",
+      "#927053",
+      "#585449",
+      "#aa8a70",
+      "#c8ac91",
+      "#eed3b3",
+      "#fefcf4"
+    ],
+    "unique_colors": 170485,
+    "color_diversity": 0.0366,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.36,
+    "contrast_level": "medium",
+    "contrast_value": 0.4178,
+    "dynamic_range": 250,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 52.55,
+    "midtones_percentage": 37.98,
+    "highlights_percentage": 9.47
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7696,
+        "bbox": [
+          273.92,
+          284.55,
+          1765.77,
+          2352.99
+        ]
+      },
+      {
+        "class": "banana",
+        "confidence": 0.4524,
+        "bbox": [
+          427.92,
+          1084.23,
+          1081.39,
+          1682.25
+        ]
+      },
+      {
+        "class": "chair",
+        "confidence": 0.355,
+        "bbox": [
+          50.82,
+          55.85,
+          1854.71,
+          2350.21
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "banana": 1,
+      "chair": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          266,
+          1276,
+          317,
+          1327
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1011,
+          1448,
+          1070,
+          1507
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          481,
+          1701,
+          548,
+          1768
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1601,
+          941,
+          1791,
+          1131
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 899.42,
+          "y": 676.51,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "left_eye",
+          "x": 946.39,
+          "y": 574.4,
+          "visibility": 2,
+          "confidence": 0.9974
+        },
+        {
+          "name": "right_eye",
+          "x": 823.14,
+          "y": 627.0,
+          "visibility": 2,
+          "confidence": 0.9764
+        },
+        {
+          "name": "left_ear",
+          "x": 1081.62,
+          "y": 571.39,
+          "visibility": 2,
+          "confidence": 0.9766
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3795
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1326.85,
+          "y": 960.41,
+          "visibility": 2,
+          "confidence": 0.9946
+        },
+        {
+          "name": "right_shoulder",
+          "x": 691.65,
+          "y": 1039.22,
+          "visibility": 2,
+          "confidence": 0.9908
+        },
+        {
+          "name": "left_elbow",
+          "x": 1515.95,
+          "y": 1450.7,
+          "visibility": 2,
+          "confidence": 0.9335
+        },
+        {
+          "name": "right_elbow",
+          "x": 463.03,
+          "y": 1471.62,
+          "visibility": 2,
+          "confidence": 0.8561
+        },
+        {
+          "name": "left_wrist",
+          "x": 1423.4,
+          "y": 1466.51,
+          "visibility": 2,
+          "confidence": 0.8776
+        },
+        {
+          "name": "right_wrist",
+          "x": 432.9,
+          "y": 1449.83,
+          "visibility": 2,
+          "confidence": 0.7727
+        },
+        {
+          "name": "left_hip",
+          "x": 1176.62,
+          "y": 1889.78,
+          "visibility": 2,
+          "confidence": 0.9069
+        },
+        {
+          "name": "right_hip",
+          "x": 732.11,
+          "y": 1908.27,
+          "visibility": 2,
+          "confidence": 0.8789
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3249
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2692
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0813
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0726
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -9.18
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G5I-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G5I-0001-0000-0000.json"
+  }
+}

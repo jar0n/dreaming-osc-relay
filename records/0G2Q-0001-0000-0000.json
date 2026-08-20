@@ -1,0 +1,302 @@
+{
+  "identifier": "NG2209",
+  "full_title": "Edzard the Great, Count of East Friesland",
+  "short_title": "Edzard the Great, Count of East Friesland",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "48.9 × 36.2 cm",
+  "production_date": "18th century",
+  "brief_description": "The man in this portrait is mistakenly identified on the reverse as Ulrich I Cirksena, Count of East Friesland, who died in 1466. However, he looks more like Ulrich's son, Edzard I, known as 'the Great', who became count in 1492. His sword is inscribed with a Latin motto: 'Victor est qvi in / nomen domini pvgnavit' ('the victor is he who has fought in the name of the Lord'). The badge on his hat features an eagle, which was part of the coat of arms of the region.\n\nDendrochronology -- a method of determining the age of a piece of wood by analysing its pattern of rings -- has revealed that the wooden panel could not have been be used as a support for painting until about 1704; pigment analysis also shows the use of a colour only invented in the early eighteenth century. These tests confirm that the picture was not made from life but is either a copy or version of an earlier portrait. The Cirksena dynasty died out in the mid-eighteenth century, which may have prompted renewed interest in the family.",
+  "accession_date": "1907-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Mrs C.L. Eastlake in memory of her husband, Keeper of the National Gallery, 1907",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "German",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2209-00-000012-web.jpg",
+    "filename": "N-2209-00-000012-web.jpg",
+    "image_key": "N-2209-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2601,
+    "aspect_ratio": 0.7382,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 921295
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 589,
+    "horizontal_lines": 63,
+    "vertical_lines": 133,
+    "diagonal_lines": 393,
+    "edge_density": 0.0231,
+    "dominant_angles": [
+      70.1,
+      68.9,
+      69.1,
+      68.7,
+      45.0,
+      69.0,
+      68.9,
+      66.0,
+      84.6,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      50,
+      41,
+      24
+    ],
+    "mean_color_hex": "#322918",
+    "color_palette": [
+      "#211e15",
+      "#1a1812",
+      "#302616",
+      "#473212",
+      "#513f1f",
+      "#42371e",
+      "#926a34",
+      "#745025",
+      "#61593e",
+      "#9c8155"
+    ],
+    "unique_colors": 47257,
+    "color_diversity": 0.0095,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 42.09,
+    "contrast_level": "low",
+    "contrast_value": 0.1613,
+    "dynamic_range": 242,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 95.77,
+    "midtones_percentage": 4.21,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5787,
+        "bbox": [
+          80.18,
+          219.87,
+          1895.15,
+          2586.52
+        ]
+      },
+      {
+        "class": "scissors",
+        "confidence": 0.2884,
+        "bbox": [
+          1.99,
+          49.15,
+          1751.73,
+          2594.49
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "scissors": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          313,
+          857,
+          372,
+          916
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          767,
+          645,
+          1440,
+          1318
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1178.26,
+          "y": 1043.7,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "left_eye",
+          "x": 1240.49,
+          "y": 905.22,
+          "visibility": 2,
+          "confidence": 0.9645
+        },
+        {
+          "name": "right_eye",
+          "x": 1011.17,
+          "y": 905.67,
+          "visibility": 2,
+          "confidence": 0.9991
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0112
+        },
+        {
+          "name": "right_ear",
+          "x": 665.85,
+          "y": 935.51,
+          "visibility": 2,
+          "confidence": 0.9958
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1487.46,
+          "y": 1594.32,
+          "visibility": 2,
+          "confidence": 0.9765
+        },
+        {
+          "name": "right_shoulder",
+          "x": 329.49,
+          "y": 1647.5,
+          "visibility": 2,
+          "confidence": 0.8293
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2094
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0209
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1856
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0656
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0335
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0102
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0033
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.001
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G2Q-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G2Q-0001-0000-0000.json"
+  }
+}

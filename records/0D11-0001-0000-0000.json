@@ -1,0 +1,291 @@
+{
+  "identifier": "NG6399",
+  "full_title": "The Thames below Westminster",
+  "short_title": "The Thames below Westminster",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "47 × 73 cm",
+  "production_date": "about 1871",
+  "brief_description": "Monet was captivated by London's fog during his first stay in the capital from 1870 to 1871. Later in life he told the art dealer Rene Gimpel: 'Without the fog, London would not be a beautiful city. It’s the fog that gives it its magnificent breadth.' This misty composition is anchored by  carefully positioned horizontal and vertical structures -- the jetty in the foreground, Westminster Bridge marking the horizon, and the Houses of Parliament.\n\nEvery architectural element in the picture was new at the time. The Houses of Parliament had only just been finished, as had the Victoria Embankment on the right. St Thomas’ Hospital, the low rectangular shape on the far left, was also nearing completion before opening in the summer of 1871, and Westminster Bridge had been reconstructed in 1862. However, Monet is more interested here in broad effects than architectural detail; indeed he has exaggerated the height of the towers of the Houses of Parliament, making the building seem like a fairy tale palace.",
+  "accession_date": "1971-01-01",
+  "current_location": "Room 41, The National Gallery (London)",
+  "credit_line": "Bequeathed by Lord Astor of Hever, 1971",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Claude Monet",
+    "birth_date": "1840",
+    "death_date": "1926",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6399-00-000035-web.jpg",
+    "filename": "N-6399-00-000035-web.jpg",
+    "image_key": "N-6399-00-000035",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1237,
+    "aspect_ratio": 1.5521,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 496490
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 451,
+    "horizontal_lines": 258,
+    "vertical_lines": 38,
+    "diagonal_lines": 155,
+    "edge_density": 0.0371,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      -45.0,
+      -1.1,
+      0.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      167,
+      157,
+      141
+    ],
+    "mean_color_hex": "#a79d8d",
+    "color_palette": [
+      "#b9ab98",
+      "#b1a593",
+      "#bfb29f",
+      "#a99d8a",
+      "#989793",
+      "#898a88",
+      "#534d49",
+      "#7f776b",
+      "#6b6257",
+      "#988b79"
+    ],
+    "unique_colors": 26799,
+    "color_diversity": 0.0113,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 158.72,
+    "contrast_level": "low",
+    "contrast_value": 0.1969,
+    "dynamic_range": 182,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 3.1,
+    "midtones_percentage": 51.14,
+    "highlights_percentage": 45.76
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.6179,
+        "bbox": [
+          269.58,
+          732.38,
+          465.33,
+          897.31
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4324,
+        "bbox": [
+          536.57,
+          744.05,
+          771.47,
+          901.9
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2879,
+        "bbox": [
+          1261.48,
+          660.03,
+          1297.13,
+          764.8
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "boat": 2,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1185.34,
+          "y": 751.13,
+          "visibility": 2,
+          "confidence": 0.7937
+        },
+        {
+          "name": "left_eye",
+          "x": 1190.2,
+          "y": 744.78,
+          "visibility": 2,
+          "confidence": 0.6394
+        },
+        {
+          "name": "right_eye",
+          "x": 1179.84,
+          "y": 744.37,
+          "visibility": 2,
+          "confidence": 0.7533
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3361
+        },
+        {
+          "name": "right_ear",
+          "x": 1168.08,
+          "y": 746.93,
+          "visibility": 2,
+          "confidence": 0.5666
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1198.48,
+          "y": 784.49,
+          "visibility": 2,
+          "confidence": 0.9324
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1153.83,
+          "y": 781.98,
+          "visibility": 2,
+          "confidence": 0.9649
+        },
+        {
+          "name": "left_elbow",
+          "x": 1199.6,
+          "y": 830.79,
+          "visibility": 2,
+          "confidence": 0.6152
+        },
+        {
+          "name": "right_elbow",
+          "x": 1140.05,
+          "y": 827.28,
+          "visibility": 2,
+          "confidence": 0.8073
+        },
+        {
+          "name": "left_wrist",
+          "x": 1196.75,
+          "y": 859.27,
+          "visibility": 2,
+          "confidence": 0.5619
+        },
+        {
+          "name": "right_wrist",
+          "x": 1146.05,
+          "y": 857.34,
+          "visibility": 2,
+          "confidence": 0.712
+        },
+        {
+          "name": "left_hip",
+          "x": 1184.56,
+          "y": 874.54,
+          "visibility": 2,
+          "confidence": 0.9533
+        },
+        {
+          "name": "right_hip",
+          "x": 1155.92,
+          "y": 873.6,
+          "visibility": 2,
+          "confidence": 0.9658
+        },
+        {
+          "name": "left_knee",
+          "x": 1180.58,
+          "y": 949.09,
+          "visibility": 2,
+          "confidence": 0.925
+        },
+        {
+          "name": "right_knee",
+          "x": 1153.17,
+          "y": 948.39,
+          "visibility": 2,
+          "confidence": 0.9427
+        },
+        {
+          "name": "left_ankle",
+          "x": 1175.19,
+          "y": 1017.97,
+          "visibility": 2,
+          "confidence": 0.8946
+        },
+        {
+          "name": "right_ankle",
+          "x": 1147.44,
+          "y": 1016.79,
+          "visibility": 2,
+          "confidence": 0.9126
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -8.79
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D11-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D11-0001-0000-0000.json"
+  }
+}

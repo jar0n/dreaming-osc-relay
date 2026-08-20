@@ -1,0 +1,180 @@
+{
+  "identifier": "NG2531",
+  "full_title": "The Interior of the Grote Kerk at Haarlem",
+  "short_title": "The Interior of the Grote Kerk at Haarlem",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "59.5 × 81.7 cm",
+  "production_date": "1636-7",
+  "brief_description": "Between 1634 and 1637, Saenredam made a series of views of the interior of the Grote Kerk (or the Cathedral of St Bavo) in Haarlem, the city where he lived and worked -- this is one of them.\n\nEven though it is a small picture, it required an enormous amount of work. Saenredam made sketches on site, followed by preparatory drawings based on precise measurements. He would then trace a final version directly onto the panel he was going to paint on.\n\nHe did, however, make significant adjustments to the final painting, usually to emphasise the grandeur of a building. By examining surviving drawings and comparing them with the painting, we can see that he significantly exaggerated the size of the foreground columns and deepened the spaces we can see through the arches. As a result the church appears much more monumental, with massive columns and distant vistas.",
+  "accession_date": "1910-01-01",
+  "current_location": "Room 16, The National Gallery (London)",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Pieter Saenredam",
+    "birth_date": "1597",
+    "death_date": "1665",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2531-00-000020-web.jpg",
+    "filename": "N-2531-00-000020-web.jpg",
+    "image_key": "N-2531-00-000020",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1395,
+    "aspect_ratio": 1.3763,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 475506
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 309,
+    "horizontal_lines": 75,
+    "vertical_lines": 191,
+    "diagonal_lines": 43,
+    "edge_density": 0.0261,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -22.9,
+      -88.8,
+      -89.1,
+      -90.0,
+      -89.2,
+      -90.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      140,
+      133,
+      117
+    ],
+    "mean_color_hex": "#8c8575",
+    "color_palette": [
+      "#817c6d",
+      "#8e8877",
+      "#aba490",
+      "#746f61",
+      "#9d9581",
+      "#b7b09e",
+      "#656053",
+      "#c7c0ab",
+      "#554f44",
+      "#37322b"
+    ],
+    "unique_colors": 25378,
+    "color_diversity": 0.0095,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 133.79,
+    "contrast_level": "low",
+    "contrast_value": 0.2679,
+    "dynamic_range": 198,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 8.03,
+    "midtones_percentage": 74.49,
+    "highlights_percentage": 17.48
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "fire hydrant",
+        "confidence": 0.2776,
+        "bbox": [
+          706.72,
+          1220.52,
+          850.2,
+          1321.62
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "fire hydrant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          356,
+          1214,
+          431,
+          1289
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1487,
+          1082,
+          1592,
+          1187
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          45,
+          396,
+          440,
+          791
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          345,
+          374,
+          794,
+          823
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FUY-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FUY-0001-0000-0000.json"
+  }
+}

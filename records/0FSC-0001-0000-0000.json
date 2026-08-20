@@ -1,0 +1,190 @@
+{
+  "identifier": "NG2521.3",
+  "full_title": "Caprice View with Ruins",
+  "short_title": "Caprice View with Ruins",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on wood",
+  "dimensions": "10.4 × 6 cm",
+  "production_date": "after 1780",
+  "brief_description": "A crumbling, overgrown archway towers above a man and a young child carrying a stick, who are picked out by warm sunlight. The eye is led into the scene by the contrast of light, which illuminates the white stone building beyond, and shade. The use of simple blocks of colour and black lines to suggest architectural details might give the impression that this work was painted quickly on the spot, but it was most likely created in Guardi's studio.\n\nThis is one of a group of three very small pictures which have been framed together since the early nineteenth century (in another, a stylish couple wander towards a ruined domed building, while the third shows two men standing beside a calm pool and huge archway). Imaginary scenes like this, inspired by the Italian countryside and ancient buildings, were known as capricci, and were bought as souvenirs by visitors to Venice, where Guardi lived and worked.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2521-03-000011-web.jpg",
+    "filename": "N-2521-03-000011-web.jpg",
+    "image_key": "N-2521-03-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3202,
+    "aspect_ratio": 0.5996,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 2324323
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 13129,
+    "horizontal_lines": 557,
+    "vertical_lines": 6862,
+    "diagonal_lines": 5710,
+    "edge_density": 0.2081,
+    "dominant_angles": [
+      -71.6,
+      -56.0,
+      84.0,
+      45.0,
+      -64.1,
+      76.0,
+      -59.3,
+      69.1,
+      85.8,
+      -88.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      87,
+      83,
+      59
+    ],
+    "mean_color_hex": "#57533b",
+    "color_palette": [
+      "#373020",
+      "#463e2a",
+      "#544d36",
+      "#282217",
+      "#666f59",
+      "#615e44",
+      "#798066",
+      "#7d7049",
+      "#9a8959",
+      "#b4a575"
+    ],
+    "unique_colors": 96989,
+    "color_diversity": 0.0158,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 81.71,
+    "contrast_level": "low",
+    "contrast_value": 0.2586,
+    "dynamic_range": 246,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 54.56,
+    "midtones_percentage": 44.85,
+    "highlights_percentage": 0.59
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5132,
+        "bbox": [
+          1465.88,
+          2262.79,
+          1604.26,
+          2574.18
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4871,
+        "bbox": [
+          417.94,
+          2429.68,
+          696.47,
+          2883.33
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          643,
+          1007,
+          691,
+          1055
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1277,
+          3006,
+          1332,
+          3061
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1045,
+          2022,
+          1127,
+          2104
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          917,
+          1712,
+          1179,
+          1974
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FSC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FSC-0001-0000-0000.json"
+  }
+}

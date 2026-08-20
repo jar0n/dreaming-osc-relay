@@ -1,0 +1,171 @@
+{
+  "identifier": "NG983",
+  "full_title": "A Bay Horse, a Cow, a Goat and Three Sheep near a Building",
+  "short_title": "Animals near a Building",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "31 × 37 cm",
+  "production_date": "1663",
+  "brief_description": "Adriaen van de Velde’s pastoral scenes are, like this one, almost always tranquil and serene. They were designed to be easy to live with, and to give city dwellers a sense of being in touch with the countryside and traditional life. But although the paintings are tranquil there's a sense of energy and movement hidden within them, and it's a key part of their appeal.\n\nIn this picture, the statuesque bay horse is placed centrally; the strong, swooping line of its back dominates the picture and hints at the animal’s power. The line leads the eye past its feathery mane ruffled in the wind, and up to the fast moving clouds overhead. One of them catches the sun as it edges between the darker clouds that move away on either side of it to make way for the sparkling blue of the sky.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Adriaen van de Velde",
+    "birth_date": "1636",
+    "death_date": "1672",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0983-00-000025-web.jpg",
+    "filename": "N-0983-00-000025-web.jpg",
+    "image_key": "N-0983-00-000025",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1637,
+    "aspect_ratio": 1.1729,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 572585
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 222,
+    "horizontal_lines": 74,
+    "vertical_lines": 24,
+    "diagonal_lines": 124,
+    "edge_density": 0.0138,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -45.0,
+      -90.0,
+      -45.0,
+      -45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      65,
+      64,
+      63
+    ],
+    "mean_color_hex": "#41403f",
+    "color_palette": [
+      "#1e1a13",
+      "#29231a",
+      "#453120",
+      "#767474",
+      "#718397",
+      "#4c7198",
+      "#9a8f84",
+      "#595e69",
+      "#3c4149",
+      "#645540"
+    ],
+    "unique_colors": 48788,
+    "color_diversity": 0.0155,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 64.67,
+    "contrast_level": "medium",
+    "contrast_value": 0.3238,
+    "dynamic_range": 187,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 66.35,
+    "midtones_percentage": 33.34,
+    "highlights_percentage": 0.31
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.9244,
+        "bbox": [
+          683.99,
+          685.83,
+          1414.86,
+          1326.36
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.6203,
+        "bbox": [
+          1322.95,
+          1086.21,
+          1759.71,
+          1454.99
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3191,
+        "bbox": [
+          343.54,
+          1016.75,
+          700.91,
+          1346.33
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "horse": 1,
+      "cow": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1544,
+          1231,
+          1602,
+          1289
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F7V-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F7V-0001-0000-0000.json"
+  }
+}

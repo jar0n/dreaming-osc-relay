@@ -1,0 +1,312 @@
+{
+  "identifier": "NG1243",
+  "full_title": "Portrait of a Young Man",
+  "short_title": "Portrait of a Young Man",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "49.5 × 35.9 cm",
+  "production_date": "1662",
+  "brief_description": "The classical-style pillar and red silk curtain add grandeur to this portrait of a proud-looking young man. The inscription on the balustrade to the right includes the artist's monogram and the date 1662. The first part of it, 'Cop', stands for Copenhagen, where Heimbach lived for several years in the mid-seventeenth century, serving as the court painter to Frederick III.\n\nThe sitter has not been identified, but may be a Danish merchant; the background of towers to left and shops to the right may be intended to represent Copenhagen. The painting, with its date of 1662, provides the latest recorded evidence of Heimbach's presence in the city on his first visit.",
+  "accession_date": "1888-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1888",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Wolfgang Heimbach",
+    "birth_date": "1636",
+    "death_date": "1678",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1243-00-000018-web.jpg",
+    "filename": "N-1243-00-000018-web.jpg",
+    "image_key": "N-1243-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2601,
+    "aspect_ratio": 0.7382,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 688141
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 373,
+    "horizontal_lines": 41,
+    "vertical_lines": 187,
+    "diagonal_lines": 145,
+    "edge_density": 0.0165,
+    "dominant_angles": [
+      87.1,
+      87.2,
+      85.9,
+      84.1,
+      86.0,
+      87.8,
+      86.9,
+      86.1,
+      87.9,
+      87.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      115,
+      109,
+      100
+    ],
+    "mean_color_hex": "#736d64",
+    "color_palette": [
+      "#fefefe",
+      "#191a15",
+      "#23211c",
+      "#3a2d22",
+      "#7b765a",
+      "#523b2b",
+      "#8e886a",
+      "#645f49",
+      "#6e4833",
+      "#9a6946"
+    ],
+    "unique_colors": 55089,
+    "color_diversity": 0.011,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 110.15,
+    "contrast_level": "high",
+    "contrast_value": 0.7314,
+    "dynamic_range": 251,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 55.67,
+    "midtones_percentage": 17.21,
+    "highlights_percentage": 27.11
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9056,
+        "bbox": [
+          174.73,
+          171.51,
+          1606.53,
+          2552.77
+        ]
+      },
+      {
+        "class": "surfboard",
+        "confidence": 0.4041,
+        "bbox": [
+          845.43,
+          66.88,
+          1879.81,
+          2558.98
+        ]
+      },
+      {
+        "class": "surfboard",
+        "confidence": 0.3216,
+        "bbox": [
+          56.66,
+          64.77,
+          1882.52,
+          2524.06
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "surfboard": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          875,
+          115,
+          991,
+          231
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          745,
+          624,
+          1237,
+          1116
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1017.22,
+          "y": 881.98,
+          "visibility": 2,
+          "confidence": 0.9984
+        },
+        {
+          "name": "left_eye",
+          "x": 1066.38,
+          "y": 801.77,
+          "visibility": 2,
+          "confidence": 0.9944
+        },
+        {
+          "name": "right_eye",
+          "x": 882.16,
+          "y": 817.5,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "left_ear",
+          "x": 1141.76,
+          "y": 889.93,
+          "visibility": 2,
+          "confidence": 0.7219
+        },
+        {
+          "name": "right_ear",
+          "x": 697.79,
+          "y": 949.87,
+          "visibility": 2,
+          "confidence": 0.9569
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1282.43,
+          "y": 1425.66,
+          "visibility": 2,
+          "confidence": 0.976
+        },
+        {
+          "name": "right_shoulder",
+          "x": 583.12,
+          "y": 1433.91,
+          "visibility": 2,
+          "confidence": 0.9954
+        },
+        {
+          "name": "left_elbow",
+          "x": 1378.42,
+          "y": 2032.94,
+          "visibility": 2,
+          "confidence": 0.6073
+        },
+        {
+          "name": "right_elbow",
+          "x": 341.46,
+          "y": 2020.39,
+          "visibility": 2,
+          "confidence": 0.9115
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4777
+        },
+        {
+          "name": "right_wrist",
+          "x": 614.35,
+          "y": 2240.35,
+          "visibility": 2,
+          "confidence": 0.8196
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4037
+        },
+        {
+          "name": "right_hip",
+          "x": 825.89,
+          "y": 2498.12,
+          "visibility": 2,
+          "confidence": 0.6071
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0095
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0196
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0018
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0028
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": 12.85
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FJI-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FJI-0001-0000-0000.json"
+  }
+}

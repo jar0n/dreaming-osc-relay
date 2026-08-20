@@ -1,0 +1,343 @@
+{
+  "identifier": "NG6514",
+  "full_title": "The Virgin and Child in an Interior",
+  "short_title": "The Virgin and Child in an Interior",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "18.7 × 11.6 cm",
+  "production_date": "before 1432",
+  "brief_description": "This tiny painting -- almost postcard sized -- shows an endearing fireside scene: Christ's bath time. The Virgin sits on a cushion on the floor, surrounded by domestic paraphernalia. There is a brass bowl in front of the fire, and a basket of white cloths -- presumably nappies or swaddling bands -- on the floor.\n\nAlthough Mary and Jesus are biblical figures the artist has placed them in a wealthy fifteenth-century Netherlandish home. Rays around their heads remind us that this is no ordinary mother, but the Mother of God. The naked Child twists on her lap, to kiss his mother's lips and stroke her chin with his left hand; with the other hand, he touches his genitals. His unusual gesture perhaps refers to the idea that the Virgin, as a symbol of the Church, was understood in the Middle Ages as the bride of Christ.",
+  "accession_date": "1987-01-01",
+  "current_location": "Room 52, The National Gallery (London)",
+  "credit_line": "Bought, 1987",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Robert Campin",
+    "birth_date": "1378",
+    "death_date": "1444",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6514-00-000030-web-g.jpg",
+    "filename": "N-6514-00-000030-web-g.jpg",
+    "image_key": "N-6514-00-000030",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2757,
+    "aspect_ratio": 0.6964,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1761292
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 9024,
+    "horizontal_lines": 445,
+    "vertical_lines": 4855,
+    "diagonal_lines": 3724,
+    "edge_density": 0.1741,
+    "dominant_angles": [
+      -90.0,
+      -89.1,
+      -90.0,
+      89.3,
+      -45.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -81.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      99,
+      85,
+      68
+    ],
+    "mean_color_hex": "#635544",
+    "color_palette": [
+      "#453625",
+      "#7d6444",
+      "#644e32",
+      "#957b59",
+      "#271c14",
+      "#b19772",
+      "#132348",
+      "#334973",
+      "#627492",
+      "#d2bfa0"
+    ],
+    "unique_colors": 195176,
+    "color_diversity": 0.0369,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 87.69,
+    "contrast_level": "medium",
+    "contrast_value": 0.3354,
+    "dynamic_range": 249,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 49.61,
+    "midtones_percentage": 46.69,
+    "highlights_percentage": 3.7
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bowl",
+        "confidence": 0.5428,
+        "bbox": [
+          279.75,
+          1838.65,
+          526.07,
+          1999.47
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3572,
+        "bbox": [
+          338.26,
+          1124.94,
+          1504.59,
+          2468.93
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.2654,
+        "bbox": [
+          260.78,
+          1325.69,
+          633.32,
+          1966.79
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "bowl": 1,
+      "person": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          569,
+          2271,
+          608,
+          2310
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1529,
+          496,
+          1585,
+          552
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          330,
+          1484,
+          386,
+          1540
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          318,
+          1507,
+          395,
+          1584
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          916,
+          1352,
+          1083,
+          1519
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1028.71,
+          "y": 1305.12,
+          "visibility": 2,
+          "confidence": 0.9858
+        },
+        {
+          "name": "left_eye",
+          "x": 1057.53,
+          "y": 1257.29,
+          "visibility": 2,
+          "confidence": 0.984
+        },
+        {
+          "name": "right_eye",
+          "x": 995.11,
+          "y": 1264.15,
+          "visibility": 2,
+          "confidence": 0.8144
+        },
+        {
+          "name": "left_ear",
+          "x": 1131.81,
+          "y": 1251.66,
+          "visibility": 2,
+          "confidence": 0.9473
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1383
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1266.31,
+          "y": 1414.3,
+          "visibility": 2,
+          "confidence": 0.9979
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1022.38,
+          "y": 1392.38,
+          "visibility": 2,
+          "confidence": 0.9792
+        },
+        {
+          "name": "left_elbow",
+          "x": 1250.22,
+          "y": 1670.07,
+          "visibility": 2,
+          "confidence": 0.9939
+        },
+        {
+          "name": "right_elbow",
+          "x": 885.43,
+          "y": 1610.65,
+          "visibility": 2,
+          "confidence": 0.9045
+        },
+        {
+          "name": "left_wrist",
+          "x": 1063.49,
+          "y": 1585.84,
+          "visibility": 2,
+          "confidence": 0.9924
+        },
+        {
+          "name": "right_wrist",
+          "x": 816.76,
+          "y": 1638.95,
+          "visibility": 2,
+          "confidence": 0.935
+        },
+        {
+          "name": "left_hip",
+          "x": 1159.91,
+          "y": 1879.47,
+          "visibility": 2,
+          "confidence": 0.9955
+        },
+        {
+          "name": "right_hip",
+          "x": 1013.86,
+          "y": 1843.62,
+          "visibility": 2,
+          "confidence": 0.9867
+        },
+        {
+          "name": "left_knee",
+          "x": 895.46,
+          "y": 1720.12,
+          "visibility": 2,
+          "confidence": 0.9947
+        },
+        {
+          "name": "right_knee",
+          "x": 789.95,
+          "y": 1680.7,
+          "visibility": 2,
+          "confidence": 0.9849
+        },
+        {
+          "name": "left_ankle",
+          "x": 638.52,
+          "y": 2160.04,
+          "visibility": 2,
+          "confidence": 0.9786
+        },
+        {
+          "name": "right_ankle",
+          "x": 624.91,
+          "y": 2165.42,
+          "visibility": 2,
+          "confidence": 0.961
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -12.88
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CWV-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CWV-0001-0000-0000.json"
+  }
+}

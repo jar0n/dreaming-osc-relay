@@ -1,0 +1,170 @@
+{
+  "identifier": "NG2532",
+  "full_title": "A Landscape with a Woman driving Sheep through a Ruined Archway",
+  "short_title": "A Landscape with a Ruined Archway",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "35.8 × 43.5 cm",
+  "production_date": "1667",
+  "brief_description": "Jan Wijnants specialised in painting landscapes which evoke the countryside around Haarlem, where he lived and worked. It was an area characterised by ancient sand dunes overgrown by scrubby woodland and open pastures interlaced with winding cart tracks. It was also scattered with picturesque ruins, the remains of the buildings destroyed by the forces of the Spanish occupation at the time of the siege of Haarlem nearly a century earlier.\n\nLow light floods through the ruined arch, bathing the sheep and their shepherdess in a summery glow and casting long shadows in the pool of sunshine in the middle of the picture. This atmosphere of peace and stillness at the end of the day was not created by Wijnants alone. The figures and animals which are so integral to the light effects depicted were added to the scene by his frequent collaborator Adriaen van de Velde.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Wijnants",
+    "birth_date": "1643",
+    "death_date": "1684",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2532-00-000011-web.jpg",
+    "filename": "N-2532-00-000011-web.jpg",
+    "image_key": "N-2532-00-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1579,
+    "aspect_ratio": 1.216,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 696631
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1113,
+    "horizontal_lines": 518,
+    "vertical_lines": 74,
+    "diagonal_lines": 521,
+    "edge_density": 0.0499,
+    "dominant_angles": [
+      10.9,
+      0.0,
+      12.2,
+      -2.0,
+      -4.1,
+      45.0,
+      12.8,
+      -0.9,
+      7.0,
+      4.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      95,
+      89,
+      69
+    ],
+    "mean_color_hex": "#5f5945",
+    "color_palette": [
+      "#352f20",
+      "#28231b",
+      "#433b27",
+      "#8e856f",
+      "#544d32",
+      "#b5ad8c",
+      "#7e765f",
+      "#a0997e",
+      "#86908a",
+      "#6c6443"
+    ],
+    "unique_colors": 55976,
+    "color_diversity": 0.0185,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.08,
+    "contrast_level": "medium",
+    "contrast_value": 0.3615,
+    "dynamic_range": 196,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 55.68,
+    "midtones_percentage": 39.49,
+    "highlights_percentage": 4.83
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.2796,
+        "bbox": [
+          799.84,
+          1144.44,
+          871.38,
+          1249.99
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1264,
+          834,
+          1309,
+          879
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          918,
+          565,
+          973,
+          620
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          244,
+          678,
+          389,
+          823
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FCS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FCS-0001-0000-0000.json"
+  }
+}

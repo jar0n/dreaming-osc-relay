@@ -1,0 +1,191 @@
+{
+  "identifier": "NG6311",
+  "full_title": "L'Hôpital-Camfrout, Brittany",
+  "short_title": "L'Hôpital-Camfrout, Brittany",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on wood",
+  "dimensions": "20.3 × 39.4 cm",
+  "production_date": "about 1870-2",
+  "brief_description": "Boudin was born and brought up on the Normandy coast, retaining a lifelong affection for the area, which he painted throughout his career. But he was also drawn to Brittany, and made regular visits there in the 1850s, 1860s and 1870s. He married a Breton woman, Marie-Anne Guėdès, in 1863.\n\nThis picture shows an overcast day in Hôpital-Camfrout, a small market town in western Brittany that takes its name from a medieval hospital on the pilgrim route to Santiago da Compostela. On a confluence of two rivers near the coast, it was a town Boudin knew well, as it was close to the home of his in-laws. He uses an almost monochrome palette, dominated by the blue-greys that reflect the town's granite buildings with their slate roofs, relieved by touches of white and a slash of red on the boat in the foreground. With its remarkably free handling of paint, this modest panel has the air of having been painted on the spot.",
+  "accession_date": "1960-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Miss Judith E. Wilson, 1960",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Eugène Boudin",
+    "birth_date": "1824",
+    "death_date": "1898",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6311-00-000007-web.jpg",
+    "filename": "N-6311-00-000007-web.jpg",
+    "image_key": "N-6311-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1007,
+    "aspect_ratio": 1.9067,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 379747
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 243,
+    "horizontal_lines": 211,
+    "vertical_lines": 1,
+    "diagonal_lines": 31,
+    "edge_density": 0.0303,
+    "dominant_angles": [
+      4.3,
+      3.3,
+      -2.8,
+      -3.3,
+      -0.9,
+      -0.8,
+      -0.8,
+      0.0,
+      -2.3,
+      -5.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      107,
+      107,
+      97
+    ],
+    "mean_color_hex": "#6b6b61",
+    "color_palette": [
+      "#727269",
+      "#818176",
+      "#6b6b63",
+      "#7a7a70",
+      "#636359",
+      "#89887c",
+      "#4d4b41",
+      "#414038",
+      "#5a574c",
+      "#35342f"
+    ],
+    "unique_colors": 18715,
+    "color_diversity": 0.0097,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 106.42,
+    "contrast_level": "low",
+    "contrast_value": 0.1788,
+    "dynamic_range": 190,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 18.75,
+    "midtones_percentage": 81.24,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5121,
+        "bbox": [
+          155.8,
+          757.97,
+          199.16,
+          807.97
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3982,
+        "bbox": [
+          900.28,
+          729.21,
+          931.26,
+          775.01
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3982,
+        "bbox": [
+          96.7,
+          451.22,
+          562.82,
+          921.14
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2869,
+        "bbox": [
+          88.2,
+          828.49,
+          563.11,
+          926.2
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2694,
+        "bbox": [
+          93.5,
+          818.2,
+          743.25,
+          917.2
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "person": 2,
+      "boat": 3
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          764,
+          746,
+          925,
+          907
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0E45-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0E45-0001-0000-0000.json"
+  }
+}

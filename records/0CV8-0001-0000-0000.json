@@ -1,0 +1,332 @@
+{
+  "identifier": "NG6580",
+  "full_title": "The Triumph of David",
+  "short_title": "The Triumph of David",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "egg tempera on wood",
+  "dimensions": "43.3 × 177 cm",
+  "production_date": "about 1445-55",
+  "brief_description": "A fantastic procession winds its way through a Tuscan landscape dotted with hills and walled towns. Extravagantly dressed nobles ride prancing horses, while their hounds, a hunting cheetah and even a bear trot along beside them.Although it looks like medieval Italy, this actually shows a biblical event: David's triumphant return to Jerusalem after killing the giant Goliath, an enemy of Israel. He stands proudly on a horse-drawn cart, holding Goliath's head by the hair.This long and detailed painting was probably once set into the panelling of a room, maybe above a chest or a seat. At the right a young man and a woman greet each other outside the walls of a city -- this might be a betrothal, and the panel was possibly made to celebrate a marriage.",
+  "accession_date": "2000-01-31",
+  "current_location": "Room 62, The National Gallery (London)",
+  "credit_line": "Bought with the assistance of the Art Fund and a number of gifts in wills, 2000",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Francesco Pesellino",
+    "birth_date": "1422",
+    "death_date": "1457",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6580-00-000050-web.jpg",
+    "filename": "N-6580-00-000050-web.jpg",
+    "image_key": "N-6580-00-000050",
+    "image_type": "web",
+    "width": 1920,
+    "height": 460,
+    "aspect_ratio": 4.1739,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 305403
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 1234,
+    "horizontal_lines": 1215,
+    "vertical_lines": 5,
+    "diagonal_lines": 14,
+    "edge_density": 0.1621,
+    "dominant_angles": [
+      4.5,
+      11.2,
+      8.0,
+      3.1,
+      1.1,
+      -1.1,
+      7.9,
+      1.8,
+      4.1,
+      2.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      92,
+      73,
+      54
+    ],
+    "mean_color_hex": "#5c4936",
+    "color_palette": [
+      "#252118",
+      "#3a2e20",
+      "#563e28",
+      "#70492e",
+      "#896e53",
+      "#805c3d",
+      "#91826b",
+      "#615e4f",
+      "#41463e",
+      "#b0a289"
+    ],
+    "unique_colors": 75355,
+    "color_diversity": 0.0853,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 76.92,
+    "contrast_level": "low",
+    "contrast_value": 0.269,
+    "dynamic_range": 201,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 58.79,
+    "midtones_percentage": 40.35,
+    "highlights_percentage": 0.86
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.505,
+        "bbox": [
+          633.66,
+          25.31,
+          701.57,
+          203.4
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3852,
+        "bbox": [
+          989.46,
+          217.02,
+          1086.18,
+          429.38
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "horse": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          678,
+          155,
+          715,
+          192
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1219,
+          276,
+          1275,
+          332
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1342,
+          264,
+          1398,
+          320
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          809,
+          240,
+          863,
+          294
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1545,
+          157,
+          1636,
+          248
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 669.89,
+          "y": 46.45,
+          "visibility": 2,
+          "confidence": 0.9174
+        },
+        {
+          "name": "left_eye",
+          "x": 672.83,
+          "y": 42.19,
+          "visibility": 2,
+          "confidence": 0.8601
+        },
+        {
+          "name": "right_eye",
+          "x": 666.08,
+          "y": 42.28,
+          "visibility": 2,
+          "confidence": 0.8934
+        },
+        {
+          "name": "left_ear",
+          "x": 676.79,
+          "y": 44.0,
+          "visibility": 2,
+          "confidence": 0.6026
+        },
+        {
+          "name": "right_ear",
+          "x": 660.26,
+          "y": 44.18,
+          "visibility": 2,
+          "confidence": 0.7424
+        },
+        {
+          "name": "left_shoulder",
+          "x": 683.46,
+          "y": 67.13,
+          "visibility": 2,
+          "confidence": 0.9871
+        },
+        {
+          "name": "right_shoulder",
+          "x": 652.2,
+          "y": 66.88,
+          "visibility": 2,
+          "confidence": 0.99
+        },
+        {
+          "name": "left_elbow",
+          "x": 694.27,
+          "y": 94.72,
+          "visibility": 2,
+          "confidence": 0.8706
+        },
+        {
+          "name": "right_elbow",
+          "x": 640.08,
+          "y": 94.65,
+          "visibility": 2,
+          "confidence": 0.9099
+        },
+        {
+          "name": "left_wrist",
+          "x": 693.97,
+          "y": 119.4,
+          "visibility": 2,
+          "confidence": 0.8011
+        },
+        {
+          "name": "right_wrist",
+          "x": 637.35,
+          "y": 119.75,
+          "visibility": 2,
+          "confidence": 0.8482
+        },
+        {
+          "name": "left_hip",
+          "x": 678.3,
+          "y": 121.33,
+          "visibility": 2,
+          "confidence": 0.9756
+        },
+        {
+          "name": "right_hip",
+          "x": 658.41,
+          "y": 121.11,
+          "visibility": 2,
+          "confidence": 0.9775
+        },
+        {
+          "name": "left_knee",
+          "x": 678.32,
+          "y": 157.93,
+          "visibility": 2,
+          "confidence": 0.9152
+        },
+        {
+          "name": "right_knee",
+          "x": 650.9,
+          "y": 157.94,
+          "visibility": 2,
+          "confidence": 0.9235
+        },
+        {
+          "name": "left_ankle",
+          "x": 679.01,
+          "y": 191.41,
+          "visibility": 2,
+          "confidence": 0.8084
+        },
+        {
+          "name": "right_ankle",
+          "x": 648.79,
+          "y": 191.18,
+          "visibility": 2,
+          "confidence": 0.8228
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -5.44
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CV8-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CV8-0001-0000-0000.json"
+  }
+}

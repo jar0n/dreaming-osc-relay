@@ -1,0 +1,180 @@
+{
+  "identifier": "NG5362",
+  "full_title": "Rome: The Interior of St Peter's",
+  "short_title": "Rome: The Interior of St Peter's",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "149.8 × 222.7 cm",
+  "production_date": "before 1742",
+  "brief_description": "Panini specialised in architectural views and painted about 30 pictures of the monumental interior of St Peter's Basilica in Rome over several decades. This is a view of the main entrance, looking down the nave towards the tomb of Saint Peter. We look out over the church from an elevated positioned, with figures scattered across the vast tiled floor beneath us and piers and arches soaring above.\n\nSunlight streams through the upper windows and domes, creating shadows across the vaulted ceiling and the aisles, arches and floor. The alternating areas of light and shadow, and the complex combination of vertical, diagonal and curved lines, lead us deeper into the scene. Panini has beautifully captured the church's lavish decoration, from the ornate gilding of the ceiling and the elaborate design of the floor to the sculpted figures that adorn the upper arches.",
+  "accession_date": "1942-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1942",
+  "associated_concepts": "Italian (Roman)",
+  "creator": {
+    "name": "Giovanni Paolo Panini",
+    "birth_date": "1691",
+    "death_date": "1765",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5362-00-000010-web.jpg",
+    "filename": "N-5362-00-000010-web.jpg",
+    "image_key": "N-5362-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1270,
+    "aspect_ratio": 1.5118,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 589016
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1143,
+    "horizontal_lines": 436,
+    "vertical_lines": 198,
+    "diagonal_lines": 509,
+    "edge_density": 0.0728,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -54.0,
+      -45.0,
+      -45.0,
+      -90.0,
+      -55.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      76,
+      67,
+      46
+    ],
+    "mean_color_hex": "#4c432e",
+    "color_palette": [
+      "#393121",
+      "#2d271c",
+      "#423b2c",
+      "#504834",
+      "#5d5640",
+      "#4c3c21",
+      "#726848",
+      "#887d59",
+      "#65512c",
+      "#a29870"
+    ],
+    "unique_colors": 49292,
+    "color_diversity": 0.0202,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 67.91,
+    "contrast_level": "low",
+    "contrast_value": 0.2039,
+    "dynamic_range": 190,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 79.06,
+    "midtones_percentage": 20.79,
+    "highlights_percentage": 0.15
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5244,
+        "bbox": [
+          1326.83,
+          1119.12,
+          1388.78,
+          1241.36
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5097,
+        "bbox": [
+          173.1,
+          1079.79,
+          224.54,
+          1182.65
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3648,
+        "bbox": [
+          0.15,
+          1003.23,
+          26.7,
+          1137.62
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3469,
+        "bbox": [
+          354.89,
+          1109.4,
+          437.16,
+          1240.84
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1190,
+          258,
+          1245,
+          313
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EOB-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EOB-0001-0000-0000.json"
+  }
+}

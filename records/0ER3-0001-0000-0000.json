@@ -1,0 +1,181 @@
+{
+  "identifier": "NG4457",
+  "full_title": "Venice: The Grand Canal with Palazzo Pesaro",
+  "short_title": "Venice: The Grand Canal with Palazzo Pesaro",
+  "object_name": "Picture",
+  "style": "rococo",
+  "material": "oil on canvas",
+  "dimensions": "92.7 × 130.9 cm",
+  "production_date": "about 1755-60",
+  "brief_description": "Guardi's picture takes in the view across the Grand Canal, towards some of the grandest palaces in Venice: the imposing facade of the Palazzo Pesaro is in the centre and the Palazzo Corner della Regina at the far left.\n\nA funeral boat glides along the water, carrying churchmen and ornate burning candles. It heads towards the church of Sant'Eustachio on the far right, the facade of which is illuminated by intense sunlight that leaves the other buildings in gloomy shadow. To the left, two men wrestle a barrel from their boat onto the stone quay while a woman in a vivid white gown steps into a gondola. Another man appears to be crafting a long wooden oar.\n\nThe composition is based on an etching by Guardi's near contemporary, Michele Marieschi, in Magnificentiores Selectioresque Urbis Venetiarum Prospectus, published in 1741.",
+  "accession_date": "1929-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lord Revelstoke, 1929",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4457-00-000010-web.jpg",
+    "filename": "N-4457-00-000010-web.jpg",
+    "image_key": "N-4457-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1345,
+    "aspect_ratio": 1.4275,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 699684
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 995,
+    "horizontal_lines": 883,
+    "vertical_lines": 5,
+    "diagonal_lines": 107,
+    "edge_density": 0.0545,
+    "dominant_angles": [
+      0.9,
+      7.3,
+      1.1,
+      0.0,
+      -1.2,
+      12.7,
+      -1.4,
+      6.3,
+      0.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      81,
+      84,
+      76
+    ],
+    "mean_color_hex": "#51544c",
+    "color_palette": [
+      "#60726f",
+      "#352b22",
+      "#6a7f7b",
+      "#433428",
+      "#556461",
+      "#25211d",
+      "#514535",
+      "#645744",
+      "#786e5a",
+      "#8b8f7b"
+    ],
+    "unique_colors": 44664,
+    "color_diversity": 0.0173,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 82.67,
+    "contrast_level": "low",
+    "contrast_value": 0.2524,
+    "dynamic_range": 217,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 46.57,
+    "midtones_percentage": 53.37,
+    "highlights_percentage": 0.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6164,
+        "bbox": [
+          1291.12,
+          1058.97,
+          1378.76,
+          1256.54
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4708,
+        "bbox": [
+          317.35,
+          995.99,
+          641.73,
+          1234.98
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3218,
+        "bbox": [
+          468.93,
+          1045.47,
+          640.47,
+          1238.07
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2804,
+        "bbox": [
+          574.73,
+          1061.04,
+          623.16,
+          1118.87
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 2,
+      "horse": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1481,
+          828,
+          1526,
+          873
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ER3-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ER3-0001-0000-0000.json"
+  }
+}

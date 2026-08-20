@@ -1,0 +1,334 @@
+{
+  "identifier": "NG1006",
+  "full_title": "A Peasant playing a Hurdy-Gurdy to a Woman and Child in a Woody Landscape, with Oxen, Sheep and Goats",
+  "short_title": "A Peasant playing a Hurdy-Gurdy to a Woman and Child",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "34.5 × 38.3 cm",
+  "production_date": "1658",
+  "brief_description": "Picked out in the glow of a soft evening light, a sleepy toddler lies on his mother's lap, his eyes half closed, one chubby arm dangling at his side. His mother smiles down at him, the last of the sun catching her wide brow and her white shawl. Beside them a man leans forward with a smile, lulling him to sleep with a tune on his hurdy-gurdy. In his red shirt, big hat and sturdy shoes, the man is likely to be a travelling musician.\n\nReligious images weren't permitted in Dutch Protestant churches, but were appreciated in many families. A painting like this may well have been recognised as alluding to the journey into Egypt made by the holy family -- the Virgin Mary, Joseph and Jesus -- but it would have been loved for the pastoral serenity of the scene too.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Nicolaes Berchem",
+    "birth_date": "1620",
+    "death_date": "1683",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1006-00-000023-web.jpg",
+    "filename": "N-1006-00-000023-web.jpg",
+    "image_key": "N-1006-00-000023",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1720,
+    "aspect_ratio": 1.1163,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 576202
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 151,
+    "horizontal_lines": 61,
+    "vertical_lines": 18,
+    "diagonal_lines": 72,
+    "edge_density": 0.0149,
+    "dominant_angles": [
+      25.7,
+      -90.0,
+      -90.0,
+      7.1,
+      26.6,
+      24.7,
+      6.7,
+      6.0,
+      12.9,
+      53.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      57,
+      49,
+      33
+    ],
+    "mean_color_hex": "#393121",
+    "color_palette": [
+      "#171109",
+      "#261a0c",
+      "#392512",
+      "#5c6b66",
+      "#66634a",
+      "#797353",
+      "#7d836c",
+      "#92885e",
+      "#473e29",
+      "#613413"
+    ],
+    "unique_colors": 51339,
+    "color_diversity": 0.0155,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 50.05,
+    "contrast_level": "medium",
+    "contrast_value": 0.3044,
+    "dynamic_range": 183,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 74.99,
+    "midtones_percentage": 25.01,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7768,
+        "bbox": [
+          693.73,
+          1094.66,
+          1204.79,
+          1524.56
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.6996,
+        "bbox": [
+          842.51,
+          994.41,
+          1415.99,
+          1288.57
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.5759,
+        "bbox": [
+          454.79,
+          883.66,
+          758.69,
+          1477.55
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4545,
+        "bbox": [
+          883.79,
+          1095.11,
+          1201.12,
+          1407.0
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.323,
+        "bbox": [
+          185.15,
+          814.14,
+          647.58,
+          1252.04
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.2655,
+        "bbox": [
+          490.47,
+          749.69,
+          1000.42,
+          1071.68
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "person": 2,
+      "cow": 1,
+      "elephant": 2,
+      "horse": 1
+    },
+    "unique_classes": 4
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1561,
+          1230,
+          1642,
+          1311
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1059.89,
+          "y": 1168.71,
+          "visibility": 2,
+          "confidence": 0.9673
+        },
+        {
+          "name": "left_eye",
+          "x": 1074.81,
+          "y": 1154.24,
+          "visibility": 2,
+          "confidence": 0.9553
+        },
+        {
+          "name": "right_eye",
+          "x": 1050.11,
+          "y": 1155.76,
+          "visibility": 2,
+          "confidence": 0.8407
+        },
+        {
+          "name": "left_ear",
+          "x": 1106.8,
+          "y": 1154.79,
+          "visibility": 2,
+          "confidence": 0.8862
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3927
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1146.28,
+          "y": 1220.49,
+          "visibility": 2,
+          "confidence": 0.9936
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1034.33,
+          "y": 1211.47,
+          "visibility": 2,
+          "confidence": 0.9828
+        },
+        {
+          "name": "left_elbow",
+          "x": 1155.83,
+          "y": 1309.86,
+          "visibility": 2,
+          "confidence": 0.975
+        },
+        {
+          "name": "right_elbow",
+          "x": 984.77,
+          "y": 1271.96,
+          "visibility": 2,
+          "confidence": 0.893
+        },
+        {
+          "name": "left_wrist",
+          "x": 1079.23,
+          "y": 1356.79,
+          "visibility": 2,
+          "confidence": 0.9671
+        },
+        {
+          "name": "right_wrist",
+          "x": 958.67,
+          "y": 1292.43,
+          "visibility": 2,
+          "confidence": 0.886
+        },
+        {
+          "name": "left_hip",
+          "x": 1059.61,
+          "y": 1358.52,
+          "visibility": 2,
+          "confidence": 0.9919
+        },
+        {
+          "name": "right_hip",
+          "x": 989.65,
+          "y": 1341.14,
+          "visibility": 2,
+          "confidence": 0.985
+        },
+        {
+          "name": "left_knee",
+          "x": 935.86,
+          "y": 1385.42,
+          "visibility": 2,
+          "confidence": 0.9839
+        },
+        {
+          "name": "right_knee",
+          "x": 869.73,
+          "y": 1370.15,
+          "visibility": 2,
+          "confidence": 0.9696
+        },
+        {
+          "name": "left_ankle",
+          "x": 833.34,
+          "y": 1486.15,
+          "visibility": 2,
+          "confidence": 0.9427
+        },
+        {
+          "name": "right_ankle",
+          "x": 803.32,
+          "y": 1472.11,
+          "visibility": 2,
+          "confidence": 0.9186
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -32.12
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FOT-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FOT-0001-0000-0000.json"
+  }
+}

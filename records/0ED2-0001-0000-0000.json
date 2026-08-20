@@ -1,0 +1,331 @@
+{
+  "identifier": "NG4039",
+  "full_title": "Saint Louis of Toulouse",
+  "short_title": "Saint Louis of Toulouse",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "29.8 × 29.8 cm",
+  "production_date": "probably 1530-5",
+  "brief_description": "This panel of Saint Louis of Toulouse and one of Saint Bonaventure, also in the National Gallery's collection, are part of a series of nine paintings by Pordenone from a ceiling in the Scuola di S. Francesco ai Frari at Venice. The original arrangement showed the Four Evangelists on square panels in the corners, with Saints Bonaventure, Louis, Bernardino and Anthony of Padua in separate octagonal compartments around a central full length image of Saint Francis receiving the stigmata. The central panel of Saint Francis is lost but the Four Evangelists, Saint Bernardino and Saint Anthony are now in the Museum of Fine Arts, Budapest.\n\nSaint Louis, who was consecrated Bishop of Toulouse in 1297, wears his bishop's robes and holds a Bible. His cope is decorated with the French fleur-de-lis. He served the poor and fed the hungry, but after only six months as Bishop he abandoned the position, dying six months later. He was canonised in 1317.",
+  "accession_date": "1924-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Sir Claude Phillips Bequest, 1924",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Giovanni Antonio Pordenone",
+    "birth_date": "1504",
+    "death_date": "1539",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4039-00-000028-web-g.jpg",
+    "filename": "N-4039-00-000028-web-g.jpg",
+    "image_key": "N-4039-00-000028",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1895,
+    "aspect_ratio": 1.0132,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 611173
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 324,
+    "horizontal_lines": 44,
+    "vertical_lines": 93,
+    "diagonal_lines": 187,
+    "edge_density": 0.0209,
+    "dominant_angles": [
+      88.9,
+      46.0,
+      -90.0,
+      -90.0,
+      -45.0,
+      45.0,
+      89.0,
+      -90.0,
+      -45.0,
+      89.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      79,
+      65,
+      46
+    ],
+    "mean_color_hex": "#4f412e",
+    "color_palette": [
+      "#3b3b3f",
+      "#2c271d",
+      "#3b3021",
+      "#5f4526",
+      "#4d3822",
+      "#876532",
+      "#745329",
+      "#9b763d",
+      "#49462f",
+      "#5e563a"
+    ],
+    "unique_colors": 43821,
+    "color_diversity": 0.012,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 67.37,
+    "contrast_level": "low",
+    "contrast_value": 0.1699,
+    "dynamic_range": 187,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 80.86,
+    "midtones_percentage": 19.14,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6574,
+        "bbox": [
+          94.61,
+          69.44,
+          1819.29,
+          1824.94
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6105,
+        "bbox": [
+          84.4,
+          64.06,
+          1119.51,
+          1770.04
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          86,
+          730,
+          152,
+          796
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1464,
+          1331,
+          1536,
+          1403
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1665,
+          640,
+          1869,
+          844
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          621,
+          342,
+          1010,
+          731
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1518,
+          757,
+          1833,
+          1072
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 836.0,
+          "y": 574.12,
+          "visibility": 2,
+          "confidence": 0.9968
+        },
+        {
+          "name": "left_eye",
+          "x": 875.67,
+          "y": 485.15,
+          "visibility": 2,
+          "confidence": 0.8832
+        },
+        {
+          "name": "right_eye",
+          "x": 735.22,
+          "y": 490.95,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0428
+        },
+        {
+          "name": "right_ear",
+          "x": 539.26,
+          "y": 533.14,
+          "visibility": 2,
+          "confidence": 0.9918
+        },
+        {
+          "name": "left_shoulder",
+          "x": 764.73,
+          "y": 894.44,
+          "visibility": 2,
+          "confidence": 0.9845
+        },
+        {
+          "name": "right_shoulder",
+          "x": 445.49,
+          "y": 991.29,
+          "visibility": 2,
+          "confidence": 0.9896
+        },
+        {
+          "name": "left_elbow",
+          "x": 961.87,
+          "y": 1369.76,
+          "visibility": 2,
+          "confidence": 0.7484
+        },
+        {
+          "name": "right_elbow",
+          "x": 748.87,
+          "y": 1584.36,
+          "visibility": 2,
+          "confidence": 0.8867
+        },
+        {
+          "name": "left_wrist",
+          "x": 1256.06,
+          "y": 1186.73,
+          "visibility": 2,
+          "confidence": 0.8822
+        },
+        {
+          "name": "right_wrist",
+          "x": 1317.37,
+          "y": 1236.66,
+          "visibility": 2,
+          "confidence": 0.9576
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3299
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3017
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0474
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.067
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0077
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0079
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ED2-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ED2-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "identifier": "NG2604",
+  "full_title": "Portrait of a Man",
+  "short_title": "Portrait of a Man",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "38.1 × 28.3 cm",
+  "production_date": "about 1530",
+  "brief_description": "The format of this portrait -- the three-quarter bust-length view, the inclusion of the hands and the plain background are typical of German portraiture of the sixteenth-century.  But the painting is in poor condition and has been overpainted extensively.  The identities of the sitter and artist are unknown but it was probably made in Augsburg or another southern German city.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "German (Augsburg)",
+  "creator": {
+    "name": "South German",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2604-00-000023-web.jpg",
+    "filename": "N-2604-00-000023-web.jpg",
+    "image_key": "N-2604-00-000023",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2653,
+    "aspect_ratio": 0.7237,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 958620
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 296,
+    "horizontal_lines": 0,
+    "vertical_lines": 39,
+    "diagonal_lines": 257,
+    "edge_density": 0.0157,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      45.0,
+      -68.8,
+      -45.0,
+      -90.0,
+      -45.0,
+      -45.0,
+      42.3,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      41,
+      27,
+      13
+    ],
+    "mean_color_hex": "#291b0d",
+    "color_palette": [
+      "#0c0908",
+      "#130f0b",
+      "#1f150a",
+      "#2a1c0b",
+      "#38220c",
+      "#472810",
+      "#593419",
+      "#88582b",
+      "#714722",
+      "#976b3d"
+    ],
+    "unique_colors": 35202,
+    "color_diversity": 0.0069,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 30.04,
+    "contrast_level": "low",
+    "contrast_value": 0.1775,
+    "dynamic_range": 210,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 94.95,
+    "midtones_percentage": 5.05,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8025,
+        "bbox": [
+          27.49,
+          97.49,
+          1863.62,
+          2653.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          632,
+          910,
+          775,
+          1053
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          847,
+          373,
+          1401,
+          927
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1270.19,
+          "y": 715.65,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "left_eye",
+          "x": 1307.07,
+          "y": 591.53,
+          "visibility": 2,
+          "confidence": 0.9467
+        },
+        {
+          "name": "right_eye",
+          "x": 1092.12,
+          "y": 595.4,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0083
+        },
+        {
+          "name": "right_ear",
+          "x": 726.85,
+          "y": 701.44,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1552.12,
+          "y": 1410.44,
+          "visibility": 2,
+          "confidence": 0.9927
+        },
+        {
+          "name": "right_shoulder",
+          "x": 336.15,
+          "y": 1545.48,
+          "visibility": 2,
+          "confidence": 0.9909
+        },
+        {
+          "name": "left_elbow",
+          "x": 1755.88,
+          "y": 2253.21,
+          "visibility": 2,
+          "confidence": 0.5818
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4926
+        },
+        {
+          "name": "left_wrist",
+          "x": 1608.15,
+          "y": 2399.51,
+          "visibility": 2,
+          "confidence": 0.5312
+        },
+        {
+          "name": "right_wrist",
+          "x": 1254.74,
+          "y": 2452.04,
+          "visibility": 2,
+          "confidence": 0.5968
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0762
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.053
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0034
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0024
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FF7-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FF7-0001-0000-0000.json"
+  }
+}

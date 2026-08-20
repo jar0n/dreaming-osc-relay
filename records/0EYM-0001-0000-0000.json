@@ -1,0 +1,322 @@
+{
+  "identifier": "NG723",
+  "full_title": "The Virgin and Child in a Garden",
+  "short_title": "The Virgin and Child in a Garden",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "30.2 × 21.9 cm",
+  "production_date": "1470s or early 1480s",
+  "brief_description": "In this small painting, the Virgin Mary and infant Christ are seated in an enclosed garden (known in Latin as a hortus conclusus, it traditionally symbolised Mary's virginity). She holds out a flower to her son -- a 'pink', also known as a dianthus (meaning 'flower of God' in Latin). It was often included in images of the Virgin and Child as a reference to the Crucifixion, specifically the nails that fastened Christ to the Cross: its scent resembles that of cloves, which look like little nails.\n\nIt is possible this painting was made by members of Schongauer's workshop.",
+  "accession_date": "1863-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Queen Victoria at the Prince Consort's wish, 1863",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Martin Schongauer",
+    "birth_date": "1469",
+    "death_date": "1491",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0723-00-000027-web.jpg",
+    "filename": "N-0723-00-000027-web.jpg",
+    "image_key": "N-0723-00-000027",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2623,
+    "aspect_ratio": 0.732,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1469350
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 4141,
+    "horizontal_lines": 377,
+    "vertical_lines": 1428,
+    "diagonal_lines": 2336,
+    "edge_density": 0.0993,
+    "dominant_angles": [
+      45.0,
+      45.0,
+      57.1,
+      -87.4,
+      45.0,
+      -82.9,
+      45.0,
+      -75.8,
+      -70.9,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      112,
+      83,
+      56
+    ],
+    "mean_color_hex": "#705338",
+    "color_palette": [
+      "#442e18",
+      "#564929",
+      "#7f2f1a",
+      "#74653c",
+      "#231d11",
+      "#a04e34",
+      "#a17d51",
+      "#d0c3a7",
+      "#b0a587",
+      "#5c817d"
+    ],
+    "unique_colors": 163185,
+    "color_diversity": 0.0324,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.4,
+    "contrast_level": "medium",
+    "contrast_value": 0.3565,
+    "dynamic_range": 244,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 54.38,
+    "midtones_percentage": 37.05,
+    "highlights_percentage": 8.57
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7459,
+        "bbox": [
+          107.75,
+          489.86,
+          1599.32,
+          2587.79
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5062,
+        "bbox": [
+          568.67,
+          845.24,
+          1046.22,
+          1449.34
+        ]
+      },
+      {
+        "class": "teddy bear",
+        "confidence": 0.4058,
+        "bbox": [
+          569.68,
+          843.51,
+          1078.39,
+          1453.62
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 2,
+      "teddy bear": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          342,
+          16,
+          401,
+          75
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          924,
+          1415,
+          983,
+          1474
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          714,
+          920,
+          883,
+          1089
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 801.08,
+          "y": 1006.41,
+          "visibility": 2,
+          "confidence": 0.9833
+        },
+        {
+          "name": "left_eye",
+          "x": 830.96,
+          "y": 980.36,
+          "visibility": 2,
+          "confidence": 0.9661
+        },
+        {
+          "name": "right_eye",
+          "x": 772.77,
+          "y": 980.44,
+          "visibility": 2,
+          "confidence": 0.9592
+        },
+        {
+          "name": "left_ear",
+          "x": 878.6,
+          "y": 984.37,
+          "visibility": 2,
+          "confidence": 0.8447
+        },
+        {
+          "name": "right_ear",
+          "x": 738.99,
+          "y": 987.44,
+          "visibility": 2,
+          "confidence": 0.7112
+        },
+        {
+          "name": "left_shoulder",
+          "x": 880.47,
+          "y": 1089.82,
+          "visibility": 2,
+          "confidence": 0.9797
+        },
+        {
+          "name": "right_shoulder",
+          "x": 730.67,
+          "y": 1085.26,
+          "visibility": 2,
+          "confidence": 0.9903
+        },
+        {
+          "name": "left_elbow",
+          "x": 904.39,
+          "y": 1205.42,
+          "visibility": 2,
+          "confidence": 0.8773
+        },
+        {
+          "name": "right_elbow",
+          "x": 650.48,
+          "y": 1177.6,
+          "visibility": 2,
+          "confidence": 0.9446
+        },
+        {
+          "name": "left_wrist",
+          "x": 910.17,
+          "y": 1251.89,
+          "visibility": 2,
+          "confidence": 0.8575
+        },
+        {
+          "name": "right_wrist",
+          "x": 703.48,
+          "y": 1176.84,
+          "visibility": 2,
+          "confidence": 0.9131
+        },
+        {
+          "name": "left_hip",
+          "x": 828.44,
+          "y": 1298.38,
+          "visibility": 2,
+          "confidence": 0.9502
+        },
+        {
+          "name": "right_hip",
+          "x": 718.13,
+          "y": 1294.42,
+          "visibility": 2,
+          "confidence": 0.9634
+        },
+        {
+          "name": "left_knee",
+          "x": 833.65,
+          "y": 1297.98,
+          "visibility": 2,
+          "confidence": 0.8531
+        },
+        {
+          "name": "right_knee",
+          "x": 642.16,
+          "y": 1295.35,
+          "visibility": 2,
+          "confidence": 0.8862
+        },
+        {
+          "name": "left_ankle",
+          "x": 874.79,
+          "y": 1381.75,
+          "visibility": 2,
+          "confidence": 0.6871
+        },
+        {
+          "name": "right_ankle",
+          "x": 609.15,
+          "y": 1386.27,
+          "visibility": 2,
+          "confidence": 0.7355
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -14.01
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EYM-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EYM-0001-0000-0000.json"
+  }
+}

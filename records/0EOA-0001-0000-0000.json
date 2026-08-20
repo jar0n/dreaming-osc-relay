@@ -1,0 +1,301 @@
+{
+  "identifier": "NG3964",
+  "full_title": "Jean Michel de Grilleau",
+  "short_title": "Jean Michel de Grilleau",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "81.3 × 66 cm",
+  "production_date": "1742-6",
+  "brief_description": "This painting is an eighteenth-century copy of a portrait of Jean Michel de Grilleau (1710--1769). The original still belongs to his descendants in France.\n\nJean Michel de Grilleau was the son of an influential merchant, banker and consul in Nantes. He spent his first working years in France and Spain, and in 1738 he and his brother were appointed French representatives in Bilbao by King Louis XV. Jean Michel left Spain in 1742 and settled in Orléans, where he married Marie-Elisabeth-Victoire Seurrat. Thanks to his marriage, he entered Orléans high society and in 1746 he was admitted as chevalier of the Order of Saint-Michel.\n\nThe original painting shows Jean Michel wearing the ribbon of Saint-Michel, which he does not in our version, suggesting that the original was made before 1746, was copied, and then later modified to include the honour.",
+  "accession_date": "1924-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1924",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Louis Tocqué",
+    "birth_date": "1696",
+    "death_date": "1772",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3964-00-000014-web.jpg",
+    "filename": "N-3964-00-000014-web.jpg",
+    "image_key": "N-3964-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2375,
+    "aspect_ratio": 0.8084,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 917431
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 392,
+    "horizontal_lines": 38,
+    "vertical_lines": 189,
+    "diagonal_lines": 165,
+    "edge_density": 0.0208,
+    "dominant_angles": [
+      89.1,
+      78.3,
+      82.5,
+      89.3,
+      75.5,
+      75.7,
+      -81.5,
+      84.1,
+      81.0,
+      78.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      67,
+      55,
+      32
+    ],
+    "mean_color_hex": "#433720",
+    "color_palette": [
+      "#292217",
+      "#443419",
+      "#4e401e",
+      "#3a2816",
+      "#322c1f",
+      "#594c24",
+      "#61583a",
+      "#413f2f",
+      "#84704b",
+      "#a78d60"
+    ],
+    "unique_colors": 52880,
+    "color_diversity": 0.0116,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 56.61,
+    "contrast_level": "low",
+    "contrast_value": 0.1764,
+    "dynamic_range": 191,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.8,
+    "midtones_percentage": 8.18,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7699,
+        "bbox": [
+          187.24,
+          285.12,
+          1669.86,
+          2229.61
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          745,
+          1369,
+          793,
+          1417
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          682,
+          385,
+          1207,
+          910
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          603,
+          205,
+          1104,
+          706
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 970.95,
+          "y": 675.08,
+          "visibility": 2,
+          "confidence": 0.999
+        },
+        {
+          "name": "left_eye",
+          "x": 1049.86,
+          "y": 581.94,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "right_eye",
+          "x": 865.91,
+          "y": 590.07,
+          "visibility": 2,
+          "confidence": 0.9963
+        },
+        {
+          "name": "left_ear",
+          "x": 1174.46,
+          "y": 657.71,
+          "visibility": 2,
+          "confidence": 0.924
+        },
+        {
+          "name": "right_ear",
+          "x": 737.79,
+          "y": 681.06,
+          "visibility": 2,
+          "confidence": 0.872
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1360.12,
+          "y": 1181.82,
+          "visibility": 2,
+          "confidence": 0.9899
+        },
+        {
+          "name": "right_shoulder",
+          "x": 605.84,
+          "y": 1214.77,
+          "visibility": 2,
+          "confidence": 0.9968
+        },
+        {
+          "name": "left_elbow",
+          "x": 1575.03,
+          "y": 1769.35,
+          "visibility": 2,
+          "confidence": 0.8014
+        },
+        {
+          "name": "right_elbow",
+          "x": 404.2,
+          "y": 1892.99,
+          "visibility": 2,
+          "confidence": 0.9298
+        },
+        {
+          "name": "left_wrist",
+          "x": 1615.45,
+          "y": 1698.88,
+          "visibility": 2,
+          "confidence": 0.8039
+        },
+        {
+          "name": "right_wrist",
+          "x": 605.01,
+          "y": 2076.96,
+          "visibility": 2,
+          "confidence": 0.875
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3452
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4778
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0097
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0161
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0015
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0022
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EOA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EOA-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "identifier": "NG124",
+  "full_title": "Reverend William Holwell Carr",
+  "short_title": "Reverend William Holwell Carr",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "75.6 × 62.9 cm",
+  "production_date": "about 1827-8",
+  "brief_description": "The Reverend William Holwell Carr (1758--1830) was the son of an Exeter apothecary. In 1797 he married Lady Charlotte Hay, eldest daughter of the 15th Earl of Erroll and his wife Isabella Carr. The following year Lady Charlotte inherited large Carr estates in Northumberland.\n\nFrom about 1805, Holwell Carr was a 'gentleman-dealer' in paintings. As an amateur painter himself, he may also have touched up and restored pictures. He became one of the founding subscribers to the British Institution and lent generously to the Institution's exhibitions of old masters.\n\nHis collection included Titian's Holy Family and a Shepherd, Claude's Landscape at the Cave of Adullam, Tintoretto's Saint George and the Dragon and Rembrandt's Woman bathing in a Stream. These were among the 35 paintings Holwell Carr bequeathed to the National Gallery six years after its foundation. He commissioned this portrait of himself when he was about 70 to be placed in the Gallery with his pictures.",
+  "accession_date": "1831-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Holwell Carr Bequest, 1831",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "John Jackson",
+    "birth_date": "1778",
+    "death_date": "1831",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0124-00-000014-web.jpg",
+    "filename": "N-0124-00-000014-web.jpg",
+    "image_key": "N-0124-00-000041",
+    "image_type": "web-partial",
+    "width": 1920,
+    "height": 2325,
+    "aspect_ratio": 0.8258,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 964454
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1086,
+    "horizontal_lines": 74,
+    "vertical_lines": 49,
+    "diagonal_lines": 963,
+    "edge_density": 0.0276,
+    "dominant_angles": [
+      -45.0,
+      70.2,
+      71.0,
+      -45.0,
+      76.0,
+      45.0,
+      -45.0,
+      -45.0,
+      70.2,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      29,
+      20,
+      12
+    ],
+    "mean_color_hex": "#1d140c",
+    "color_palette": [
+      "#190e07",
+      "#0f0d08",
+      "#15120c",
+      "#1d170f",
+      "#24130b",
+      "#2e1f15",
+      "#462d19",
+      "#653d19",
+      "#7f5226",
+      "#9b6e3c"
+    ],
+    "unique_colors": 30386,
+    "color_diversity": 0.0068,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 22.58,
+    "contrast_level": "low",
+    "contrast_value": 0.1137,
+    "dynamic_range": 188,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 98.47,
+    "midtones_percentage": 1.53,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8854,
+        "bbox": [
+          92.77,
+          211.42,
+          1854.82,
+          2314.91
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          664,
+          396,
+          1251,
+          983
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 925.57,
+          "y": 733.3,
+          "visibility": 2,
+          "confidence": 0.9996
+        },
+        {
+          "name": "left_eye",
+          "x": 1030.78,
+          "y": 611.24,
+          "visibility": 2,
+          "confidence": 0.9995
+        },
+        {
+          "name": "right_eye",
+          "x": 837.33,
+          "y": 638.72,
+          "visibility": 2,
+          "confidence": 0.9948
+        },
+        {
+          "name": "left_ear",
+          "x": 1232.38,
+          "y": 637.04,
+          "visibility": 2,
+          "confidence": 0.9946
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4415
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1529.41,
+          "y": 1152.42,
+          "visibility": 2,
+          "confidence": 0.9952
+        },
+        {
+          "name": "right_shoulder",
+          "x": 699.68,
+          "y": 1174.27,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "left_elbow",
+          "x": 1669.49,
+          "y": 1948.51,
+          "visibility": 2,
+          "confidence": 0.8514
+        },
+        {
+          "name": "right_elbow",
+          "x": 474.76,
+          "y": 1835.68,
+          "visibility": 2,
+          "confidence": 0.9668
+        },
+        {
+          "name": "left_wrist",
+          "x": 1118.06,
+          "y": 2278.03,
+          "visibility": 2,
+          "confidence": 0.7774
+        },
+        {
+          "name": "right_wrist",
+          "x": 356.55,
+          "y": 2079.12,
+          "visibility": 2,
+          "confidence": 0.8997
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4222
+        },
+        {
+          "name": "right_hip",
+          "x": 810.53,
+          "y": 2168.75,
+          "visibility": 2,
+          "confidence": 0.6381
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0086
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0177
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.001
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": 6.36
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F9V-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F9V-0001-0000-0000.json"
+  }
+}

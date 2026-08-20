@@ -1,0 +1,302 @@
+{
+  "identifier": "NG704",
+  "full_title": "Portrait of Cosimo I de' Medici, Grand Duke of Tuscany",
+  "short_title": "Portrait of Cosimo I de' Medici, Grand Duke of Tuscany",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "21.3 × 17.1 cm",
+  "production_date": "probably before 1574",
+  "brief_description": "This is a portrait of Cosimo I de' Medici, Grand Duke of Tuscany, at the age of 40. It is based on Bronzino's official portrait of the Duke of 1559, but is unlikely to have been painted by Bronzino or his assistants.\n\nPrior to Medici rule, Florence had been a republic. Cosimo was Duke of Florence from 1537 until 1569, at which point he became Grand Duke of Tuscany until his death in 1574. He was married first of all to Eleonora of Toledo and then to Camilla Martelli, and fathered 15 children.\n\nHe was a great patron of the arts, building the Uffizi ('offices') which now house one of the world's greatest art collections, completing the Pitti Palace as a Medici residence and creating the Boboli Gardens which surround it. Cosimo commissioned many works of art from artists including Bronzino, Pontormo, Vasari, and the sculptor Cellini.",
+  "accession_date": "1863-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Queen Victoria at the Prince Consort's wish, 1863",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Bronzino",
+    "birth_date": "1503",
+    "death_date": "1572",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0704-00-000006-web.jpg",
+    "filename": "N-0704-00-000006-web.jpg",
+    "image_key": "N-0704-00-000006",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2302,
+    "aspect_ratio": 0.8341,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 943903
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 567,
+    "horizontal_lines": 225,
+    "vertical_lines": 83,
+    "diagonal_lines": 259,
+    "edge_density": 0.0176,
+    "dominant_angles": [
+      -90.0,
+      45.0,
+      45.0,
+      10.1,
+      45.0,
+      89.2,
+      45.0,
+      -1.8,
+      1.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      82,
+      64,
+      39
+    ],
+    "mean_color_hex": "#524027",
+    "color_palette": [
+      "#3d271b",
+      "#504821",
+      "#2c2019",
+      "#423c25",
+      "#58502c",
+      "#50311d",
+      "#b5855b",
+      "#9a6f48",
+      "#7a5735",
+      "#cf9e72"
+    ],
+    "unique_colors": 65992,
+    "color_diversity": 0.0149,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 67.34,
+    "contrast_level": "low",
+    "contrast_value": 0.2417,
+    "dynamic_range": 240,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 85.53,
+    "midtones_percentage": 13.22,
+    "highlights_percentage": 1.25
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8974,
+        "bbox": [
+          5.49,
+          47.06,
+          1920.0,
+          2287.33
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.2959,
+        "bbox": [
+          930.18,
+          1735.36,
+          1120.55,
+          2289.64
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "tie": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1247,
+          1407,
+          1349,
+          1509
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          484,
+          402,
+          1320,
+          1238
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 870.89,
+          "y": 952.46,
+          "visibility": 2,
+          "confidence": 0.993
+        },
+        {
+          "name": "left_eye",
+          "x": 1080.02,
+          "y": 711.65,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "right_eye",
+          "x": 741.87,
+          "y": 688.25,
+          "visibility": 2,
+          "confidence": 0.9855
+        },
+        {
+          "name": "left_ear",
+          "x": 1366.71,
+          "y": 847.03,
+          "visibility": 2,
+          "confidence": 0.9815
+        },
+        {
+          "name": "right_ear",
+          "x": 575.79,
+          "y": 772.63,
+          "visibility": 2,
+          "confidence": 0.5633
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1754.18,
+          "y": 1913.36,
+          "visibility": 2,
+          "confidence": 0.8145
+        },
+        {
+          "name": "right_shoulder",
+          "x": 71.74,
+          "y": 1947.02,
+          "visibility": 2,
+          "confidence": 0.8393
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0019
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0053
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0019
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0003
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0019
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0018
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FB5-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FB5-0001-0000-0000.json"
+  }
+}

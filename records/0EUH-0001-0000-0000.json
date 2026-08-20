@@ -1,0 +1,332 @@
+{
+  "identifier": "NG6300",
+  "full_title": "Portrait of Frederick Rihel on Horseback",
+  "short_title": "Portrait of Frederick Rihel on Horseback",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "294.5 × 241 cm",
+  "production_date": "about 1663",
+  "brief_description": "This is one of the largest paintings ever made by Rembrandt, and one of only two life-size equestrian portraits of ordinary citizens in the history of Dutch art. The rider has been identified as the prosperous businessman Frederik Rihel. His bright yellow jerkin, fancy gloves, shimmering sleeves and plumed hat stand out radiantly against the rather gloomy, sketchy background.\n\nDespite the gloom, it's possible to make out parts of a procession winding around a stretch of water behind Rihel. On the left is the facade of one of the gates to the city of Amsterdam, and in front of this is a coach with a bright red and yellow interior carrying three passengers. In the right background there are two (or possibly three) riders on horseback. This probably represents the procession accompanying the entry of Prince William of Orange into Amsterdam in 1660, in which Rihel participated as one the Amsterdam Guard of Honour.",
+  "accession_date": "1959-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought with a special grant and contributions from the Art Fund and The Pilgrim Trust, 1959",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Rembrandt",
+    "birth_date": "1606",
+    "death_date": "1669",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6300-00-000243-web.jpg",
+    "filename": "N-6300-00-000243-web.jpg",
+    "image_key": "N-6300-00-000243",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2311,
+    "aspect_ratio": 0.8308,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 632129
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 477,
+    "horizontal_lines": 60,
+    "vertical_lines": 40,
+    "diagonal_lines": 377,
+    "edge_density": 0.0134,
+    "dominant_angles": [
+      64.1,
+      69.1,
+      61.6,
+      70.0,
+      20.0,
+      71.2,
+      69.0,
+      64.4,
+      69.9,
+      72.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      41,
+      34,
+      25
+    ],
+    "mean_color_hex": "#292219",
+    "color_palette": [
+      "#1f1912",
+      "#251f18",
+      "#16140e",
+      "#31271e",
+      "#403226",
+      "#48453b",
+      "#604028",
+      "#895b2c",
+      "#755e46",
+      "#a58d70"
+    ],
+    "unique_colors": 37301,
+    "color_diversity": 0.0084,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 35.7,
+    "contrast_level": "low",
+    "contrast_value": 0.1468,
+    "dynamic_range": 206,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 96.91,
+    "midtones_percentage": 3.06,
+    "highlights_percentage": 0.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6859,
+        "bbox": [
+          1020.32,
+          219.25,
+          1641.96,
+          1610.48
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.405,
+        "bbox": [
+          333.83,
+          463.0,
+          1898.87,
+          2160.66
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "elephant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          834,
+          586,
+          897,
+          649
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          812,
+          710,
+          874,
+          772
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          924,
+          1113,
+          1010,
+          1199
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          528,
+          488,
+          644,
+          604
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1135,
+          294,
+          1280,
+          439
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1199.56,
+          "y": 372.74,
+          "visibility": 2,
+          "confidence": 0.9877
+        },
+        {
+          "name": "left_eye",
+          "x": 1233.7,
+          "y": 337.31,
+          "visibility": 2,
+          "confidence": 0.9886
+        },
+        {
+          "name": "right_eye",
+          "x": 1173.02,
+          "y": 343.71,
+          "visibility": 2,
+          "confidence": 0.8906
+        },
+        {
+          "name": "left_ear",
+          "x": 1308.7,
+          "y": 350.99,
+          "visibility": 2,
+          "confidence": 0.9561
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2046
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1387.12,
+          "y": 524.1,
+          "visibility": 2,
+          "confidence": 0.994
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1141.32,
+          "y": 543.47,
+          "visibility": 2,
+          "confidence": 0.9742
+        },
+        {
+          "name": "left_elbow",
+          "x": 1327.96,
+          "y": 762.64,
+          "visibility": 2,
+          "confidence": 0.9801
+        },
+        {
+          "name": "right_elbow",
+          "x": 1074.87,
+          "y": 791.44,
+          "visibility": 2,
+          "confidence": 0.822
+        },
+        {
+          "name": "left_wrist",
+          "x": 1140.21,
+          "y": 758.36,
+          "visibility": 2,
+          "confidence": 0.9631
+        },
+        {
+          "name": "right_wrist",
+          "x": 1051.09,
+          "y": 851.59,
+          "visibility": 2,
+          "confidence": 0.8148
+        },
+        {
+          "name": "left_hip",
+          "x": 1370.23,
+          "y": 1003.56,
+          "visibility": 2,
+          "confidence": 0.9964
+        },
+        {
+          "name": "right_hip",
+          "x": 1192.92,
+          "y": 1008.94,
+          "visibility": 2,
+          "confidence": 0.9913
+        },
+        {
+          "name": "left_knee",
+          "x": 1404.31,
+          "y": 1346.17,
+          "visibility": 2,
+          "confidence": 0.9835
+        },
+        {
+          "name": "right_knee",
+          "x": 1170.05,
+          "y": 1351.64,
+          "visibility": 2,
+          "confidence": 0.9624
+        },
+        {
+          "name": "left_ankle",
+          "x": 1461.58,
+          "y": 1656.87,
+          "visibility": 2,
+          "confidence": 0.8581
+        },
+        {
+          "name": "right_ankle",
+          "x": 1199.78,
+          "y": 1678.48,
+          "visibility": 2,
+          "confidence": 0.7925
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -2.02
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EUH-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EUH-0001-0000-0000.json"
+  }
+}

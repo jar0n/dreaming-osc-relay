@@ -1,0 +1,470 @@
+{
+  "identifier": "NG2513",
+  "full_title": "The Virgin and Child appearing to a Group of Saints",
+  "short_title": "The Virgin and Child appearing to a Group of Saints",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "52.7 × 31.8 cm",
+  "production_date": "about 1735",
+  "brief_description": "This is a small oil sketch but its composition is ambitious. Tiepolo has arranged the figures in a towering pyramid with the Virgin Mary at the top, seated on a cloud. She holds the Christ Child on her knee, grasping his foot firmly as he tugs at her veil.\n\nThe saints’ responses unfold in a chain reaction as we are led around the painting by gesture and gaze. On the right, the outstretched arm of a kneeling priest directs us to Saint Francis, who wears the brown habit of the religious order he founded. He bows his head while the priest in yellow beside him looks intently towards the Virgin and Christ. Above them, a female saint also turns towards Christ. The clouds and swooping cherubs add to the sense of movement.\n\nThis sketch does not relate to any known altarpiece by the artist. It could have been made as a small devotional work or a preliminary sketch that didn't lead to a major work.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Giovanni Battista Tiepolo",
+    "birth_date": "1696",
+    "death_date": "1770",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2513-00-000014-web.jpg",
+    "filename": "N-2513-00-000014-web.jpg",
+    "image_key": "N-2513-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3173,
+    "aspect_ratio": 0.6051,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1493729
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1546,
+    "horizontal_lines": 118,
+    "vertical_lines": 558,
+    "diagonal_lines": 870,
+    "edge_density": 0.0428,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      71,
+      60,
+      46
+    ],
+    "mean_color_hex": "#473c2e",
+    "color_palette": [
+      "#382a1e",
+      "#28201a",
+      "#3c382c",
+      "#4c3522",
+      "#4c4636",
+      "#76766b",
+      "#655e4c",
+      "#674729",
+      "#91907f",
+      "#8b5d39"
+    ],
+    "unique_colors": 83720,
+    "color_diversity": 0.0137,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 62.31,
+    "contrast_level": "low",
+    "contrast_value": 0.2188,
+    "dynamic_range": 242,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 81.84,
+    "midtones_percentage": 18.1,
+    "highlights_percentage": 0.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7278,
+        "bbox": [
+          5.38,
+          1381.33,
+          545.73,
+          2956.67
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6373,
+        "bbox": [
+          342.66,
+          1617.26,
+          837.41,
+          2793.66
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4307,
+        "bbox": [
+          1002.18,
+          450.82,
+          1350.76,
+          1089.84
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 3
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1474,
+          1528,
+          1518,
+          1572
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          567,
+          2882,
+          633,
+          2948
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          341,
+          1988,
+          402,
+          2049
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          552,
+          1525,
+          617,
+          1590
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          107,
+          670,
+          656,
+          1219
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 2,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1108.68,
+          "y": 592.63,
+          "visibility": 2,
+          "confidence": 0.9767
+        },
+        {
+          "name": "left_eye",
+          "x": 1131.2,
+          "y": 548.2,
+          "visibility": 2,
+          "confidence": 0.9614
+        },
+        {
+          "name": "right_eye",
+          "x": 1070.47,
+          "y": 572.73,
+          "visibility": 2,
+          "confidence": 0.9122
+        },
+        {
+          "name": "left_ear",
+          "x": 1199.58,
+          "y": 550.13,
+          "visibility": 2,
+          "confidence": 0.8613
+        },
+        {
+          "name": "right_ear",
+          "x": 1055.53,
+          "y": 607.97,
+          "visibility": 2,
+          "confidence": 0.5013
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1331.06,
+          "y": 664.76,
+          "visibility": 2,
+          "confidence": 0.9866
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1069.17,
+          "y": 760.91,
+          "visibility": 2,
+          "confidence": 0.9859
+        },
+        {
+          "name": "left_elbow",
+          "x": 1503.87,
+          "y": 854.32,
+          "visibility": 2,
+          "confidence": 0.9377
+        },
+        {
+          "name": "right_elbow",
+          "x": 1066.01,
+          "y": 1031.54,
+          "visibility": 2,
+          "confidence": 0.9192
+        },
+        {
+          "name": "left_wrist",
+          "x": 1469.52,
+          "y": 845.36,
+          "visibility": 2,
+          "confidence": 0.9232
+        },
+        {
+          "name": "right_wrist",
+          "x": 1171.0,
+          "y": 1058.84,
+          "visibility": 2,
+          "confidence": 0.8961
+        },
+        {
+          "name": "left_hip",
+          "x": 1414.3,
+          "y": 1001.81,
+          "visibility": 2,
+          "confidence": 0.972
+        },
+        {
+          "name": "right_hip",
+          "x": 1237.52,
+          "y": 1053.48,
+          "visibility": 2,
+          "confidence": 0.9702
+        },
+        {
+          "name": "left_knee",
+          "x": 1565.88,
+          "y": 993.58,
+          "visibility": 2,
+          "confidence": 0.9372
+        },
+        {
+          "name": "right_knee",
+          "x": 1314.4,
+          "y": 1050.56,
+          "visibility": 2,
+          "confidence": 0.9377
+        },
+        {
+          "name": "left_ankle",
+          "x": 1682.52,
+          "y": 1320.82,
+          "visibility": 2,
+          "confidence": 0.8126
+        },
+        {
+          "name": "right_ankle",
+          "x": 1409.98,
+          "y": 1388.45,
+          "visibility": 2,
+          "confidence": 0.8256
+        }
+      ],
+      [
+        {
+          "name": "nose",
+          "x": 467.81,
+          "y": 1536.53,
+          "visibility": 2,
+          "confidence": 0.6651
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.129
+        },
+        {
+          "name": "right_eye",
+          "x": 456.95,
+          "y": 1501.14,
+          "visibility": 2,
+          "confidence": 0.7958
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0337
+        },
+        {
+          "name": "right_ear",
+          "x": 378.07,
+          "y": 1480.98,
+          "visibility": 2,
+          "confidence": 0.891
+        },
+        {
+          "name": "left_shoulder",
+          "x": 329.62,
+          "y": 1622.31,
+          "visibility": 2,
+          "confidence": 0.7397
+        },
+        {
+          "name": "right_shoulder",
+          "x": 254.49,
+          "y": 1596.58,
+          "visibility": 2,
+          "confidence": 0.9663
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2909
+        },
+        {
+          "name": "right_elbow",
+          "x": 278.39,
+          "y": 1805.74,
+          "visibility": 2,
+          "confidence": 0.9137
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3029
+        },
+        {
+          "name": "right_wrist",
+          "x": 470.52,
+          "y": 1874.61,
+          "visibility": 2,
+          "confidence": 0.8049
+        },
+        {
+          "name": "left_hip",
+          "x": 206.43,
+          "y": 2033.99,
+          "visibility": 2,
+          "confidence": 0.9289
+        },
+        {
+          "name": "right_hip",
+          "x": 150.3,
+          "y": 2031.02,
+          "visibility": 2,
+          "confidence": 0.9747
+        },
+        {
+          "name": "left_knee",
+          "x": 208.8,
+          "y": 2427.75,
+          "visibility": 2,
+          "confidence": 0.9441
+        },
+        {
+          "name": "right_knee",
+          "x": 148.25,
+          "y": 2432.26,
+          "visibility": 2,
+          "confidence": 0.9788
+        },
+        {
+          "name": "left_ankle",
+          "x": 150.74,
+          "y": 2827.31,
+          "visibility": 2,
+          "confidence": 0.8743
+        },
+        {
+          "name": "right_ankle",
+          "x": 105.29,
+          "y": 2843.47,
+          "visibility": 2,
+          "confidence": 0.9212
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 13.87
+      },
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -16.66
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FN8-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FN8-0001-0000-0000.json"
+  }
+}

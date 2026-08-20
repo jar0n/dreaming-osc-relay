@@ -1,0 +1,150 @@
+{
+  "identifier": "NG2980",
+  "full_title": "Crane, Python and Lizard",
+  "short_title": "Crane, Python and Lizard",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "mosaic",
+  "dimensions": "23.5 × 29.2 cm",
+  "production_date": "probably 18th century",
+  "brief_description": "A lizard grasps at a shrub and tries to scare off a crane, which has trapped its tail under a clawed foot. A snake twisted around a vine above joins in, its long red tongue visible as it hisses at the bird.\n\nThis is one of only two mosaics in the National Gallery's collection as we no longer collect this type of work. It was once thought to be by a Greek artist working in the Hellenistic period (323--31 BC) but is now recognised as an eighteenth-century imitation of an ancient Roman image.",
+  "accession_date": "1954-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lt.-Col. J.H. Ollney, 1836",
+  "associated_concepts": "Italian (Roman)",
+  "creator": {
+    "name": "Italian, Roman",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2980-00-000010-web-g.jpg",
+    "filename": "N-2980-00-000010-web-g.jpg",
+    "image_key": "N-2980-00-000010",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1569,
+    "aspect_ratio": 1.2237,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 1199702
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 5664,
+    "horizontal_lines": 1404,
+    "vertical_lines": 522,
+    "diagonal_lines": 3738,
+    "edge_density": 0.172,
+    "dominant_angles": [
+      -35.9,
+      45.0,
+      -45.0,
+      45.0,
+      45.0,
+      33.1,
+      45.0,
+      -45.0,
+      -13.4,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      147,
+      128,
+      108
+    ],
+    "mean_color_hex": "#93806c",
+    "color_palette": [
+      "#c9b493",
+      "#b6a284",
+      "#413a34",
+      "#887763",
+      "#7e5e50",
+      "#a08d73",
+      "#5a5954",
+      "#654a3e",
+      "#dac6a4",
+      "#f0ddbb"
+    ],
+    "unique_colors": 84384,
+    "color_diversity": 0.028,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 131.93,
+    "contrast_level": "medium",
+    "contrast_value": 0.3845,
+    "dynamic_range": 240,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 21.1,
+    "midtones_percentage": 49.9,
+    "highlights_percentage": 29.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.3968,
+        "bbox": [
+          287.5,
+          203.52,
+          1748.07,
+          1237.42
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          157,
+          37,
+          216,
+          96
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GG4-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GG4-0001-0000-0000.json"
+  }
+}

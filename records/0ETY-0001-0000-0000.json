@@ -1,0 +1,161 @@
+{
+  "identifier": "NG5787",
+  "full_title": "Still Life with a Lobster",
+  "short_title": "Still Life with a Lobster",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "114 × 103 cm",
+  "production_date": "1650-9",
+  "brief_description": "Although apparently casually displayed, the objects in this still life would immediately have suggested wealth and extravagance to a seventeenth-century viewer. The cloths have a satin-like sheen, and the objects on them are all expensive luxuries. They're carefully chosen, not just because they are rare and precious but because they proudly show how Dutch merchants brought exotic items from far-flung parts of the globe.\n\nThey also demonstrate Heda's skills in painting textures and objects projecting out of the picture towards us in subtle, rich colours. Embroidered onto the tablecloth is a cipher that seems to refer to a merchants' guild, perhaps implying that the painting was commissioned by such a company. The handsome red lobster with the beady eye, placed with such prominence, suggests a connection with the sea as the source of their wealth.",
+  "accession_date": "1947-01-01",
+  "current_location": "Room 23, The National Gallery (London)",
+  "credit_line": "Presented by Frederick John Nettlefold, 1947",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Willem Claesz. Heda",
+    "birth_date": "1594",
+    "death_date": "1680",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5787-00-000020-web.jpg",
+    "filename": "N-5787-00-000020-web.jpg",
+    "image_key": "N-5787-00-000020",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2137,
+    "aspect_ratio": 0.8985,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 635056
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 392,
+    "horizontal_lines": 177,
+    "vertical_lines": 93,
+    "diagonal_lines": 122,
+    "edge_density": 0.0224,
+    "dominant_angles": [
+      0.8,
+      2.2,
+      1.9,
+      2.3,
+      4.3,
+      0.6,
+      3.2,
+      4.6,
+      3.1,
+      4.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      67,
+      58,
+      44
+    ],
+    "mean_color_hex": "#433a2c",
+    "color_palette": [
+      "#2a2216",
+      "#1d1a14",
+      "#483522",
+      "#978d77",
+      "#897c63",
+      "#a69f8b",
+      "#77684e",
+      "#5b4f38",
+      "#bbb4a0",
+      "#854523"
+    ],
+    "unique_colors": 50777,
+    "color_diversity": 0.0124,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.64,
+    "contrast_level": "medium",
+    "contrast_value": 0.3585,
+    "dynamic_range": 198,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 76.66,
+    "midtones_percentage": 20.29,
+    "highlights_percentage": 3.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "wine glass",
+        "confidence": 0.8658,
+        "bbox": [
+          875.15,
+          655.74,
+          1126.43,
+          1087.91
+        ]
+      },
+      {
+        "class": "carrot",
+        "confidence": 0.4335,
+        "bbox": [
+          1385.04,
+          1071.36,
+          1770.2,
+          1204.02
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "wine glass": 1,
+      "carrot": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          735,
+          1365,
+          858,
+          1488
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ETY-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ETY-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "identifier": "NG3069",
+  "full_title": "Mystic Figure of Christ",
+  "short_title": "Mystic Figure of Christ",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "egg tempera on wood",
+  "dimensions": "50.8 × 33.3 cm",
+  "production_date": "late 15th century",
+  "brief_description": "Christ sits upon a tree trunk, sheltered within a building that looks like a small chapel with a barrel-vaulted ceiling. He wears the crown of thorns, which was placed upon his head before the Crucifixion. Around his neck is a looped rope, a reminder of the Flagellation (when he was tied up and whipped).\n\nIt is unclear whether the picture is supposed to represent a particular moment or a mystical vision of Christ’s sufferings. It presents Christ as a focus for prayer and meditation. His presence in the chapel takes the place of an altar with a religious painting above. Outside, we see an Italian hillside where stags and deer graze.\n\nCicognara came from a town near Milan but his work is not well-known as he signed very few pictures. He was a painter and manuscript illuminator, and the precision of the details in the landscape and the architecture fits well with an artist used to working on a small scale.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (Ferrarese)",
+  "creator": {
+    "name": "Antonio Cicognara",
+    "birth_date": "1480",
+    "death_date": "1500",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3069-00-000032-web.jpg",
+    "filename": "N-3069-00-000032-web.jpg",
+    "image_key": "N-3069-00-000032",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2907,
+    "aspect_ratio": 0.6605,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1792264
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 5475,
+    "horizontal_lines": 337,
+    "vertical_lines": 3270,
+    "diagonal_lines": 1868,
+    "edge_density": 0.1358,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -63.3,
+      -90.0,
+      89.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      108,
+      88,
+      67
+    ],
+    "mean_color_hex": "#6c5843",
+    "color_palette": [
+      "#18120d",
+      "#a37b5d",
+      "#593721",
+      "#84644c",
+      "#6a503a",
+      "#3b2516",
+      "#c3a080",
+      "#5d6355",
+      "#7d7966",
+      "#99937d"
+    ],
+    "unique_colors": 106043,
+    "color_diversity": 0.019,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 92.01,
+    "contrast_level": "medium",
+    "contrast_value": 0.3592,
+    "dynamic_range": 254,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 40.41,
+    "midtones_percentage": 56.27,
+    "highlights_percentage": 3.31
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.867,
+        "bbox": [
+          489.04,
+          830.41,
+          1376.19,
+          2575.92
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          1540,
+          1320,
+          1599,
+          1379
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          865,
+          932,
+          936,
+          1003
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1505,
+          1996,
+          1597,
+          2088
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          613,
+          2106,
+          736,
+          2229
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1216,
+          1964,
+          1355,
+          2103
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          920,
+          908,
+          1130,
+          1118
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1044.32,
+          "y": 1025.03,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "left_eye",
+          "x": 1071.77,
+          "y": 990.03,
+          "visibility": 2,
+          "confidence": 0.9661
+        },
+        {
+          "name": "right_eye",
+          "x": 1002.27,
+          "y": 983.85,
+          "visibility": 2,
+          "confidence": 0.995
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4275
+        },
+        {
+          "name": "right_ear",
+          "x": 893.92,
+          "y": 1012.19,
+          "visibility": 2,
+          "confidence": 0.9612
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1163.02,
+          "y": 1258.49,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "right_shoulder",
+          "x": 746.01,
+          "y": 1242.38,
+          "visibility": 2,
+          "confidence": 0.9993
+        },
+        {
+          "name": "left_elbow",
+          "x": 1237.98,
+          "y": 1567.58,
+          "visibility": 2,
+          "confidence": 0.9845
+        },
+        {
+          "name": "right_elbow",
+          "x": 686.05,
+          "y": 1554.8,
+          "visibility": 2,
+          "confidence": 0.9961
+        },
+        {
+          "name": "left_wrist",
+          "x": 1088.02,
+          "y": 1689.72,
+          "visibility": 2,
+          "confidence": 0.9861
+        },
+        {
+          "name": "right_wrist",
+          "x": 830.09,
+          "y": 1682.52,
+          "visibility": 2,
+          "confidence": 0.9947
+        },
+        {
+          "name": "left_hip",
+          "x": 1080.57,
+          "y": 1752.11,
+          "visibility": 2,
+          "confidence": 0.999
+        },
+        {
+          "name": "right_hip",
+          "x": 791.52,
+          "y": 1747.04,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_knee",
+          "x": 1091.93,
+          "y": 1963.51,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "right_knee",
+          "x": 689.48,
+          "y": 1955.72,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "left_ankle",
+          "x": 1102.66,
+          "y": 2386.53,
+          "visibility": 2,
+          "confidence": 0.9757
+        },
+        {
+          "name": "right_ankle",
+          "x": 715.51,
+          "y": 2368.95,
+          "visibility": 2,
+          "confidence": 0.9799
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -9.48
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FZS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FZS-0001-0000-0000.json"
+  }
+}

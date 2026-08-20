@@ -1,0 +1,180 @@
+{
+  "identifier": "NG849",
+  "full_title": "A Landscape with Cows, Sheep and Horses by a Barn",
+  "short_title": "A Landscape with Cows, Sheep and Horses by a Barn",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "57.7 × 52.9 cm",
+  "production_date": "1651",
+  "brief_description": "This scene of rural tranquillity is typical of the work of Paulus Potter, who was famous in his lifetime for his paintings of domestic animals. The hilly terrain and summer light are more reminiscent of Italy than Holland, but these are most definitely Dutch cows. Potter has observed them with great care: look at the way the closest to us closes its eyes while it chews the cud and, just behind, another tenses its body as it urinates.\n\nOther details contribute to a sense of peace and plenty: the cows’ udders are full, ready for evening milking, the hay barn is stacked to the rafters and in the field beyond the corn has been cut and gathered into stooks. The animals, sky and landscape -- in harmonious greens, browns and blues -- are all touched by the golden glow of the late afternoon sun.",
+  "accession_date": "1871-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1871",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Paulus Potter",
+    "birth_date": "1625",
+    "death_date": "1654",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0849-00-000012-web.jpg",
+    "filename": "N-0849-00-000012-web.jpg",
+    "image_key": "N-0849-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2096,
+    "aspect_ratio": 0.916,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 859185
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1421,
+    "horizontal_lines": 541,
+    "vertical_lines": 77,
+    "diagonal_lines": 803,
+    "edge_density": 0.0382,
+    "dominant_angles": [
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      2.7,
+      45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      110,
+      106,
+      86
+    ],
+    "mean_color_hex": "#6e6a56",
+    "color_palette": [
+      "#889bac",
+      "#3f341d",
+      "#504221",
+      "#302617",
+      "#999d94",
+      "#b2ac90",
+      "#60532b",
+      "#b6a473",
+      "#72653a",
+      "#8e8153"
+    ],
+    "unique_colors": 60475,
+    "color_diversity": 0.015,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 105.43,
+    "contrast_level": "medium",
+    "contrast_value": 0.3879,
+    "dynamic_range": 219,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 46.06,
+    "midtones_percentage": 48.77,
+    "highlights_percentage": 5.16
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.663,
+        "bbox": [
+          1041.67,
+          1638.17,
+          1357.76,
+          1851.82
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.5317,
+        "bbox": [
+          1630.16,
+          1612.93,
+          1908.53,
+          1878.03
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3938,
+        "bbox": [
+          1314.13,
+          1582.04,
+          1455.26,
+          1827.62
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.383,
+        "bbox": [
+          1541.18,
+          1612.4,
+          1708.37,
+          1810.9
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2763,
+        "bbox": [
+          1317.08,
+          1581.63,
+          1455.35,
+          1820.76
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "cow": 4,
+      "horse": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FA5-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FA5-0001-0000-0000.json"
+  }
+}

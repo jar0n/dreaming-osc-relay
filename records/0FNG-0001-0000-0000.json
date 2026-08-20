@@ -1,0 +1,192 @@
+{
+  "identifier": "NG1352",
+  "full_title": "A Landscape with Classical Ruins",
+  "short_title": "A Landscape with Classical Ruins",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "71 × 65.2 cm",
+  "production_date": "about 1660",
+  "brief_description": "Frederick de Moucheron was one of a number of seventeenth-century Dutch artists who specialised in painting idyllic scenes of people with their animals among the antique ruins of the Campagna (the countryside around Rome).\n\nHere, a woman sits upright, holding a baby, while a man with his back to us points towards a sunlit tower overlooking the distant valley. Neither of them seems to notice the rather adventurous dog exploring the fallen masonry under the columns.\n\nThe ruins tower over the people beneath them. The columns are painted very slightly off centre, leaning almost imperceptibly to one side -- it's enough to be unsettling, especially with the tomb-like blocks overhead that look in danger of falling. The ruins appear to suggest the grandeur of an almost-vanished civilisation; life in their shadow continues calm and serene, untouched by the glories of the past.",
+  "accession_date": "1892-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Richard W. Cooper, 1892",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Frederick de Moucheron",
+    "birth_date": "1633",
+    "death_date": "1686",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1352-00-000013-web.jpg",
+    "filename": "N-1352-00-000013-web.jpg",
+    "image_key": "N-1352-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2108,
+    "aspect_ratio": 0.9108,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 910549
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 614,
+    "horizontal_lines": 126,
+    "vertical_lines": 190,
+    "diagonal_lines": 298,
+    "edge_density": 0.0302,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      45.0,
+      45.0,
+      67.9,
+      88.9,
+      0.0,
+      45.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      79,
+      77,
+      62
+    ],
+    "mean_color_hex": "#4f4d3e",
+    "color_palette": [
+      "#2f2715",
+      "#3a3019",
+      "#241d10",
+      "#93a2a4",
+      "#879598",
+      "#483c21",
+      "#595031",
+      "#a9b3af",
+      "#6d6543",
+      "#777c71"
+    ],
+    "unique_colors": 54287,
+    "color_diversity": 0.0134,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 76.38,
+    "contrast_level": "medium",
+    "contrast_value": 0.3904,
+    "dynamic_range": 223,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 68.2,
+    "midtones_percentage": 29.32,
+    "highlights_percentage": 2.47
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6673,
+        "bbox": [
+          522.23,
+          1661.11,
+          620.89,
+          1861.16
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4033,
+        "bbox": [
+          643.45,
+          1579.18,
+          800.0,
+          1773.58
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3461,
+        "bbox": [
+          763.47,
+          1525.72,
+          1118.76,
+          1710.91
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.3144,
+        "bbox": [
+          741.91,
+          1680.33,
+          877.66,
+          1799.13
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2599,
+        "bbox": [
+          645.33,
+          1580.51,
+          772.66,
+          1728.68
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "person": 1,
+      "horse": 3,
+      "cow": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1150,
+          903,
+          1194,
+          947
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FNG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FNG-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "identifier": "NG222",
+  "full_title": "Portrait of a Man (Self Portrait?)",
+  "short_title": "Portrait of a Man (Self Portrait?)",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "26 × 19 cm",
+  "production_date": "1433",
+  "brief_description": "This impassive face is almost certainly that of Jan van Eyck himself, and the painting a powerful statement of his artistic skill. His motto, Als Ich Can, is painted in Greek letters on the upper frame; the words are an abbreviation of a Flemish saying and a pun on Jan's name: 'as I[ich/Eyk] can [but not as I would]'. The bottom inscription is in abbreviated Latin and says, 'Jan van Eyck made me on 21 October 1433'.\n\nThe sitter's clothing is that of a prosperous individual. Most striking is his flamboyant red hat -- a chaperon, a headdress for men fashionable in the fifteenth century. The hood, which usually hung down over the wearer's neck and shoulders, has been piled up on top of the sitter's head, the long tail wound around it. The strong contrast between the dark shadows in the creases and the bright highlights where the folded fabric catches the light is typical of van Eyck.",
+  "accession_date": "1851-01-01",
+  "current_location": "Room 52, The National Gallery (London)",
+  "credit_line": "Bought, 1851",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Jan van Eyck",
+    "birth_date": "1422",
+    "death_date": "1441",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0222-00-000062-web.jpg",
+    "filename": "N-0222-00-000062-web.jpg",
+    "image_key": "N-0222-00-000062",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2451,
+    "aspect_ratio": 0.7834,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1538940
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 8731,
+    "horizontal_lines": 2077,
+    "vertical_lines": 2915,
+    "diagonal_lines": 3739,
+    "edge_density": 0.1456,
+    "dominant_angles": [
+      88.8,
+      -90.0,
+      88.8,
+      -90.0,
+      -86.4,
+      -90.0,
+      86.1,
+      -90.0,
+      -90.0,
+      87.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      78,
+      55,
+      34
+    ],
+    "mean_color_hex": "#4e3722",
+    "color_palette": [
+      "#0f0a0a",
+      "#6f5029",
+      "#563a1d",
+      "#2d1913",
+      "#886538",
+      "#5b1712",
+      "#a5804b",
+      "#cca866",
+      "#f0d391",
+      "#fdfaf4"
+    ],
+    "unique_colors": 115076,
+    "color_diversity": 0.0245,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 60.16,
+    "contrast_level": "medium",
+    "contrast_value": 0.4168,
+    "dynamic_range": 255,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 70.84,
+    "midtones_percentage": 24.37,
+    "highlights_percentage": 4.78
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8802,
+        "bbox": [
+          269.49,
+          287.47,
+          1654.34,
+          2222.32
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          664,
+          2352,
+          730,
+          2418
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          576,
+          846,
+          1001,
+          1271
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 764.36,
+          "y": 1122.09,
+          "visibility": 2,
+          "confidence": 0.9973
+        },
+        {
+          "name": "left_eye",
+          "x": 885.39,
+          "y": 1010.5,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "right_eye",
+          "x": 709.52,
+          "y": 996.16,
+          "visibility": 2,
+          "confidence": 0.9827
+        },
+        {
+          "name": "left_ear",
+          "x": 1120.08,
+          "y": 1018.35,
+          "visibility": 2,
+          "confidence": 0.9843
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3848
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1415.82,
+          "y": 1582.96,
+          "visibility": 2,
+          "confidence": 0.9595
+        },
+        {
+          "name": "right_shoulder",
+          "x": 488.69,
+          "y": 1531.99,
+          "visibility": 2,
+          "confidence": 0.9839
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1397
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3293
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1588
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2469
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0157
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0276
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.001
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0019
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D41-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D41-0001-0000-0000.json"
+  }
+}

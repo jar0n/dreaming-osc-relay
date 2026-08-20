@@ -1,0 +1,291 @@
+{
+  "identifier": "NG4038",
+  "full_title": "Saint Bonaventure",
+  "short_title": "Saint Bonaventure",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "29.8 × 29.8 cm",
+  "production_date": "probably 1530-5",
+  "brief_description": "This panel of Saint Bonaventure and one of Saint Louis of Toulouse, also in the National Gallery's collection, are part of a series of nine paintings by Pordenone from a ceiling in the Scuola di S. Francesco ai Frari at Venice. The original arrangement showed the Four Evangelists on square panels in the corners, with Saints Bonaventure, Louis, Bernardino and Anthony of Padua in separate octagonal compartments around a central full length image of Saint Francis receiving the stigmata. The central panel of Saint Francis is lost but the Four Evangelists, Saint Bernardino and Saint Anthony are now in the Museum of Fine Arts, Budapest.\n\nThis panel shows Saint Bonaventure pointing up, originally towards the central image of Saint Francis; his red cardinal's hat hangs on the wall behind him. He was born in Umbria and entered the Franciscan Order in 1243. His leadership made the Franciscans the most prominent order in the Catholic Church until the coming of the Jesuits. He was canonised in 1482.",
+  "accession_date": "1924-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Sir Claude Phillips Bequest, 1924",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Giovanni Antonio Pordenone",
+    "birth_date": "1504",
+    "death_date": "1539",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4038-00-000022-web-g.jpg",
+    "filename": "N-4038-00-000022-web-g.jpg",
+    "image_key": "N-4038-00-000022",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1937,
+    "aspect_ratio": 0.9912,
+    "ratio_type": "square (1:1)",
+    "orientation": "portrait",
+    "file_size_bytes": 600326
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 301,
+    "horizontal_lines": 86,
+    "vertical_lines": 85,
+    "diagonal_lines": 130,
+    "edge_density": 0.0152,
+    "dominant_angles": [
+      88.8,
+      -46.1,
+      -47.0,
+      89.5,
+      -46.9,
+      46.0,
+      89.3,
+      -46.1,
+      89.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      82,
+      63,
+      45
+    ],
+    "mean_color_hex": "#523f2d",
+    "color_palette": [
+      "#3b3c3f",
+      "#3e2e21",
+      "#30261d",
+      "#4e3622",
+      "#5c4428",
+      "#886335",
+      "#7c5027",
+      "#6a391e",
+      "#6d5436",
+      "#957748"
+    ],
+    "unique_colors": 41402,
+    "color_diversity": 0.0111,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 67.21,
+    "contrast_level": "low",
+    "contrast_value": 0.1669,
+    "dynamic_range": 224,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 80.4,
+    "midtones_percentage": 19.6,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8887,
+        "bbox": [
+          119.58,
+          69.22,
+          1785.78,
+          1862.09
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          696,
+          227,
+          1143,
+          674
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          144,
+          1128,
+          511,
+          1495
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 893.46,
+          "y": 479.82,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "left_eye",
+          "x": 1011.51,
+          "y": 386.07,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "right_eye",
+          "x": 833.04,
+          "y": 382.23,
+          "visibility": 2,
+          "confidence": 0.9877
+        },
+        {
+          "name": "left_ear",
+          "x": 1202.74,
+          "y": 441.75,
+          "visibility": 2,
+          "confidence": 0.991
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2889
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1380.91,
+          "y": 854.98,
+          "visibility": 2,
+          "confidence": 0.9947
+        },
+        {
+          "name": "right_shoulder",
+          "x": 663.11,
+          "y": 889.43,
+          "visibility": 2,
+          "confidence": 0.9979
+        },
+        {
+          "name": "left_elbow",
+          "x": 1525.02,
+          "y": 1404.72,
+          "visibility": 2,
+          "confidence": 0.8883
+        },
+        {
+          "name": "right_elbow",
+          "x": 311.12,
+          "y": 1357.45,
+          "visibility": 2,
+          "confidence": 0.9384
+        },
+        {
+          "name": "left_wrist",
+          "x": 1146.58,
+          "y": 1561.52,
+          "visibility": 2,
+          "confidence": 0.9222
+        },
+        {
+          "name": "right_wrist",
+          "x": 319.71,
+          "y": 929.62,
+          "visibility": 2,
+          "confidence": 0.9634
+        },
+        {
+          "name": "left_hip",
+          "x": 1302.77,
+          "y": 1646.37,
+          "visibility": 2,
+          "confidence": 0.6275
+        },
+        {
+          "name": "right_hip",
+          "x": 837.17,
+          "y": 1641.09,
+          "visibility": 2,
+          "confidence": 0.7136
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0681
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0901
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0068
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0098
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -5.64
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EPA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EPA-0001-0000-0000.json"
+  }
+}

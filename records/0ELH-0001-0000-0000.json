@@ -1,0 +1,331 @@
+{
+  "identifier": "NG4733",
+  "full_title": "Seated Woman",
+  "short_title": "Seated Woman",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "36.2 × 27 cm",
+  "production_date": "1855-65",
+  "brief_description": "Throughout his life Corot painted images of women dressed in particular costume, often folk dress. They cannot be described as portraits, and the sitters are often unknown. In this example, the woman wears a white dress of perhaps muslin or organza decorated with pink satin ribbons. In her left hand she holds a rose.  A string of what appear to be pearls is entwined in her mass of dark hair. She is framed by an oval of dark paint, the inner rim outlined in dull yellow, perhaps imitating the gold of a frame. Her face is richly modelled in dark shades of brown, her deep-set eyes almost lost in shadow.\n\nThe small scale of this picture combined with the depiction of the frame might suggest that Corot was not painting from a real model, but was copying an existing painting or even a photograph.",
+  "accession_date": "1934-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1934",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jean-Baptiste-Camille Corot",
+    "birth_date": "1796",
+    "death_date": "1875",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4733-00-000025-web.jpg",
+    "filename": "N-4733-00-000025-web.jpg",
+    "image_key": "N-4733-00-000025",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2637,
+    "aspect_ratio": 0.7281,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1796122
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 9496,
+    "horizontal_lines": 537,
+    "vertical_lines": 3318,
+    "diagonal_lines": 5641,
+    "edge_density": 0.168,
+    "dominant_angles": [
+      -60.8,
+      -53.1,
+      -57.1,
+      -45.0,
+      -88.0,
+      -45.0,
+      -45.0,
+      -55.9,
+      -45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      80,
+      71,
+      56
+    ],
+    "mean_color_hex": "#504738",
+    "color_palette": [
+      "#362e22",
+      "#29231a",
+      "#443b2a",
+      "#1d1712",
+      "#8d826a",
+      "#7b705a",
+      "#554a38",
+      "#695d49",
+      "#a3967c",
+      "#c2b399"
+    ],
+    "unique_colors": 63516,
+    "color_diversity": 0.0125,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 72.71,
+    "contrast_level": "medium",
+    "contrast_value": 0.3204,
+    "dynamic_range": 253,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 66.57,
+    "midtones_percentage": 31.77,
+    "highlights_percentage": 1.66
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6727,
+        "bbox": [
+          78.86,
+          282.02,
+          1832.26,
+          2626.28
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          46,
+          1951,
+          124,
+          2029
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          38,
+          2456,
+          147,
+          2565
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1657,
+          1886,
+          1886,
+          2115
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          652,
+          443,
+          1075,
+          866
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1393,
+          1764,
+          1893,
+          2264
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          704,
+          999,
+          1370,
+          1665
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 858.28,
+          "y": 657.24,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "left_eye",
+          "x": 934.78,
+          "y": 586.32,
+          "visibility": 2,
+          "confidence": 0.9969
+        },
+        {
+          "name": "right_eye",
+          "x": 789.81,
+          "y": 590.11,
+          "visibility": 2,
+          "confidence": 0.9864
+        },
+        {
+          "name": "left_ear",
+          "x": 1064.45,
+          "y": 651.49,
+          "visibility": 2,
+          "confidence": 0.9652
+        },
+        {
+          "name": "right_ear",
+          "x": 705.81,
+          "y": 657.68,
+          "visibility": 2,
+          "confidence": 0.5534
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1267.25,
+          "y": 1056.55,
+          "visibility": 2,
+          "confidence": 0.9966
+        },
+        {
+          "name": "right_shoulder",
+          "x": 580.36,
+          "y": 1079.84,
+          "visibility": 2,
+          "confidence": 0.995
+        },
+        {
+          "name": "left_elbow",
+          "x": 1490.65,
+          "y": 1552.97,
+          "visibility": 2,
+          "confidence": 0.9786
+        },
+        {
+          "name": "right_elbow",
+          "x": 375.02,
+          "y": 1587.37,
+          "visibility": 2,
+          "confidence": 0.9518
+        },
+        {
+          "name": "left_wrist",
+          "x": 1219.18,
+          "y": 1731.84,
+          "visibility": 2,
+          "confidence": 0.9702
+        },
+        {
+          "name": "right_wrist",
+          "x": 501.05,
+          "y": 1756.4,
+          "visibility": 2,
+          "confidence": 0.9466
+        },
+        {
+          "name": "left_hip",
+          "x": 1223.89,
+          "y": 2048.69,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "right_hip",
+          "x": 752.61,
+          "y": 2062.72,
+          "visibility": 2,
+          "confidence": 0.9591
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.266
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.228
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0173
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0164
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -2.5
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ELH-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ELH-0001-0000-0000.json"
+  }
+}

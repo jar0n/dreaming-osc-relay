@@ -1,0 +1,291 @@
+{
+  "identifier": "NG2517",
+  "full_title": "An Architectural Caprice with a Palladian Style Building",
+  "short_title": "An Architectural Caprice",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "22.3 × 17 cm",
+  "production_date": "1770-80",
+  "brief_description": "This theatrical scene, with its stage-like setting of dramatic buildings that loom over the figures, was imagined by Guardi. The building on the left may be based on an unused design for Venice's Rialto bridge by Andrea Palladio, a sixteenth-century architect. Guardi probably studied the design and has added a dome here.\n\nThe painting presents a collection of Ancient Greek and Roman architecture, from the domed building with a temple front to the classical arcade in the background, which curves round to end in the loggia (open-sided gallery or room) on the right. Although you get a sense of the distances between the buildings, the staircase going down from the temple portico merges into shadow and it isn't easy to tell where the drum-like podium actually meets the ground.\n\nGuardi's painting is characteristically lively, with energetic figures and sharp yellow and white highlights that suggest brilliant sunshine.",
+  "accession_date": "1910-01-01",
+  "current_location": "Room 33, The National Gallery (London)",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2517-00-000012-web.jpg",
+    "filename": "N-2517-00-000012-web.jpg",
+    "image_key": "N-2517-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2486,
+    "aspect_ratio": 0.7723,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1841125
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 12537,
+    "horizontal_lines": 1281,
+    "vertical_lines": 3251,
+    "diagonal_lines": 8005,
+    "edge_density": 0.2104,
+    "dominant_angles": [
+      86.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      -90.0,
+      45.0,
+      80.1,
+      45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      92,
+      95,
+      80
+    ],
+    "mean_color_hex": "#5c5f50",
+    "color_palette": [
+      "#678281",
+      "#3b3224",
+      "#2a221a",
+      "#60583f",
+      "#4d4431",
+      "#597170",
+      "#766d4b",
+      "#7a9390",
+      "#8d8560",
+      "#a7a584"
+    ],
+    "unique_colors": 82324,
+    "color_diversity": 0.0172,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 92.49,
+    "contrast_level": "low",
+    "contrast_value": 0.2833,
+    "dynamic_range": 250,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 40.76,
+    "midtones_percentage": 58.59,
+    "highlights_percentage": 0.66
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3141,
+        "bbox": [
+          1788.51,
+          1872.7,
+          1873.02,
+          2007.82
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1547,
+          1786,
+          1617,
+          1856
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          168,
+          2177,
+          274,
+          2283
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4012
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.107
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3037
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1629
+        },
+        {
+          "name": "right_ear",
+          "x": 723.6,
+          "y": 1039.47,
+          "visibility": 2,
+          "confidence": 0.6187
+        },
+        {
+          "name": "left_shoulder",
+          "x": 721.91,
+          "y": 1097.83,
+          "visibility": 2,
+          "confidence": 0.9475
+        },
+        {
+          "name": "right_shoulder",
+          "x": 718.61,
+          "y": 1096.9,
+          "visibility": 2,
+          "confidence": 0.9719
+        },
+        {
+          "name": "left_elbow",
+          "x": 767.62,
+          "y": 1171.19,
+          "visibility": 2,
+          "confidence": 0.848
+        },
+        {
+          "name": "right_elbow",
+          "x": 771.71,
+          "y": 1173.31,
+          "visibility": 2,
+          "confidence": 0.9393
+        },
+        {
+          "name": "left_wrist",
+          "x": 812.24,
+          "y": 1232.9,
+          "visibility": 2,
+          "confidence": 0.7881
+        },
+        {
+          "name": "right_wrist",
+          "x": 824.37,
+          "y": 1229.09,
+          "visibility": 2,
+          "confidence": 0.8834
+        },
+        {
+          "name": "left_hip",
+          "x": 713.51,
+          "y": 1277.73,
+          "visibility": 2,
+          "confidence": 0.9884
+        },
+        {
+          "name": "right_hip",
+          "x": 708.26,
+          "y": 1277.57,
+          "visibility": 2,
+          "confidence": 0.9918
+        },
+        {
+          "name": "left_knee",
+          "x": 727.35,
+          "y": 1427.85,
+          "visibility": 2,
+          "confidence": 0.9662
+        },
+        {
+          "name": "right_knee",
+          "x": 712.91,
+          "y": 1431.41,
+          "visibility": 2,
+          "confidence": 0.9762
+        },
+        {
+          "name": "left_ankle",
+          "x": 728.85,
+          "y": 1579.93,
+          "visibility": 2,
+          "confidence": 0.8726
+        },
+        {
+          "name": "right_ankle",
+          "x": 702.15,
+          "y": 1589.68,
+          "visibility": 2,
+          "confidence": 0.892
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -2.67
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FO7-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FO7-0001-0000-0000.json"
+  }
+}

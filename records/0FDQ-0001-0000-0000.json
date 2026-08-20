@@ -1,0 +1,191 @@
+{
+  "identifier": "NG884",
+  "full_title": "Peasants driving Cattle and Sheep by a Sandhill, and Two Sportsmen with Dogs",
+  "short_title": "Peasants driving Cattle and Sheep",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "28.6 × 38.1 cm",
+  "production_date": "probably 1665-70",
+  "brief_description": "Jan Wijnants specialised in pictures that depicted figures moving through this particular type of rural landscape. As far was we can tell, they weren’t usually a real view, but were composed to give a pleasing effect and an impression of the countryside around the town of Haarlem, where Wijnants lived and worked.\n\nThis hinterland, a place of ancient sand hills overgrown with scrub and woodland, was just a couple of miles inland from the beaches of the North Sea coast, and the huge dune which dominates the right-hand side of the painting is typical of the area. The figures and animals have an important function in the painting: the way they are staggered along the winding track helps lead the eye into the middle ground, and their diminishing size enhances the impression of distance and depth. Above them a huge sky fills the painting with a sense of light and space.",
+  "accession_date": "1871-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1871",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Wijnants",
+    "birth_date": "1643",
+    "death_date": "1684",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0884-00-000023-web.jpg",
+    "filename": "N-0884-00-000023-web.jpg",
+    "image_key": "N-0884-00-000023",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1443,
+    "aspect_ratio": 1.3306,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 626359
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 470,
+    "horizontal_lines": 422,
+    "vertical_lines": 0,
+    "diagonal_lines": 48,
+    "edge_density": 0.0331,
+    "dominant_angles": [
+      3.3,
+      -2.6,
+      -6.0,
+      -6.5,
+      -7.1,
+      -5.2,
+      2.4,
+      -5.3,
+      -5.9,
+      1.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      109,
+      106,
+      103
+    ],
+    "mean_color_hex": "#6d6a67",
+    "color_palette": [
+      "#52687f",
+      "#717277",
+      "#84868a",
+      "#64798d",
+      "#674a29",
+      "#a29c93",
+      "#4e351e",
+      "#7f613e",
+      "#331f10",
+      "#9f7a4e"
+    ],
+    "unique_colors": 60430,
+    "color_diversity": 0.0218,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 107.2,
+    "contrast_level": "low",
+    "contrast_value": 0.2385,
+    "dynamic_range": 190,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 20.06,
+    "midtones_percentage": 79.39,
+    "highlights_percentage": 0.55
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "zebra",
+        "confidence": 0.688,
+        "bbox": [
+          1494.46,
+          1266.59,
+          1579.84,
+          1360.85
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5464,
+        "bbox": [
+          1188.25,
+          1183.36,
+          1235.32,
+          1311.97
+        ]
+      },
+      {
+        "class": "zebra",
+        "confidence": 0.519,
+        "bbox": [
+          1204.89,
+          1261.7,
+          1313.75,
+          1355.62
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4284,
+        "bbox": [
+          1770.53,
+          810.74,
+          1804.36,
+          899.49
+        ]
+      },
+      {
+        "class": "zebra",
+        "confidence": 0.2938,
+        "bbox": [
+          1378.03,
+          1302.09,
+          1448.39,
+          1371.96
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "zebra": 3,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          21,
+          1346,
+          83,
+          1408
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FDQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FDQ-0001-0000-0000.json"
+  }
+}

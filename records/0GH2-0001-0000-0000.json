@@ -1,0 +1,281 @@
+{
+  "identifier": "NG2162",
+  "full_title": "Portrait of a Man",
+  "short_title": "Portrait of a Man",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "55.2 × 45.7 cm",
+  "production_date": "possibly 1791",
+  "brief_description": "This painting was once thought to be a self portrait by Ducreux. However, it has since been identified as one of five pictures that he exhibited at the Royal Academy in London in 1791, where it may have had the title Portrait of a Gentleman by Du Creux, R.A. Based upon a handwritten note found in a copy of the exhibition catalogue, the sitter for that portrait has traditionally been associated with the name Le Texier.\n\nIf this is a portrait of a Monsieur Le Texier, he is most likely Antony Le Texier, whose profession as a dramatic reader and performer may partly explain the man’s striking expression, which resembles a tête d'expression -- a painted or sculpted head specifically created to display an emotion. Ducreux was known for his animated self portraits, which also show his fascination with physiognomy – the pseudo-science that claimed the study of a person’s outward appearance, particularly the head and face, reveals their personality or character.",
+  "accession_date": "1907-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1907",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Joseph Ducreux",
+    "birth_date": "1735",
+    "death_date": "1802",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2162-00-000012-web.jpg",
+    "filename": "N-2162-00-000012-web.jpg",
+    "image_key": "N-2162-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2332,
+    "aspect_ratio": 0.8233,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 801455
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 381,
+    "horizontal_lines": 10,
+    "vertical_lines": 291,
+    "diagonal_lines": 80,
+    "edge_density": 0.0148,
+    "dominant_angles": [
+      88.4,
+      -85.6,
+      -83.7,
+      -88.8,
+      89.1,
+      -85.2,
+      -85.0,
+      -83.2,
+      -84.0,
+      -81.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      41,
+      35,
+      23
+    ],
+    "mean_color_hex": "#292317",
+    "color_palette": [
+      "#1e1912",
+      "#18140f",
+      "#231f16",
+      "#2f2816",
+      "#39331c",
+      "#453d24",
+      "#8b6e44",
+      "#755b37",
+      "#5e492c",
+      "#9d8256"
+    ],
+    "unique_colors": 30169,
+    "color_diversity": 0.0067,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 35.94,
+    "contrast_level": "low",
+    "contrast_value": 0.1747,
+    "dynamic_range": 181,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 94.36,
+    "midtones_percentage": 5.64,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8934,
+        "bbox": [
+          30.7,
+          299.26,
+          1784.56,
+          2313.52
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          629,
+          518,
+          1279,
+          1168
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 957.57,
+          "y": 887.05,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "left_eye",
+          "x": 1081.13,
+          "y": 776.22,
+          "visibility": 2,
+          "confidence": 0.9971
+        },
+        {
+          "name": "right_eye",
+          "x": 840.66,
+          "y": 759.3,
+          "visibility": 2,
+          "confidence": 0.9938
+        },
+        {
+          "name": "left_ear",
+          "x": 1222.74,
+          "y": 852.93,
+          "visibility": 2,
+          "confidence": 0.9479
+        },
+        {
+          "name": "right_ear",
+          "x": 637.38,
+          "y": 816.55,
+          "visibility": 2,
+          "confidence": 0.8219
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1463.42,
+          "y": 1513.07,
+          "visibility": 2,
+          "confidence": 0.9763
+        },
+        {
+          "name": "right_shoulder",
+          "x": 282.37,
+          "y": 1392.92,
+          "visibility": 2,
+          "confidence": 0.9628
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1808
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0905
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1787
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1054
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0063
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0053
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GH2-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GH2-0001-0000-0000.json"
+  }
+}

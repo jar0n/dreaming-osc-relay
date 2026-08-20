@@ -1,0 +1,170 @@
+{
+  "identifier": "NG156",
+  "full_title": "The Horses of Achilles",
+  "short_title": "The Horses of Achilles",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "105.5 × 91.5 cm",
+  "production_date": "1635-45",
+  "brief_description": "Two horses run wild across a flat, earthy plain against a cloudy sunset. These are Xanthus and Balius, the immortal horses of the Greek hero Achilles. They were the offspring of Zephyrus, the god of the west wind, who may be personified by the winged head which is about to expel a mouthful of air.\n\nAchilles was a central character in Homer's Iliad, an ancient Greek epic poem about the Trojan War. As an infant he had been dipped in the Styx, a river of the underworld with the power to make people immortal, although one heel was left dry. This made him seemingly invincible, but he was finally killed by an arrow to that vulnerable spot.\n\nThe painting was traditionally thought to be by Anthony van Dyck, and it does display the liveliness of his studies of Andalusian horses. But, in 1966, cleaning revealed that it was probably painted at a later date by another artist in the style of the great Flemish master.",
+  "accession_date": "1838-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lord Farnborough, 1838",
+  "associated_concepts": "Flemish",
+  "creator": {
+    "name": "Anthony van Dyck",
+    "birth_date": "1599",
+    "death_date": "1641",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0156-00-000026-web.jpg",
+    "filename": "N-0156-00-000026-web.jpg",
+    "image_key": "N-0156-00-000026",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2248,
+    "aspect_ratio": 0.8541,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1251164
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1960,
+    "horizontal_lines": 516,
+    "vertical_lines": 284,
+    "diagonal_lines": 1160,
+    "edge_density": 0.0666,
+    "dominant_angles": [
+      0.9,
+      -3.2,
+      -45.0,
+      0.9,
+      1.0,
+      0.0,
+      -45.0,
+      4.1,
+      -45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      83,
+      62,
+      43
+    ],
+    "mean_color_hex": "#533e2b",
+    "color_palette": [
+      "#3c2a1c",
+      "#4d3420",
+      "#2d1f16",
+      "#5e4129",
+      "#453f31",
+      "#60523d",
+      "#785232",
+      "#80694a",
+      "#9c8765",
+      "#bfa87e"
+    ],
+    "unique_colors": 54294,
+    "color_diversity": 0.0126,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 66.78,
+    "contrast_level": "low",
+    "contrast_value": 0.2304,
+    "dynamic_range": 236,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 80.29,
+    "midtones_percentage": 18.74,
+    "highlights_percentage": 0.98
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.9226,
+        "bbox": [
+          340.97,
+          421.25,
+          1804.73,
+          2201.89
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          974,
+          999,
+          1023,
+          1048
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1130,
+          1753,
+          1177,
+          1800
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          801,
+          1488,
+          861,
+          1548
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F4H-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F4H-0001-0000-0000.json"
+  }
+}

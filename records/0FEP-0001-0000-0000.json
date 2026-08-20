@@ -1,0 +1,160 @@
+{
+  "identifier": "NG1399",
+  "full_title": "Portrait of a Young Man",
+  "short_title": "Portrait of a Young Man",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "67.3 × 54.3 cm",
+  "production_date": "about 1663",
+  "brief_description": "In the early 1660s, when this portrait was made, this fancy outfit, bedecked with ruffles, ribbons and lace, was the height of sophisticated dressing, inspired by the latest fashions in Paris and employing the most expensive fabrics and tailoring.\n\nWe don’t know who the sitter is, though it seems almost certain that he was a wealthy burgher from the Dutch town of Deventer where ter Borch had settled in 1654. He was certainly a man of status, upright and conscious of demonstrating his social and financial status.\n\nAnd he was apparently not afraid to alienate some of his more conservative contemporaries. Such ostentatious dressing was not universally approved of in the Netherlands at the time. Stricter Calvinists (who followed Calvinism, a branch of Protestantism) would certainly have raised their eyebrows at what one contemporary writer referred to as 'immoderately loose and long garments… redolent of over-abundance and profligacy'.",
+  "accession_date": "1894-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1894",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Gerard ter Borch",
+    "birth_date": "1617",
+    "death_date": "1681",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1399-00-000014-web.jpg",
+    "filename": "N-1399-00-000014-web.jpg",
+    "image_key": "N-1399-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2381,
+    "aspect_ratio": 0.8064,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 690789
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 156,
+    "horizontal_lines": 16,
+    "vertical_lines": 54,
+    "diagonal_lines": 86,
+    "edge_density": 0.0088,
+    "dominant_angles": [
+      66.3,
+      -76.7,
+      -87.9,
+      64.7,
+      65.0,
+      -71.0,
+      65.0,
+      62.8,
+      86.1,
+      64.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      52,
+      39,
+      28
+    ],
+    "mean_color_hex": "#34271c",
+    "color_palette": [
+      "#252017",
+      "#2f281c",
+      "#140f11",
+      "#413520",
+      "#50422a",
+      "#552116",
+      "#632c1e",
+      "#784937",
+      "#6e695e",
+      "#9ea096"
+    ],
+    "unique_colors": 37298,
+    "color_diversity": 0.0082,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 41.85,
+    "contrast_level": "low",
+    "contrast_value": 0.163,
+    "dynamic_range": 227,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 97.14,
+    "midtones_percentage": 2.64,
+    "highlights_percentage": 0.22
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "chair",
+        "confidence": 0.766,
+        "bbox": [
+          54.63,
+          1074.05,
+          515.99,
+          2092.47
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "chair": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          845,
+          340,
+          1026,
+          521
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          737,
+          843,
+          904,
+          1010
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FEP-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FEP-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "identifier": "NG3534",
+  "full_title": "A Peasant seated smoking",
+  "short_title": "A Peasant seated smoking",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "28.5 × 23 cm",
+  "production_date": "about 1650",
+  "brief_description": "Whatever the purpose of this picture, the subject -- a shabby man clutching an ale mug and pipe, his eyes cast to the ceiling as if searching in vain for a thought -- is meant to be an object of ridicule. It has been suggested that the image might be a vanitas, an allegory of the fleeting nature of life, gone like a puff of smoke from a pipe. Another possibility is that it's a tronie ('face'), a painting of a stock character often with an exaggerated facial expression.\n\nDiepraem made a speciality of such pictures, either single tronie portraits or groups of peasants partying in an inn, with the same outlandish expressions -- and often with a similar blue and grey jug somewhere in the scene, containing Rhenish wine.",
+  "accession_date": "1920-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Dr J. Seymour Maynard through the Art Fund, 1920",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Arent (?) Diepraem",
+    "birth_date": "1622",
+    "death_date": "1670",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3534-00-000010-web.jpg",
+    "filename": "N-3534-00-000010-web.jpg",
+    "image_key": "N-3534-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2384,
+    "aspect_ratio": 0.8054,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 905762
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 36,
+    "horizontal_lines": 12,
+    "vertical_lines": 13,
+    "diagonal_lines": 11,
+    "edge_density": 0.0061,
+    "dominant_angles": [
+      -90.0,
+      -2.8,
+      -90.0,
+      -90.0,
+      -90.0,
+      45.0,
+      53.7,
+      -90.0,
+      -4.9,
+      57.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      64,
+      51,
+      27
+    ],
+    "mean_color_hex": "#40331b",
+    "color_palette": [
+      "#332b18",
+      "#47361b",
+      "#3d2f16",
+      "#3b321f",
+      "#4d3d24",
+      "#2b2417",
+      "#553c1a",
+      "#604a26",
+      "#765a29",
+      "#a07940"
+    ],
+    "unique_colors": 34992,
+    "color_diversity": 0.0076,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 52.63,
+    "contrast_level": "low",
+    "contrast_value": 0.0924,
+    "dynamic_range": 238,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 97.88,
+    "midtones_percentage": 2.11,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.857,
+        "bbox": [
+          497.74,
+          173.09,
+          1811.06,
+          2314.73
+        ]
+      },
+      {
+        "class": "cell phone",
+        "confidence": 0.2542,
+        "bbox": [
+          1063.02,
+          641.86,
+          1415.13,
+          727.86
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "cell phone": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          946,
+          1265,
+          1074,
+          1393
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          837,
+          213,
+          1093,
+          469
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 983.36,
+          "y": 371.89,
+          "visibility": 2,
+          "confidence": 0.9971
+        },
+        {
+          "name": "left_eye",
+          "x": 1027.11,
+          "y": 323.34,
+          "visibility": 2,
+          "confidence": 0.9448
+        },
+        {
+          "name": "right_eye",
+          "x": 929.41,
+          "y": 302.21,
+          "visibility": 2,
+          "confidence": 0.9958
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2915
+        },
+        {
+          "name": "right_ear",
+          "x": 801.82,
+          "y": 330.72,
+          "visibility": 2,
+          "confidence": 0.9808
+        },
+        {
+          "name": "left_shoulder",
+          "x": 988.9,
+          "y": 652.66,
+          "visibility": 2,
+          "confidence": 0.9969
+        },
+        {
+          "name": "right_shoulder",
+          "x": 669.96,
+          "y": 673.18,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_elbow",
+          "x": 1126.62,
+          "y": 947.33,
+          "visibility": 2,
+          "confidence": 0.9728
+        },
+        {
+          "name": "right_elbow",
+          "x": 647.96,
+          "y": 1210.83,
+          "visibility": 2,
+          "confidence": 0.9955
+        },
+        {
+          "name": "left_wrist",
+          "x": 1233.52,
+          "y": 862.19,
+          "visibility": 2,
+          "confidence": 0.9804
+        },
+        {
+          "name": "right_wrist",
+          "x": 929.66,
+          "y": 1326.64,
+          "visibility": 2,
+          "confidence": 0.9955
+        },
+        {
+          "name": "left_hip",
+          "x": 1026.24,
+          "y": 1350.32,
+          "visibility": 2,
+          "confidence": 0.9979
+        },
+        {
+          "name": "right_hip",
+          "x": 833.12,
+          "y": 1393.77,
+          "visibility": 2,
+          "confidence": 0.9989
+        },
+        {
+          "name": "left_knee",
+          "x": 1264.26,
+          "y": 1414.86,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "right_knee",
+          "x": 1157.69,
+          "y": 1436.55,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_ankle",
+          "x": 1425.74,
+          "y": 2002.06,
+          "visibility": 2,
+          "confidence": 0.992
+        },
+        {
+          "name": "right_ankle",
+          "x": 1439.14,
+          "y": 2000.92,
+          "visibility": 2,
+          "confidence": 0.9948
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 3.06
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GIH-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GIH-0001-0000-0000.json"
+  }
+}

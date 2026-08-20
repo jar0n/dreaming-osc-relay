@@ -1,0 +1,313 @@
+{
+  "identifier": "NG1665",
+  "full_title": "Portrait of a Man aged 20 ('The Archinto Portrait')",
+  "short_title": "Portrait of a Man aged 20 ('The Archinto Portrait')",
+  "object_name": "Picture",
+  "style": "early Renaissance",
+  "material": "oil on wood",
+  "dimensions": "53.3 × 38.1 cm",
+  "production_date": "1494",
+  "brief_description": "A young man gazes past us and into the distance, his hand resting on a marble shelf. We don't know who he is, but he holds a scroll bearing his age (20), the date (1494) and a monogram, apparently 'AMPRF'. This is probably an early portrait by the Milanese painter Marco d'Oggiono, a pupil of Leonardo da Vinci, and there are many similarities between this painting and Leonardo's La Belle Ferronière (Louvre, Paris).\n\nLike Leonardo, d'Oggiono seems to have been experimenting with novel painting techniques. Very unusually for panel painting there is no gesso ground (a common preparatory layer), only a thick layer of lead white pigment in oil. The distinctive ashen hue of the flesh is partly the result of large amounts of charcoal black in the shadows, but it has been exacerbated by the fading of the red lake pigment that would have given a warmer tone.",
+  "accession_date": "1898-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1898",
+  "associated_concepts": "Italian (Milanese)",
+  "creator": {
+    "name": "Marco d'Oggiono",
+    "birth_date": "1487",
+    "death_date": "1524",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1665-00-000045-web.jpg",
+    "filename": "N-1665-00-000045-web.jpg",
+    "image_key": "N-1665-00-000045",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2766,
+    "aspect_ratio": 0.6941,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1078208
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 340,
+    "horizontal_lines": 23,
+    "vertical_lines": 133,
+    "diagonal_lines": 184,
+    "edge_density": 0.0198,
+    "dominant_angles": [
+      47.1,
+      45.0,
+      45.0,
+      45.0,
+      50.0,
+      -69.0,
+      -90.0,
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      48,
+      41,
+      35
+    ],
+    "mean_color_hex": "#302923",
+    "color_palette": [
+      "#1f1d1b",
+      "#161311",
+      "#292b27",
+      "#4b311f",
+      "#362418",
+      "#5a412e",
+      "#113448",
+      "#705641",
+      "#876f59",
+      "#a28c77"
+    ],
+    "unique_colors": 45923,
+    "color_diversity": 0.0086,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 43.14,
+    "contrast_level": "low",
+    "contrast_value": 0.204,
+    "dynamic_range": 187,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.97,
+    "midtones_percentage": 8.01,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8907,
+        "bbox": [
+          13.52,
+          152.94,
+          1914.95,
+          2677.76
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.6349,
+        "bbox": [
+          906.36,
+          1270.33,
+          1287.2,
+          2185.71
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.5306,
+        "bbox": [
+          654.12,
+          1119.0,
+          1298.24,
+          2196.3
+        ]
+      },
+      {
+        "class": "dining table",
+        "confidence": 0.465,
+        "bbox": [
+          10.79,
+          2333.57,
+          1917.2,
+          2762.96
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 1,
+      "tie": 2,
+      "dining table": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          494,
+          330,
+          1344,
+          1180
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 904.05,
+          "y": 811.56,
+          "visibility": 2,
+          "confidence": 0.9979
+        },
+        {
+          "name": "left_eye",
+          "x": 1051.69,
+          "y": 667.01,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "right_eye",
+          "x": 785.57,
+          "y": 672.4,
+          "visibility": 2,
+          "confidence": 0.9935
+        },
+        {
+          "name": "left_ear",
+          "x": 1282.44,
+          "y": 741.78,
+          "visibility": 2,
+          "confidence": 0.9535
+        },
+        {
+          "name": "right_ear",
+          "x": 640.53,
+          "y": 734.12,
+          "visibility": 2,
+          "confidence": 0.7627
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1623.89,
+          "y": 1402.84,
+          "visibility": 2,
+          "confidence": 0.9552
+        },
+        {
+          "name": "right_shoulder",
+          "x": 386.32,
+          "y": 1476.32,
+          "visibility": 2,
+          "confidence": 0.9924
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2623
+        },
+        {
+          "name": "right_elbow",
+          "x": 94.79,
+          "y": 2367.92,
+          "visibility": 2,
+          "confidence": 0.7208
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3374
+        },
+        {
+          "name": "right_wrist",
+          "x": 537.15,
+          "y": 2368.9,
+          "visibility": 2,
+          "confidence": 0.6908
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0216
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0527
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0018
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FYG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FYG-0001-0000-0000.json"
+  }
+}

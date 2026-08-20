@@ -1,0 +1,291 @@
+{
+  "identifier": "NG4142",
+  "full_title": "Samuel Rogers",
+  "short_title": "Samuel Rogers",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on wood",
+  "dimensions": "44 × 36.5 cm",
+  "production_date": "1846",
+  "brief_description": "Samuel Rogers (1763--1855) was a minor poet and an important collector of art. Although not everyone rated Rogers' poetic talents highly, his verses were popular and he commissioned J.M.W. Turner to illustrate two of his poetry collections.\n\nA National Gallery Trustee from 1834, Rogers bequeathed three works to the Gallery: Titian's Noli Me Tangere; A Knight in Armour by an imitator of Giorgione and Ecce Homo after Guido Reni.\n\nThis is a replica of an earlier portrait dated 1835 and now in the Tate, London. Both versions are painted on wooden panel; the original version is slightly smaller. In each, only the face is painted to any degree of finish and the pose is identical. Linnell painted the original and the replica in the hope that he would find an engraver to produce prints from them, but he was not successful.",
+  "accession_date": "1926-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1926",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "John Linnell",
+    "birth_date": "1792",
+    "death_date": "1882",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4142-00-000015-web.jpg",
+    "filename": "N-4142-00-000015-web.jpg",
+    "image_key": "N-4142-00-000015",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2325,
+    "aspect_ratio": 0.8258,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1083781
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1168,
+    "horizontal_lines": 118,
+    "vertical_lines": 631,
+    "diagonal_lines": 419,
+    "edge_density": 0.0509,
+    "dominant_angles": [
+      87.8,
+      -88.0,
+      82.2,
+      -88.9,
+      87.8,
+      -86.9,
+      -85.5,
+      -84.9,
+      86.5,
+      -85.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      84,
+      56,
+      28
+    ],
+    "mean_color_hex": "#54381c",
+    "color_palette": [
+      "#171510",
+      "#6b431d",
+      "#7d5126",
+      "#58361b",
+      "#48280d",
+      "#906132",
+      "#5f3309",
+      "#282017",
+      "#a17446",
+      "#c09261"
+    ],
+    "unique_colors": 47096,
+    "color_diversity": 0.0106,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 61.39,
+    "contrast_level": "low",
+    "contrast_value": 0.274,
+    "dynamic_range": 201,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 75.11,
+    "midtones_percentage": 24.66,
+    "highlights_percentage": 0.24
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9011,
+        "bbox": [
+          323.83,
+          368.93,
+          1753.13,
+          2325.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1549,
+          1074,
+          1755,
+          1280
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          734,
+          539,
+          1191,
+          996
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 951.44,
+          "y": 817.16,
+          "visibility": 2,
+          "confidence": 0.9989
+        },
+        {
+          "name": "left_eye",
+          "x": 1028.97,
+          "y": 728.57,
+          "visibility": 2,
+          "confidence": 0.9982
+        },
+        {
+          "name": "right_eye",
+          "x": 881.79,
+          "y": 739.33,
+          "visibility": 2,
+          "confidence": 0.9908
+        },
+        {
+          "name": "left_ear",
+          "x": 1176.15,
+          "y": 713.53,
+          "visibility": 2,
+          "confidence": 0.9832
+        },
+        {
+          "name": "right_ear",
+          "x": 810.78,
+          "y": 734.08,
+          "visibility": 2,
+          "confidence": 0.6271
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1393.15,
+          "y": 1101.22,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "right_shoulder",
+          "x": 686.19,
+          "y": 1098.47,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_elbow",
+          "x": 1604.93,
+          "y": 1577.73,
+          "visibility": 2,
+          "confidence": 0.9625
+        },
+        {
+          "name": "right_elbow",
+          "x": 468.47,
+          "y": 1511.41,
+          "visibility": 2,
+          "confidence": 0.9801
+        },
+        {
+          "name": "left_wrist",
+          "x": 1561.53,
+          "y": 2049.62,
+          "visibility": 2,
+          "confidence": 0.9385
+        },
+        {
+          "name": "right_wrist",
+          "x": 487.61,
+          "y": 1869.25,
+          "visibility": 2,
+          "confidence": 0.9543
+        },
+        {
+          "name": "left_hip",
+          "x": 1203.1,
+          "y": 2035.63,
+          "visibility": 2,
+          "confidence": 0.9543
+        },
+        {
+          "name": "right_hip",
+          "x": 757.3,
+          "y": 2018.83,
+          "visibility": 2,
+          "confidence": 0.9687
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1011
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1398
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.005
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.007
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -11.5
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EDT-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EDT-0001-0000-0000.json"
+  }
+}

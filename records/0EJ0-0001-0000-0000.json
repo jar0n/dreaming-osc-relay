@@ -1,0 +1,150 @@
+{
+  "identifier": "NG6530",
+  "full_title": "Brussels Harbour",
+  "short_title": "Brussels Harbour",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "42 × 65 cm",
+  "production_date": "1871",
+  "brief_description": "During the Franco-Prussian War in the winter of 1870--71, Boudin left Paris to avoid the fighting. But unlike his friend Monet, who went to England, he based himself in Brussels. He was no doubt encouraged by his art dealer telling him there was a ready market for his marine scenes in Belgium.\n\nWhile he was in Brussels, Boudin produced a number of paintings of the fishmarket, the canals and the small commercial port. The harbour was not particularly busy, and this must have suited Boudin, who generally preferred tranquil ports to bustling industrial ones. Here he stresses the picturesque quality of the buildings, barges and small boats, calmly at anchor. The receding lines of the masts lead us along the channel and into depth. The predominantly grey palette is relieved by a few touches of red and yellow. Unlike Boudin’s beach scenes, human presence is implied rather than shown.",
+  "accession_date": "1990-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Helena and Kenneth Levy, 1990",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Eugène Boudin",
+    "birth_date": "1824",
+    "death_date": "1898",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6530-00-000008-web.jpg",
+    "filename": "N-6530-00-000008-web.jpg",
+    "image_key": "N-6530-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1225,
+    "aspect_ratio": 1.5673,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 547497
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 983,
+    "horizontal_lines": 870,
+    "vertical_lines": 39,
+    "diagonal_lines": 74,
+    "edge_density": 0.0602,
+    "dominant_angles": [
+      -4.0,
+      -6.3,
+      12.2,
+      -1.7,
+      7.0,
+      -2.8,
+      -3.8,
+      -12.1,
+      8.6,
+      15.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      143,
+      137,
+      118
+    ],
+    "mean_color_hex": "#8f8976",
+    "color_palette": [
+      "#a4a292",
+      "#b0ac97",
+      "#9d9985",
+      "#c0b89a",
+      "#574d3c",
+      "#473d2f",
+      "#908972",
+      "#69604b",
+      "#7c755e",
+      "#352c21"
+    ],
+    "unique_colors": 48365,
+    "color_diversity": 0.0206,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 137.19,
+    "contrast_level": "medium",
+    "contrast_value": 0.3275,
+    "dynamic_range": 223,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 18.41,
+    "midtones_percentage": 61.24,
+    "highlights_percentage": 20.35
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.798,
+        "bbox": [
+          271.21,
+          154.84,
+          663.05,
+          1035.56
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "boat": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          65,
+          703,
+          129,
+          767
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EJ0-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EJ0-0001-0000-0000.json"
+  }
+}

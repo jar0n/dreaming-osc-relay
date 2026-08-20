@@ -1,0 +1,301 @@
+{
+  "identifier": "NG54",
+  "full_title": "A Woman bathing in a Stream (Hendrickje Stoffels?)",
+  "short_title": "A Woman bathing in a Stream (Hendrickje Stoffels?)",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "61.8 × 47 cm",
+  "production_date": "1654",
+  "brief_description": "Rembrandt's painting, unique for him in its tender intimacy, shows a young woman almost up to her knees in a stream. She lifts her shift and looks down with a little smile of pleasure at the cool water rippling against her sturdy legs.\n\nAlthough it's not certain, this woman may be Hendrickje Stoffels, who came into Rembrandt's household to look after his infant son after his first wife, Saskia, died. Hendrickje and Rembrandt became lovers but were unable to marry. In the year this picture was painted, Hendrickje endured public humiliation because she was pregnant outside of marriage. Perhaps the painting was a homage to her strength and loyalty.\n\nIt has been suggested that the picture is a study for a biblical heroine in a much larger picture, but the plain shift the woman wears is enough to raise a doubt: such a heroine would have been richly dressed or nude. The most likely possibility is that Rembrandt knew and loved this quiet, gently absorbed woman and shared her delight in an unguarded moment of pleasure in some anonymous Dutch stream.",
+  "accession_date": "1831-01-01",
+  "current_location": "Room 22, The National Gallery (London)",
+  "credit_line": "Holwell Carr Bequest, 1831",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Rembrandt",
+    "birth_date": "1606",
+    "death_date": "1669",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0054-00-000035-web.jpg",
+    "filename": "N-0054-00-000035-web.jpg",
+    "image_key": "N-0054-00-000035",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2535,
+    "aspect_ratio": 0.7574,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1082726
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 612,
+    "horizontal_lines": 52,
+    "vertical_lines": 134,
+    "diagonal_lines": 426,
+    "edge_density": 0.0263,
+    "dominant_angles": [
+      -56.3,
+      -23.2,
+      -47.0,
+      45.0,
+      -54.0,
+      -55.1,
+      79.3,
+      -45.0,
+      -45.0,
+      57.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      61,
+      51,
+      35
+    ],
+    "mean_color_hex": "#3d3323",
+    "color_palette": [
+      "#181511",
+      "#241e15",
+      "#322719",
+      "#43321f",
+      "#554126",
+      "#675535",
+      "#7c6a45",
+      "#93845c",
+      "#ada073",
+      "#cabd8d"
+    ],
+    "unique_colors": 53220,
+    "color_diversity": 0.0109,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 52.55,
+    "contrast_level": "medium",
+    "contrast_value": 0.3029,
+    "dynamic_range": 247,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 83.51,
+    "midtones_percentage": 14.45,
+    "highlights_percentage": 2.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8975,
+        "bbox": [
+          352.0,
+          477.82,
+          1397.19,
+          2406.14
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          213,
+          1788,
+          351,
+          1926
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          680,
+          1889,
+          874,
+          2083
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          923,
+          662,
+          1180,
+          919
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1052.38,
+          "y": 796.56,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "left_eye",
+          "x": 1095.31,
+          "y": 746.51,
+          "visibility": 2,
+          "confidence": 0.9715
+        },
+        {
+          "name": "right_eye",
+          "x": 1005.61,
+          "y": 742.13,
+          "visibility": 2,
+          "confidence": 0.997
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2887
+        },
+        {
+          "name": "right_ear",
+          "x": 892.57,
+          "y": 709.38,
+          "visibility": 2,
+          "confidence": 0.9739
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1196.28,
+          "y": 950.95,
+          "visibility": 2,
+          "confidence": 0.9956
+        },
+        {
+          "name": "right_shoulder",
+          "x": 697.04,
+          "y": 903.69,
+          "visibility": 2,
+          "confidence": 0.9985
+        },
+        {
+          "name": "left_elbow",
+          "x": 1292.62,
+          "y": 1258.8,
+          "visibility": 2,
+          "confidence": 0.958
+        },
+        {
+          "name": "right_elbow",
+          "x": 441.51,
+          "y": 1175.79,
+          "visibility": 2,
+          "confidence": 0.9885
+        },
+        {
+          "name": "left_wrist",
+          "x": 1242.93,
+          "y": 1518.6,
+          "visibility": 2,
+          "confidence": 0.9608
+        },
+        {
+          "name": "right_wrist",
+          "x": 590.85,
+          "y": 1403.98,
+          "visibility": 2,
+          "confidence": 0.9867
+        },
+        {
+          "name": "left_hip",
+          "x": 1090.1,
+          "y": 1605.62,
+          "visibility": 2,
+          "confidence": 0.9981
+        },
+        {
+          "name": "right_hip",
+          "x": 769.18,
+          "y": 1599.19,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "left_knee",
+          "x": 1089.89,
+          "y": 2133.63,
+          "visibility": 2,
+          "confidence": 0.975
+        },
+        {
+          "name": "right_knee",
+          "x": 774.63,
+          "y": 2127.97,
+          "visibility": 2,
+          "confidence": 0.9819
+        },
+        {
+          "name": "left_ankle",
+          "x": 1060.43,
+          "y": 2437.01,
+          "visibility": 2,
+          "confidence": 0.6378
+        },
+        {
+          "name": "right_ankle",
+          "x": 774.03,
+          "y": 2438.4,
+          "visibility": 2,
+          "confidence": 0.6568
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -9.21
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D7O-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D7O-0001-0000-0000.json"
+  }
+}

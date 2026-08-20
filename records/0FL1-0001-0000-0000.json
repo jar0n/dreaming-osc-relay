@@ -1,0 +1,281 @@
+{
+  "identifier": "NG1951",
+  "full_title": "Don Andrés del Peral",
+  "short_title": "Don Andrés del Peral",
+  "object_name": "Picture",
+  "style": "Romantic",
+  "material": "oil on wood",
+  "dimensions": "95 × 65.7 cm",
+  "production_date": "before 1798",
+  "brief_description": "Andrés del Peral sits proudly on a simple chair and looks out at us with a penetrating stare. Goya shows Peral as he really was, with a receding hairline and grey hair. He looks as if he's sneering at us, but his facial droop suggests he may have suffered a stroke. He places his left hand on his hip and the right is tucked into his waistcoat, a gesture commonly found in portraiture at this date.\n\nA friend and contemporary of Goya's, Peral was an accomplished gilder and worked for the royal court in Madrid from the late 1770s to the 1820s. Goya's use of colour is subtle and delicate, his brushstrokes confident and at times even flamboyant. Our eye is drawn to the luxurious sheen of Peral's silvery coat, and the striped waistcoat decorated with flowers beneath it.",
+  "accession_date": "1904-01-01",
+  "current_location": "Room 38, The National Gallery (London)",
+  "credit_line": "Presented by Sir George Donaldson, 1904",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Francisco de Goya",
+    "birth_date": "1746",
+    "death_date": "1828",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1951-00-000030-web.jpg",
+    "filename": "N-1951-00-000030-web.jpg",
+    "image_key": "N-1951-00-000030",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2799,
+    "aspect_ratio": 0.686,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 765084
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 53,
+    "horizontal_lines": 3,
+    "vertical_lines": 26,
+    "diagonal_lines": 24,
+    "edge_density": 0.0046,
+    "dominant_angles": [
+      -90.0,
+      62.6,
+      64.7,
+      64.4,
+      69.3,
+      77.4,
+      20.2,
+      88.1,
+      85.7,
+      67.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      34,
+      32,
+      26
+    ],
+    "mean_color_hex": "#22201a",
+    "color_palette": [
+      "#0b0b0a",
+      "#121210",
+      "#1f1c15",
+      "#3d3529",
+      "#5a5140",
+      "#2d281e",
+      "#4c4233",
+      "#6f5f4c",
+      "#81735f",
+      "#97907c"
+    ],
+    "unique_colors": 19272,
+    "color_diversity": 0.0036,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 32.28,
+    "contrast_level": "low",
+    "contrast_value": 0.2356,
+    "dynamic_range": 198,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 91.42,
+    "midtones_percentage": 8.55,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8843,
+        "bbox": [
+          326.95,
+          409.77,
+          1774.37,
+          2686.91
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          819,
+          540,
+          1263,
+          984
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1066.05,
+          "y": 783.86,
+          "visibility": 2,
+          "confidence": 0.999
+        },
+        {
+          "name": "left_eye",
+          "x": 1111.18,
+          "y": 715.35,
+          "visibility": 2,
+          "confidence": 0.9841
+        },
+        {
+          "name": "right_eye",
+          "x": 961.32,
+          "y": 698.65,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2236
+        },
+        {
+          "name": "right_ear",
+          "x": 768.05,
+          "y": 784.95,
+          "visibility": 2,
+          "confidence": 0.9809
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1254.83,
+          "y": 1255.1,
+          "visibility": 2,
+          "confidence": 0.9958
+        },
+        {
+          "name": "right_shoulder",
+          "x": 606.57,
+          "y": 1336.84,
+          "visibility": 2,
+          "confidence": 0.9974
+        },
+        {
+          "name": "left_elbow",
+          "x": 1528.52,
+          "y": 1853.21,
+          "visibility": 2,
+          "confidence": 0.9693
+        },
+        {
+          "name": "right_elbow",
+          "x": 599.79,
+          "y": 2100.91,
+          "visibility": 2,
+          "confidence": 0.9868
+        },
+        {
+          "name": "left_wrist",
+          "x": 1596.66,
+          "y": 2420.89,
+          "visibility": 2,
+          "confidence": 0.9431
+        },
+        {
+          "name": "right_wrist",
+          "x": 1251.83,
+          "y": 2064.21,
+          "visibility": 2,
+          "confidence": 0.9837
+        },
+        {
+          "name": "left_hip",
+          "x": 1244.54,
+          "y": 2513.26,
+          "visibility": 2,
+          "confidence": 0.8802
+        },
+        {
+          "name": "right_hip",
+          "x": 774.72,
+          "y": 2576.11,
+          "visibility": 2,
+          "confidence": 0.899
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0461
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0628
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0028
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0029
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -0.47
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FL1-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FL1-0001-0000-0000.json"
+  }
+}

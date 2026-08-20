@@ -1,0 +1,301 @@
+{
+  "identifier": "NG1315",
+  "full_title": "Don Adrián Pulido Pareja",
+  "short_title": "Don Adrián Pulido Pareja",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "203.8 × 114.3 cm",
+  "production_date": "after 1647",
+  "brief_description": "A commanding male figure stares out at us, his white lace collar, shimmering silk sleeves and red sash standing out against his sombre black clothing and the nondescript background. This is Don Adrián Pulido Pareja, a distinguished captain in the Spanish royal navy.\n\nHe wears the Knight's badge of the Order of Santiago, awarded to him in 1647, in the form of a gold medal decorated with a red cross in the shape of a sword. In his left hand he holds a wide-brimmed hat, and he grasps the wooden baton of a commander in his right.\n\nWhen the National Gallery bought this portrait at the end of the nineteenth century, it was thought to be by Diego Velázquez, whose name appears in the inscription centre left, along with the date '1639' (both have since been shown not to be original). The portrait has plausibly been attributed to Juan Bautista Martínez del Mazo, Velázquez's son-in-law and principal assistant.",
+  "accession_date": "1890-01-01",
+  "current_location": "Room 30, The National Gallery (London)",
+  "credit_line": "Bought, 1890",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Juan Bautista Martínez del Mazo",
+    "birth_date": "1612",
+    "death_date": "1667",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1315-00-000026-web.jpg",
+    "filename": "N-1315-00-000026-web.jpg",
+    "image_key": "N-1315-00-000026",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3514,
+    "aspect_ratio": 0.5464,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1262460
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 922,
+    "horizontal_lines": 62,
+    "vertical_lines": 527,
+    "diagonal_lines": 333,
+    "edge_density": 0.0161,
+    "dominant_angles": [
+      45.0,
+      -90.0,
+      -78.8,
+      -83.3,
+      85.2,
+      87.4,
+      -85.2,
+      -87.5,
+      88.9,
+      53.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      63,
+      58,
+      41
+    ],
+    "mean_color_hex": "#3f3a29",
+    "color_palette": [
+      "#181816",
+      "#4d4630",
+      "#413c28",
+      "#373220",
+      "#595035",
+      "#26231b",
+      "#675a3e",
+      "#797261",
+      "#93907d",
+      "#b2b29d"
+    ],
+    "unique_colors": 44541,
+    "color_diversity": 0.0066,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 57.87,
+    "contrast_level": "low",
+    "contrast_value": 0.2087,
+    "dynamic_range": 246,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 88.94,
+    "midtones_percentage": 10.7,
+    "highlights_percentage": 0.36
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8073,
+        "bbox": [
+          252.82,
+          262.37,
+          1519.79,
+          3434.52
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1024,
+          1042,
+          1080,
+          1098
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1359,
+          1576,
+          1447,
+          1664
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          774,
+          374,
+          1093,
+          693
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 970.54,
+          "y": 530.43,
+          "visibility": 2,
+          "confidence": 0.9843
+        },
+        {
+          "name": "left_eye",
+          "x": 1007.11,
+          "y": 461.16,
+          "visibility": 2,
+          "confidence": 0.8583
+        },
+        {
+          "name": "right_eye",
+          "x": 897.09,
+          "y": 474.54,
+          "visibility": 2,
+          "confidence": 0.9712
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3716
+        },
+        {
+          "name": "right_ear",
+          "x": 766.42,
+          "y": 515.47,
+          "visibility": 2,
+          "confidence": 0.9262
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1186.92,
+          "y": 856.5,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "right_shoulder",
+          "x": 590.2,
+          "y": 891.11,
+          "visibility": 2,
+          "confidence": 0.9991
+        },
+        {
+          "name": "left_elbow",
+          "x": 1310.26,
+          "y": 1337.06,
+          "visibility": 2,
+          "confidence": 0.9727
+        },
+        {
+          "name": "right_elbow",
+          "x": 444.74,
+          "y": 1412.76,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "left_wrist",
+          "x": 1356.18,
+          "y": 1765.51,
+          "visibility": 2,
+          "confidence": 0.9741
+        },
+        {
+          "name": "right_wrist",
+          "x": 580.31,
+          "y": 1832.61,
+          "visibility": 2,
+          "confidence": 0.9929
+        },
+        {
+          "name": "left_hip",
+          "x": 1101.12,
+          "y": 1855.35,
+          "visibility": 2,
+          "confidence": 0.9997
+        },
+        {
+          "name": "right_hip",
+          "x": 729.06,
+          "y": 1880.39,
+          "visibility": 2,
+          "confidence": 0.9998
+        },
+        {
+          "name": "left_knee",
+          "x": 1022.08,
+          "y": 2503.18,
+          "visibility": 2,
+          "confidence": 0.9991
+        },
+        {
+          "name": "right_knee",
+          "x": 694.34,
+          "y": 2560.7,
+          "visibility": 2,
+          "confidence": 0.9995
+        },
+        {
+          "name": "left_ankle",
+          "x": 867.4,
+          "y": 3110.33,
+          "visibility": 2,
+          "confidence": 0.9848
+        },
+        {
+          "name": "right_ankle",
+          "x": 697.86,
+          "y": 3203.8,
+          "visibility": 2,
+          "confidence": 0.9898
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -4.91
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FX9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FX9-0001-0000-0000.json"
+  }
+}

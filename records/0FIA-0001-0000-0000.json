@@ -1,0 +1,281 @@
+{
+  "identifier": "NG690",
+  "full_title": "Portrait of a Young Man",
+  "short_title": "Portrait of a Young Man",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "72.4 × 57.2 cm",
+  "production_date": "about 1517-18",
+  "brief_description": "We have interrupted a young man reading; he turns to look over his shoulder at us. The unguarded look creates the impression that we are seeing him as he really is. His identity is uncertain, although he may be the stationer Lorenzo di Matteo Peri, whose family commissioned Andrea del Sarto's Dispute on the Trinity (Galleria Palatina, Florence) for their altar in the church of S. Jacopo tra Fossi in Florence.\n\nDaylight falls as if from a high narrow window to our left, casting a soft clear light, brilliant on the pleats of his fine white shirt. It reflects up to define the curve of his jaw, the cleft in his chin, the line of his nose and the twist of his neck. His eyes smoulder, creating the sense that this is only a momentary glance before he turns away again.\n\nThe spiral fluidity of the pose is derived from Leonardo's work, as are the smoky, atmospheric effects. The restriction of colour and dramatic lighting add to the portrait's intensity.",
+  "accession_date": "1862-01-01",
+  "current_location": "Room 2, The National Gallery (London)",
+  "credit_line": "Bought, 1862",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Andrea del Sarto",
+    "birth_date": "1486",
+    "death_date": "1530",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0690-00-000038-web.jpg",
+    "filename": "N-0690-00-000038-web.jpg",
+    "image_key": "N-0690-00-000038",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2452,
+    "aspect_ratio": 0.783,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 726805
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 75,
+    "horizontal_lines": 6,
+    "vertical_lines": 1,
+    "diagonal_lines": 68,
+    "edge_density": 0.0032,
+    "dominant_angles": [
+      45.8,
+      38.0,
+      42.0,
+      -18.9,
+      -45.0,
+      -20.8,
+      -17.6,
+      -22.1,
+      -53.0,
+      43.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      54,
+      52,
+      50
+    ],
+    "mean_color_hex": "#363432",
+    "color_palette": [
+      "#2d2c29",
+      "#262421",
+      "#1a1a1b",
+      "#363531",
+      "#545555",
+      "#5d6366",
+      "#474443",
+      "#483526",
+      "#7d6d5e",
+      "#999990"
+    ],
+    "unique_colors": 19598,
+    "color_diversity": 0.0042,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 53.05,
+    "contrast_level": "low",
+    "contrast_value": 0.188,
+    "dynamic_range": 186,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 85.04,
+    "midtones_percentage": 14.9,
+    "highlights_percentage": 0.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7834,
+        "bbox": [
+          37.44,
+          53.48,
+          1834.93,
+          2444.71
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          607,
+          326,
+          1157,
+          876
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 818.58,
+          "y": 652.62,
+          "visibility": 2,
+          "confidence": 0.9965
+        },
+        {
+          "name": "left_eye",
+          "x": 932.34,
+          "y": 525.08,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "right_eye",
+          "x": 812.18,
+          "y": 533.7,
+          "visibility": 2,
+          "confidence": 0.5159
+        },
+        {
+          "name": "left_ear",
+          "x": 1254.49,
+          "y": 551.54,
+          "visibility": 2,
+          "confidence": 0.981
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0101
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1216.6,
+          "y": 1195.68,
+          "visibility": 2,
+          "confidence": 0.9866
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1294.61,
+          "y": 1109.95,
+          "visibility": 2,
+          "confidence": 0.9591
+        },
+        {
+          "name": "left_elbow",
+          "x": 632.68,
+          "y": 1907.72,
+          "visibility": 2,
+          "confidence": 0.9105
+        },
+        {
+          "name": "right_elbow",
+          "x": 916.65,
+          "y": 1780.89,
+          "visibility": 2,
+          "confidence": 0.5867
+        },
+        {
+          "name": "left_wrist",
+          "x": 224.58,
+          "y": 1642.78,
+          "visibility": 2,
+          "confidence": 0.9556
+        },
+        {
+          "name": "right_wrist",
+          "x": 315.24,
+          "y": 1523.61,
+          "visibility": 2,
+          "confidence": 0.8517
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2559
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2079
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.053
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0314
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0052
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0041
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FIA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FIA-0001-0000-0000.json"
+  }
+}

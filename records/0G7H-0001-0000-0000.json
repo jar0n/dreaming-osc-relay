@@ -1,0 +1,202 @@
+{
+  "identifier": "NG3271",
+  "full_title": "The Mantelpiece (La Cheminée)",
+  "short_title": "The Mantelpiece (La Cheminée)",
+  "object_name": "Picture",
+  "style": "Nabi",
+  "material": "oil on board",
+  "dimensions": "51.4 × 77.5 cm",
+  "production_date": "1905",
+  "brief_description": "This picture -- a combination of interior scene and still-life painting -- shows Vuillard's room at Château-Rouge in Amfreville, Normandy. His friends Jos and Lucy Hessel rented the house for the summers of 1905, 1906 and 1907.\n\nA posy of wild flowers on the marble mantelpiece sits alongside a number of bottles, artworks tucked behind them. Another picture hangs on the wall, far above the painting rags that are hanging up to dry. The richly decorated walls compete with the still-life arrangement on the mantelpiece. Despite this interplay between the two-dimensional and the three-dimensional, the foreshortened mantelpiece, which appears to jut out of the picture, marks the artist's move to a more naturalistic approach.\n\nOn the reverse of the painting there is a rapid sketch of three figures -- a woman and two children -- on a beach. The woman crouches down to pet one of the two dogs sat beside her.",
+  "accession_date": "1917-01-01",
+  "current_location": "Room 45, The National Gallery (London)",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Edouard Vuillard",
+    "birth_date": "1868",
+    "death_date": "1940",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3271-00-000016-web.jpg",
+    "filename": "N-3271-00-000016-web.jpg",
+    "image_key": "N-3271-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1182,
+    "aspect_ratio": 1.6244,
+    "ratio_type": "golden ratio",
+    "orientation": "landscape",
+    "file_size_bytes": 599015
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 512,
+    "horizontal_lines": 233,
+    "vertical_lines": 118,
+    "diagonal_lines": 161,
+    "edge_density": 0.0671,
+    "dominant_angles": [
+      8.5,
+      13.9,
+      -10.3,
+      -13.7,
+      17.5,
+      -82.1,
+      -10.9,
+      11.5,
+      -9.8,
+      -3.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      98,
+      88,
+      76
+    ],
+    "mean_color_hex": "#62584c",
+    "color_palette": [
+      "#4d4135",
+      "#575044",
+      "#39342c",
+      "#929184",
+      "#666459",
+      "#735d42",
+      "#723f35",
+      "#7e7a6b",
+      "#242220",
+      "#a6a495"
+    ],
+    "unique_colors": 81751,
+    "color_diversity": 0.036,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.89,
+    "contrast_level": "low",
+    "contrast_value": 0.2748,
+    "dynamic_range": 222,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 52.85,
+    "midtones_percentage": 45.87,
+    "highlights_percentage": 1.28
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "potted plant",
+        "confidence": 0.4167,
+        "bbox": [
+          856.91,
+          94.45,
+          1305.5,
+          654.56
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.3517,
+        "bbox": [
+          1042.9,
+          470.89,
+          1178.62,
+          653.27
+        ]
+      },
+      {
+        "class": "bottle",
+        "confidence": 0.2977,
+        "bbox": [
+          1515.53,
+          442.0,
+          1582.79,
+          640.66
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "potted plant": 1,
+      "vase": 1,
+      "bottle": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          172,
+          50,
+          223,
+          101
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1610,
+          208,
+          1670,
+          268
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1697,
+          776,
+          1791,
+          870
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          584,
+          979,
+          724,
+          1119
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G7H-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G7H-0001-0000-0000.json"
+  }
+}

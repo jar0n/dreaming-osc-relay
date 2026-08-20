@@ -1,0 +1,170 @@
+{
+  "identifier": "NG6335",
+  "full_title": "A Still Life with Fruit, Dead Game and a Parrot",
+  "short_title": "A Still Life with Fruit, Dead Game and a Parrot",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "84.7 × 113.4 cm",
+  "production_date": "late 1640s",
+  "brief_description": "A hare's carcass hangs from a fixing on a wall, a wound bloodying its soft, furry stomach. Its untethered leg flops lifelessly toward an overflowing basket of fruit, below which three dead birds -- a brace of partridges and a jay -- are displayed top-to-tail. A precious blue and white porcelain bowl containing strawberries is nestled in the pile of apricots, pears, peaches, plums and grapes, over which perches an African grey parrot. The bird playfully pinches a strand of the grape vine in its beak.\n\nAlthough rather coarser than his usual work, the painting is probably by Jan Fyt, a Flemish still life, animal and flower painter. The artist has created a composition of opposites placed side by side: of flora and fauna, and of life and death. Though the exotic parrot, presumably a pet, is alive and well, we are reminded that it will eventually meet the same end as the game strung up and piled unceremoniously near it.",
+  "accession_date": "1962-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Claude Dickason Rotch, 1962",
+  "associated_concepts": "Flemish",
+  "creator": {
+    "name": "Jan Fyt",
+    "birth_date": "1611",
+    "death_date": "1661",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6335-00-000013-web.jpg",
+    "filename": "N-6335-00-000013-web.jpg",
+    "image_key": "N-6335-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1429,
+    "aspect_ratio": 1.3436,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 651546
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2186,
+    "horizontal_lines": 635,
+    "vertical_lines": 160,
+    "diagonal_lines": 1391,
+    "edge_density": 0.0773,
+    "dominant_angles": [
+      17.3,
+      7.3,
+      9.3,
+      21.7,
+      -0.9,
+      8.0,
+      18.7,
+      14.0,
+      26.1,
+      13.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      67,
+      58,
+      40
+    ],
+    "mean_color_hex": "#433a28",
+    "color_palette": [
+      "#231b14",
+      "#31291b",
+      "#3e3a29",
+      "#545039",
+      "#543818",
+      "#6e6b55",
+      "#928861",
+      "#b3a97a",
+      "#7d602e",
+      "#d3ca9c"
+    ],
+    "unique_colors": 119900,
+    "color_diversity": 0.0437,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.39,
+    "contrast_level": "medium",
+    "contrast_value": 0.3148,
+    "dynamic_range": 233,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 82.09,
+    "midtones_percentage": 14.3,
+    "highlights_percentage": 3.62
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bird",
+        "confidence": 0.5424,
+        "bbox": [
+          183.75,
+          8.31,
+          858.85,
+          1297.66
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.502,
+        "bbox": [
+          1071.79,
+          90.16,
+          1504.36,
+          414.53
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "bird": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          502,
+          1233,
+          564,
+          1295
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          244,
+          735,
+          312,
+          803
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EM4-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EM4-0001-0000-0000.json"
+  }
+}

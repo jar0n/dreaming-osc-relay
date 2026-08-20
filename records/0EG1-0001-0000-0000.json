@@ -1,0 +1,302 @@
+{
+  "identifier": "NG5592",
+  "full_title": "The Virgin and Child ('The Madonna with the Iris')",
+  "short_title": "The Virgin and Child ('The Madonna with the Iris')",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "149.2 × 117.2 cm",
+  "production_date": "possibly 1503-8",
+  "brief_description": "The Virgin Mary breastfeeds the infant Christ in a walled garden surrounded by flowers. God the Father, a small figure radiating light, appears in the sky above. The image of the Virgin and Christ Child in a garden was derived from the poetic imagery of the Song of Solomon, a book of the Old Testament. In it, a woman is described as a lily and a rose as well as an enclosed garden (which, when associated with Mary, came to symbolise her virginity).\n\nThis painting was probably made by members of Dürer's workshop. It includes flowers that are derived from his detailed watercolour studies of the natural world -- one of his particular artistic preoccupations -- many of which would have been available in the workshop. Each floral element had theological significance: the iris and the rose were associated with the Virgin's 'Seven Sorrows', while the grapevine with large leaves and delicate tendrils was a symbol of the Eucharist (when Christians drink wine at Mass in remembrance of Christ).",
+  "accession_date": "1945-01-01",
+  "current_location": "Room 55, The National Gallery (London)",
+  "credit_line": "Bought through the Art Fund, 1945",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Albrecht Dürer",
+    "birth_date": "1471",
+    "death_date": "1528",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5592-00-000087-web.jpg",
+    "filename": "N-5592-00-000087-web.jpg",
+    "image_key": "N-5592-00-000087",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2368,
+    "aspect_ratio": 0.8108,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 903068
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 997,
+    "horizontal_lines": 223,
+    "vertical_lines": 187,
+    "diagonal_lines": 587,
+    "edge_density": 0.04,
+    "dominant_angles": [
+      -31.6,
+      -90.0,
+      -16.8,
+      -75.8,
+      -26.0,
+      -90.0,
+      -33.0,
+      -90.0,
+      -90.0,
+      -32.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      89,
+      62,
+      49
+    ],
+    "mean_color_hex": "#593e31",
+    "color_palette": [
+      "#1c1a0d",
+      "#352d19",
+      "#4c3f28",
+      "#500f0e",
+      "#a03b27",
+      "#7d2118",
+      "#5a8789",
+      "#645842",
+      "#8ca29b",
+      "#996860"
+    ],
+    "unique_colors": 128371,
+    "color_diversity": 0.0282,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 69.03,
+    "contrast_level": "low",
+    "contrast_value": 0.2977,
+    "dynamic_range": 219,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 70.51,
+    "midtones_percentage": 28.77,
+    "highlights_percentage": 0.72
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "teddy bear",
+        "confidence": 0.3815,
+        "bbox": [
+          731.37,
+          892.76,
+          1251.19,
+          1304.32
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3717,
+        "bbox": [
+          713.13,
+          488.01,
+          1264.72,
+          1296.98
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "teddy bear": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1344,
+          785,
+          1404,
+          845
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          543,
+          1957,
+          645,
+          2059
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1004.7,
+          "y": 675.68,
+          "visibility": 2,
+          "confidence": 0.9832
+        },
+        {
+          "name": "left_eye",
+          "x": 1035.67,
+          "y": 633.63,
+          "visibility": 2,
+          "confidence": 0.8985
+        },
+        {
+          "name": "right_eye",
+          "x": 959.2,
+          "y": 620.25,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1504
+        },
+        {
+          "name": "right_ear",
+          "x": 865.13,
+          "y": 650.87,
+          "visibility": 2,
+          "confidence": 0.7223
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1100.95,
+          "y": 897.24,
+          "visibility": 2,
+          "confidence": 0.9457
+        },
+        {
+          "name": "right_shoulder",
+          "x": 844.47,
+          "y": 881.6,
+          "visibility": 2,
+          "confidence": 0.9661
+        },
+        {
+          "name": "left_elbow",
+          "x": 1186.21,
+          "y": 1127.86,
+          "visibility": 2,
+          "confidence": 0.7817
+        },
+        {
+          "name": "right_elbow",
+          "x": 801.41,
+          "y": 1168.93,
+          "visibility": 2,
+          "confidence": 0.9021
+        },
+        {
+          "name": "left_wrist",
+          "x": 1079.44,
+          "y": 1090.71,
+          "visibility": 2,
+          "confidence": 0.802
+        },
+        {
+          "name": "right_wrist",
+          "x": 745.58,
+          "y": 1190.0,
+          "visibility": 2,
+          "confidence": 0.8992
+        },
+        {
+          "name": "left_hip",
+          "x": 1047.15,
+          "y": 1439.16,
+          "visibility": 2,
+          "confidence": 0.9691
+        },
+        {
+          "name": "right_hip",
+          "x": 841.28,
+          "y": 1423.12,
+          "visibility": 2,
+          "confidence": 0.9757
+        },
+        {
+          "name": "left_knee",
+          "x": 1095.15,
+          "y": 1523.92,
+          "visibility": 2,
+          "confidence": 0.9784
+        },
+        {
+          "name": "right_knee",
+          "x": 661.08,
+          "y": 1495.02,
+          "visibility": 2,
+          "confidence": 0.9832
+        },
+        {
+          "name": "left_ankle",
+          "x": 948.24,
+          "y": 2048.18,
+          "visibility": 2,
+          "confidence": 0.9364
+        },
+        {
+          "name": "right_ankle",
+          "x": 349.86,
+          "y": 1996.03,
+          "visibility": 2,
+          "confidence": 0.9416
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -5.67
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EG1-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EG1-0001-0000-0000.json"
+  }
+}

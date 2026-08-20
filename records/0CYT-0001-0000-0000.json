@@ -1,0 +1,147 @@
+{
+  "identifier": "NG6526",
+  "full_title": "View of the Westerkerk, Amsterdam",
+  "short_title": "View of the Westerkerk, Amsterdam",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "90.7 × 114.5 cm",
+  "production_date": "probably 1660",
+  "brief_description": "This is one of the best seventeenth-century examples of what today we might think of as a high-resolution image. The detail and brushwork are so fine that no matter how closely you look at, or zoom in on, the picture, it never quite seems to pixelate. Yet the painter has made a very strange mistake.\n\nLook carefully at the figures and you will see that they do not have reflections. Take the two little girls, and the dog peeing against the post. We can see the image of the post reflecting back from the surface of the canal, but not the dog or the girls. Figures such as these were normally added after the rest of the painting was complete, so it seems that van der Heyden simply forgot to make the adjustment. He certainly considered the painting finished because it was delivered to his clients, the  governors of the Westerkerk in Amsterdam -- the church in the middle of the painting.",
+  "accession_date": "1990-01-01",
+  "current_location": "Room 16, The National Gallery (London)",
+  "credit_line": "Bought, 1990",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van der Heyden",
+    "birth_date": "1637",
+    "death_date": "1712",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6526-00-000046-web.jpg",
+    "filename": "N-6526-00-000046-web.jpg",
+    "image_key": "N-6526-00-000046",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1511,
+    "aspect_ratio": 1.2707,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 710898
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3466,
+    "horizontal_lines": 2571,
+    "vertical_lines": 148,
+    "diagonal_lines": 747,
+    "edge_density": 0.103,
+    "dominant_angles": [
+      0.0,
+      2.9,
+      -1.5,
+      -3.8,
+      -3.9,
+      0.0,
+      2.2,
+      -1.0,
+      -2.9,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      132,
+      131,
+      122
+    ],
+    "mean_color_hex": "#84837a",
+    "color_palette": [
+      "#b7b7b2",
+      "#9fa4a9",
+      "#655c40",
+      "#cac8be",
+      "#4c4730",
+      "#687484",
+      "#838e9e",
+      "#323120",
+      "#7c7052",
+      "#968c70"
+    ],
+    "unique_colors": 73970,
+    "color_diversity": 0.0255,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 130.86,
+    "contrast_level": "medium",
+    "contrast_value": 0.3778,
+    "dynamic_range": 227,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 20.82,
+    "midtones_percentage": 50.3,
+    "highlights_percentage": 28.88
+  },
+  "object_detection": {
+    "detected_objects": [],
+    "object_count": 0,
+    "object_types": {},
+    "unique_classes": 0
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          944,
+          900,
+          1002,
+          958
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1697,
+          1115,
+          1768,
+          1186
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CYT-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CYT-0001-0000-0000.json"
+  }
+}

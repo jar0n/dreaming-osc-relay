@@ -1,0 +1,172 @@
+{
+  "identifier": "NG1345",
+  "full_title": "A Landscape with a Farm on the Bank of a River",
+  "short_title": "A Landscape with a Farm on the Bank of a River",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "40 × 55.7 cm",
+  "production_date": "1650-66",
+  "brief_description": "A lone tree, stark against the skyline, almost tumbles down the side of a dune. It seems to stand for the hard life led by farmers close to the sea in seventeenth-century Holland. But a patch of sunlight picks out two men on horseback, seemingly chatting, and a woman nursing a baby with a child beside her, suggesting that there is warmth and leisure even in this bleak landscape.\n\nClose by, two men point out fishermen in a boat on the river. Further in the distance on a hillside, two men survey the mountains ahead. Wouwerman has included these for artistic effect: there are no mountains in Holland.",
+  "accession_date": "1891-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1891",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Wouwerman",
+    "birth_date": "1629",
+    "death_date": "1666",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1345-00-000011-web.jpg",
+    "filename": "N-1345-00-000011-web.jpg",
+    "image_key": "N-1345-00-000011",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1377,
+    "aspect_ratio": 1.3943,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 563560
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 760,
+    "horizontal_lines": 324,
+    "vertical_lines": 19,
+    "diagonal_lines": 417,
+    "edge_density": 0.0383,
+    "dominant_angles": [
+      -9.3,
+      28.5,
+      1.0,
+      20.2,
+      14.0,
+      25.9,
+      9.9,
+      29.1,
+      8.0,
+      25.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      109,
+      103,
+      73
+    ],
+    "mean_color_hex": "#6d6749",
+    "color_palette": [
+      "#8e8b6a",
+      "#7f7b5b",
+      "#3a321b",
+      "#a29b73",
+      "#494123",
+      "#2a2517",
+      "#575233",
+      "#b9af82",
+      "#686750",
+      "#736636"
+    ],
+    "unique_colors": 45466,
+    "color_diversity": 0.0172,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 102.11,
+    "contrast_level": "medium",
+    "contrast_value": 0.3406,
+    "dynamic_range": 210,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 39.25,
+    "midtones_percentage": 55.57,
+    "highlights_percentage": 5.18
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3924,
+        "bbox": [
+          1352.12,
+          907.67,
+          1392.56,
+          982.19
+        ]
+      },
+      {
+        "class": "sheep",
+        "confidence": 0.3318,
+        "bbox": [
+          1480.7,
+          999.24,
+          1545.0,
+          1103.22
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3173,
+        "bbox": [
+          1479.84,
+          999.85,
+          1544.51,
+          1102.89
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "sheep": 1,
+      "horse": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          597,
+          1193,
+          651,
+          1247
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FP9-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FP9-0001-0000-0000.json"
+  }
+}

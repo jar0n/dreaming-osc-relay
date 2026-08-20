@@ -1,0 +1,291 @@
+{
+  "identifier": "NG745",
+  "full_title": "Philip IV of Spain",
+  "short_title": "Philip IV of Spain",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "64.1 × 53.7 cm",
+  "production_date": "about 1656",
+  "brief_description": "Velázquez painted many portraits of Philip IV, King of Spain, throughout his reign. This is the last painted image of the King by the man who served as his court artist from 1623. He looks middle-aged, and tired: his sagging flesh and puffy eyes suggest the weight of responsibility resting on his shoulders during his long reign (1621–65). As in many of Velázquez's portraits, Philip sports his distinctive upturned moustache.\n\nThe King's pale face stands out against the sombre black of his clothing and the plain background. He wears the Order of the Golden Fleece, a chivalric order whose pendant took the form of a suspended sheepskin, on a gold chain. The regular waves of Philip's hair frame his face and rest neatly on his collar. He stares out steadily with a look that commands respect but is also intensely human.",
+  "accession_date": "1865-01-01",
+  "current_location": "Room 30, The National Gallery (London)",
+  "credit_line": "Bought, 1865",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Diego Velázquez",
+    "birth_date": "1599",
+    "death_date": "1660",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0745-00-000047-web.jpg",
+    "filename": "N-0745-00-000047-web.jpg",
+    "image_key": "N-0745-00-000047",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2312,
+    "aspect_ratio": 0.8304,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1108931
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 357,
+    "horizontal_lines": 30,
+    "vertical_lines": 170,
+    "diagonal_lines": 157,
+    "edge_density": 0.0293,
+    "dominant_angles": [
+      82.0,
+      -90.0,
+      63.9,
+      63.1,
+      83.1,
+      82.2,
+      63.3,
+      -90.0,
+      81.7,
+      82.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      39,
+      33,
+      30
+    ],
+    "mean_color_hex": "#27211e",
+    "color_palette": [
+      "#191514",
+      "#120e0e",
+      "#201c1a",
+      "#2b2622",
+      "#38312c",
+      "#4e4138",
+      "#9d867e",
+      "#816e66",
+      "#6a584d",
+      "#b39f96"
+    ],
+    "unique_colors": 33734,
+    "color_diversity": 0.0076,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 34.85,
+    "contrast_level": "low",
+    "contrast_value": 0.2323,
+    "dynamic_range": 213,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 92.61,
+    "midtones_percentage": 6.97,
+    "highlights_percentage": 0.42
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9253,
+        "bbox": [
+          18.77,
+          310.09,
+          1835.82,
+          2312.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          990,
+          1465,
+          1055,
+          1530
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          623,
+          456,
+          1256,
+          1089
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1010.52,
+          "y": 814.11,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "left_eye",
+          "x": 1079.2,
+          "y": 700.07,
+          "visibility": 2,
+          "confidence": 0.9918
+        },
+        {
+          "name": "right_eye",
+          "x": 875.51,
+          "y": 707.98,
+          "visibility": 2,
+          "confidence": 0.9975
+        },
+        {
+          "name": "left_ear",
+          "x": 1162.01,
+          "y": 772.18,
+          "visibility": 2,
+          "confidence": 0.6863
+        },
+        {
+          "name": "right_ear",
+          "x": 660.29,
+          "y": 802.36,
+          "visibility": 2,
+          "confidence": 0.9805
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1489.38,
+          "y": 1491.32,
+          "visibility": 2,
+          "confidence": 0.9838
+        },
+        {
+          "name": "right_shoulder",
+          "x": 353.53,
+          "y": 1454.68,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1427
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1859
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1103
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1381
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0079
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0097
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FTB-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FTB-0001-0000-0000.json"
+  }
+}

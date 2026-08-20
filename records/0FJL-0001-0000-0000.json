@@ -1,0 +1,291 @@
+{
+  "identifier": "NG1674",
+  "full_title": "Portrait of Jacob Trip",
+  "short_title": "Portrait of Jacob Trip",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "130.5 × 97 cm",
+  "production_date": "about 1661",
+  "brief_description": "This is one of a pair of portraits of a husband and wife, one of the richest couples in the Netherlands. Jacob Trip, who made much of his money as an arms dealer, had been married to Margaretha de Geer for nearly 60 years. The paintings, both in the National Gallery, were made to hang together, almost certainly in one of the grand reception rooms of a palatial new residence -- the Trippenhuis -- which was being built in Amsterdam for their sons.\n\nRembrandt creates a fascinating contrast between the couple. Their poses are asymmetrical -- Margaretha meets our gaze head on, Jacob sits askew, his mind apparently elsewhere -- and he uses different painting techniques. Jacob is rendered using swift, confident brushstrokes, while Margaretha's skin and ruff are worked with great intensity and attention to detail.\n\nJacob died in 1661, around the time the painting was made. Perhaps Rembrandt was contrasting the fading presence of a dying man with the energy of his wife, who had another ten years to live.",
+  "accession_date": "1899-01-01",
+  "current_location": "Room 22, The National Gallery (London)",
+  "credit_line": "Bought, 1899",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Rembrandt",
+    "birth_date": "1606",
+    "death_date": "1669",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1674-00-000042-web.jpg",
+    "filename": "N-1674-00-000042-web.jpg",
+    "image_key": "N-1674-00-000042",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2580,
+    "aspect_ratio": 0.7442,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 803460
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 204,
+    "horizontal_lines": 1,
+    "vertical_lines": 63,
+    "diagonal_lines": 140,
+    "edge_density": 0.0066,
+    "dominant_angles": [
+      -89.3,
+      -87.9,
+      72.3,
+      72.8,
+      55.5,
+      -83.9,
+      71.9,
+      57.9,
+      45.0,
+      64.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      36,
+      28,
+      20
+    ],
+    "mean_color_hex": "#241c14",
+    "color_palette": [
+      "#201913",
+      "#191410",
+      "#140f0d",
+      "#281e15",
+      "#312619",
+      "#3f301c",
+      "#514228",
+      "#685839",
+      "#8a754c",
+      "#a69869"
+    ],
+    "unique_colors": 26305,
+    "color_diversity": 0.0053,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 30.25,
+    "contrast_level": "low",
+    "contrast_value": 0.1346,
+    "dynamic_range": 227,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 97.85,
+    "midtones_percentage": 2.11,
+    "highlights_percentage": 0.04
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6545,
+        "bbox": [
+          179.72,
+          395.41,
+          1548.73,
+          2566.86
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          643,
+          549,
+          1034,
+          940
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          493,
+          506,
+          937,
+          950
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 849.07,
+          "y": 752.77,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "left_eye",
+          "x": 891.13,
+          "y": 692.95,
+          "visibility": 2,
+          "confidence": 0.9613
+        },
+        {
+          "name": "right_eye",
+          "x": 778.2,
+          "y": 694.02,
+          "visibility": 2,
+          "confidence": 0.9932
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3841
+        },
+        {
+          "name": "right_ear",
+          "x": 639.48,
+          "y": 723.91,
+          "visibility": 2,
+          "confidence": 0.9679
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1029.27,
+          "y": 1046.84,
+          "visibility": 2,
+          "confidence": 0.9962
+        },
+        {
+          "name": "right_shoulder",
+          "x": 469.79,
+          "y": 1062.11,
+          "visibility": 2,
+          "confidence": 0.9964
+        },
+        {
+          "name": "left_elbow",
+          "x": 1194.42,
+          "y": 1470.25,
+          "visibility": 2,
+          "confidence": 0.9497
+        },
+        {
+          "name": "right_elbow",
+          "x": 406.78,
+          "y": 1518.31,
+          "visibility": 2,
+          "confidence": 0.9559
+        },
+        {
+          "name": "left_wrist",
+          "x": 1268.35,
+          "y": 1798.56,
+          "visibility": 2,
+          "confidence": 0.8651
+        },
+        {
+          "name": "right_wrist",
+          "x": 637.75,
+          "y": 1799.75,
+          "visibility": 2,
+          "confidence": 0.9027
+        },
+        {
+          "name": "left_hip",
+          "x": 1031.78,
+          "y": 1939.56,
+          "visibility": 2,
+          "confidence": 0.9874
+        },
+        {
+          "name": "right_hip",
+          "x": 654.82,
+          "y": 1976.16,
+          "visibility": 2,
+          "confidence": 0.9863
+        },
+        {
+          "name": "left_knee",
+          "x": 1248.01,
+          "y": 2297.13,
+          "visibility": 2,
+          "confidence": 0.5554
+        },
+        {
+          "name": "right_knee",
+          "x": 819.35,
+          "y": 2349.13,
+          "visibility": 2,
+          "confidence": 0.5607
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0639
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0573
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": 0.16
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FJL-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FJL-0001-0000-0000.json"
+  }
+}

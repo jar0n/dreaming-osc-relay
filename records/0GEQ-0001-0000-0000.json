@@ -1,0 +1,353 @@
+{
+  "identifier": "NG3236",
+  "full_title": "The Performing Dog",
+  "short_title": "The Performing Dog",
+  "object_name": "Picture",
+  "style": "post-Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "36.8 × 44.4 cm",
+  "production_date": "probably about 1860-90",
+  "brief_description": "A small dog on its hind legs performs before a middle-aged man, who lies on the grass. The man’s long white coat with a salmon-pink lining and his white gaiters have the appearance of a theatrical costume rather than everyday clothes. His raised hand and attentive gaze suggest he is teaching the dog a trick -- perhaps a balancing act related to the red object on its head, which may be the man’s hat. To the right, a horse grazes. Just above its head, a reddish-brown shape in the background is a figure hiding in the hedgerow, which looks out at the man and dog, perhaps not quite sure what they are doing.\n\nBorn in France of Scottish descent, John Lewis Brown specialised in hunting and military pictures, as well as studies of horses and dogs. His pictures sometimes have a humorous aspect to them, while also showing his firm grasp of animal anatomy.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display, Dublin City Gallery The Hugh Lane",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "John Lewis Brown",
+    "birth_date": "1829",
+    "death_date": "1890",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "Dublin City Gallery The Hugh Lane",
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3236-00-000012-web.jpg",
+    "filename": "N-3236-00-000012-web.jpg",
+    "image_key": "N-3236-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1532,
+    "aspect_ratio": 1.2533,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 698968
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 651,
+    "horizontal_lines": 441,
+    "vertical_lines": 26,
+    "diagonal_lines": 184,
+    "edge_density": 0.0546,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -43.5,
+      -45.0,
+      0.7,
+      -45.0,
+      -4.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      84,
+      80,
+      59
+    ],
+    "mean_color_hex": "#54503b",
+    "color_palette": [
+      "#3b3729",
+      "#43412f",
+      "#4e4a36",
+      "#322f26",
+      "#5b563c",
+      "#686344",
+      "#756f4d",
+      "#827b5b",
+      "#8e8973",
+      "#a7a084"
+    ],
+    "unique_colors": 44321,
+    "color_diversity": 0.0151,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 79.03,
+    "contrast_level": "low",
+    "contrast_value": 0.2182,
+    "dynamic_range": 215,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 64.5,
+    "midtones_percentage": 35.25,
+    "highlights_percentage": 0.25
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.7092,
+        "bbox": [
+          1420.88,
+          178.78,
+          1916.1,
+          1142.7
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.4673,
+        "bbox": [
+          1431.33,
+          174.47,
+          1919.59,
+          1151.92
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.454,
+        "bbox": [
+          468.63,
+          780.83,
+          680.11,
+          1208.84
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4437,
+        "bbox": [
+          620.99,
+          695.52,
+          1327.82,
+          1055.02
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2565,
+        "bbox": [
+          675.15,
+          737.39,
+          979.84,
+          1055.7
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "horse": 1,
+      "elephant": 1,
+      "person": 3
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          608,
+          1007,
+          657,
+          1056
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1177,
+          130,
+          1240,
+          193
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          755,
+          784,
+          850,
+          879
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1308,
+          773,
+          1446,
+          911
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 794.12,
+          "y": 837.67,
+          "visibility": 2,
+          "confidence": 0.9678
+        },
+        {
+          "name": "left_eye",
+          "x": 814.69,
+          "y": 818.84,
+          "visibility": 2,
+          "confidence": 0.9589
+        },
+        {
+          "name": "right_eye",
+          "x": 779.35,
+          "y": 822.6,
+          "visibility": 2,
+          "confidence": 0.835
+        },
+        {
+          "name": "left_ear",
+          "x": 861.52,
+          "y": 816.23,
+          "visibility": 2,
+          "confidence": 0.8726
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.285
+        },
+        {
+          "name": "left_shoulder",
+          "x": 923.1,
+          "y": 864.2,
+          "visibility": 2,
+          "confidence": 0.9909
+        },
+        {
+          "name": "right_shoulder",
+          "x": 774.65,
+          "y": 880.25,
+          "visibility": 2,
+          "confidence": 0.9825
+        },
+        {
+          "name": "left_elbow",
+          "x": 944.98,
+          "y": 1009.44,
+          "visibility": 2,
+          "confidence": 0.9707
+        },
+        {
+          "name": "right_elbow",
+          "x": 741.61,
+          "y": 1010.43,
+          "visibility": 2,
+          "confidence": 0.9034
+        },
+        {
+          "name": "left_wrist",
+          "x": 796.97,
+          "y": 1013.24,
+          "visibility": 2,
+          "confidence": 0.9572
+        },
+        {
+          "name": "right_wrist",
+          "x": 748.44,
+          "y": 1007.72,
+          "visibility": 2,
+          "confidence": 0.9088
+        },
+        {
+          "name": "left_hip",
+          "x": 1082.81,
+          "y": 892.35,
+          "visibility": 2,
+          "confidence": 0.9837
+        },
+        {
+          "name": "right_hip",
+          "x": 989.3,
+          "y": 912.9,
+          "visibility": 2,
+          "confidence": 0.9752
+        },
+        {
+          "name": "left_knee",
+          "x": 1187.01,
+          "y": 878.24,
+          "visibility": 2,
+          "confidence": 0.9469
+        },
+        {
+          "name": "right_knee",
+          "x": 1125.92,
+          "y": 881.08,
+          "visibility": 2,
+          "confidence": 0.9257
+        },
+        {
+          "name": "left_ankle",
+          "x": 1310.67,
+          "y": 851.71,
+          "visibility": 2,
+          "confidence": 0.8792
+        },
+        {
+          "name": "right_ankle",
+          "x": 1299.99,
+          "y": 840.12,
+          "visibility": 2,
+          "confidence": 0.8703
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 80.0
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GEQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GEQ-0001-0000-0000.json"
+  }
+}

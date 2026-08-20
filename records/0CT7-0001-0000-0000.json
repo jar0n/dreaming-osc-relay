@@ -1,0 +1,180 @@
+{
+  "identifier": "NG972",
+  "full_title": "A Landscape with Two Dead Trees, and Two Sportsmen with Dogs on a Sandy Road",
+  "short_title": "A Landscape with Two Dead Trees",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "29 × 36.8 cm",
+  "production_date": "probably 1665-75",
+  "brief_description": "This is a landscape full of sunshine, energy and life. The strong sweeping curve of the track dominates the middle of the picture. Two greyhounds bound along while a horseman and his companion chat easily as they go, and in the distance a pedlar with his pack ambles along behind them. The woodland to the right is in full summer leaf and the tree canopies seem to billow upwards like the cumulus clouds which bloom in the luminous sky.\n\nBut up front, filling more than a third of the canvas, are the dramatic outlines of two blasted trees. The nearer one is thrust towards us, its limbs fallen, a few dead branches like sharp fracture lines across the sky. It is a visual device, framing the composition and creating a greater sense of depth to the landscape. But it is also a reminder of mortality and the transience of life, in this otherwise idyllic country view.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Wijnants",
+    "birth_date": "1643",
+    "death_date": "1684",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0972-00-000017-web.jpg",
+    "filename": "N-0972-00-000017-web.jpg",
+    "image_key": "N-0972-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1513,
+    "aspect_ratio": 1.269,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 756837
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1205,
+    "horizontal_lines": 433,
+    "vertical_lines": 29,
+    "diagonal_lines": 743,
+    "edge_density": 0.0721,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      12.5,
+      -11.2,
+      -35.7,
+      0.9,
+      -45.0,
+      16.4,
+      -3.8,
+      -4.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      103,
+      92,
+      72
+    ],
+    "mean_color_hex": "#675c48",
+    "color_palette": [
+      "#2a1b0a",
+      "#3d2b13",
+      "#7a8180",
+      "#4f3d22",
+      "#635436",
+      "#aba998",
+      "#786a50",
+      "#92948d",
+      "#c9bc9b",
+      "#9c8860"
+    ],
+    "unique_colors": 76799,
+    "color_diversity": 0.0264,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 93.84,
+    "contrast_level": "medium",
+    "contrast_value": 0.4017,
+    "dynamic_range": 230,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 49.24,
+    "midtones_percentage": 41.16,
+    "highlights_percentage": 9.6
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5688,
+        "bbox": [
+          1072.5,
+          1050.49,
+          1123.02,
+          1160.96
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2864,
+        "bbox": [
+          1033.2,
+          1050.45,
+          1123.75,
+          1162.74
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          440,
+          1296,
+          488,
+          1344
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          416,
+          1384,
+          469,
+          1437
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          592,
+          342,
+          654,
+          404
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CT7-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CT7-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "identifier": "NG831",
+  "full_title": "The Ruins of Brederode Castle",
+  "short_title": "The Ruins of Brederode Castle",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "82 × 106 cm",
+  "production_date": "1671",
+  "brief_description": "Many -- very probably most -- seventeenth-century Dutch landscape paintings do not show a real view, but were composed to capture the spirit or impression of a place. Even where they do depict somewhere specific they would often be made more aesthetically pleasing by exaggeration or rearrangement.\n\nThat is what has happened in this view of Brederode Castle near Haarlem. Although the ruins have deteriorated since Hobbema painted them in 1671, significant parts still survive, as does the moat, so we can see that he made significant changes. He removed parts of a wall in the foreground to open out the view and raised the north-east tower on a high bank (in reality it stands on flat ground). His changes make the whole castle seem larger and more dramatic.\n\nThe figures and animals are also figments of an artistic imagination -- though perhaps not Hobbema’s. They were probably added by another painter, possibly Dirck Wijntrack, after the landscape was finished.",
+  "accession_date": "1871-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1871",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Meindert Hobbema",
+    "birth_date": "1638",
+    "death_date": "1709",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0831-00-000018-web.jpg",
+    "filename": "N-0831-00-000018-web.jpg",
+    "image_key": "N-0831-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1458,
+    "aspect_ratio": 1.3169,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 730285
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2044,
+    "horizontal_lines": 955,
+    "vertical_lines": 48,
+    "diagonal_lines": 1041,
+    "edge_density": 0.0776,
+    "dominant_angles": [
+      26.0,
+      45.0,
+      4.2,
+      23.1,
+      -10.6,
+      -0.7,
+      -1.1,
+      22.8,
+      -7.6,
+      12.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      95,
+      87,
+      65
+    ],
+    "mean_color_hex": "#5f5741",
+    "color_palette": [
+      "#312a1c",
+      "#241f15",
+      "#8b8162",
+      "#3e3724",
+      "#9a9377",
+      "#7c7050",
+      "#51482b",
+      "#695c38",
+      "#b0a98b",
+      "#838579"
+    ],
+    "unique_colors": 42445,
+    "color_diversity": 0.0152,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 87.6,
+    "contrast_level": "medium",
+    "contrast_value": 0.3535,
+    "dynamic_range": 191,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 52.3,
+    "midtones_percentage": 45.45,
+    "highlights_percentage": 2.25
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "bird",
+        "confidence": 0.5101,
+        "bbox": [
+          1385.29,
+          1278.9,
+          1448.08,
+          1400.7
+        ]
+      },
+      {
+        "class": "train",
+        "confidence": 0.4346,
+        "bbox": [
+          730.14,
+          755.33,
+          965.13,
+          937.77
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.3999,
+        "bbox": [
+          938.12,
+          1332.03,
+          972.34,
+          1393.11
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.382,
+        "bbox": [
+          1105.48,
+          1361.19,
+          1146.94,
+          1403.06
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.2816,
+        "bbox": [
+          1004.5,
+          1350.63,
+          1040.01,
+          1406.98
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "bird": 4,
+      "train": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          381,
+          942,
+          434,
+          995
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1155,
+          725,
+          1205,
+          775
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          462,
+          732,
+          585,
+          855
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FNO-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FNO-0001-0000-0000.json"
+  }
+}

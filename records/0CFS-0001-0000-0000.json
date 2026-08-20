@@ -1,0 +1,150 @@
+{
+  "identifier": "NG6566",
+  "full_title": "A Cup of Water and a Rose",
+  "short_title": "A Cup of Water and a Rose",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "21.2 × 30.1 cm",
+  "production_date": "about 1630",
+  "brief_description": "In this small and intimate painting, everyday objects appear monumental and take on a mystical intensity. On a tabletop or ledge, a ceramic cup of water with delicately curved handles sits in the centre of a silver plate. A thornless rose in full bloom balances on the plate's edge.\n\nThat these objects have religious significance would have been immediately obvious to devout Spanish viewers in the seventeenth century. The cup of water and the rose were seen as symbols of the Virgin Mary's purity; the fact that the flower is thornless may refer to the Immaculate Conception (the belief that Mary was conceived without sin).\n\nZurbarán's painting encourages meditation and quiet contemplation; an approach not dissimilar to that which he adopted in his religious paintings. The stark simplicity of the surrounding space provides no distractions, and we are invited to appreciate the beauty of light reflecting on water and bouncing off polished surfaces.",
+  "accession_date": "1997-01-31",
+  "current_location": "Room 25, The National Gallery (London)",
+  "credit_line": "Bought for the National Gallery by the George Beaumont Group, 1997",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Francisco de Zurbarán",
+    "birth_date": "1598",
+    "death_date": "1664",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6566-00-000021-web.jpg",
+    "filename": "N-6566-00-000021-web.jpg",
+    "image_key": "N-6566-00-000021",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1360,
+    "aspect_ratio": 1.4118,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 629668
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 514,
+    "horizontal_lines": 91,
+    "vertical_lines": 56,
+    "diagonal_lines": 367,
+    "edge_density": 0.0345,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      27.8,
+      22.9,
+      45.0,
+      -24.9,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      53,
+      46,
+      38
+    ],
+    "mean_color_hex": "#352e26",
+    "color_palette": [
+      "#201a16",
+      "#161212",
+      "#2c221a",
+      "#362f25",
+      "#443c31",
+      "#554c40",
+      "#7d7560",
+      "#675f4f",
+      "#918a73",
+      "#a7a18f"
+    ],
+    "unique_colors": 25190,
+    "color_diversity": 0.0096,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 47.66,
+    "contrast_level": "low",
+    "contrast_value": 0.2626,
+    "dynamic_range": 244,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 85.12,
+    "midtones_percentage": 14.71,
+    "highlights_percentage": 0.17
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cup",
+        "confidence": 0.895,
+        "bbox": [
+          710.7,
+          234.15,
+          1424.75,
+          1010.9
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "cup": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          263,
+          660,
+          325,
+          722
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CFS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CFS-0001-0000-0000.json"
+  }
+}

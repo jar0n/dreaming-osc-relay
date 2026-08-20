@@ -1,0 +1,180 @@
+{
+  "identifier": "NG2580",
+  "full_title": "A River Scene, with Fishermen laying a Net",
+  "short_title": "A River Scene, with Fishermen laying a Net",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "31.1 × 25.8 cm",
+  "production_date": "1638",
+  "brief_description": "Darkened varnish has taken its toll, and the true colours in Jan van Goyen's painting are difficult to make out. The picture is almost entirely given over to a vast sky, but there’s enough movement below to capture the atmosphere of a busy autumn day on the river.\n\nA series of diagonal lines sweeps across the picture: the net of the fisherman hauling in his catch, the sails of the boats midstream and a tall pole in the distance. A shower threatens from the grey cloud overhead, but a small patch of bright turquoise -- the headscarf of a woman hunched up against the chill on board the sailing boat -- enlivens the muted palette.\n\nAcross the calm waters, a square church tower is just visible. It’s thought to be the tower of the Grote Kerk in Dordrecht, a town van Goyen often depicted in his paintings.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan van Goyen",
+    "birth_date": "1596",
+    "death_date": "1656",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2580-00-000013-web.jpg",
+    "filename": "N-2580-00-000013-web.jpg",
+    "image_key": "N-2580-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2294,
+    "aspect_ratio": 0.837,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1076448
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 429,
+    "horizontal_lines": 132,
+    "vertical_lines": 73,
+    "diagonal_lines": 224,
+    "edge_density": 0.0274,
+    "dominant_angles": [
+      -90.0,
+      -3.0,
+      -3.2,
+      -90.0,
+      1.5,
+      -1.0,
+      0.0,
+      -2.9,
+      -2.2,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      134,
+      123,
+      86
+    ],
+    "mean_color_hex": "#867b56",
+    "color_palette": [
+      "#887d58",
+      "#91855e",
+      "#7e7553",
+      "#9b8f64",
+      "#a7996c",
+      "#756b46",
+      "#4b452e",
+      "#b3a679",
+      "#5f5637",
+      "#3b3422"
+    ],
+    "unique_colors": 26964,
+    "color_diversity": 0.0061,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 122.79,
+    "contrast_level": "low",
+    "contrast_value": 0.2038,
+    "dynamic_range": 230,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 11.68,
+    "midtones_percentage": 87.51,
+    "highlights_percentage": 0.8
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6558,
+        "bbox": [
+          484.92,
+          1934.44,
+          574.22,
+          2059.94
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6269,
+        "bbox": [
+          574.59,
+          1902.98,
+          682.13,
+          2041.78
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4337,
+        "bbox": [
+          1369.22,
+          1430.18,
+          1644.26,
+          2005.25
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3795,
+        "bbox": [
+          160.93,
+          1851.73,
+          705.88,
+          2108.02
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.2505,
+        "bbox": [
+          15.97,
+          1861.54,
+          207.34,
+          2132.86
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "person": 2,
+      "boat": 3
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FGP-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FGP-0001-0000-0000.json"
+  }
+}

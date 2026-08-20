@@ -1,0 +1,191 @@
+{
+  "identifier": "NG3235",
+  "full_title": "The Beach at Tourgéville-les-Sablons",
+  "short_title": "The Beach at Tourgéville-les-Sablons",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "50.8 × 74.3 cm",
+  "production_date": "1893",
+  "brief_description": "Tourgéville-les-Sablons, with its great sweep of beach, lies on the Normandy coast between Deauville and Benerville. Here, the two jetties at the mouth of the river Touques, which form an entrance to the harbour of Trouville-Deauville, can be seen in the middle distance, to the left of the chalk cliffs. Boudin had painted the jetties from another angle in The Entrance to Trouville Harbour, also in the National Gallery's collection.\n\nUnlike his earlier paintings of Normandy beaches filled with smart crowds, in this airy panoramic view the beach is quite sparsely populated. Small groups of figures stroll along the sand or sit by the grass-covered dunes, and ships and steamers ply their way through waves on the horizon. But it is the vast expanse of sky, filled with scudding clouds, that dominates the composition.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display, Dublin City Gallery The Hugh Lane",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Eugène Boudin",
+    "birth_date": "1824",
+    "death_date": "1898",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "Dublin City Gallery The Hugh Lane",
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3235-00-000007-web.jpg",
+    "filename": "N-3235-00-000007-web.jpg",
+    "image_key": "N-3235-00-000007",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1285,
+    "aspect_ratio": 1.4942,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 567544
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 486,
+    "horizontal_lines": 462,
+    "vertical_lines": 4,
+    "diagonal_lines": 20,
+    "edge_density": 0.0377,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.8,
+      1.1,
+      0.0,
+      0.0,
+      -2.2,
+      0.0,
+      -8.6,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      154,
+      153,
+      150
+    ],
+    "mean_color_hex": "#9a9996",
+    "color_palette": [
+      "#9d9d9c",
+      "#acaba9",
+      "#808fa9",
+      "#8f8e8c",
+      "#a2957a",
+      "#b5a689",
+      "#919eb6",
+      "#88826c",
+      "#c5beb0",
+      "#686858"
+    ],
+    "unique_colors": 43967,
+    "color_diversity": 0.0178,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 153.7,
+    "contrast_level": "low",
+    "contrast_value": 0.1452,
+    "dynamic_range": 183,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 0.28,
+    "midtones_percentage": 81.75,
+    "highlights_percentage": 17.96
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3738,
+        "bbox": [
+          463.75,
+          907.46,
+          499.03,
+          981.84
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3115,
+        "bbox": [
+          1577.74,
+          935.25,
+          1624.8,
+          997.32
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2992,
+        "bbox": [
+          1433.75,
+          996.83,
+          1483.49,
+          1077.81
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2913,
+        "bbox": [
+          1813.25,
+          902.19,
+          1852.64,
+          976.44
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2637,
+        "bbox": [
+          462.53,
+          907.88,
+          499.97,
+          983.05
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "person": 3,
+      "horse": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          404,
+          259,
+          600,
+          455
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GLN-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GLN-0001-0000-0000.json"
+  }
+}

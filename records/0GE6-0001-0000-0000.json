@@ -1,0 +1,161 @@
+{
+  "identifier": "NG3863",
+  "full_title": "Sunflowers",
+  "short_title": "Sunflowers",
+  "object_name": "Picture",
+  "style": "post-Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "92.1 × 73 cm",
+  "production_date": "1888",
+  "brief_description": "This is one of five versions of Sunflowers on display in museums and galleries across the world. Van Gogh made the paintings to decorate his house in Arles in readiness for a visit from his friend and fellow artist, Paul Gauguin.\n\n'The sunflower is mine', Van Gogh once declared, and it is clear that the flower had various meanings for him. The different stages in the sunflower’s life cycle shown here, from young bud through to maturity and eventual decay, follow in the vanitas tradition of Dutch seventeenth-century flower paintings, which emphasise the transient nature of human actions. The sunflowers were perhaps also intended to be a symbol of friendship and a celebration of the beauty and vitality of nature.\n\nThe sunflower pictures were among the first paintings Van Gogh produced in Arles that show his signature expressive style. No other artist has been so closely associated with a specific flower, and these pictures are among Van Gogh's most iconic and best-loved works.",
+  "accession_date": "1924-01-01",
+  "current_location": "Room 43, The National Gallery (London)",
+  "credit_line": "Bought, Courtauld Fund, 1924",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Vincent van Gogh",
+    "birth_date": "1853",
+    "death_date": "1890",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3863-00-000126-web.jpg",
+    "filename": "N-3863-00-000126-web.jpg",
+    "image_key": "N-3863-00-000130",
+    "image_type": "web-partial",
+    "width": 1920,
+    "height": 2438,
+    "aspect_ratio": 0.7875,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1606690
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 2983,
+    "horizontal_lines": 175,
+    "vertical_lines": 674,
+    "diagonal_lines": 2134,
+    "edge_density": 0.1042,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -45.0,
+      45.0,
+      -90.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      180,
+      152,
+      76
+    ],
+    "mean_color_hex": "#b4984c",
+    "color_palette": [
+      "#d8c275",
+      "#e4ce81",
+      "#a6822a",
+      "#976920",
+      "#b79131",
+      "#815a21",
+      "#c5ac65",
+      "#72783a",
+      "#a18e52",
+      "#474c2f"
+    ],
+    "unique_colors": 215120,
+    "color_diversity": 0.046,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 152.01,
+    "contrast_level": "medium",
+    "contrast_value": 0.3129,
+    "dynamic_range": 247,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 2.21,
+    "midtones_percentage": 58.05,
+    "highlights_percentage": 39.75
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.6147,
+        "bbox": [
+          647.65,
+          1670.15,
+          1320.88,
+          2333.0
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.4031,
+        "bbox": [
+          20.78,
+          34.49,
+          1914.19,
+          2379.9
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "vase": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1146,
+          1609,
+          1202,
+          1665
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GE6-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GE6-0001-0000-0000.json"
+  }
+}

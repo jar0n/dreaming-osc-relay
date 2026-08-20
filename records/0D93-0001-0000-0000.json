@@ -1,0 +1,180 @@
+{
+  "identifier": "NG209",
+  "full_title": "A Landscape with the Judgement of Paris",
+  "short_title": "A Landscape with the Judgement of Paris",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "97 × 129 cm",
+  "production_date": "about 1645-50",
+  "brief_description": "This appears to depict a moment of bliss: an idyllic landscape, painted in an Italianate style by Jan Both, is suffused with the warm glow of a summer’s evening. In the foreground a group of elegantly poised nudes, added by Both’s collaborator Cornelis van Poelenburgh, catches the sunlight.\n\nBut this is no idyll, and we are witnessing a tragic turning point in mythological history: the Judgement of Paris. Jupiter has asked Paris to judge which of three goddesses -- Juno, Minerva and Venus -- is the most beautiful. Paris chooses Venus by handing her a golden apple. As a reward she promises him Helen, the beautiful wife of a Greek king. Helen's abduction leads to the Trojan wars and the destruction of Troy.\n\nVan Poelenburgh and Both had studied in Italy before they returned to Utrecht and were part of a group of Dutch artists who created a taste among their patrons for Italianate landscape painting.",
+  "accession_date": "1847-01-01",
+  "current_location": "Room 29, The National Gallery (London)",
+  "credit_line": "Bequeathed by Richard Simmons, 1847",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Both",
+    "birth_date": "1615",
+    "death_date": "1652",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0209-00-000021-web.jpg",
+    "filename": "N-0209-00-000021-web.jpg",
+    "image_key": "N-0209-00-000021",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1440,
+    "aspect_ratio": 1.3333,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 667243
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2022,
+    "horizontal_lines": 674,
+    "vertical_lines": 237,
+    "diagonal_lines": 1111,
+    "edge_density": 0.0703,
+    "dominant_angles": [
+      11.7,
+      0.0,
+      -5.1,
+      16.7,
+      -11.1,
+      -3.1,
+      0.9,
+      14.0,
+      0.0,
+      24.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      80,
+      75,
+      60
+    ],
+    "mean_color_hex": "#504b3c",
+    "color_palette": [
+      "#433c27",
+      "#362f1e",
+      "#272116",
+      "#524b32",
+      "#777364",
+      "#645e44",
+      "#8a877a",
+      "#999a8d",
+      "#768496",
+      "#8797ab"
+    ],
+    "unique_colors": 53731,
+    "color_diversity": 0.0194,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 75.56,
+    "contrast_level": "low",
+    "contrast_value": 0.2826,
+    "dynamic_range": 177,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 67.69,
+    "midtones_percentage": 32.16,
+    "highlights_percentage": 0.14
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7154,
+        "bbox": [
+          836.56,
+          1093.34,
+          929.82,
+          1326.5
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.6722,
+        "bbox": [
+          964.19,
+          1087.99,
+          1038.48,
+          1329.17
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.5162,
+        "bbox": [
+          1058.14,
+          1088.1,
+          1139.02,
+          1315.03
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2901,
+        "bbox": [
+          1101.66,
+          1132.39,
+          1228.19,
+          1347.87
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          474,
+          1076,
+          546,
+          1148
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D93-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D93-0001-0000-0000.json"
+  }
+}

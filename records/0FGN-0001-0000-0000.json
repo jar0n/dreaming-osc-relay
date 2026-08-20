@@ -1,0 +1,160 @@
+{
+  "identifier": "NG2621",
+  "full_title": "Willows",
+  "short_title": "Willows",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "55.5 × 80.3 cm",
+  "production_date": "1872 or 1874",
+  "brief_description": "A wooded bank and lake open onto a vista of trees and pasture. At the left two boys are fishing. A fishing rod leans on the bank, and the right-hand boy is peering into a basket, perhaps at his catch. This purely imaginary scene is the last in a series of four versions of the same composition. Its handling can be compared with Corot’s late landscapes, particularly in the treatment of the trees and sky. Like Corot, Daubigny sketched the trees in thin paint before painting the sky around them, finally adding foliage with touches of green.\n\nThe most striking feature is the sunset at the right. The colours of the setting sun reflected in the water -- yellow, peach, pink and red -- were added at a late stage in painting, as the touches of paint appear to have been squeezed between the dense tree trunks.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Charles-François Daubigny",
+    "birth_date": "1817",
+    "death_date": "1878",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2621-00-000013-web.jpg",
+    "filename": "N-2621-00-000013-web.jpg",
+    "image_key": "N-2621-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1321,
+    "aspect_ratio": 1.4534,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 590675
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1169,
+    "horizontal_lines": 454,
+    "vertical_lines": 103,
+    "diagonal_lines": 612,
+    "edge_density": 0.0591,
+    "dominant_angles": [
+      -90.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -90.0,
+      -90.0,
+      0.0,
+      1.2,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      79,
+      70,
+      51
+    ],
+    "mean_color_hex": "#4f4633",
+    "color_palette": [
+      "#222114",
+      "#181910",
+      "#8f7d62",
+      "#302a1a",
+      "#9d886b",
+      "#3f3825",
+      "#7f7057",
+      "#534931",
+      "#6a5c43",
+      "#af9779"
+    ],
+    "unique_colors": 49021,
+    "color_diversity": 0.0193,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 71.07,
+    "contrast_level": "medium",
+    "contrast_value": 0.3557,
+    "dynamic_range": 214,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 63.69,
+    "midtones_percentage": 36.15,
+    "highlights_percentage": 0.16
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3525,
+        "bbox": [
+          301.91,
+          1011.16,
+          400.3,
+          1138.54
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2773,
+        "bbox": [
+          297.16,
+          1009.74,
+          423.55,
+          1152.71
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          418,
+          778,
+          482,
+          842
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FGN-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FGN-0001-0000-0000.json"
+  }
+}

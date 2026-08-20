@@ -1,0 +1,322 @@
+{
+  "identifier": "NG2551",
+  "full_title": "A Woman scouring a Pot",
+  "short_title": "A Woman scouring a Pot",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "19.4 × 25.8 cm",
+  "production_date": "about 1650-60",
+  "brief_description": "A rather lonely figure, almost certainly the cook or maid in a prosperous Amsterdam household, is doing the washing up in a gloomy kitchen. She looks up and her face catches the light; we can see her tired, slightly careworn features. Her attention has clearly been caught by something outside the picture. Despite the distraction, she hardly breaks from her work, still keeping the pressure on the dish she is polishing. More pots are waiting in the washing tub in the shadows on the right while, by contrast, the results of her labour are nicely positioned to catch the light. Such dedicated attention to domestic duty would certainly have been considered admirable to a seventeenth-century audience. They would also have enjoyed the sense of calm, of the order and simplicity of daily routine which it evokes. The painting isn’t signed but it may be by Pieter van den Bosch, who specialised in this kind of genre painting.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Pieter van den Bosch",
+    "birth_date": "1613",
+    "death_date": "1663",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2551-00-000010-web.jpg",
+    "filename": "N-2551-00-000010-web.jpg",
+    "image_key": "N-2551-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1445,
+    "aspect_ratio": 1.3287,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 518338
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 85,
+    "horizontal_lines": 60,
+    "vertical_lines": 4,
+    "diagonal_lines": 21,
+    "edge_density": 0.012,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      3.3,
+      0.9,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      51,
+      36,
+      21
+    ],
+    "mean_color_hex": "#332415",
+    "color_palette": [
+      "#1e1610",
+      "#2b1a0f",
+      "#352211",
+      "#261e18",
+      "#442d12",
+      "#51391a",
+      "#3a2d20",
+      "#5c4627",
+      "#6c593b",
+      "#978c6a"
+    ],
+    "unique_colors": 29015,
+    "color_diversity": 0.0105,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 39.06,
+    "contrast_level": "low",
+    "contrast_value": 0.1279,
+    "dynamic_range": 222,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 98.31,
+    "midtones_percentage": 1.66,
+    "highlights_percentage": 0.03
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.5031,
+        "bbox": [
+          893.22,
+          771.91,
+          1325.59,
+          1350.73
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4849,
+        "bbox": [
+          1091.95,
+          382.49,
+          1376.27,
+          835.03
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3761,
+        "bbox": [
+          1262.52,
+          533.72,
+          1484.44,
+          1340.38
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.3047,
+        "bbox": [
+          692.73,
+          1081.95,
+          916.9,
+          1353.93
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "vase": 2,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1140,
+          441,
+          1196,
+          497
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1226,
+          723,
+          1323,
+          820
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1218.8,
+          "y": 468.07,
+          "visibility": 2,
+          "confidence": 0.9905
+        },
+        {
+          "name": "left_eye",
+          "x": 1227.6,
+          "y": 438.57,
+          "visibility": 2,
+          "confidence": 0.953
+        },
+        {
+          "name": "right_eye",
+          "x": 1190.73,
+          "y": 454.22,
+          "visibility": 2,
+          "confidence": 0.9631
+        },
+        {
+          "name": "left_ear",
+          "x": 1251.02,
+          "y": 432.68,
+          "visibility": 2,
+          "confidence": 0.6059
+        },
+        {
+          "name": "right_ear",
+          "x": 1155.05,
+          "y": 466.69,
+          "visibility": 2,
+          "confidence": 0.755
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1313.27,
+          "y": 518.43,
+          "visibility": 2,
+          "confidence": 0.9962
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1169.01,
+          "y": 552.79,
+          "visibility": 2,
+          "confidence": 0.9963
+        },
+        {
+          "name": "left_elbow",
+          "x": 1313.23,
+          "y": 656.15,
+          "visibility": 2,
+          "confidence": 0.9861
+        },
+        {
+          "name": "right_elbow",
+          "x": 1133.47,
+          "y": 669.06,
+          "visibility": 2,
+          "confidence": 0.9856
+        },
+        {
+          "name": "left_wrist",
+          "x": 1259.85,
+          "y": 803.26,
+          "visibility": 2,
+          "confidence": 0.9852
+        },
+        {
+          "name": "right_wrist",
+          "x": 1128.11,
+          "y": 773.04,
+          "visibility": 2,
+          "confidence": 0.9867
+        },
+        {
+          "name": "left_hip",
+          "x": 1412.83,
+          "y": 750.46,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "right_hip",
+          "x": 1324.39,
+          "y": 772.75,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_knee",
+          "x": 1396.28,
+          "y": 957.64,
+          "visibility": 2,
+          "confidence": 0.9968
+        },
+        {
+          "name": "right_knee",
+          "x": 1340.41,
+          "y": 990.88,
+          "visibility": 2,
+          "confidence": 0.9968
+        },
+        {
+          "name": "left_ankle",
+          "x": 1365.87,
+          "y": 1202.69,
+          "visibility": 2,
+          "confidence": 0.9674
+        },
+        {
+          "name": "right_ankle",
+          "x": 1353.59,
+          "y": 1249.87,
+          "visibility": 2,
+          "confidence": 0.9685
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": 23.22
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FZO-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FZO-0001-0000-0000.json"
+  }
+}

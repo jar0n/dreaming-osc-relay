@@ -1,0 +1,211 @@
+{
+  "identifier": "NG259",
+  "full_title": "Head of Christ Crucified",
+  "short_title": "Head of Christ Crucified",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "32.7 × 29.8 cm",
+  "production_date": "likely early 1480s-1490",
+  "brief_description": "This fragment comes from a scene of Christ crucified which formed the central panel of an altarpiece made for the high altar of the Benedictine abbey at Liesborn. The crown of thorns, placed on Christ's head to mock him, has pierced his skin and blood is running down his face. The letters 'I.N.R.I' are attached to the top of the Cross. They are the first letters of the Latin words Jesu Nazarene Rex Judae, meaning 'Jesus of Nazareth, King of the Jews': one of the charges made against Christ was that he claimed this title for himself.\n\nFour fragments (now at the Westphalian State Museum of Art and Cultural History, Münster) show angels catching the blood from Christ's wounds in large chalices; the wing we see here belonged to one of them.",
+  "accession_date": "1854-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1854",
+  "associated_concepts": "German",
+  "creator": {
+    "name": "Master of Liesborn (Johann von Soest?)",
+    "birth_date": "1450",
+    "death_date": "1499",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0259-00-000021-web.jpg",
+    "filename": "N-0259-00-000021-web.jpg",
+    "image_key": "N-0259-00-000021",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2106,
+    "aspect_ratio": 0.9117,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1081197
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2343,
+    "horizontal_lines": 688,
+    "vertical_lines": 257,
+    "diagonal_lines": 1398,
+    "edge_density": 0.0867,
+    "dominant_angles": [
+      -0.8,
+      -0.9,
+      6.8,
+      6.1,
+      0.0,
+      0.0,
+      -0.7,
+      3.9,
+      1.7,
+      -1.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      108,
+      88,
+      64
+    ],
+    "mean_color_hex": "#6c5840",
+    "color_palette": [
+      "#463321",
+      "#312a21",
+      "#9e8e76",
+      "#7d5427",
+      "#928067",
+      "#5a472f",
+      "#6f5c43",
+      "#836f55",
+      "#956933",
+      "#a79a86"
+    ],
+    "unique_colors": 76074,
+    "color_diversity": 0.0188,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 91.94,
+    "contrast_level": "medium",
+    "contrast_value": 0.3036,
+    "dynamic_range": 215,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 46.0,
+    "midtones_percentage": 53.86,
+    "highlights_percentage": 0.14
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "dog",
+        "confidence": 0.4028,
+        "bbox": [
+          188.61,
+          666.18,
+          1611.4,
+          2083.04
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.3307,
+        "bbox": [
+          195.95,
+          664.17,
+          1572.91,
+          2098.4
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "dog": 1,
+      "elephant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          1337,
+          153,
+          1393,
+          209
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          622,
+          1978,
+          676,
+          2032
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          652,
+          132,
+          702,
+          182
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1569,
+          159,
+          1628,
+          218
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          422,
+          1775,
+          478,
+          1831
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1103,
+          1737,
+          1182,
+          1816
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EWG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EWG-0001-0000-0000.json"
+  }
+}

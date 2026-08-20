@@ -1,0 +1,181 @@
+{
+  "identifier": "NG3248",
+  "full_title": "Still Life with Glass Jug, Fruit and Flowers",
+  "short_title": "Still Life with Glass Jug, Fruit and Flowers",
+  "object_name": "Picture",
+  "style": "realist",
+  "material": "oil on canvas",
+  "dimensions": "47 × 47.6 cm",
+  "production_date": "1861",
+  "brief_description": "A single mop-headed rose is caught in an intense beam of clear light, which also glitters down the graceful sweep of the handle of the slender jug placed opposite. Fantin-Latour has left the rest of the picture in semi-darkness, making it difficult to see which of the fruit in the pewter dish are plums and which are apples. They nestle in a bed of leaves, in an array of soft, deep colours from purple to mossy green.\n\nThe delicate little picture was painted while Fantin-Latour was working in Courbet’s studio in Paris. He found Courbet ‘charming’, but picked up little of the older artist’s robust style. Nor does the painting have the confident technique that Fantin-Latour showed later in his career. But we see the seeds sown of his sensitive portrayal of flowers, which won him success as the most sought after decorative artist of his time.",
+  "accession_date": "1917-01-01",
+  "current_location": "Not on display, Dublin City Gallery The Hugh Lane",
+  "credit_line": "Sir Hugh Lane Bequest, 1917, The National Gallery, London. In partnership with Hugh Lane Gallery, Dublin.",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Ignace-Henri-Théodore Fantin-Latour",
+    "birth_date": "1836",
+    "death_date": "1904",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "Dublin City Gallery The Hugh Lane",
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3248-00-000008-web.jpg",
+    "filename": "N-3248-00-000008-web.jpg",
+    "image_key": "N-3248-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1839,
+    "aspect_ratio": 1.044,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 797713
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 394,
+    "horizontal_lines": 30,
+    "vertical_lines": 256,
+    "diagonal_lines": 108,
+    "edge_density": 0.0146,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      73,
+      54,
+      39
+    ],
+    "mean_color_hex": "#493627",
+    "color_palette": [
+      "#433527",
+      "#4b3b2c",
+      "#3b2f22",
+      "#4b2c1d",
+      "#603622",
+      "#554534",
+      "#2f231a",
+      "#6c5843",
+      "#91785f",
+      "#c2a177"
+    ],
+    "unique_colors": 42650,
+    "color_diversity": 0.0121,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 58.69,
+    "contrast_level": "low",
+    "contrast_value": 0.1202,
+    "dynamic_range": 207,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 96.4,
+    "midtones_percentage": 3.27,
+    "highlights_percentage": 0.33
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.5211,
+        "bbox": [
+          361.73,
+          418.1,
+          545.55,
+          964.14
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.4401,
+        "bbox": [
+          1346.91,
+          981.34,
+          1642.93,
+          1417.92
+        ]
+      },
+      {
+        "class": "dining table",
+        "confidence": 0.2994,
+        "bbox": [
+          44.75,
+          1083.81,
+          1899.07,
+          1750.41
+        ]
+      },
+      {
+        "class": "vase",
+        "confidence": 0.2807,
+        "bbox": [
+          287.27,
+          194.07,
+          725.78,
+          1008.18
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "vase": 3,
+      "dining table": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1393,
+          832,
+          1496,
+          935
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G42-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G42-0001-0000-0000.json"
+  }
+}

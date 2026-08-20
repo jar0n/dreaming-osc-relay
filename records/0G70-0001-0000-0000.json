@@ -1,0 +1,291 @@
+{
+  "identifier": "NG2250",
+  "full_title": "Bust Portrait of Andrea Mantegna",
+  "short_title": "Bust Portrait of Andrea Mantegna",
+  "object_name": "Sculpture",
+  "style": "realist",
+  "material": "plaster, probably cast, and bronzed",
+  "dimensions": "75 × 75 × 20 cm",
+  "production_date": "about 1880",
+  "brief_description": "This portrait bust of the Italian Renaissance artist Andrea Mantegna (1431--1506) was made around 1880, and presented to the National Gallery three years later by the British collector Henry Vaughan.\n\nThe bust is made of plaster of Paris with a ‘bronzed’ finish. It is one of an edition of casts that were made of the high-relief bronze bust of Mantegna that serves as the artist’s memorial in his funeral chapel in Sant'Andrea, Mantua. The memorial was probably designed by Mantegna himself, who may have also modelled the bust and cast it in bronze. However, other artists -- including Mantegna's friend, the medallist, sculptor and goldsmith Gian Marco Cavalli -- have also been proposed.\n\nThe original bust is mounted before a red porphyry disc set within a decoratively carved circular marble frame. The eyes were said to have been originally inlaid with diamonds.",
+  "accession_date": "1883-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Henry Vaughan, 1883",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Italian",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2250-00-000015-web-g.jpg",
+    "filename": "N-2250-00-000015-web-g.jpg",
+    "image_key": "N-2250-00-000015",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 1867,
+    "aspect_ratio": 1.0284,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 584357
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 710,
+    "horizontal_lines": 52,
+    "vertical_lines": 152,
+    "diagonal_lines": 506,
+    "edge_density": 0.0476,
+    "dominant_angles": [
+      45.0,
+      62.8,
+      45.0,
+      34.2,
+      53.0,
+      59.1,
+      61.5,
+      74.4,
+      67.7,
+      64.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      73,
+      72,
+      71
+    ],
+    "mean_color_hex": "#494847",
+    "color_palette": [
+      "#3b3b3e",
+      "#4e4c49",
+      "#474340",
+      "#565452",
+      "#605e5d",
+      "#322f2d",
+      "#6e6c6c",
+      "#1a1815",
+      "#828186",
+      "#cbcbd3"
+    ],
+    "unique_colors": 14028,
+    "color_diversity": 0.0039,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 72.63,
+    "contrast_level": "low",
+    "contrast_value": 0.1405,
+    "dynamic_range": 254,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 77.17,
+    "midtones_percentage": 22.78,
+    "highlights_percentage": 0.06
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "toilet",
+        "confidence": 0.3715,
+        "bbox": [
+          3.92,
+          10.94,
+          1881.4,
+          1781.64
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "toilet": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1116,
+          134,
+          1181,
+          199
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          914,
+          864,
+          1065,
+          1015
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 868.68,
+          "y": 1042.86,
+          "visibility": 2,
+          "confidence": 0.9671
+        },
+        {
+          "name": "left_eye",
+          "x": 978.07,
+          "y": 944.17,
+          "visibility": 2,
+          "confidence": 0.9812
+        },
+        {
+          "name": "right_eye",
+          "x": 802.57,
+          "y": 959.74,
+          "visibility": 2,
+          "confidence": 0.9508
+        },
+        {
+          "name": "left_ear",
+          "x": 1157.92,
+          "y": 1010.06,
+          "visibility": 2,
+          "confidence": 0.8809
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4699
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1305.61,
+          "y": 1401.63,
+          "visibility": 2,
+          "confidence": 0.6305
+        },
+        {
+          "name": "right_shoulder",
+          "x": 607.01,
+          "y": 1492.17,
+          "visibility": 2,
+          "confidence": 0.6496
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0131
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.01
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0204
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0139
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0092
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0085
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0051
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.005
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0072
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0071
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G70-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G70-0001-0000-0000.json"
+  }
+}

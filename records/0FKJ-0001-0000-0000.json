@@ -1,0 +1,201 @@
+{
+  "identifier": "NG1004",
+  "full_title": "Mountainous Landscape with Muleteers",
+  "short_title": "Mountainous Landscape with Muleteers",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "109 × 126 cm",
+  "production_date": "1658",
+  "brief_description": "Autumnal colours and a soft sky lend a certain melancholy to a vast landscape. The high cliff and spindly birch trees on one side and a dark cluster of undergrowth on the other narrow the view, almost hypnotic in its stillness. The figures in the foreground seem almost incidental but flashes of white capture the attention.\n\nA group of travellers with pack mules, known as muleteers, takes advantage of a stop to tend an injured animal and to take a rest. Berchem keeps the figures small and tightly packed so their activities -- examining the mule, adjusting a shoe -- need to be disentangled.\n\nWe don't know if Berchem had ever been to Italy but he knew other artists, such as Jan Both, who had; what is certain is that he understood the breadth, moods and colours of its landscapes. These were highly prized and sought after by his audience, many of whom had never left the flat plains and northern light of the Dutch Republic.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Nicolaes Berchem",
+    "birth_date": "1620",
+    "death_date": "1683",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1004-00-000012-web.jpg",
+    "filename": "N-1004-00-000012-web.jpg",
+    "image_key": "N-1004-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1665,
+    "aspect_ratio": 1.1532,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 697123
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1592,
+    "horizontal_lines": 464,
+    "vertical_lines": 131,
+    "diagonal_lines": 997,
+    "edge_density": 0.0511,
+    "dominant_angles": [
+      -21.2,
+      -14.9,
+      -19.0,
+      -13.8,
+      -18.9,
+      -19.1,
+      -2.9,
+      -16.7,
+      -17.0,
+      -19.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      101,
+      89,
+      63
+    ],
+    "mean_color_hex": "#65593f",
+    "color_palette": [
+      "#3a3122",
+      "#4b3d27",
+      "#2a241c",
+      "#5c4d31",
+      "#a3966e",
+      "#908360",
+      "#6c5e3d",
+      "#8d8b77",
+      "#b6a372",
+      "#7c7050"
+    ],
+    "unique_colors": 33091,
+    "color_diversity": 0.0104,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 90.22,
+    "contrast_level": "medium",
+    "contrast_value": 0.329,
+    "dynamic_range": 168,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 54.06,
+    "midtones_percentage": 45.22,
+    "highlights_percentage": 0.72
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.6458,
+        "bbox": [
+          1415.17,
+          1252.6,
+          1578.68,
+          1459.9
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.539,
+        "bbox": [
+          1581.05,
+          1363.68,
+          1778.6,
+          1554.59
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3744,
+        "bbox": [
+          1509.57,
+          1410.35,
+          1589.28,
+          1530.18
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3652,
+        "bbox": [
+          1326.78,
+          1278.34,
+          1409.71,
+          1480.02
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2585,
+        "bbox": [
+          694.37,
+          1308.04,
+          781.41,
+          1445.62
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "horse": 3,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          773,
+          612,
+          847,
+          686
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          806,
+          716,
+          893,
+          803
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FKJ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FKJ-0001-0000-0000.json"
+  }
+}

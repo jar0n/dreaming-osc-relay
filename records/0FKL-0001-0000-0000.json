@@ -1,0 +1,331 @@
+{
+  "identifier": "NG2494",
+  "full_title": "Francesco Albani (?)",
+  "short_title": "Francesco Albani (?)",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "109.7 × 84 cm",
+  "production_date": "about 1517-20",
+  "brief_description": "This portrait is probably of Francesco Albani, one of the leading citizens of Bergamo; the initials 'FA' are painted in reverse on his signet ring. The Albani supported Venetian rule in Bergamo, and Francesco was created a Knight of San Marco by the Venetians in 1516. This portrait may have been painted in 1517 when he was part of the delegation to Venice reaffirming Bergamo's loyalty after several years of French and Spanish occupation of the city. On that occasion he wore 'gold cloth in the French style with a massive gold chain round his neck.'\n\nThe beard in this portrait may be significant. In 1509 the occupying French had ordered the men of Bergamo to shave their beards, as beards were considered a Venetian style. In Venice beards were associated with mourning and political distress, which may have been why the French objected to them.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Giovanni Cariani",
+    "birth_date": "1487",
+    "death_date": "1547",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2494-00-000009-web.jpg",
+    "filename": "N-2494-00-000009-web.jpg",
+    "image_key": "N-2494-00-000009",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2624,
+    "aspect_ratio": 0.7317,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1306540
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2162,
+    "horizontal_lines": 243,
+    "vertical_lines": 414,
+    "diagonal_lines": 1505,
+    "edge_density": 0.0559,
+    "dominant_angles": [
+      45.0,
+      -90.0,
+      45.0,
+      -90.0,
+      45.0,
+      45.0,
+      -90.0,
+      45.0,
+      78.1,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      84,
+      73,
+      46
+    ],
+    "mean_color_hex": "#54492e",
+    "color_palette": [
+      "#232c1d",
+      "#374124",
+      "#613f23",
+      "#493020",
+      "#775429",
+      "#515136",
+      "#8b6d3c",
+      "#9e8d6a",
+      "#beab86",
+      "#687164"
+    ],
+    "unique_colors": 94777,
+    "color_diversity": 0.0188,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 73.64,
+    "contrast_level": "low",
+    "contrast_value": 0.2657,
+    "dynamic_range": 197,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 72.97,
+    "midtones_percentage": 24.68,
+    "highlights_percentage": 2.34
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9138,
+        "bbox": [
+          41.2,
+          441.92,
+          1880.32,
+          2624.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 6,
+    "faces_detected": 6,
+    "faces": [
+      {
+        "bbox": [
+          237,
+          1818,
+          286,
+          1867
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1008,
+          1420,
+          1069,
+          1481
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1306,
+          2281,
+          1368,
+          2343
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          38,
+          1148,
+          129,
+          1239
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1045,
+          2258,
+          1127,
+          2340
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          741,
+          627,
+          997,
+          883
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 842.61,
+          "y": 790.17,
+          "visibility": 2,
+          "confidence": 0.9926
+        },
+        {
+          "name": "left_eye",
+          "x": 938.55,
+          "y": 711.75,
+          "visibility": 2,
+          "confidence": 0.9943
+        },
+        {
+          "name": "right_eye",
+          "x": 793.73,
+          "y": 715.95,
+          "visibility": 2,
+          "confidence": 0.9071
+        },
+        {
+          "name": "left_ear",
+          "x": 1116.43,
+          "y": 759.37,
+          "visibility": 2,
+          "confidence": 0.9836
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1438
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1353.44,
+          "y": 1174.66,
+          "visibility": 2,
+          "confidence": 0.9922
+        },
+        {
+          "name": "right_shoulder",
+          "x": 667.83,
+          "y": 1175.12,
+          "visibility": 2,
+          "confidence": 0.9831
+        },
+        {
+          "name": "left_elbow",
+          "x": 1598.91,
+          "y": 1716.9,
+          "visibility": 2,
+          "confidence": 0.9453
+        },
+        {
+          "name": "right_elbow",
+          "x": 484.93,
+          "y": 1681.11,
+          "visibility": 2,
+          "confidence": 0.7926
+        },
+        {
+          "name": "left_wrist",
+          "x": 924.23,
+          "y": 1811.5,
+          "visibility": 2,
+          "confidence": 0.9492
+        },
+        {
+          "name": "right_wrist",
+          "x": 688.98,
+          "y": 1724.88,
+          "visibility": 2,
+          "confidence": 0.8389
+        },
+        {
+          "name": "left_hip",
+          "x": 1278.07,
+          "y": 2321.57,
+          "visibility": 2,
+          "confidence": 0.8704
+        },
+        {
+          "name": "right_hip",
+          "x": 849.15,
+          "y": 2301.99,
+          "visibility": 2,
+          "confidence": 0.8346
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0751
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0571
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0045
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0042
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -3.76
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FKL-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FKL-0001-0000-0000.json"
+  }
+}

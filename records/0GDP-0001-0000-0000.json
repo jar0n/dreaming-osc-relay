@@ -1,0 +1,291 @@
+{
+  "identifier": "NG3049",
+  "full_title": "A Boy with a Mousetrap",
+  "short_title": "A Boy with a Mousetrap",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "19.2 × 13.3 cm",
+  "production_date": "about 1678-9",
+  "brief_description": "A boy sits in a dark room, but a glimmer of light through the window reveals his face and the dead mouse he holds in one hand. The other hand covers the mousetrap. This is not a portrait but an imaginary situation, intended as an entertainment and, possibly, a moral lesson.\n\nThe boy lifts his chin to gaze into the distance as if in a dream. His wistful expression would suggest that it’s not the triumph of catching the mouse he’s dreaming of, but something -- or someone -- nearer to his heart and yet far away. The implication is that if you are trapped by love, you are lost in dreams and unaware of the world around you. The correct place for love was thought to be in marriage.",
+  "accession_date": "1916-01-01",
+  "current_location": "Room 15a, The National Gallery (London)",
+  "credit_line": "Bequeathed by Henry L. Florence, 1916",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Adriaen van der Werff",
+    "birth_date": "1659",
+    "death_date": "1722",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3049-00-000016-web.jpg",
+    "filename": "N-3049-00-000016-web.jpg",
+    "image_key": "N-3049-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2700,
+    "aspect_ratio": 0.7111,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 759210
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 32,
+    "horizontal_lines": 16,
+    "vertical_lines": 13,
+    "diagonal_lines": 3,
+    "edge_density": 0.0065,
+    "dominant_angles": [
+      -84.5,
+      0.7,
+      -1.3,
+      0.0,
+      -87.3,
+      -90.0,
+      1.0,
+      -90.0,
+      -90.0,
+      0.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      31,
+      20,
+      16
+    ],
+    "mean_color_hex": "#1f1410",
+    "color_palette": [
+      "#0e080a",
+      "#150c0b",
+      "#1e140f",
+      "#261c15",
+      "#371e11",
+      "#513b2a",
+      "#392d1f",
+      "#4a2b19",
+      "#684c38",
+      "#7b664e"
+    ],
+    "unique_colors": 30019,
+    "color_diversity": 0.0058,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 23.0,
+    "contrast_level": "low",
+    "contrast_value": 0.1481,
+    "dynamic_range": 244,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 98.08,
+    "midtones_percentage": 1.92,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "bbox": [
+          540.95,
+          1132.41,
+          1714.21,
+          2504.72
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1066,
+          1390,
+          1117,
+          1441
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          980,
+          2045,
+          1047,
+          2112
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 960.89,
+          "y": 1598.43,
+          "visibility": 2,
+          "confidence": 0.9961
+        },
+        {
+          "name": "left_eye",
+          "x": 998.3,
+          "y": 1513.87,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "right_eye",
+          "x": 920.05,
+          "y": 1553.13,
+          "visibility": 2,
+          "confidence": 0.9516
+        },
+        {
+          "name": "left_ear",
+          "x": 1149.52,
+          "y": 1498.31,
+          "visibility": 2,
+          "confidence": 0.9729
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2016
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1411.49,
+          "y": 1855.01,
+          "visibility": 2,
+          "confidence": 0.9869
+        },
+        {
+          "name": "right_shoulder",
+          "x": 929.82,
+          "y": 1886.22,
+          "visibility": 2,
+          "confidence": 0.9873
+        },
+        {
+          "name": "left_elbow",
+          "x": 1555.51,
+          "y": 2260.18,
+          "visibility": 2,
+          "confidence": 0.9057
+        },
+        {
+          "name": "right_elbow",
+          "x": 700.02,
+          "y": 2216.43,
+          "visibility": 2,
+          "confidence": 0.8808
+        },
+        {
+          "name": "left_wrist",
+          "x": 1243.88,
+          "y": 2252.56,
+          "visibility": 2,
+          "confidence": 0.9201
+        },
+        {
+          "name": "right_wrist",
+          "x": 820.26,
+          "y": 2325.58,
+          "visibility": 2,
+          "confidence": 0.8719
+        },
+        {
+          "name": "left_hip",
+          "x": 1404.61,
+          "y": 2505.11,
+          "visibility": 2,
+          "confidence": 0.5362
+        },
+        {
+          "name": "right_hip",
+          "x": 1069.79,
+          "y": 2497.47,
+          "visibility": 2,
+          "confidence": 0.5467
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0395
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0371
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0051
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0056
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -0.61
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GDP-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GDP-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "identifier": "NG692",
+  "full_title": "Saint Hugh",
+  "short_title": "Saint Hugh",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "41.3 × 32 cm",
+  "production_date": "about 1525-1600",
+  "brief_description": "The saint in this painting carries a bishop’s crosier and wears the white habit of the Carthusian Order. The Carthusians were an enclosed Catholic religious order of monks and nuns founded by Bruno of Cologne in 1084. Bruno was called to Rome by Pope Urban II, and while there founded a new hermitage in Calabria in southern Italy.\n\nThe way that the crosier has been cropped suggests that the panel may have been cut down from a larger painting. The inscription ‘S~ UGO’ (Italian for Saint Hugh) may be a later addition and it is not certain whether Saint Hugh of Grenoble or Saint Hugh of Lincoln is represented. Both of these saints were Carthusians. However, the white habit may have been underpainted only and left unfinished.\n\nWe do not know who painted this picture. It has previously been attributed to Mansueti and to Lodovico da Parma, who were both working in the sixteenth century, but neither identification is convincing.",
+  "accession_date": "1862-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lt.-General Sir William George Moore, 1862",
+  "associated_concepts": "Italian (North)",
+  "creator": {
+    "name": "Italian, North",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0692-00-000025-web.jpg",
+    "filename": "N-0692-00-000025-web.jpg",
+    "image_key": "N-0692-00-000025",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2529,
+    "aspect_ratio": 0.7592,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1265085
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 537,
+    "horizontal_lines": 40,
+    "vertical_lines": 192,
+    "diagonal_lines": 305,
+    "edge_density": 0.0355,
+    "dominant_angles": [
+      71.9,
+      72.0,
+      72.2,
+      71.9,
+      70.9,
+      72.1,
+      72.5,
+      72.3,
+      71.4,
+      73.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      118,
+      102,
+      79
+    ],
+    "mean_color_hex": "#76664f",
+    "color_palette": [
+      "#211f1d",
+      "#2e2c29",
+      "#c2af88",
+      "#cfbd96",
+      "#5b452d",
+      "#b89e74",
+      "#755735",
+      "#a9875d",
+      "#937046",
+      "#e2d3ac"
+    ],
+    "unique_colors": 62216,
+    "color_diversity": 0.0128,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 104.9,
+    "contrast_level": "medium",
+    "contrast_value": 0.5038,
+    "dynamic_range": 243,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 47.96,
+    "midtones_percentage": 23.82,
+    "highlights_percentage": 28.22
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9074,
+        "bbox": [
+          0.0,
+          158.52,
+          1909.88,
+          2525.82
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          536,
+          2187,
+          632,
+          2283
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          744,
+          468,
+          1546,
+          1270
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1212.19,
+          "y": 967.9,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "left_eye",
+          "x": 1285.13,
+          "y": 785.3,
+          "visibility": 2,
+          "confidence": 0.9814
+        },
+        {
+          "name": "right_eye",
+          "x": 1031.03,
+          "y": 784.03,
+          "visibility": 2,
+          "confidence": 0.9991
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0707
+        },
+        {
+          "name": "right_ear",
+          "x": 672.49,
+          "y": 839.39,
+          "visibility": 2,
+          "confidence": 0.9954
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1579.17,
+          "y": 1810.08,
+          "visibility": 2,
+          "confidence": 0.9636
+        },
+        {
+          "name": "right_shoulder",
+          "x": 253.79,
+          "y": 1857.5,
+          "visibility": 2,
+          "confidence": 0.9622
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0213
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0127
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0361
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0329
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0042
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0029
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F40-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F40-0001-0000-0000.json"
+  }
+}

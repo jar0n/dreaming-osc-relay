@@ -1,0 +1,281 @@
+{
+  "identifier": "NG2145",
+  "full_title": "A Huntsman",
+  "short_title": "A Huntsman",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "116.9 × 64.8 cm",
+  "production_date": "early 16th century",
+  "brief_description": "This small painting of a huntsman is probably by Bonifazio or his studio. It is painted on canvas and was probably made to decorate a piece of domestic furniture. It may derive from a series representing the Labours of the Months, similar to the later series by a Venetian artist in the National Gallery's collection.\n\nIn the background a huntsman follows his hound as it chases into the woods after what appears to be a hare. The huntsman in the foreground stands on a stone parapet, which may relate to the painting’s original setting. He has a rabbit tied by its ears to the stick over his shoulder and he carries a spear in his left hand. The two huntsmen are dressed in similar clothes and the two scenes are probably intended to form a continuous narrative.",
+  "accession_date": "1855-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1855",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Bonifazio di Pitati",
+    "birth_date": "1487",
+    "death_date": "1553",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2145-00-000012-web.jpg",
+    "filename": "N-2145-00-000012-web.jpg",
+    "image_key": "N-2145-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 3475,
+    "aspect_ratio": 0.5525,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 2363117
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 18472,
+    "horizontal_lines": 1526,
+    "vertical_lines": 9935,
+    "diagonal_lines": 7011,
+    "edge_density": 0.1946,
+    "dominant_angles": [
+      -86.0,
+      -83.0,
+      80.0,
+      76.0,
+      -87.0,
+      -84.6,
+      -84.9,
+      76.2,
+      69.1,
+      74.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      89,
+      75,
+      45
+    ],
+    "mean_color_hex": "#594b2d",
+    "color_palette": [
+      "#292214",
+      "#3c311b",
+      "#4a4d33",
+      "#583c1f",
+      "#847041",
+      "#6f582f",
+      "#596145",
+      "#9d8552",
+      "#803522",
+      "#c0a66c"
+    ],
+    "unique_colors": 108555,
+    "color_diversity": 0.0163,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 76.02,
+    "contrast_level": "low",
+    "contrast_value": 0.2658,
+    "dynamic_range": 240,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 63.06,
+    "midtones_percentage": 36.19,
+    "highlights_percentage": 0.76
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7031,
+        "bbox": [
+          169.3,
+          141.86,
+          1808.56,
+          3154.1
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1423,
+          1866,
+          1531,
+          1974
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 799.56,
+          "y": 575.51,
+          "visibility": 2,
+          "confidence": 0.9504
+        },
+        {
+          "name": "left_eye",
+          "x": 830.12,
+          "y": 509.2,
+          "visibility": 2,
+          "confidence": 0.9194
+        },
+        {
+          "name": "right_eye",
+          "x": 762.43,
+          "y": 532.65,
+          "visibility": 2,
+          "confidence": 0.6653
+        },
+        {
+          "name": "left_ear",
+          "x": 940.02,
+          "y": 487.42,
+          "visibility": 2,
+          "confidence": 0.9041
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2025
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1236.72,
+          "y": 743.16,
+          "visibility": 2,
+          "confidence": 0.9965
+        },
+        {
+          "name": "right_shoulder",
+          "x": 726.02,
+          "y": 834.8,
+          "visibility": 2,
+          "confidence": 0.9956
+        },
+        {
+          "name": "left_elbow",
+          "x": 1601.46,
+          "y": 1100.91,
+          "visibility": 2,
+          "confidence": 0.9913
+        },
+        {
+          "name": "right_elbow",
+          "x": 620.44,
+          "y": 1194.86,
+          "visibility": 2,
+          "confidence": 0.9832
+        },
+        {
+          "name": "left_wrist",
+          "x": 1702.84,
+          "y": 1583.82,
+          "visibility": 2,
+          "confidence": 0.9867
+        },
+        {
+          "name": "right_wrist",
+          "x": 440.27,
+          "y": 1505.74,
+          "visibility": 2,
+          "confidence": 0.975
+        },
+        {
+          "name": "left_hip",
+          "x": 1291.45,
+          "y": 1662.31,
+          "visibility": 2,
+          "confidence": 0.9998
+        },
+        {
+          "name": "right_hip",
+          "x": 954.43,
+          "y": 1694.2,
+          "visibility": 2,
+          "confidence": 0.9998
+        },
+        {
+          "name": "left_knee",
+          "x": 1286.11,
+          "y": 2258.34,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "right_knee",
+          "x": 832.58,
+          "y": 2312.42,
+          "visibility": 2,
+          "confidence": 0.9994
+        },
+        {
+          "name": "left_ankle",
+          "x": 1383.61,
+          "y": 2874.85,
+          "visibility": 2,
+          "confidence": 0.9911
+        },
+        {
+          "name": "right_ankle",
+          "x": 905.65,
+          "y": 2907.36,
+          "visibility": 2,
+          "confidence": 0.9914
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": 3.41
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FYU-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FYU-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "identifier": "NG6605",
+  "full_title": "The Lottery in Piazza di Montecitorio",
+  "short_title": "The Lottery in Piazza di Montecitorio",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "105 × 163 cm",
+  "production_date": "1743-4",
+  "brief_description": "This monumental painting shows a large crowd awaiting the results of a lottery draw, which is taking place on the balcony of the Palazzo di Montecitorio in Rome. A man has released the winning ticket into the air -- you can just make out a small piece of paper fluttering towards the excited group beneath.\n\nThe foreground activity is in many ways more intriguing and captivating than the main event. The energetic throng plays an equal role with the architecture, and Panini seems to have relished the opportunity to depict a wide variety of characters. Elegantly dressed ladies and gentlemen stand among market traders and other humble bystanders, their gestures and outfits accented by bright sunlight.\n\nPanini was the greatest view painter in eighteenth-century Rome and this is considered to be one of his most accomplished works.",
+  "accession_date": "2006-08-17",
+  "current_location": "Room 37, The National Gallery (London)",
+  "credit_line": "Accepted by HM Government in lieu of Inheritance Tax and allocated to the National Gallery with additional funding from the Art Fund (including a contribution from the Wolfson Foundation) and a number of gifts in wills, 2006",
+  "associated_concepts": "Italian (Roman)",
+  "creator": {
+    "name": "Giovanni Paolo Panini",
+    "birth_date": "1691",
+    "death_date": "1765",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6605-00-000032-web.jpg",
+    "filename": "N-6605-00-000032-web.jpg",
+    "image_key": "N-6605-00-000032",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1338,
+    "aspect_ratio": 1.435,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 630823
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1463,
+    "horizontal_lines": 1068,
+    "vertical_lines": 172,
+    "diagonal_lines": 223,
+    "edge_density": 0.0893,
+    "dominant_angles": [
+      0.8,
+      -10.1,
+      -6.2,
+      -15.9,
+      2.9,
+      1.1,
+      -0.7,
+      3.1,
+      -4.4,
+      -3.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      122,
+      113,
+      103
+    ],
+    "mean_color_hex": "#7a7167",
+    "color_palette": [
+      "#788590",
+      "#826750",
+      "#695644",
+      "#977c61",
+      "#8a99a5",
+      "#524234",
+      "#3b2f24",
+      "#aab0b3",
+      "#707070",
+      "#ac9273"
+    ],
+    "unique_colors": 68888,
+    "color_diversity": 0.0268,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 114.84,
+    "contrast_level": "low",
+    "contrast_value": 0.2779,
+    "dynamic_range": 203,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 21.88,
+    "midtones_percentage": 72.67,
+    "highlights_percentage": 5.45
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "clock",
+        "confidence": 0.6615,
+        "bbox": [
+          724.1,
+          426.32,
+          780.3,
+          481.64
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3597,
+        "bbox": [
+          634.83,
+          1240.71,
+          709.86,
+          1338.0
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2563,
+        "bbox": [
+          225.59,
+          1026.49,
+          330.17,
+          1108.7
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "clock": 1,
+      "horse": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          796,
+          817,
+          864,
+          885
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0IJC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0IJC-0001-0000-0000.json"
+  }
+}

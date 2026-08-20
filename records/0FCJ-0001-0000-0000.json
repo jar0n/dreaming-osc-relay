@@ -1,0 +1,161 @@
+{
+  "identifier": "NG833",
+  "full_title": "A Stream by a Wood",
+  "short_title": "A Stream by a Wood",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "31.4 × 40.1 cm",
+  "production_date": "about 1663",
+  "brief_description": "This is a study for a larger picture by Meindert Hobbema in the Museum Boijmans Van Beuningen, Rotterdam, and by comparing the two we can get an insight into how he worked. Instead of painting accurate, identifiable views based on a real scene, Hobbema -- and many other landscape specialists of the time -- adapted their compositions according to the effect they wanted to achieve.\n\nIn both versions, Hobbema used the shape of the treeline, the curve of the path and the pond in the middle of the painting as a structure. But for the finished work in Rotterdam he dropped the willow pollards in the centre and the dead branch which is so prominent in the study. He made the scene more animated -- moving the three figures further forward and turning one into a shepherd driving a small group of sheep -- and widened the view, adding a road and two more figures on the left-hand side.",
+  "accession_date": "1871-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1871",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Meindert Hobbema",
+    "birth_date": "1638",
+    "death_date": "1709",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0833-00-000022-web.jpg",
+    "filename": "N-0833-00-000022-web.jpg",
+    "image_key": "N-0833-00-000022",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1495,
+    "aspect_ratio": 1.2843,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 835521
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2601,
+    "horizontal_lines": 1125,
+    "vertical_lines": 68,
+    "diagonal_lines": 1408,
+    "edge_density": 0.0931,
+    "dominant_angles": [
+      3.1,
+      10.2,
+      8.5,
+      2.7,
+      6.0,
+      0.0,
+      6.1,
+      4.1,
+      -26.8,
+      2.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      93,
+      90,
+      71
+    ],
+    "mean_color_hex": "#5d5a47",
+    "color_palette": [
+      "#262014",
+      "#332d1a",
+      "#98998a",
+      "#413b23",
+      "#7c8686",
+      "#8c8b77",
+      "#524c2e",
+      "#aba994",
+      "#65613f",
+      "#7f7954"
+    ],
+    "unique_colors": 47947,
+    "color_diversity": 0.0167,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 88.91,
+    "contrast_level": "medium",
+    "contrast_value": 0.3821,
+    "dynamic_range": 219,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 54.86,
+    "midtones_percentage": 42.91,
+    "highlights_percentage": 2.23
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.4903,
+        "bbox": [
+          1013.54,
+          1032.54,
+          1047.67,
+          1128.17
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2644,
+        "bbox": [
+          569.1,
+          956.57,
+          773.72,
+          1216.32
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "horse": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          178,
+          604,
+          249,
+          675
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FCJ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FCJ-0001-0000-0000.json"
+  }
+}

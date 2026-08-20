@@ -1,0 +1,292 @@
+{
+  "identifier": "NG75",
+  "full_title": "Saint George killing the Dragon",
+  "short_title": "Saint George killing the Dragon",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "52.7 × 61.8 cm",
+  "production_date": "about 1610",
+  "brief_description": "Saint George, a Christian knight, saved a city which was being terrorised by a dragon. Here he charges the beast, who crouches on a grisly collection of bloody bones. The princess, who was to be its next meal, makes a hasty escape on the left.\n\nAlthough ostensibly a history painting, it is the landscape that is really the subject here. Renowned for large-scale frescoes and altarpieces,  Domenichino also painted numerous small landscapes. This may well be one of his earliest, and it conveys the sense of spaciousness which was one of his greatest contributions to landscape painting. He had followed Annibale Carracci to Rome in 1602, and was heavily influenced by him, as well as by Flemish painters working in Rome.",
+  "accession_date": "1831-01-01",
+  "current_location": "Room 27, The National Gallery (London)",
+  "credit_line": "Holwell Carr Bequest, 1831",
+  "associated_concepts": "Italian (Bolognese)",
+  "creator": {
+    "name": "Domenichino",
+    "birth_date": "1581",
+    "death_date": "1641",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0075-00-000012-web.jpg",
+    "filename": "N-0075-00-000012-web.jpg",
+    "image_key": "N-0075-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1631,
+    "aspect_ratio": 1.1772,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 790946
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1664,
+    "horizontal_lines": 860,
+    "vertical_lines": 59,
+    "diagonal_lines": 745,
+    "edge_density": 0.0669,
+    "dominant_angles": [
+      0.7,
+      -6.7,
+      -45.0,
+      0.0,
+      1.0,
+      6.4,
+      4.3,
+      -1.0,
+      2.7,
+      -4.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      60,
+      59,
+      52
+    ],
+    "mean_color_hex": "#3c3b34",
+    "color_palette": [
+      "#1c1812",
+      "#282318",
+      "#343021",
+      "#443f2d",
+      "#535343",
+      "#4a5e7b",
+      "#80898f",
+      "#617189",
+      "#a1a69f",
+      "#6c6b5b"
+    ],
+    "unique_colors": 61931,
+    "color_diversity": 0.0198,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 59.23,
+    "contrast_level": "low",
+    "contrast_value": 0.2958,
+    "dynamic_range": 228,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 76.39,
+    "midtones_percentage": 22.82,
+    "highlights_percentage": 0.79
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.7904,
+        "bbox": [
+          1179.17,
+          1262.49,
+          1728.29,
+          1585.62
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4656,
+        "bbox": [
+          103.21,
+          1087.64,
+          354.61,
+          1389.32
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "horse": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          196,
+          1098,
+          237,
+          1139
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 212.65,
+          "y": 1121.46,
+          "visibility": 2,
+          "confidence": 0.8862
+        },
+        {
+          "name": "left_eye",
+          "x": 220.7,
+          "y": 1113.55,
+          "visibility": 2,
+          "confidence": 0.8689
+        },
+        {
+          "name": "right_eye",
+          "x": 208.76,
+          "y": 1114.42,
+          "visibility": 2,
+          "confidence": 0.604
+        },
+        {
+          "name": "left_ear",
+          "x": 239.13,
+          "y": 1117.29,
+          "visibility": 2,
+          "confidence": 0.8343
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3104
+        },
+        {
+          "name": "left_shoulder",
+          "x": 243.17,
+          "y": 1150.47,
+          "visibility": 2,
+          "confidence": 0.9868
+        },
+        {
+          "name": "right_shoulder",
+          "x": 222.56,
+          "y": 1155.07,
+          "visibility": 2,
+          "confidence": 0.9428
+        },
+        {
+          "name": "left_elbow",
+          "x": 210.57,
+          "y": 1168.02,
+          "visibility": 2,
+          "confidence": 0.9655
+        },
+        {
+          "name": "right_elbow",
+          "x": 180.2,
+          "y": 1169.77,
+          "visibility": 2,
+          "confidence": 0.7359
+        },
+        {
+          "name": "left_wrist",
+          "x": 150.42,
+          "y": 1146.52,
+          "visibility": 2,
+          "confidence": 0.9338
+        },
+        {
+          "name": "right_wrist",
+          "x": 134.78,
+          "y": 1143.19,
+          "visibility": 2,
+          "confidence": 0.7272
+        },
+        {
+          "name": "left_hip",
+          "x": 264.7,
+          "y": 1243.19,
+          "visibility": 2,
+          "confidence": 0.9814
+        },
+        {
+          "name": "right_hip",
+          "x": 249.8,
+          "y": 1245.86,
+          "visibility": 2,
+          "confidence": 0.9567
+        },
+        {
+          "name": "left_knee",
+          "x": 263.16,
+          "y": 1289.46,
+          "visibility": 2,
+          "confidence": 0.9515
+        },
+        {
+          "name": "right_knee",
+          "x": 250.41,
+          "y": 1290.61,
+          "visibility": 2,
+          "confidence": 0.893
+        },
+        {
+          "name": "left_ankle",
+          "x": 307.48,
+          "y": 1354.35,
+          "visibility": 2,
+          "confidence": 0.8464
+        },
+        {
+          "name": "right_ankle",
+          "x": 286.92,
+          "y": 1352.78,
+          "visibility": 2,
+          "confidence": 0.7671
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "raised",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 13.07
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F3C-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F3C-0001-0000-0000.json"
+  }
+}

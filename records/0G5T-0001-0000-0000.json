@@ -1,0 +1,281 @@
+{
+  "identifier": "NG3120",
+  "full_title": "Saint Peter",
+  "short_title": "Saint Peter",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "fresco",
+  "dimensions": "42.8 × 32.8 cm",
+  "production_date": "1350s",
+  "brief_description": "This is a fragment of a painting made in the fresco technique, which involves applying paint to wet plaster. Once dried, the painting becomes part of the wall. It shows a bearded saint -- identifiable by his halo -- shown in profile, and comes from the church of Santa Maria del Carmine in Florence. It may have formed part of the decoration of the chapel dedicated to Saint Andrew.\n\nThe remains of various frescoes were discovered in the chapel in 1859. This one was bought by the archaeologist and explorer, Austen Henry Layard, who left it to the National Gallery in his will. Layard was a founder of the Arundel Society, which aimed to document frescoes in Italian churches and palaces through drawings and art-historical descriptions.\n\nThis fragment is in very poor condition. It is covered in tiny dents, probably caused by air bubbles that erupted as the plaster was drying. It is slightly concave, perhaps due to its position in the chapel: it might have decorated a vault in the ceiling.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (Florentine)",
+  "creator": {
+    "name": "Italian, Florentine",
+    "birth_date": null,
+    "death_date": null,
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3120-00-000012-web.jpg",
+    "filename": "N-3120-00-000012-web.jpg",
+    "image_key": "N-3120-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2567,
+    "aspect_ratio": 0.748,
+    "ratio_type": "portrait (3:4)",
+    "orientation": "portrait",
+    "file_size_bytes": 1297801
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1969,
+    "horizontal_lines": 322,
+    "vertical_lines": 515,
+    "diagonal_lines": 1132,
+    "edge_density": 0.0622,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -24.0,
+      -17.8,
+      62.3,
+      0.0,
+      -20.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      81,
+      71,
+      59
+    ],
+    "mean_color_hex": "#51473b",
+    "color_palette": [
+      "#57473a",
+      "#4c3e32",
+      "#3b3932",
+      "#635241",
+      "#30302b",
+      "#705f4c",
+      "#45443d",
+      "#53524a",
+      "#847359",
+      "#b4a47e"
+    ],
+    "unique_colors": 43572,
+    "color_diversity": 0.0088,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 73.02,
+    "contrast_level": "low",
+    "contrast_value": 0.1385,
+    "dynamic_range": 243,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 77.83,
+    "midtones_percentage": 22.07,
+    "highlights_percentage": 0.1
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "elephant",
+        "confidence": 0.3988,
+        "bbox": [
+          2.0,
+          8.83,
+          1884.84,
+          2549.1
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "elephant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          748,
+          1670,
+          816,
+          1738
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 858.97,
+          "y": 774.85,
+          "visibility": 2,
+          "confidence": 0.8965
+        },
+        {
+          "name": "left_eye",
+          "x": 1015.89,
+          "y": 624.12,
+          "visibility": 2,
+          "confidence": 0.8597
+        },
+        {
+          "name": "right_eye",
+          "x": 710.42,
+          "y": 620.17,
+          "visibility": 2,
+          "confidence": 0.8239
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2175
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1274
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1482.68,
+          "y": 1145.94,
+          "visibility": 2,
+          "confidence": 0.5161
+        },
+        {
+          "name": "right_shoulder",
+          "x": 244.23,
+          "y": 1100.71,
+          "visibility": 2,
+          "confidence": 0.654
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1924
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3684
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4493
+        },
+        {
+          "name": "right_wrist",
+          "x": 609.66,
+          "y": 1861.08,
+          "visibility": 2,
+          "confidence": 0.5791
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.238
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3113
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0254
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0407
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0094
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0134
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G5T-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G5T-0001-0000-0000.json"
+  }
+}

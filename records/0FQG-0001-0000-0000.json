@@ -1,0 +1,312 @@
+{
+  "identifier": "NG1172",
+  "full_title": "Equestrian Portrait of Charles I",
+  "short_title": "Equestrian Portrait of Charles I",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "367 × 292.1 cm",
+  "production_date": "about 1638–9",
+  "brief_description": "A man sits on a muscular horse, towering above a servant who passes him a helmet to complete his suit of armour. A Latin inscription on the tablet hanging from a tree identifies him as 'King of Great Britain' – this is Charles I, surveying his kingdom. Anthony van Dyck painted several portraits of Charles, but at over 3.5 metres high and nearly 3 metres wide, this is the largest.\n\nOther details communicate the King's status: the gold chain around his neck shows that he's a member of an elite society called the Order of the Garter, while the baton of command he holds signals his senior military rank. In the other hand he grasps the reins to his powerful horse -- a symbol of the control he has over his state, something he was to lose only a few years later during the British Civil Wars. In January 1649, he was put on trial for treason, and executed.",
+  "accession_date": "1885-01-01",
+  "current_location": "Room 31, The National Gallery (London)",
+  "credit_line": "Bought, 1885",
+  "associated_concepts": "Flemish",
+  "creator": {
+    "name": "Anthony van Dyck",
+    "birth_date": "1599",
+    "death_date": "1641",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1172-00-000122-web.jpg",
+    "filename": "N-1172-00-000122-web.jpg",
+    "image_key": "N-1172-00-000122",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2412,
+    "aspect_ratio": 0.796,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 783033
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 153,
+    "horizontal_lines": 26,
+    "vertical_lines": 29,
+    "diagonal_lines": 98,
+    "edge_density": 0.0166,
+    "dominant_angles": [
+      54.0,
+      54.0,
+      -66.2,
+      -77.6,
+      -30.2,
+      53.9,
+      -66.0,
+      -68.2,
+      -21.8,
+      -34.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      59,
+      52,
+      40
+    ],
+    "mean_color_hex": "#3b3428",
+    "color_palette": [
+      "#291f13",
+      "#382d1f",
+      "#18130b",
+      "#543e24",
+      "#2e4c65",
+      "#616764",
+      "#797d77",
+      "#735531",
+      "#444742",
+      "#94744b"
+    ],
+    "unique_colors": 57340,
+    "color_diversity": 0.0124,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 53.03,
+    "contrast_level": "low",
+    "contrast_value": 0.2369,
+    "dynamic_range": 206,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 83.78,
+    "midtones_percentage": 16.2,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.9412,
+        "bbox": [
+          383.83,
+          806.39,
+          1792.91,
+          2308.92
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.8158,
+        "bbox": [
+          739.59,
+          559.12,
+          1253.64,
+          1746.85
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "horse": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1234,
+          1326,
+          1296,
+          1388
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1022,
+          555,
+          1136,
+          669
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1008,
+          591,
+          1133,
+          716
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1057.97,
+          "y": 658.24,
+          "visibility": 2,
+          "confidence": 0.9769
+        },
+        {
+          "name": "left_eye",
+          "x": 1081.24,
+          "y": 636.54,
+          "visibility": 2,
+          "confidence": 0.9716
+        },
+        {
+          "name": "right_eye",
+          "x": 1045.41,
+          "y": 636.67,
+          "visibility": 2,
+          "confidence": 0.8869
+        },
+        {
+          "name": "left_ear",
+          "x": 1127.92,
+          "y": 663.58,
+          "visibility": 2,
+          "confidence": 0.904
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3443
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1175.25,
+          "y": 813.17,
+          "visibility": 2,
+          "confidence": 0.9741
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1033.19,
+          "y": 800.59,
+          "visibility": 2,
+          "confidence": 0.9516
+        },
+        {
+          "name": "left_elbow",
+          "x": 1152.6,
+          "y": 991.71,
+          "visibility": 2,
+          "confidence": 0.9035
+        },
+        {
+          "name": "right_elbow",
+          "x": 948.17,
+          "y": 922.0,
+          "visibility": 2,
+          "confidence": 0.7499
+        },
+        {
+          "name": "left_wrist",
+          "x": 1018.39,
+          "y": 1004.39,
+          "visibility": 2,
+          "confidence": 0.8871
+        },
+        {
+          "name": "right_wrist",
+          "x": 822.83,
+          "y": 901.02,
+          "visibility": 2,
+          "confidence": 0.7536
+        },
+        {
+          "name": "left_hip",
+          "x": 1097.98,
+          "y": 1083.71,
+          "visibility": 2,
+          "confidence": 0.8721
+        },
+        {
+          "name": "right_hip",
+          "x": 1003.19,
+          "y": 1064.23,
+          "visibility": 2,
+          "confidence": 0.8231
+        },
+        {
+          "name": "left_knee",
+          "x": 1005.36,
+          "y": 1235.92,
+          "visibility": 2,
+          "confidence": 0.6133
+        },
+        {
+          "name": "right_knee",
+          "x": 891.05,
+          "y": 1216.43,
+          "visibility": 2,
+          "confidence": 0.5015
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2174
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1781
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": -15.94
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FQG-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FQG-0001-0000-0000.json"
+  }
+}

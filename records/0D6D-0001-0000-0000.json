@@ -1,0 +1,312 @@
+{
+  "identifier": "NG599",
+  "full_title": "Madonna of the Meadow",
+  "short_title": "Madonna of the Meadow",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil, originally on wood, transferred to board",
+  "dimensions": "66.5 × 85.1 cm",
+  "production_date": "about 1500-5",
+  "brief_description": "The Virgin Mary adores the Christ Child sleeping on her lap. Giovanni Bellini was one of the first Italian painters to use natural settings to enhance the meaning of his pictures. Here, the still Virgin contrasts with the landscape, where the varying shapes of the clouds, from thin and wispy to fat and fluffy, and the shadows on them give the impression of changeable weather. The clarity of the light, which casts a pale glow on everything it touches, from the Virgin's right sleeve to the walls of the castle in the distance, suggests it is springtime.\n\nChrist's pose would have reminded contemporary viewers of a type of picture known as the Lamentation, or pietà, which showed Christ after his death lying across his mother's knees. And yet the carefully observed landscape evokes hopefulness: spring is a time of renewal in nature and of Easter, the moment of Christ's resurrection from the dead.",
+  "accession_date": "1858-01-01",
+  "current_location": "Room 63, The National Gallery (London)",
+  "credit_line": "Bought, 1858",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Giovanni Bellini",
+    "birth_date": "1435",
+    "death_date": "1516",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0599-00-000084-web.jpg",
+    "filename": "N-0599-00-000084-web.jpg",
+    "image_key": "N-0599-00-000084",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1474,
+    "aspect_ratio": 1.3026,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 678602
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 600,
+    "horizontal_lines": 314,
+    "vertical_lines": 92,
+    "diagonal_lines": 194,
+    "edge_density": 0.0436,
+    "dominant_angles": [
+      -16.2,
+      -10.9,
+      -20.3,
+      -18.0,
+      -12.1,
+      -9.6,
+      -9.8,
+      -11.5,
+      -19.0,
+      0.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      96,
+      94,
+      87
+    ],
+    "mean_color_hex": "#605e57",
+    "color_palette": [
+      "#553e28",
+      "#516e7b",
+      "#6f553a",
+      "#7e8c8e",
+      "#3a2b18",
+      "#1f3445",
+      "#254a65",
+      "#8f7253",
+      "#b59372",
+      "#afafa4"
+    ],
+    "unique_colors": 99179,
+    "color_diversity": 0.035,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 94.33,
+    "contrast_level": "medium",
+    "contrast_value": 0.3087,
+    "dynamic_range": 194,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 46.33,
+    "midtones_percentage": 49.51,
+    "highlights_percentage": 4.16
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7637,
+        "bbox": [
+          410.07,
+          124.39,
+          1711.66,
+          1462.45
+        ]
+      },
+      {
+        "class": "teddy bear",
+        "confidence": 0.611,
+        "bbox": [
+          451.44,
+          690.16,
+          1291.24,
+          1455.33
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "teddy bear": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1519,
+          93,
+          1574,
+          148
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          176,
+          250,
+          243,
+          317
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          878,
+          585,
+          944,
+          651
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 981.11,
+          "y": 380.42,
+          "visibility": 2,
+          "confidence": 0.9984
+        },
+        {
+          "name": "left_eye",
+          "x": 1025.68,
+          "y": 344.2,
+          "visibility": 2,
+          "confidence": 0.9729
+        },
+        {
+          "name": "right_eye",
+          "x": 951.04,
+          "y": 318.16,
+          "visibility": 2,
+          "confidence": 0.9973
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2072
+        },
+        {
+          "name": "right_ear",
+          "x": 850.9,
+          "y": 304.06,
+          "visibility": 2,
+          "confidence": 0.9772
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1067.01,
+          "y": 563.64,
+          "visibility": 2,
+          "confidence": 0.9978
+        },
+        {
+          "name": "right_shoulder",
+          "x": 647.0,
+          "y": 555.35,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "left_elbow",
+          "x": 1165.89,
+          "y": 850.15,
+          "visibility": 2,
+          "confidence": 0.976
+        },
+        {
+          "name": "right_elbow",
+          "x": 553.92,
+          "y": 927.71,
+          "visibility": 2,
+          "confidence": 0.9851
+        },
+        {
+          "name": "left_wrist",
+          "x": 1097.74,
+          "y": 937.47,
+          "visibility": 2,
+          "confidence": 0.967
+        },
+        {
+          "name": "right_wrist",
+          "x": 835.96,
+          "y": 816.61,
+          "visibility": 2,
+          "confidence": 0.9859
+        },
+        {
+          "name": "left_hip",
+          "x": 1004.51,
+          "y": 1039.6,
+          "visibility": 2,
+          "confidence": 0.993
+        },
+        {
+          "name": "right_hip",
+          "x": 705.65,
+          "y": 1066.52,
+          "visibility": 2,
+          "confidence": 0.9933
+        },
+        {
+          "name": "left_knee",
+          "x": 1338.85,
+          "y": 1034.56,
+          "visibility": 2,
+          "confidence": 0.9651
+        },
+        {
+          "name": "right_knee",
+          "x": 884.87,
+          "y": 1068.14,
+          "visibility": 2,
+          "confidence": 0.9706
+        },
+        {
+          "name": "left_ankle",
+          "x": 1307.18,
+          "y": 1382.29,
+          "visibility": 2,
+          "confidence": 0.7816
+        },
+        {
+          "name": "right_ankle",
+          "x": 840.21,
+          "y": 1332.54,
+          "visibility": 2,
+          "confidence": 0.7756
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -7.48
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0D6D-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0D6D-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "identifier": "NG2964",
+  "full_title": "The Battle of Valmy",
+  "short_title": "The Battle of Valmy",
+  "object_name": "Picture",
+  "style": "Romantic",
+  "material": "oil on canvas",
+  "dimensions": "174.6 × 287 cm",
+  "production_date": "1826",
+  "brief_description": "The Battle of Valmy was the French army's first major victory during the wars that followed the French Revolution of 1789. It was both a strategic and a psychological victory for the new French government and helped ensure the survival of the Revolution, which was to transform Europe. The battle took place on 20 September 1792 as Prussian troops, led by the Duke of Brunswick, marched towards Paris. The Prussian advance was halted near the village of Valmy in north-eastern France.\n\nThis was the last to be completed of the four battle scenes that Vernet painted for the duc d'Orléans. Vernet organises the composition around a triangle of raised sunlit ground, its edges defined by rows of soldiers. He gives a prominent position to the old windmill around which the French command was based. Slightly left of centre, the duc d'Orléans and his younger brother, the duc de Montpensier, report on the battle to the comte de Rochambeau, their presence a reminder of their early commitment to the Revolution.",
+  "accession_date": "1914-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Sir John Murray Scott, 1914",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Emile-Jean-Horace Vernet",
+    "birth_date": "1789",
+    "death_date": "1863",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2964-00-000017-web.jpg",
+    "filename": "N-2964-00-000017-web.jpg",
+    "image_key": "N-2964-00-000017",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1171,
+    "aspect_ratio": 1.6396,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 501351
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1308,
+    "horizontal_lines": 1079,
+    "vertical_lines": 18,
+    "diagonal_lines": 211,
+    "edge_density": 0.07,
+    "dominant_angles": [
+      -10.9,
+      5.1,
+      -8.0,
+      -7.0,
+      7.8,
+      3.7,
+      -3.0,
+      5.2,
+      -10.0,
+      -3.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      102,
+      97,
+      85
+    ],
+    "mean_color_hex": "#666155",
+    "color_palette": [
+      "#7a7a78",
+      "#403c32",
+      "#4f504e",
+      "#646560",
+      "#2b261f",
+      "#92908b",
+      "#655336",
+      "#86724b",
+      "#a99264",
+      "#b8ae9a"
+    ],
+    "unique_colors": 99235,
+    "color_diversity": 0.0441,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 97.24,
+    "contrast_level": "low",
+    "contrast_value": 0.2883,
+    "dynamic_range": 213,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 39.82,
+    "midtones_percentage": 58.07,
+    "highlights_percentage": 2.11
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.487,
+        "bbox": [
+          587.1,
+          957.69,
+          731.99,
+          1146.73
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4531,
+        "bbox": [
+          905.87,
+          862.31,
+          1014.29,
+          977.91
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.4319,
+        "bbox": [
+          763.26,
+          870.07,
+          837.16,
+          981.22
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.3936,
+        "bbox": [
+          1225.04,
+          851.28,
+          1421.5,
+          983.5
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2696,
+        "bbox": [
+          424.05,
+          923.4,
+          501.42,
+          1115.82
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2656,
+        "bbox": [
+          1363.53,
+          894.97,
+          1583.86,
+          1040.95
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "horse": 6
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1259,
+          868,
+          1325,
+          934
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GA6-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GA6-0001-0000-0000.json"
+  }
+}

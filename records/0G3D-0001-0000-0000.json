@@ -1,0 +1,301 @@
+{
+  "identifier": "NG3128",
+  "full_title": "Portrait of a Man with Raised Eyebrows",
+  "short_title": "Portrait of a Man with Raised Eyebrows",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on canvas",
+  "dimensions": "45.7 × 37.8 cm",
+  "production_date": "about 1570-5",
+  "brief_description": "An unidentified man regards us with a look of affable irony, his eyebrows raised. His chain mail sleeves and tunic would have been worn beneath plate armour, suggesting that he engages in some form of military activity. Similar costume is worn by noblemen in other portraits by Moroni.\n\nThe sitter's reaction to our presence -- raising his eyebrows -- creates a strong  sense of psychological interaction. This expression is unusual in portraiture at this date although Moroni repeated it elsewhere. The feathery brushstrokes in the face, beard and hair bring a liveliness and spontaneity to this small, intimate portrait, and add to the sense that this is a fleeting expression painted rapidly from life.\n\nMoroni uses unobtrusive diagonals set up by background shadows and the slope of the shoulders to give emphasis to the sitter's raised eyebrows and the tilt of his head. The subtlety of both expression and composition is characteristic of Moroni's late work.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (Bergamo)",
+  "creator": {
+    "name": "Giovanni Battista Moroni",
+    "birth_date": "1520",
+    "death_date": "1579",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3128-00-000016-web.jpg",
+    "filename": "N-3128-00-000016-web.jpg",
+    "image_key": "N-3128-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2239,
+    "aspect_ratio": 0.8575,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 946464
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1215,
+    "horizontal_lines": 136,
+    "vertical_lines": 344,
+    "diagonal_lines": 735,
+    "edge_density": 0.0279,
+    "dominant_angles": [
+      0.0,
+      45.0,
+      41.1,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      56,
+      48,
+      37
+    ],
+    "mean_color_hex": "#383025",
+    "color_palette": [
+      "#332c21",
+      "#15110f",
+      "#2b2419",
+      "#1e1a15",
+      "#403627",
+      "#4a4232",
+      "#6a5438",
+      "#7e6b4d",
+      "#afac91",
+      "#918d76"
+    ],
+    "unique_colors": 28252,
+    "color_diversity": 0.0066,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 49.45,
+    "contrast_level": "low",
+    "contrast_value": 0.2542,
+    "dynamic_range": 220,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 89.05,
+    "midtones_percentage": 9.73,
+    "highlights_percentage": 1.22
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.9001,
+        "bbox": [
+          12.1,
+          186.9,
+          1763.4,
+          2238.07
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1038,
+          1647,
+          1106,
+          1715
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1234,
+          1683,
+          1329,
+          1778
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          780,
+          369,
+          1539,
+          1128
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1209.0,
+          "y": 834.46,
+          "visibility": 2,
+          "confidence": 0.9977
+        },
+        {
+          "name": "left_eye",
+          "x": 1302.7,
+          "y": 682.9,
+          "visibility": 2,
+          "confidence": 0.9752
+        },
+        {
+          "name": "right_eye",
+          "x": 1038.53,
+          "y": 642.25,
+          "visibility": 2,
+          "confidence": 0.9992
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0325
+        },
+        {
+          "name": "right_ear",
+          "x": 672.64,
+          "y": 713.02,
+          "visibility": 2,
+          "confidence": 0.9961
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1565.95,
+          "y": 1689.42,
+          "visibility": 2,
+          "confidence": 0.9406
+        },
+        {
+          "name": "right_shoulder",
+          "x": 208.61,
+          "y": 1637.06,
+          "visibility": 2,
+          "confidence": 0.8579
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0164
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0035
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0343
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0138
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0012
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0009
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0006
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0002
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G3D-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G3D-0001-0000-0000.json"
+  }
+}

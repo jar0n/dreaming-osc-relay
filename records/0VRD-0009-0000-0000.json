@@ -1,0 +1,322 @@
+{
+  "identifier": "NG6696",
+  "full_title": "Portrait of Algernon Moses Marsden",
+  "short_title": "Portrait of Algernon Moses Marsden",
+  "object_name": "Picture",
+  "style": null,
+  "material": "oil on canvas",
+  "dimensions": "48 × 72.5 cm",
+  "production_date": "1877",
+  "brief_description": "For its lavish interiors, the objets d’art in the background, and the swaggering self-confidence of the sitter, this portrait has become an icon of the late 19th century’s Aesthetic movement. Painted by Jacques Joseph (James) Tissot, a French émigré who settled in London in 1871, it depicts the art dealer Algernon Moses Marsden (1847–1920). Tissot captures him at the height of his fame. Marsden, then aged 30, sits nonchalantly in a leather armchair covered by a tiger-skin rug. He leans his head on his left hand while holding a cigar in his right, his gaze directed at the viewer. A member of a wealthy Jewish family of clothing retailers, in 1872 Marsden established himself as an art dealer. A gambler and bon viveur, he would later file for bankruptcy three times.",
+  "accession_date": "2022-09-26",
+  "current_location": "Room 41, The National Gallery (London)",
+  "credit_line": "Bought jointly by the National Gallery and the National Portrait Gallery, with the generous support of Sir Martyn Arbib and his children, 2022",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Jacques Joseph (James) Tissot",
+    "birth_date": "1836",
+    "death_date": "1902",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6696-00-000006-web.jpg",
+    "filename": "N-6696-00-000006-web.jpg",
+    "image_key": "N-6696-00-000006",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1287,
+    "aspect_ratio": 1.4918,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 511850
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 344,
+    "horizontal_lines": 112,
+    "vertical_lines": 99,
+    "diagonal_lines": 133,
+    "edge_density": 0.0344,
+    "dominant_angles": [
+      0.0,
+      79.1,
+      4.4,
+      45.0,
+      45.0,
+      82.5,
+      83.0,
+      -1.1,
+      79.8,
+      59.5
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      79,
+      63,
+      46
+    ],
+    "mean_color_hex": "#4f3f2e",
+    "color_palette": [
+      "#2f251f",
+      "#201c19",
+      "#423125",
+      "#563f2c",
+      "#68513a",
+      "#847251",
+      "#a47e4b",
+      "#85603a",
+      "#9b8b66",
+      "#afa174"
+    ],
+    "unique_colors": 45083,
+    "color_diversity": 0.0182,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 66.48,
+    "contrast_level": "medium",
+    "contrast_value": 0.3043,
+    "dynamic_range": 190,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 72.16,
+    "midtones_percentage": 27.32,
+    "highlights_percentage": 0.52
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.8285,
+        "bbox": [
+          502.53,
+          2.92,
+          689.05,
+          411.94
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3604,
+        "bbox": [
+          337.2,
+          58.85,
+          1607.53,
+          764.05
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3325,
+        "bbox": [
+          57.64,
+          60.16,
+          1639.38,
+          1275.3
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "vase": 1,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          552,
+          49,
+          630,
+          127
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1002,
+          827,
+          1086,
+          911
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1056,
+          143,
+          1359,
+          446
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1206.5,
+          "y": 305.22,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "left_eye",
+          "x": 1272.69,
+          "y": 263.89,
+          "visibility": 2,
+          "confidence": 0.9694
+        },
+        {
+          "name": "right_eye",
+          "x": 1176.29,
+          "y": 256.37,
+          "visibility": 2,
+          "confidence": 0.9492
+        },
+        {
+          "name": "left_ear",
+          "x": 1361.85,
+          "y": 300.35,
+          "visibility": 2,
+          "confidence": 0.8333
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.396
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1434.29,
+          "y": 519.16,
+          "visibility": 2,
+          "confidence": 0.9576
+        },
+        {
+          "name": "right_shoulder",
+          "x": 962.08,
+          "y": 465.13,
+          "visibility": 2,
+          "confidence": 0.985
+        },
+        {
+          "name": "left_elbow",
+          "x": 1512.47,
+          "y": 664.39,
+          "visibility": 2,
+          "confidence": 0.7578
+        },
+        {
+          "name": "right_elbow",
+          "x": 641.06,
+          "y": 618.85,
+          "visibility": 2,
+          "confidence": 0.9216
+        },
+        {
+          "name": "left_wrist",
+          "x": 1433.81,
+          "y": 369.57,
+          "visibility": 2,
+          "confidence": 0.8317
+        },
+        {
+          "name": "right_wrist",
+          "x": 461.11,
+          "y": 648.73,
+          "visibility": 2,
+          "confidence": 0.8788
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3086
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4318
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0111
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0172
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0016
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0021
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "raised",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0VRD-0009-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0VRD-0009-0000-0000.json"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "identifier": "NG6607",
+  "full_title": "Snow Scene at Argenteuil",
+  "short_title": "Snow Scene at Argenteuil",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "71.1 × 91.4 cm",
+  "production_date": "1875",
+  "brief_description": "In 1871 Monet moved with his family to Argenteuil, a suburb north-west of Paris. During his six-year stay there he painted around 200 pictures of the town and its surroundings. This picture is one of 18 Argenteuil canvases that record the snowy winter of 1874/5. The figures trudging along the road may be making their way to or from the nearby railway station, while wavy brown cart tracks snake into the distance, drawing our eye towards the horizon.\n\nMonet's focus is on the atmospheric conditions: it is an overcast afternoon and the sun is fading from the sky. His palette is almost monochromatic, the whites, blues and greys warmed with pink tones and accented with occasional touches of stronger colour. The paint on the road in the foreground is thicker than elsewhere in the picture, perhaps because Monet was trying to suggest the physical presence of deep snow.",
+  "accession_date": "2008-02-04",
+  "current_location": "Room 41, The National Gallery (London)",
+  "credit_line": "Bequeathed by Simon Sainsbury, 2006",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Claude Monet",
+    "birth_date": "1840",
+    "death_date": "1926",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6607-00-000013-web.jpg",
+    "filename": "N-6607-00-000013-web.jpg",
+    "image_key": "N-6607-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1512,
+    "aspect_ratio": 1.2698,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 857796
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 2952,
+    "horizontal_lines": 1016,
+    "vertical_lines": 217,
+    "diagonal_lines": 1719,
+    "edge_density": 0.1086,
+    "dominant_angles": [
+      -14.0,
+      -13.7,
+      -13.3,
+      -27.0,
+      -9.9,
+      -22.0,
+      -13.2,
+      2.2,
+      5.7,
+      -26.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      170,
+      171,
+      180
+    ],
+    "mean_color_hex": "#aaabb4",
+    "color_palette": [
+      "#b4b6bd",
+      "#c8c4c5",
+      "#a3a3ab",
+      "#95949e",
+      "#a0aebe",
+      "#b8c2cf",
+      "#ccd1db",
+      "#88848a",
+      "#736f73",
+      "#5b5558"
+    ],
+    "unique_colors": 69262,
+    "color_diversity": 0.0239,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 172.19,
+    "contrast_level": "low",
+    "contrast_value": 0.2214,
+    "dynamic_range": 213,
+    "tonal_key": "high-key (bright)",
+    "shadows_percentage": 0.76,
+    "midtones_percentage": 38.64,
+    "highlights_percentage": 60.6
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7944,
+        "bbox": [
+          938.45,
+          854.52,
+          993.03,
+          998.97
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.7326,
+        "bbox": [
+          986.45,
+          853.17,
+          1035.9,
+          1014.89
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 5,
+    "faces_detected": 5,
+    "faces": [
+      {
+        "bbox": [
+          1726,
+          644,
+          1780,
+          698
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          306,
+          1146,
+          360,
+          1200
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1804,
+          508,
+          1858,
+          562
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1606,
+          716,
+          1684,
+          794
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1055,
+          715,
+          1126,
+          786
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0J1X-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0J1X-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "identifier": "NG1207",
+  "full_title": "The Hay Wain",
+  "short_title": "The Hay Wain",
+  "object_name": "Picture",
+  "style": "Romantic",
+  "material": "oil on canvas",
+  "dimensions": "130.2 × 185.4 cm",
+  "production_date": "1821",
+  "brief_description": "The view is of the millpond at Flatford on the River Stour. Flatford Mill was a watermill for grinding corn, operated by the Constable family for nearly a hundred years. It still survives and is about a mile from Constable's birthplace at East Bergholt, Suffolk. The house on the left also survives; in Constable's time it was occupied by tenant farmer Willy Lott.\n\nThe title, The Hay Wain, refers to the wooden wagon (wain) used for transporting cut and dried meadow grass (hay). The empty wagon is making its way through the shallow water to cross to the meadow on the other side where haymakers are at work.\n\nAlthough the painting evokes a Suffolk scene, it was created in the artist's studio in London. Working from a number of open-air sketches made over several years, Constable then made a full-size preparatory oil sketch to establish the composition before painting the final picture.",
+  "accession_date": "1886-01-01",
+  "current_location": "Room 40, The National Gallery (London)",
+  "credit_line": "Presented by Henry Vaughan, 1886",
+  "associated_concepts": "British",
+  "creator": {
+    "name": "John Constable",
+    "birth_date": "1776",
+    "death_date": "1837",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1207-00-000085-web.jpg",
+    "filename": "N-1207-00-000085-web.jpg",
+    "image_key": "N-1207-00-000085",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1322,
+    "aspect_ratio": 1.4523,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 729814
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 2179,
+    "horizontal_lines": 1277,
+    "vertical_lines": 27,
+    "diagonal_lines": 875,
+    "edge_density": 0.1029,
+    "dominant_angles": [
+      7.0,
+      5.8,
+      4.3,
+      1.2,
+      5.1,
+      7.1,
+      -2.7,
+      3.6,
+      4.8,
+      18.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      99,
+      89,
+      71
+    ],
+    "mean_color_hex": "#635947",
+    "color_palette": [
+      "#3a2f1d",
+      "#4a3d26",
+      "#292114",
+      "#5c4d33",
+      "#928f84",
+      "#6c5f47",
+      "#a7a394",
+      "#807561",
+      "#c3b9a4",
+      "#6f7e84"
+    ],
+    "unique_colors": 64440,
+    "color_diversity": 0.0254,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 90.48,
+    "contrast_level": "medium",
+    "contrast_value": 0.3608,
+    "dynamic_range": 212,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 55.08,
+    "midtones_percentage": 38.16,
+    "highlights_percentage": 6.76
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.3219,
+        "bbox": [
+          554.85,
+          897.03,
+          617.31,
+          957.32
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.2988,
+        "bbox": [
+          1811.99,
+          1159.29,
+          1853.49,
+          1213.58
+        ]
+      },
+      {
+        "class": "bird",
+        "confidence": 0.2879,
+        "bbox": [
+          639.89,
+          1134.64,
+          676.56,
+          1216.76
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2802,
+        "bbox": [
+          1052.2,
+          945.94,
+          1100.5,
+          1035.37
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2654,
+        "bbox": [
+          1182.68,
+          970.06,
+          1228.11,
+          1021.37
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2575,
+        "bbox": [
+          570.88,
+          897.46,
+          617.36,
+          953.56
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "person": 4,
+      "bird": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1528,
+          589,
+          1683,
+          744
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FV6-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FV6-0001-0000-0000.json"
+  }
+}

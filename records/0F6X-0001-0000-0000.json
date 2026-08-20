@@ -1,0 +1,179 @@
+{
+  "identifier": "NG962",
+  "full_title": "A Distant View of Dordrecht, with a Sleeping Herdsman and Five Cows ('The Small Dort')",
+  "short_title": "The Small Dort",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "66.4 × 100 cm",
+  "production_date": "about 1650-2",
+  "brief_description": "This painting is very similar to but roughly half the size of another landscape by Aelbert Cuyp, also in the National Gallery's collection: A Distant View of Dordrecht, with a Milkmaid and Four Cows, and Other Figures. We don't know which was painted first but presumably one of Cuyp’s customers saw one of the paintings, liked it and asked him for a bigger or smaller version.\n\nMost of Cuyp’s clients were wealthy merchants in his hometown of Dordrecht, and several had land and property in the countryside beyond; almost certainly they would have had an interest in dairy farming. Cows were a national success story. The seventeenth century had seen increasing improvements in breeding stock, better feeding practice and reclamation of flooded land -- low-lying pasture was much better for cattle than sheep. Cheese and butter were not only national staples, they were now key exports. In short, cattle represented wealth, peaceful prosperity and plenty.",
+  "accession_date": "1876-01-01",
+  "current_location": "Room 19, The National Gallery (London)",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Aelbert Cuyp",
+    "birth_date": "1620",
+    "death_date": "1691",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0962-00-000027-web.jpg",
+    "filename": "N-0962-00-000027-web.jpg",
+    "image_key": "N-0962-00-000027",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1269,
+    "aspect_ratio": 1.513,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 509399
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 182,
+    "horizontal_lines": 61,
+    "vertical_lines": 20,
+    "diagonal_lines": 101,
+    "edge_density": 0.0321,
+    "dominant_angles": [
+      7.1,
+      -21.9,
+      2.2,
+      4.2,
+      4.8,
+      -20.8,
+      -22.7,
+      -12.5,
+      -2.0,
+      31.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      111,
+      101,
+      85
+    ],
+    "mean_color_hex": "#6f6555",
+    "color_palette": [
+      "#969385",
+      "#30251b",
+      "#a7a392",
+      "#413321",
+      "#1e1614",
+      "#847f72",
+      "#c0b79b",
+      "#5c4624",
+      "#77613b",
+      "#9d804f"
+    ],
+    "unique_colors": 47739,
+    "color_diversity": 0.0196,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 102.49,
+    "contrast_level": "medium",
+    "contrast_value": 0.4335,
+    "dynamic_range": 234,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 44.66,
+    "midtones_percentage": 46.58,
+    "highlights_percentage": 8.76
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cow",
+        "confidence": 0.8801,
+        "bbox": [
+          815.41,
+          609.41,
+          1326.7,
+          870.33
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.8425,
+        "bbox": [
+          309.0,
+          737.35,
+          757.23,
+          1022.94
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.6144,
+        "bbox": [
+          1357.6,
+          944.7,
+          1715.41,
+          1078.85
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.5563,
+        "bbox": [
+          793.71,
+          734.15,
+          1353.67,
+          1024.3
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.2631,
+        "bbox": [
+          1200.21,
+          734.97,
+          1663.05,
+          968.55
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "cow": 5
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 0,
+    "faces_detected": 0,
+    "faces": [],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F6X-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F6X-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "identifier": "NG2291",
+  "full_title": "Cardinal de Retz",
+  "short_title": "Cardinal de Retz",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "72.5 × 58.2 cm",
+  "production_date": "1676",
+  "brief_description": "The sitter's identity is given in a later inscription at the top left as: ‘Le cardinal de Retz’ and confirmed by comparison with engraved portraits of him.\n\nJean François-Paul de Gondi (1613--1679) was made Cardinal de Retz in 1652. However, later that year, as a leader in the Fronde (French civil disturbances from 1648 to 1653), he was imprisoned by Cardinal Mazarin, the first minister of Louis XIII. Cardinal de Retz travelled widely in Europe before returning to France after Mazarin’s death in 1662.\n\nGiven Retz’s probable age in the portrait -- he appears to be in his late 50s -- he may have been portrayed in Rome during one of the conclaves to elect the pope he attended in 1667, 1670 or 1676. The conclave of 1670 continued over a period of four months, so this seems the most likely opportunity for Retz to have commissioned a portrait. It was also at this moment that Voet was painting portraits of a number of cardinals in Rome.",
+  "accession_date": "1908-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by George Fielder, 1908",
+  "associated_concepts": "Italian (Roman)",
+  "creator": {
+    "name": "Jakob Ferdinand Voet",
+    "birth_date": "1639",
+    "death_date": "1689",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2291-00-000019-web.jpg",
+    "filename": "N-2291-00-000019-web.jpg",
+    "image_key": "N-2291-00-000019",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2372,
+    "aspect_ratio": 0.8094,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 820887
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 100,
+    "horizontal_lines": 36,
+    "vertical_lines": 10,
+    "diagonal_lines": 54,
+    "edge_density": 0.0087,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      -90.0,
+      0.0,
+      -90.0,
+      0.0,
+      -90.0,
+      -2.2,
+      -90.0,
+      -2.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      85,
+      43,
+      39
+    ],
+    "mean_color_hex": "#552b27",
+    "color_palette": [
+      "#1d140f",
+      "#8a2e2e",
+      "#762126",
+      "#31251b",
+      "#983c3a",
+      "#5f141d",
+      "#463a2e",
+      "#806f62",
+      "#645548",
+      "#a08573"
+    ],
+    "unique_colors": 46578,
+    "color_diversity": 0.0102,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 55.24,
+    "contrast_level": "low",
+    "contrast_value": 0.2463,
+    "dynamic_range": 204,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 84.19,
+    "midtones_percentage": 15.72,
+    "highlights_percentage": 0.09
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.908,
+        "bbox": [
+          4.98,
+          262.02,
+          1891.0,
+          2370.16
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          785,
+          1730,
+          930,
+          1875
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          746,
+          416,
+          1326,
+          996
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          417,
+          339,
+          1196,
+          1118
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1074.78,
+          "y": 735.52,
+          "visibility": 2,
+          "confidence": 0.9974
+        },
+        {
+          "name": "left_eye",
+          "x": 1142.92,
+          "y": 641.5,
+          "visibility": 2,
+          "confidence": 0.9935
+        },
+        {
+          "name": "right_eye",
+          "x": 938.67,
+          "y": 651.33,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "left_ear",
+          "x": 1229.75,
+          "y": 727.47,
+          "visibility": 2,
+          "confidence": 0.6977
+        },
+        {
+          "name": "right_ear",
+          "x": 728.07,
+          "y": 768.35,
+          "visibility": 2,
+          "confidence": 0.9583
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1466.71,
+          "y": 1274.97,
+          "visibility": 2,
+          "confidence": 0.9738
+        },
+        {
+          "name": "right_shoulder",
+          "x": 493.63,
+          "y": 1389.75,
+          "visibility": 2,
+          "confidence": 0.9844
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2155
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3079
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1081
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1621
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0473
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0515
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0028
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0037
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0014
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0016
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G6Y-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G6Y-0001-0000-0000.json"
+  }
+}

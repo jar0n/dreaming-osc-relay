@@ -1,0 +1,311 @@
+{
+  "identifier": "NG2864",
+  "full_title": "Self Portrait",
+  "short_title": "Self Portrait",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "96.2 × 77 cm",
+  "production_date": "early 1650s",
+  "brief_description": "There is a swagger, even an arrogance, in the bearing of this man who meets our eye so directly and seems so at ease with himself. This is a self portrait, and going by what his contemporaries said about the artist -- Jan Lievens -- we shouldn’t be surprised at his self-confident air. An English ambassador, Sir Robert Kerr, wrote a letter describing him: 'he thinks there is none to be compared with him in all Germany, Holland, nor the rest of the 17 Provinces [of the Low Countries].'\n\nLievens' dress is that of a man of wealth and fashion, and the landscape behind suggests the formal grounds of a country estate. The aristocracy were among his most important customers: he was demonstrating that he could paint them in a suitable style. But the confidence of his pose suggests that he may have considered himself their social equal too.",
+  "accession_date": "1912-01-01",
+  "current_location": "Room 20, The National Gallery (London)",
+  "credit_line": "Presented by Charles Fairfax Murray, 1912",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Lievens",
+    "birth_date": "1607",
+    "death_date": "1674",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2864-00-000018-web.jpg",
+    "filename": "N-2864-00-000018-web.jpg",
+    "image_key": "N-2864-00-000018",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2387,
+    "aspect_ratio": 0.8044,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 893166
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 707,
+    "horizontal_lines": 22,
+    "vertical_lines": 240,
+    "diagonal_lines": 445,
+    "edge_density": 0.0234,
+    "dominant_angles": [
+      35.0,
+      -78.1,
+      35.0,
+      -74.9,
+      -76.6,
+      32.1,
+      35.0,
+      -79.0,
+      -75.2,
+      -74.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      49,
+      42,
+      31
+    ],
+    "mean_color_hex": "#312a1f",
+    "color_palette": [
+      "#19130f",
+      "#241c13",
+      "#362611",
+      "#272724",
+      "#3d3f3d",
+      "#513c1d",
+      "#675e4b",
+      "#877f6b",
+      "#a8a08b",
+      "#cbc4aa"
+    ],
+    "unique_colors": 56150,
+    "color_diversity": 0.0123,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 43.32,
+    "contrast_level": "low",
+    "contrast_value": 0.2875,
+    "dynamic_range": 230,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 89.62,
+    "midtones_percentage": 7.94,
+    "highlights_percentage": 2.45
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.5037,
+        "bbox": [
+          98.53,
+          396.61,
+          1909.7,
+          2373.08
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4506,
+        "bbox": [
+          126.38,
+          397.71,
+          1346.44,
+          2342.3
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          220,
+          551,
+          285,
+          616
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          586,
+          526,
+          991,
+          931
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          336,
+          1540,
+          661,
+          1865
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 805.69,
+          "y": 758.04,
+          "visibility": 2,
+          "confidence": 0.9982
+        },
+        {
+          "name": "left_eye",
+          "x": 852.83,
+          "y": 665.14,
+          "visibility": 2,
+          "confidence": 0.983
+        },
+        {
+          "name": "right_eye",
+          "x": 709.36,
+          "y": 688.14,
+          "visibility": 2,
+          "confidence": 0.9957
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4488
+        },
+        {
+          "name": "right_ear",
+          "x": 562.79,
+          "y": 750.28,
+          "visibility": 2,
+          "confidence": 0.9453
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1177.78,
+          "y": 1070.11,
+          "visibility": 2,
+          "confidence": 0.996
+        },
+        {
+          "name": "right_shoulder",
+          "x": 466.72,
+          "y": 1229.78,
+          "visibility": 2,
+          "confidence": 0.9969
+        },
+        {
+          "name": "left_elbow",
+          "x": 1571.35,
+          "y": 1635.49,
+          "visibility": 2,
+          "confidence": 0.934
+        },
+        {
+          "name": "right_elbow",
+          "x": 540.7,
+          "y": 1905.91,
+          "visibility": 2,
+          "confidence": 0.954
+        },
+        {
+          "name": "left_wrist",
+          "x": 1149.19,
+          "y": 1527.23,
+          "visibility": 2,
+          "confidence": 0.9429
+        },
+        {
+          "name": "right_wrist",
+          "x": 943.7,
+          "y": 1499.31,
+          "visibility": 2,
+          "confidence": 0.9693
+        },
+        {
+          "name": "left_hip",
+          "x": 1347.61,
+          "y": 2163.85,
+          "visibility": 2,
+          "confidence": 0.8063
+        },
+        {
+          "name": "right_hip",
+          "x": 890.03,
+          "y": 2255.1,
+          "visibility": 2,
+          "confidence": 0.8327
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.075
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.104
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0051
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0062
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": 8.83
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GBE-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GBE-0001-0000-0000.json"
+  }
+}

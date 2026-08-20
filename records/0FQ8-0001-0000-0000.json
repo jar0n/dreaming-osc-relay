@@ -1,0 +1,211 @@
+{
+  "identifier": "NG985",
+  "full_title": "Sheep and Goats",
+  "short_title": "Sheep and Goats",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on copper",
+  "dimensions": "18 × 20.9 cm",
+  "production_date": "1673",
+  "brief_description": "Dujardin’s animals are alive and realistic. They’re softly lit, the white wool of the sheep almost glowing in the evening sun; their solid, rounded forms are echoed in the puffy white clouds overhead. The flesh under the wool appears plump and heavy, and the skilled painting of the wool itself makes the curly texture appear almost tactile.\n\nThis painting -- small, but charming and detailed -- was made late in Karel Dujardin’s life, when he was living in Amsterdam. It seems to show nostalgia for the hills in the Campagna (the countryside around Rome), where he had lived for a while as a young man.\n\nPaintings of landscape and animals were extremely popular in the seventeenth-century Netherlands. For city dwellers, they were a reminder of a way of life that they might have seen as idyllic, and a reminder that part of their nation's prosperity came from the countryside.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Karel Dujardin",
+    "birth_date": "1626",
+    "death_date": "1678",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0985-00-000010-web.jpg",
+    "filename": "N-0985-00-000010-web.jpg",
+    "image_key": "N-0985-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1642,
+    "aspect_ratio": 1.1693,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 859721
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 854,
+    "horizontal_lines": 347,
+    "vertical_lines": 67,
+    "diagonal_lines": 440,
+    "edge_density": 0.0648,
+    "dominant_angles": [
+      0.0,
+      45.0,
+      31.4,
+      -1.0,
+      33.0,
+      29.9,
+      4.0,
+      -4.8,
+      -90.0,
+      -82.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      117,
+      118,
+      90
+    ],
+    "mean_color_hex": "#75765a",
+    "color_palette": [
+      "#413b25",
+      "#a8bea6",
+      "#2c281c",
+      "#676447",
+      "#575135",
+      "#8f906c",
+      "#7d7a57",
+      "#93aa8f",
+      "#b3af7f",
+      "#dbcd8e"
+    ],
+    "unique_colors": 70405,
+    "color_diversity": 0.0223,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 114.98,
+    "contrast_level": "medium",
+    "contrast_value": 0.3993,
+    "dynamic_range": 236,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 33.97,
+    "midtones_percentage": 44.86,
+    "highlights_percentage": 21.17
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "sheep",
+        "confidence": 0.8385,
+        "bbox": [
+          1077.33,
+          1069.26,
+          1706.54,
+          1471.27
+        ]
+      },
+      {
+        "class": "cow",
+        "confidence": 0.53,
+        "bbox": [
+          36.84,
+          748.4,
+          866.52,
+          1484.91
+        ]
+      },
+      {
+        "class": "sheep",
+        "confidence": 0.3611,
+        "bbox": [
+          885.01,
+          1034.3,
+          1102.8,
+          1204.31
+        ]
+      },
+      {
+        "class": "sheep",
+        "confidence": 0.3147,
+        "bbox": [
+          690.85,
+          1166.81,
+          1175.5,
+          1494.27
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "sheep": 3,
+      "cow": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          1076,
+          1361,
+          1131,
+          1416
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1213,
+          1116,
+          1280,
+          1183
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1681,
+          1275,
+          1752,
+          1346
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          112,
+          961,
+          243,
+          1092
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FQ8-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FQ8-0001-0000-0000.json"
+  }
+}

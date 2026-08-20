@@ -1,0 +1,323 @@
+{
+  "identifier": "NG2614",
+  "full_title": "The Magdalen",
+  "short_title": "The Magdalen",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "30 × 20.3 cm",
+  "production_date": "about 1510",
+  "brief_description": "Saint Mary Magdalene is identified by her emblem, the covered pot containing the ointment with which she anointed Christ.\n\nThis small panel is one of at least twelve versions of this image. The others are very similar in size, style and technique and may have been mass produced by tracing in the same workshop. All are attributed to an artist known as the Master of the Magdalen Legend after a large dismembered triptych showing episodes from the life of Mary Magdalene, probably painted in the mid-1520s. The Master also painted The Magdalen Weeping (also in the National Gallery collection), which is considerably better drawn and painted.\n\nThe artist of this panel was a poor draughtsman: Mary's cranium is too high and narrow, her eyes are not properly aligned, her nose is too far in profile and her hands are too small and look oddly boneless. But such faults do not preclude an attribution to the Master, who had no facility for drawing.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Master of the Magdalen Legend",
+    "birth_date": "1483",
+    "death_date": "1527",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2614-00-000013-web.jpg",
+    "filename": "N-2614-00-000013-web.jpg",
+    "image_key": "N-2614-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2650,
+    "aspect_ratio": 0.7245,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1314899
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 3770,
+    "horizontal_lines": 88,
+    "vertical_lines": 2032,
+    "diagonal_lines": 1650,
+    "edge_density": 0.0883,
+    "dominant_angles": [
+      88.1,
+      -88.7,
+      -89.1,
+      -86.2,
+      84.5,
+      -80.3,
+      -72.1,
+      88.0,
+      -81.1,
+      -84.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      65,
+      53,
+      35
+    ],
+    "mean_color_hex": "#413523",
+    "color_palette": [
+      "#131110",
+      "#1e1c17",
+      "#352b18",
+      "#523619",
+      "#704a22",
+      "#b29663",
+      "#7e663c",
+      "#977e4f",
+      "#cdac76",
+      "#525037"
+    ],
+    "unique_colors": 125036,
+    "color_diversity": 0.0246,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 54.8,
+    "contrast_level": "medium",
+    "contrast_value": 0.3749,
+    "dynamic_range": 249,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 77.55,
+    "midtones_percentage": 18.93,
+    "highlights_percentage": 3.52
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.655,
+        "bbox": [
+          401.51,
+          194.47,
+          1679.26,
+          2640.45
+        ]
+      },
+      {
+        "class": "bottle",
+        "confidence": 0.4497,
+        "bbox": [
+          195.09,
+          1539.03,
+          624.55,
+          2631.11
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.2672,
+        "bbox": [
+          832.77,
+          1449.86,
+          928.95,
+          1714.52
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "bottle": 1,
+      "tie": 1
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1281,
+          1708,
+          1339,
+          1766
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          749,
+          1560,
+          899,
+          1710
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          572,
+          734,
+          1058,
+          1220
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 788.9,
+          "y": 1046.02,
+          "visibility": 2,
+          "confidence": 0.997
+        },
+        {
+          "name": "left_eye",
+          "x": 891.54,
+          "y": 903.05,
+          "visibility": 2,
+          "confidence": 0.9971
+        },
+        {
+          "name": "right_eye",
+          "x": 716.62,
+          "y": 912.84,
+          "visibility": 2,
+          "confidence": 0.9576
+        },
+        {
+          "name": "left_ear",
+          "x": 1132.56,
+          "y": 877.05,
+          "visibility": 2,
+          "confidence": 0.9845
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1641
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1436.78,
+          "y": 1638.22,
+          "visibility": 2,
+          "confidence": 0.988
+        },
+        {
+          "name": "right_shoulder",
+          "x": 571.27,
+          "y": 1527.8,
+          "visibility": 2,
+          "confidence": 0.9829
+        },
+        {
+          "name": "left_elbow",
+          "x": 1414.94,
+          "y": 2471.75,
+          "visibility": 2,
+          "confidence": 0.6672
+        },
+        {
+          "name": "right_elbow",
+          "x": 447.36,
+          "y": 2105.36,
+          "visibility": 2,
+          "confidence": 0.5188
+        },
+        {
+          "name": "left_wrist",
+          "x": 886.84,
+          "y": 2317.32,
+          "visibility": 2,
+          "confidence": 0.8452
+        },
+        {
+          "name": "right_wrist",
+          "x": 438.77,
+          "y": 1898.72,
+          "visibility": 2,
+          "confidence": 0.7584
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0952
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0895
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0054
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0057
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0008
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FOF-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FOF-0001-0000-0000.json"
+  }
+}

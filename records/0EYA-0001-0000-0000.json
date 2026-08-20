@@ -1,0 +1,181 @@
+{
+  "identifier": "NG5983",
+  "full_title": "Still Life with Apples and a Pomegranate",
+  "short_title": "Still Life with Apples and a Pomegranate",
+  "object_name": "Picture",
+  "style": "Barbizon",
+  "material": "oil on canvas",
+  "dimensions": "44.5 × 61 cm",
+  "production_date": "1871-2",
+  "brief_description": "In a warm and dark room, Courbet’s rich, ripe apples seem to glow as if in firelight. The heavy earthenware bowl lined with pale blue slip seems almost too small for the weight of the fruit piled into it. Among them is a single pomegranate, squeezed in at the base of the heap.\n\nIn 1871 Courbet was jailed for his involvement in the Paris Commune, the radical government that ruled Paris for a few months that year. Allowed to paint but forbidden to have models pose for him, his sister Zoé brought him flowers and fruit, and he was able to explore still-life painting, a genre almost new to him.\n\nCourbet knew the still-life paintings of seventeenth-century Dutch artists in which rotting fruit and dying flowers were symbols of the fleeting nature of life. But Courbet’s apples are things of beauty, rather than a warning of death. They are his affirmation of life -- each one singular, sweet-smelling and tactile.",
+  "accession_date": "1951-01-01",
+  "current_location": "Room 25, The National Gallery (London)",
+  "credit_line": "Bought, 1951",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Gustave Courbet",
+    "birth_date": "1819",
+    "death_date": "1877",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5983-00-000042-web.jpg",
+    "filename": "N-5983-00-000042-web.jpg",
+    "image_key": "N-5983-00-000042",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1411,
+    "aspect_ratio": 1.3607,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 435852
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 20,
+    "horizontal_lines": 19,
+    "vertical_lines": 0,
+    "diagonal_lines": 1,
+    "edge_density": 0.0028,
+    "dominant_angles": [
+      4.5,
+      -7.2,
+      4.2,
+      -4.8,
+      -3.4,
+      -8.4,
+      3.4,
+      3.4,
+      -8.0,
+      -6.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      50,
+      30,
+      19
+    ],
+    "mean_color_hex": "#321e13",
+    "color_palette": [
+      "#1d140f",
+      "#241a15",
+      "#321c13",
+      "#402013",
+      "#472a18",
+      "#572211",
+      "#6f2a11",
+      "#362d21",
+      "#5a4321",
+      "#7e541d"
+    ],
+    "unique_colors": 37600,
+    "color_diversity": 0.0139,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 35.24,
+    "contrast_level": "low",
+    "contrast_value": 0.1067,
+    "dynamic_range": 157,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 99.14,
+    "midtones_percentage": 0.86,
+    "highlights_percentage": 0.0
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "apple",
+        "confidence": 0.4286,
+        "bbox": [
+          1174.74,
+          778.3,
+          1449.87,
+          1029.07
+        ]
+      },
+      {
+        "class": "apple",
+        "confidence": 0.3591,
+        "bbox": [
+          109.5,
+          933.24,
+          388.92,
+          1195.14
+        ]
+      },
+      {
+        "class": "bowl",
+        "confidence": 0.2851,
+        "bbox": [
+          512.87,
+          384.11,
+          1788.01,
+          1233.64
+        ]
+      },
+      {
+        "class": "apple",
+        "confidence": 0.2819,
+        "bbox": [
+          871.8,
+          565.46,
+          1163.34,
+          824.27
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "apple": 3,
+      "bowl": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1154,
+          609,
+          1235,
+          690
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EYA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EYA-0001-0000-0000.json"
+  }
+}

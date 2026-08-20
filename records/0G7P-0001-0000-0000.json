@@ -1,0 +1,322 @@
+{
+  "identifier": "NG3099",
+  "full_title": "The Sultan Mehmet II",
+  "short_title": "The Sultan Mehmet II",
+  "object_name": "Picture",
+  "style": "Ottoman",
+  "material": "oil, originally on wood, transferred to canvas",
+  "dimensions": "69.9 × 52.1 cm",
+  "production_date": "1480",
+  "brief_description": "As ruler of the expanding Islamic Ottoman Empire, Sultan Mehmet II was one of the most powerful men in the world when this portrait was painted. Fascinated by portraiture and European culture, he sent a request for a painter to the Venetian authorities in 1479. Gentile Bellini, having recently completed a series of portraits of the doges (elected rulers) of Venice, was well qualified for the task.\n\nThe majority of those portraits were painted in the traditional profile view, but here Gentile has shown the Sultan's face and body turned slightly towards the viewer, a new fashion in Venice. Although the painting is quite damaged we can still see many meticulous details, like the embroidered cloth hanging over the marble ledge, its many gems and pearls a sign of wealth and magnificence. To further glorify the Sultan, Gentile included three golden crowns on either side of the arch -- probably intended to represent Greece, Trebizond and Asia, which Mehmet ruled.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display, Victoria and Albert Museum",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Gentile Bellini",
+    "birth_date": "1460",
+    "death_date": "1507",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "Victoria and Albert Museum",
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3099-00-000024-web.jpg",
+    "filename": "N-3099-00-000024-web.jpg",
+    "image_key": "N-3099-00-000024",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2595,
+    "aspect_ratio": 0.7399,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1290921
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 3103,
+    "horizontal_lines": 595,
+    "vertical_lines": 1538,
+    "diagonal_lines": 970,
+    "edge_density": 0.0734,
+    "dominant_angles": [
+      -90.0,
+      86.8,
+      84.6,
+      78.1,
+      86.3,
+      -90.0,
+      79.8,
+      80.7,
+      82.2,
+      86.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      65,
+      51,
+      27
+    ],
+    "mean_color_hex": "#41331b",
+    "color_palette": [
+      "#1b1a13",
+      "#242017",
+      "#382612",
+      "#4f2911",
+      "#5d3d10",
+      "#665224",
+      "#776533",
+      "#4d3d1e",
+      "#8b7942",
+      "#a49052"
+    ],
+    "unique_colors": 57842,
+    "color_diversity": 0.0116,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 52.76,
+    "contrast_level": "low",
+    "contrast_value": 0.2371,
+    "dynamic_range": 208,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 84.08,
+    "midtones_percentage": 15.91,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7903,
+        "bbox": [
+          315.64,
+          553.29,
+          1579.03,
+          2005.31
+        ]
+      },
+      {
+        "class": "chair",
+        "confidence": 0.3912,
+        "bbox": [
+          293.18,
+          1954.69,
+          1585.69,
+          2593.17
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 1,
+      "chair": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          331,
+          678,
+          378,
+          725
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          158,
+          1787,
+          202,
+          1831
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1731,
+          1062,
+          1794,
+          1125
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          231,
+          759,
+          301,
+          829
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 671.16,
+          "y": 1164.96,
+          "visibility": 2,
+          "confidence": 0.9939
+        },
+        {
+          "name": "left_eye",
+          "x": 756.43,
+          "y": 1078.68,
+          "visibility": 2,
+          "confidence": 0.9954
+        },
+        {
+          "name": "right_eye",
+          "x": 662.13,
+          "y": 1073.62,
+          "visibility": 2,
+          "confidence": 0.9128
+        },
+        {
+          "name": "left_ear",
+          "x": 1012.24,
+          "y": 1075.68,
+          "visibility": 2,
+          "confidence": 0.9839
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1175
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1342.55,
+          "y": 1577.52,
+          "visibility": 2,
+          "confidence": 0.9639
+        },
+        {
+          "name": "right_shoulder",
+          "x": 609.2,
+          "y": 1511.54,
+          "visibility": 2,
+          "confidence": 0.9811
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2805
+        },
+        {
+          "name": "right_elbow",
+          "x": 382.71,
+          "y": 2042.31,
+          "visibility": 2,
+          "confidence": 0.5074
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.305
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3876
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0501
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0879
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0024
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0045
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0009
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G7P-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G7P-0001-0000-0000.json"
+  }
+}

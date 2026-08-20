@@ -1,0 +1,312 @@
+{
+  "identifier": "NG1009",
+  "full_title": "A White Horse standing by a Sleeping Man",
+  "short_title": "A White Horse standing by a Sleeping Man",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "31.8 × 27 cm",
+  "production_date": "about 1652",
+  "brief_description": "In this strange little picture, Pieter Verbeeck appears to be telling us a story, though it's impossible to say what it is. A man, apparently a vagrant, sleeps under a tree with his dog. A patient horse waits for them, its rein hanging down loose close to the man's hand. Another man appears over the breast of the hill and seems to eye the group. He has a couple of scruffy dogs with him and carries a club over his shoulder.\n\nAlthough the green of some of the leaves has turned blue with age, the other colours in the painting appear remarkably fresh. Verbeeck was influenced by the work of Paulus Potter and Isack van Ostade, as well as by Dutch landscape painters known as the Italianates. He, like them, painted pictures full of soft, warm Mediterranean colours that proved popular with collectors.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Pieter Verbeeck",
+    "birth_date": "1610",
+    "death_date": "1654",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1009-00-000016-web.jpg",
+    "filename": "N-1009-00-000016-web.jpg",
+    "image_key": "N-1009-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2237,
+    "aspect_ratio": 0.8583,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1091297
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2341,
+    "horizontal_lines": 126,
+    "vertical_lines": 639,
+    "diagonal_lines": 1576,
+    "edge_density": 0.0675,
+    "dominant_angles": [
+      59.0,
+      45.0,
+      -67.7,
+      86.1,
+      -80.1,
+      45.0,
+      45.0,
+      -67.4,
+      45.0,
+      -82.4
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      104,
+      93,
+      74
+    ],
+    "mean_color_hex": "#685d4a",
+    "color_palette": [
+      "#433422",
+      "#57442a",
+      "#2e241a",
+      "#6a573a",
+      "#707e81",
+      "#ac9f7d",
+      "#816e4f",
+      "#908a73",
+      "#919b98",
+      "#bfb38f"
+    ],
+    "unique_colors": 79833,
+    "color_diversity": 0.0186,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 94.72,
+    "contrast_level": "medium",
+    "contrast_value": 0.34,
+    "dynamic_range": 242,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 50.37,
+    "midtones_percentage": 45.51,
+    "highlights_percentage": 4.12
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.9251,
+        "bbox": [
+          438.41,
+          1088.14,
+          1226.95,
+          1927.5
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.831,
+        "bbox": [
+          102.89,
+          1513.96,
+          497.98,
+          2030.34
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "horse": 1,
+      "person": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          444,
+          1279,
+          546,
+          1381
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          573,
+          501,
+          667,
+          595
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          786,
+          225,
+          993,
+          432
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4977
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0761
+        },
+        {
+          "name": "right_eye",
+          "x": 438.33,
+          "y": 1581.59,
+          "visibility": 2,
+          "confidence": 0.6179
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0412
+        },
+        {
+          "name": "right_ear",
+          "x": 420.97,
+          "y": 1556.21,
+          "visibility": 2,
+          "confidence": 0.8502
+        },
+        {
+          "name": "left_shoulder",
+          "x": 380.38,
+          "y": 1591.81,
+          "visibility": 2,
+          "confidence": 0.8564
+        },
+        {
+          "name": "right_shoulder",
+          "x": 376.07,
+          "y": 1592.76,
+          "visibility": 2,
+          "confidence": 0.9853
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4938
+        },
+        {
+          "name": "right_elbow",
+          "x": 399.41,
+          "y": 1747.27,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4497
+        },
+        {
+          "name": "right_wrist",
+          "x": 414.94,
+          "y": 1804.66,
+          "visibility": 2,
+          "confidence": 0.9057
+        },
+        {
+          "name": "left_hip",
+          "x": 219.5,
+          "y": 1707.37,
+          "visibility": 2,
+          "confidence": 0.9761
+        },
+        {
+          "name": "right_hip",
+          "x": 214.71,
+          "y": 1705.7,
+          "visibility": 2,
+          "confidence": 0.9922
+        },
+        {
+          "name": "left_knee",
+          "x": 345.28,
+          "y": 1826.82,
+          "visibility": 2,
+          "confidence": 0.9703
+        },
+        {
+          "name": "right_knee",
+          "x": 334.15,
+          "y": 1833.88,
+          "visibility": 2,
+          "confidence": 0.991
+        },
+        {
+          "name": "left_ankle",
+          "x": 203.71,
+          "y": 1918.59,
+          "visibility": 2,
+          "confidence": 0.9432
+        },
+        {
+          "name": "right_ankle",
+          "x": 183.55,
+          "y": 1930.16,
+          "visibility": 2,
+          "confidence": 0.9716
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": -54.31
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FSA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FSA-0001-0000-0000.json"
+  }
+}

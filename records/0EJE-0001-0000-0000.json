@@ -1,0 +1,221 @@
+{
+  "identifier": "NG5174",
+  "full_title": "Flowers in a Vase",
+  "short_title": "Flowers in a Vase",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on wood",
+  "dimensions": "78.4 × 61.2 cm",
+  "production_date": "1789",
+  "brief_description": "Costly blooms like roses and tulips are tumbled together with humbler flowers like morning glory and marigolds, forming an exuberant, almost wild, bouquet. Tiny insects burrow through the petals while a cabbage white butterfly balances precariously on top.\n\nThe painting isn’t as spontaneous as it appears. These flowers are never in bloom at the same time; Paulus Theodorus van Brussel painted each from sketches made when they were. Most of all, he achieved the unkempt, haphazard look of the bouquet through careful design. The blue iris takes centre stage, the single upright flower. It’s supported by a strong diagonal of flowers in paler colours, from the pink rose at the bottom on the left up to the striped tulips on the right at the top. This allows leaves, stems and smaller blooms to straggle seemingly at will, helping to create an artful disorder.",
+  "accession_date": "1940-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Sir Arthur Jackson, 1940",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Paulus Theodorus van Brussel",
+    "birth_date": "1754",
+    "death_date": "1795",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5174-00-000015-web.jpg",
+    "filename": "N-5174-00-000015-web.jpg",
+    "image_key": "N-5174-00-000015",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2455,
+    "aspect_ratio": 0.7821,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 992824
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1264,
+    "horizontal_lines": 40,
+    "vertical_lines": 248,
+    "diagonal_lines": 976,
+    "edge_density": 0.0615,
+    "dominant_angles": [
+      0.0,
+      -62.0,
+      -69.2,
+      -45.0,
+      -61.9,
+      45.0,
+      -80.4,
+      -45.0,
+      -60.1,
+      -57.9
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      90,
+      70,
+      43
+    ],
+    "mean_color_hex": "#5a462b",
+    "color_palette": [
+      "#41371e",
+      "#584c2b",
+      "#312517",
+      "#6f3e18",
+      "#532b15",
+      "#83562e",
+      "#8f7655",
+      "#6a6448",
+      "#a69679",
+      "#243e42"
+    ],
+    "unique_colors": 125965,
+    "color_diversity": 0.0267,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 73.47,
+    "contrast_level": "low",
+    "contrast_value": 0.2239,
+    "dynamic_range": 183,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 72.93,
+    "midtones_percentage": 26.69,
+    "highlights_percentage": 0.37
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "vase",
+        "confidence": 0.5235,
+        "bbox": [
+          579.7,
+          1535.09,
+          1188.81,
+          1950.65
+        ]
+      },
+      {
+        "class": "potted plant",
+        "confidence": 0.4294,
+        "bbox": [
+          11.17,
+          94.78,
+          1902.93,
+          2247.11
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "vase": 1,
+      "potted plant": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 7,
+    "faces_detected": 7,
+    "faces": [
+      {
+        "bbox": [
+          445,
+          1302,
+          500,
+          1357
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1172,
+          760,
+          1239,
+          827
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1265,
+          949,
+          1325,
+          1009
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          636,
+          896,
+          698,
+          958
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          995,
+          172,
+          1087,
+          264
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          455,
+          462,
+          609,
+          616
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          160,
+          1187,
+          324,
+          1351
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EJE-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EJE-0001-0000-0000.json"
+  }
+}

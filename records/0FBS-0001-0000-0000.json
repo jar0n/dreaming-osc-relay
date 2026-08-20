@@ -1,0 +1,312 @@
+{
+  "identifier": "NG717",
+  "full_title": "Saint John on Patmos",
+  "short_title": "Saint John on Patmos",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "37.2 × 23.3 cm",
+  "production_date": "about 1540",
+  "brief_description": "Saint John the Evangelist is seated on the island of Patmos writing the Book of Revelation. He seems to have reached the twelfth of his 22 chapters, given the appearance in heaven of the 'woman clothed with the sun', and the red dragon with seven heads. They are floating in the sky at the top right.\n\nJohn holds a quill pen, while the eagle that is his emblem grasps his inkwell and pen-case in its beak. On the right, a small monster crouching on the shore of the island waves a stick at the eagle: in the Renaissance, pictures of the saint often included a devil trying to disturb his writing.\n\nThe artist may have known Hans Memling's Saint John on Patmos -- the figure of the saint is a free, reversed version of Memling's, and the woman and the dragon are much as Memling imagined them. The tiny island, the pen-case and the inkwell are reminiscent of manuscript painting.",
+  "accession_date": "1863-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Queen Victoria at the Prince Consort's wish, 1863",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Master of the Female Half-Lengths",
+    "birth_date": "1525",
+    "death_date": "1550",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0717-00-000016-web.jpg",
+    "filename": "N-0717-00-000016-web.jpg",
+    "image_key": "N-0717-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2846,
+    "aspect_ratio": 0.6746,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1331115
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1220,
+    "horizontal_lines": 107,
+    "vertical_lines": 482,
+    "diagonal_lines": 631,
+    "edge_density": 0.0419,
+    "dominant_angles": [
+      68.2,
+      68.2,
+      83.0,
+      63.9,
+      65.9,
+      50.0,
+      -87.1,
+      62.8,
+      84.9,
+      65.3
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      76,
+      83,
+      72
+    ],
+    "mean_color_hex": "#4c5348",
+    "color_palette": [
+      "#394c3c",
+      "#211f13",
+      "#323524",
+      "#683024",
+      "#799b99",
+      "#587f82",
+      "#3a6062",
+      "#64614b",
+      "#a3b1a6",
+      "#8b7d65"
+    ],
+    "unique_colors": 139271,
+    "color_diversity": 0.0255,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 79.88,
+    "contrast_level": "medium",
+    "contrast_value": 0.3141,
+    "dynamic_range": 246,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 64.83,
+    "midtones_percentage": 32.9,
+    "highlights_percentage": 2.27
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6489,
+        "bbox": [
+          255.12,
+          1440.44,
+          1489.4,
+          2708.3
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.393,
+        "bbox": [
+          1018.75,
+          1411.08,
+          1128.02,
+          1460.2
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3049,
+        "bbox": [
+          1432.79,
+          1342.11,
+          1577.39,
+          1487.35
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "boat": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          1656,
+          174,
+          1711,
+          229
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          528,
+          165,
+          601,
+          238
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 891.67,
+          "y": 1586.31,
+          "visibility": 2,
+          "confidence": 0.9872
+        },
+        {
+          "name": "left_eye",
+          "x": 900.01,
+          "y": 1553.15,
+          "visibility": 2,
+          "confidence": 0.8153
+        },
+        {
+          "name": "right_eye",
+          "x": 854.5,
+          "y": 1561.47,
+          "visibility": 2,
+          "confidence": 0.982
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2077
+        },
+        {
+          "name": "right_ear",
+          "x": 764.58,
+          "y": 1595.57,
+          "visibility": 2,
+          "confidence": 0.9575
+        },
+        {
+          "name": "left_shoulder",
+          "x": 880.65,
+          "y": 1719.66,
+          "visibility": 2,
+          "confidence": 0.9938
+        },
+        {
+          "name": "right_shoulder",
+          "x": 673.6,
+          "y": 1789.76,
+          "visibility": 2,
+          "confidence": 0.9989
+        },
+        {
+          "name": "left_elbow",
+          "x": 993.38,
+          "y": 1931.79,
+          "visibility": 2,
+          "confidence": 0.9643
+        },
+        {
+          "name": "right_elbow",
+          "x": 706.82,
+          "y": 2052.2,
+          "visibility": 2,
+          "confidence": 0.996
+        },
+        {
+          "name": "left_wrist",
+          "x": 1091.88,
+          "y": 2017.96,
+          "visibility": 2,
+          "confidence": 0.9681
+        },
+        {
+          "name": "right_wrist",
+          "x": 871.63,
+          "y": 1986.09,
+          "visibility": 2,
+          "confidence": 0.9942
+        },
+        {
+          "name": "left_hip",
+          "x": 952.67,
+          "y": 2092.75,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "right_hip",
+          "x": 826.88,
+          "y": 2155.52,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_knee",
+          "x": 1193.01,
+          "y": 2132.55,
+          "visibility": 2,
+          "confidence": 0.9935
+        },
+        {
+          "name": "right_knee",
+          "x": 1098.69,
+          "y": 2216.73,
+          "visibility": 2,
+          "confidence": 0.9972
+        },
+        {
+          "name": "left_ankle",
+          "x": 1284.64,
+          "y": 2448.64,
+          "visibility": 2,
+          "confidence": 0.9621
+        },
+        {
+          "name": "right_ankle",
+          "x": 1295.81,
+          "y": 2514.08,
+          "visibility": 2,
+          "confidence": 0.9771
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": 10.93
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FBS-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FBS-0001-0000-0000.json"
+  }
+}

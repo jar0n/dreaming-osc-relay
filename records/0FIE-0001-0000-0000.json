@@ -1,0 +1,180 @@
+{
+  "identifier": "NG1469",
+  "full_title": "Still Life: Pewter and Silver Vessels and a Crab",
+  "short_title": "Still Life: Pewter and Silver Vessels and a Crab",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "54.2 × 73.8 cm",
+  "production_date": "probably about 1633-7",
+  "brief_description": "Willem Claesz. Heda uses muted colours to show us the ingredients of a meal -- with a focus on quality, not quantity. Everything on the table is expensive: this is the meal of a rich man. The white table cloth is made of damask, a luxurious silk fabric. Lemons were brought in from the Mediterranean, the porcelain blue and white plate came from China, and the pepper, spilt on a pewter plate, arrived in the Dutch Republic on a merchant ship from the East Indies.\n\nHeda's command of perspective is evident in how he shows the knife on the pewter plate that's almost dropping off the table close to us. He's creating the illusion of a real table with real objects. The ivory handle of the knife also protrudes into our space as if it were real, the blade inserted into a cone of paper rolled from a page from an almanac.",
+  "accession_date": "1896-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Henry J. Pfungst, 1896",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Willem Claesz. Heda",
+    "birth_date": "1594",
+    "death_date": "1680",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1469-00-000016-web.jpg",
+    "filename": "N-1469-00-000016-web.jpg",
+    "image_key": "N-1469-00-000016",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1376,
+    "aspect_ratio": 1.3953,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 466337
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 334,
+    "horizontal_lines": 227,
+    "vertical_lines": 23,
+    "diagonal_lines": 84,
+    "edge_density": 0.03,
+    "dominant_angles": [
+      -1.1,
+      11.9,
+      0.0,
+      -1.1,
+      1.0,
+      -2.0,
+      7.0,
+      -0.9,
+      -2.1,
+      1.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      88,
+      76,
+      46
+    ],
+    "mean_color_hex": "#584c2e",
+    "color_palette": [
+      "#43381a",
+      "#312614",
+      "#514421",
+      "#61522b",
+      "#c0b691",
+      "#786941",
+      "#aa9e7a",
+      "#91845d",
+      "#d9d0ab",
+      "#f5eeca"
+    ],
+    "unique_colors": 49112,
+    "color_diversity": 0.0186,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 76.65,
+    "contrast_level": "medium",
+    "contrast_value": 0.3596,
+    "dynamic_range": 239,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 79.63,
+    "midtones_percentage": 12.13,
+    "highlights_percentage": 8.24
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "cup",
+        "confidence": 0.5778,
+        "bbox": [
+          828.9,
+          475.28,
+          1122.78,
+          764.52
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "cup": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          184,
+          901,
+          236,
+          953
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          984,
+          1259,
+          1050,
+          1325
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1765,
+          1274,
+          1833,
+          1342
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          766,
+          1231,
+          862,
+          1327
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FIE-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FIE-0001-0000-0000.json"
+  }
+}

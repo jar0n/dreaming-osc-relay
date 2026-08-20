@@ -1,0 +1,150 @@
+{
+  "identifier": "NG1917",
+  "full_title": "A Rocky Landscape with an Ox-cart",
+  "short_title": "A Rocky Landscape with an Ox-cart",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "120.5 × 160.5 cm",
+  "production_date": "about 1640-5",
+  "brief_description": "A shaft of light from the low sun seems to point the way forward for the ox cart between the craggy cliffs. Long-haired goats chew on the brittle leaves of scrubby plants, but there's lush greenery on the distant hillside above the lake. The cart is laden with household goods resting on straw, suggesting either that the driver is moving house or, more likely, that he’s a travelling trader.\n\nDuring Jan Both’s three-year stay in Rome he befriended Claude, the great French landscape painter. Claude's style influenced the young Both, which can be seen in this picture: a gold evening or early morning light, deep shadow in the foreground and a misty distance, hidden castles and towers, and slender birch trees with a fine tracery of leaves against the sky.",
+  "accession_date": "1902-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bequeathed by Lord Cheylesmore, 1902",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Jan Both",
+    "birth_date": "1615",
+    "death_date": "1652",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1917-00-000013-web.jpg",
+    "filename": "N-1917-00-000013-web.jpg",
+    "image_key": "N-1917-00-000013",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1441,
+    "aspect_ratio": 1.3324,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 663937
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 2109,
+    "horizontal_lines": 654,
+    "vertical_lines": 145,
+    "diagonal_lines": 1310,
+    "edge_density": 0.0659,
+    "dominant_angles": [
+      -30.1,
+      -45.0,
+      -21.8,
+      -34.9,
+      3.1,
+      -45.0,
+      -29.0,
+      45.0,
+      45.0,
+      -27.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      85,
+      73,
+      43
+    ],
+    "mean_color_hex": "#55492b",
+    "color_palette": [
+      "#2c2210",
+      "#1c160d",
+      "#3b2f16",
+      "#4d3e1a",
+      "#9a9e85",
+      "#8d7c53",
+      "#645223",
+      "#9b8c61",
+      "#7f6a30",
+      "#ba9949"
+    ],
+    "unique_colors": 54583,
+    "color_diversity": 0.0197,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 73.68,
+    "contrast_level": "medium",
+    "contrast_value": 0.3632,
+    "dynamic_range": 212,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 65.31,
+    "midtones_percentage": 34.35,
+    "highlights_percentage": 0.34
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.3276,
+        "bbox": [
+          640.67,
+          977.3,
+          751.55,
+          1068.66
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "horse": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1338,
+          637,
+          1414,
+          713
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FO4-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FO4-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "identifier": "NG980",
+  "full_title": "Boats pulling out to a Yacht in a Calm",
+  "short_title": "Boats pulling out to a Yacht in a Calm",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "43 × 50.5 cm",
+  "production_date": "about 1665",
+  "brief_description": "During the seventeenth century, the Dutch Republic was frequently at war, often with England. It's possible that this is a picture of a fleet preparing for battle.\n\nThe sea is quiet, but there is a sense of urgency in the scene. A crowd of small boats pull out from the shore, the men rowing powerfully as if in a hurry. Others thrust out eager hands towards puffs of smoke from the cannon of two vessels firing a salute – the Statenjacht (state yacht) with the tall sails and the Admiral’s flagship to which it travels. The Statenjacht transported members of the government or visiting dignitaries to visit the Admiral before setting sail, and flies the ensign of the States General. Beyond, more warships gather, appearing little more than shadows on the horizon but adding to the impression of a busy seaway even in a calm.",
+  "accession_date": "1876-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Wynn Ellis Bequest, 1876",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Willem van de Velde",
+    "birth_date": "1633",
+    "death_date": "1707",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0980-00-000014-web.jpg",
+    "filename": "N-0980-00-000014-web.jpg",
+    "image_key": "N-0980-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1619,
+    "aspect_ratio": 1.1859,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 651532
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 146,
+    "horizontal_lines": 100,
+    "vertical_lines": 37,
+    "diagonal_lines": 9,
+    "edge_density": 0.0131,
+    "dominant_angles": [
+      2.7,
+      3.6,
+      2.1,
+      3.3,
+      2.8,
+      2.3,
+      2.6,
+      2.5,
+      2.9,
+      1.8
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      156,
+      156,
+      133
+    ],
+    "mean_color_hex": "#9c9c85",
+    "color_palette": [
+      "#969a85",
+      "#a2a795",
+      "#b7b69c",
+      "#8a8b78",
+      "#77715a",
+      "#c6c8ac",
+      "#b3ab87",
+      "#625b47",
+      "#d9d8b9",
+      "#393123"
+    ],
+    "unique_colors": 40632,
+    "color_diversity": 0.0131,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 154.32,
+    "contrast_level": "low",
+    "contrast_value": 0.2703,
+    "dynamic_range": 229,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 3.76,
+    "midtones_percentage": 63.15,
+    "highlights_percentage": 33.09
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "boat",
+        "confidence": 0.8145,
+        "bbox": [
+          278.76,
+          712.19,
+          583.05,
+          1263.71
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4584,
+        "bbox": [
+          1031.2,
+          918.44,
+          1442.0,
+          1378.52
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.4298,
+        "bbox": [
+          784.01,
+          1215.97,
+          954.79,
+          1287.83
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3854,
+        "bbox": [
+          1433.63,
+          1238.0,
+          1534.31,
+          1323.39
+        ]
+      },
+      {
+        "class": "boat",
+        "confidence": 0.3298,
+        "bbox": [
+          81.53,
+          936.44,
+          217.58,
+          1252.4
+        ]
+      }
+    ],
+    "object_count": 5,
+    "object_types": {
+      "boat": 5
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1199,
+          1214,
+          1237,
+          1252
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0F7S-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0F7S-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "identifier": "NG3080",
+  "full_title": "Saint Paul",
+  "short_title": "Saint Paul",
+  "object_name": "Picture",
+  "style": "Gothic",
+  "material": "oil on wood",
+  "dimensions": "110.5 × 41.9 cm",
+  "production_date": "late 15th century",
+  "brief_description": "A bearded saint stands reading a book, his left hand resting on a sword, in this quietly contemplative picture. We know, from his dark hair and beard and from the objects he holds, that this is Saint Paul: the sword is the weapon with which he was martyred and the book represents his many writings.\n\nThis small panel is one of two in our collection which probably came from the top level of a polyptych (a multi-panelled altarpiece). They were painted in the later years of the fifteenth century by a follower of the great Lombard artists Vincenzo Foppa and Ambrogio Bergognone.\n\nSaint Paul was largely responsible for establishing the Christian Church in the decades after Christ's death. He initially persecuted Christians, but was dramatically converted to the new faith on the road to Ephesus. He wrote a considerable (though debated) number of the books of the New Testament -- hence the book he holds here.",
+  "accession_date": "1916-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Layard Bequest, 1916",
+  "associated_concepts": "Italian (Milanese)",
+  "creator": {
+    "name": "Ambrogio Bergognone",
+    "birth_date": "1481",
+    "death_date": "1523",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-3080-00-000012-web.jpg",
+    "filename": "N-3080-00-000012-web.jpg",
+    "image_key": "N-3080-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 5326,
+    "aspect_ratio": 0.3605,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 3486679
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 9567,
+    "horizontal_lines": 20,
+    "vertical_lines": 7301,
+    "diagonal_lines": 2246,
+    "edge_density": 0.1322,
+    "dominant_angles": [
+      -85.9,
+      87.9,
+      87.8,
+      -90.0,
+      88.7,
+      -89.3,
+      88.1,
+      -85.5,
+      -85.6,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      56,
+      45,
+      34
+    ],
+    "mean_color_hex": "#382d22",
+    "color_palette": [
+      "#22231f",
+      "#181a15",
+      "#2e2f2a",
+      "#342416",
+      "#4a2d1b",
+      "#633320",
+      "#403d33",
+      "#694d2d",
+      "#515046",
+      "#846f48"
+    ],
+    "unique_colors": 89641,
+    "color_diversity": 0.0088,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 47.11,
+    "contrast_level": "low",
+    "contrast_value": 0.1409,
+    "dynamic_range": 255,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 96.42,
+    "midtones_percentage": 3.57,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.6963,
+        "bbox": [
+          244.73,
+          367.08,
+          1596.49,
+          5235.49
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          14,
+          4310,
+          64,
+          4360
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1431,
+          3728,
+          1569,
+          3866
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 951.01,
+          "y": 781.6,
+          "visibility": 2,
+          "confidence": 0.9883
+        },
+        {
+          "name": "left_eye",
+          "x": 1058.67,
+          "y": 672.99,
+          "visibility": 2,
+          "confidence": 0.9829
+        },
+        {
+          "name": "right_eye",
+          "x": 859.58,
+          "y": 658.27,
+          "visibility": 2,
+          "confidence": 0.9484
+        },
+        {
+          "name": "left_ear",
+          "x": 1207.66,
+          "y": 794.89,
+          "visibility": 2,
+          "confidence": 0.8594
+        },
+        {
+          "name": "right_ear",
+          "x": 744.84,
+          "y": 750.07,
+          "visibility": 2,
+          "confidence": 0.5073
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1339.4,
+          "y": 1545.77,
+          "visibility": 2,
+          "confidence": 0.9837
+        },
+        {
+          "name": "right_shoulder",
+          "x": 618.44,
+          "y": 1417.67,
+          "visibility": 2,
+          "confidence": 0.9698
+        },
+        {
+          "name": "left_elbow",
+          "x": 1431.62,
+          "y": 2836.45,
+          "visibility": 2,
+          "confidence": 0.8629
+        },
+        {
+          "name": "right_elbow",
+          "x": 467.74,
+          "y": 2114.37,
+          "visibility": 2,
+          "confidence": 0.7107
+        },
+        {
+          "name": "left_wrist",
+          "x": 1123.76,
+          "y": 3730.62,
+          "visibility": 2,
+          "confidence": 0.7921
+        },
+        {
+          "name": "right_wrist",
+          "x": 642.11,
+          "y": 1784.53,
+          "visibility": 2,
+          "confidence": 0.6984
+        },
+        {
+          "name": "left_hip",
+          "x": 1239.93,
+          "y": 3103.52,
+          "visibility": 2,
+          "confidence": 0.9782
+        },
+        {
+          "name": "right_hip",
+          "x": 796.79,
+          "y": 3080.89,
+          "visibility": 2,
+          "confidence": 0.9694
+        },
+        {
+          "name": "left_knee",
+          "x": 1265.87,
+          "y": 3483.31,
+          "visibility": 2,
+          "confidence": 0.9889
+        },
+        {
+          "name": "right_knee",
+          "x": 968.27,
+          "y": 3523.84,
+          "visibility": 2,
+          "confidence": 0.9854
+        },
+        {
+          "name": "left_ankle",
+          "x": 1241.07,
+          "y": 4693.57,
+          "visibility": 2,
+          "confidence": 0.9643
+        },
+        {
+          "name": "right_ankle",
+          "x": 1134.82,
+          "y": 4619.9,
+          "visibility": 2,
+          "confidence": 0.9596
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "bent",
+        "is_standing": false,
+        "is_sitting": true,
+        "body_angle_degrees": -3.65
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0G1I-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0G1I-0001-0000-0000.json"
+  }
+}

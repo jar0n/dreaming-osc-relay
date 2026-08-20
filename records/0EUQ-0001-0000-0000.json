@@ -1,0 +1,170 @@
+{
+  "identifier": "NG4136",
+  "full_title": "Hillside in Provence",
+  "short_title": "Hillside in Provence",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on canvas",
+  "dimensions": "63.5 × 79.4 cm",
+  "production_date": "about 1890-2",
+  "brief_description": "The wall of angular, jutting rock formations in this painting may represent a quarry, with the cuttings revealing geological strata. While the hillside is somewhere in Cezanne's native Provence, the specific location has not been conclusively identified.\n\nStylistically, the painting relates to scenes of the landscape around Aix-en-Provence that Cezanne was painting in the mid-1880s.",
+  "accession_date": "1926-01-01",
+  "current_location": "Room 44, The National Gallery (London)",
+  "credit_line": "Bought, Courtauld Fund, 1926",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Paul Cezanne",
+    "birth_date": "1839",
+    "death_date": "1906",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-4136-00-000029-web.jpg",
+    "filename": "N-4136-00-000029-web.jpg",
+    "image_key": "N-4136-00-000029",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1534,
+    "aspect_ratio": 1.2516,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 810211
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 886,
+    "horizontal_lines": 373,
+    "vertical_lines": 39,
+    "diagonal_lines": 474,
+    "edge_density": 0.0697,
+    "dominant_angles": [
+      15.2,
+      45.0,
+      -45.0,
+      11.0,
+      12.3,
+      17.0,
+      0.0,
+      31.9,
+      -32.7,
+      15.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      142,
+      134,
+      113
+    ],
+    "mean_color_hex": "#8e8671",
+    "color_palette": [
+      "#beb4a6",
+      "#4e5950",
+      "#696f63",
+      "#ac916a",
+      "#bfa37e",
+      "#a49c88",
+      "#868775",
+      "#33403a",
+      "#947b4f",
+      "#6e663f"
+    ],
+    "unique_colors": 174072,
+    "color_diversity": 0.0591,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 134.62,
+    "contrast_level": "low",
+    "contrast_value": 0.2989,
+    "dynamic_range": 217,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 12.42,
+    "midtones_percentage": 65.46,
+    "highlights_percentage": 22.12
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "broccoli",
+        "confidence": 0.4223,
+        "bbox": [
+          249.24,
+          48.75,
+          663.75,
+          477.36
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "broccoli": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          579,
+          210,
+          659,
+          290
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          927,
+          1031,
+          1027,
+          1131
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          834,
+          796,
+          931,
+          893
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EUQ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EUQ-0001-0000-0000.json"
+  }
+}

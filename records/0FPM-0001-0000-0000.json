@@ -1,0 +1,201 @@
+{
+  "identifier": "NG2520",
+  "full_title": "A View near Venice (?)",
+  "short_title": "A View near Venice (?)",
+  "object_name": "Picture",
+  "style": "neoclassical",
+  "material": "oil on canvas",
+  "dimensions": "20.7 × 30.8 cm",
+  "production_date": "probably 1775-80",
+  "brief_description": "This is most likely a view of daily life in Venice during the second half of the eighteenth century, rather than an invented capriccio, though the actual site has not yet been identified. The Guidecca, Chioggia and Murano (districts and islands of Venice) have all been suggested.\n\nMen chatting, women doing laundry and an animated boy and his dog give a sense of informality to what is actually a very structured composition. The steeply receding rooflines and the deep shadow cast across the ground lead us towards the waterfront, boats and distant buildings.\n\nGuardi has used very thin paint to describe the foreground buildings which frame the square, with very sketchily dashed off lines giving a sense of windows and stonework.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Italian (Venetian)",
+  "creator": {
+    "name": "Francesco Guardi",
+    "birth_date": "1712",
+    "death_date": "1793",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2520-00-000020-web.jpg",
+    "filename": "N-2520-00-000020-web.jpg",
+    "image_key": "N-2520-00-000020",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1293,
+    "aspect_ratio": 1.4849,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 685501
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 642,
+    "horizontal_lines": 522,
+    "vertical_lines": 1,
+    "diagonal_lines": 119,
+    "edge_density": 0.0521,
+    "dominant_angles": [
+      0.0,
+      0.0,
+      -0.9,
+      0.8,
+      0.0,
+      -15.2,
+      13.1,
+      -10.7,
+      -5.0,
+      4.6
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      98,
+      88,
+      70
+    ],
+    "mean_color_hex": "#625846",
+    "color_palette": [
+      "#5b5f55",
+      "#4d3927",
+      "#676b60",
+      "#3a2b1e",
+      "#866e4f",
+      "#755c3f",
+      "#505146",
+      "#5f4730",
+      "#73796f",
+      "#998061"
+    ],
+    "unique_colors": 44910,
+    "color_diversity": 0.0181,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 89.45,
+    "contrast_level": "low",
+    "contrast_value": 0.1901,
+    "dynamic_range": 192,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 38.25,
+    "midtones_percentage": 61.74,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "horse",
+        "confidence": 0.5579,
+        "bbox": [
+          1630.41,
+          1005.27,
+          1804.05,
+          1140.34
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3858,
+        "bbox": [
+          1330.89,
+          934.64,
+          1369.83,
+          1018.63
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.362,
+        "bbox": [
+          1630.54,
+          1007.83,
+          1709.89,
+          1135.98
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2717,
+        "bbox": [
+          514.76,
+          916.57,
+          551.53,
+          968.14
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2659,
+        "bbox": [
+          1218.78,
+          936.62,
+          1257.33,
+          1019.18
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2516,
+        "bbox": [
+          593.46,
+          934.13,
+          683.46,
+          1023.76
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "horse": 4,
+      "person": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          1035,
+          1049,
+          1099,
+          1113
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FPM-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FPM-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "identifier": "NG1063",
+  "full_title": "A Young Man Praying",
+  "short_title": "A Young Man Praying",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "24.1 × 18.3 cm",
+  "production_date": "probably 1525-30",
+  "brief_description": "We do not know this man's identity, although he was once thought to be the sixteenth-century theologian Martin Luther, who was a leading figure of the Protestant Reformation. This was once the left wing of a folding diptych or triptych (a painting of two or three parts respectively). There are remains of red paint on the reverse, which may have shown an object against a red background, perhaps a stone figure of a biblical character in a red marble niche.\n\nThe portrait has much in common with Bruges paintings of the 1520s. One artist in particular, known as the Master of the Holy Blood, tended to distort his faces in a similar way to that seen here -- the large nose is almost in profile, while the face is in three-quarter view. It seems likely this painting is from his workshop.",
+  "accession_date": "1879-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Bought, 1879",
+  "associated_concepts": "Early Netherlandish",
+  "creator": {
+    "name": "Master of the Holy Blood",
+    "birth_date": "1600",
+    "death_date": "1625",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1063-00-000010-web.jpg",
+    "filename": "N-1063-00-000010-web.jpg",
+    "image_key": "N-1063-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2517,
+    "aspect_ratio": 0.7628,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 939371
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 323,
+    "horizontal_lines": 1,
+    "vertical_lines": 91,
+    "diagonal_lines": 231,
+    "edge_density": 0.0189,
+    "dominant_angles": [
+      0.0,
+      -84.6,
+      45.0,
+      45.0,
+      74.4,
+      45.0,
+      45.0,
+      45.0,
+      -86.0,
+      45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      45,
+      37,
+      28
+    ],
+    "mean_color_hex": "#2d251c",
+    "color_palette": [
+      "#241c14",
+      "#1e1c17",
+      "#1a1712",
+      "#28211a",
+      "#342a22",
+      "#9b7c5a",
+      "#aa8c6e",
+      "#896a47",
+      "#705536",
+      "#573c23"
+    ],
+    "unique_colors": 34352,
+    "color_diversity": 0.0071,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 39.33,
+    "contrast_level": "low",
+    "contrast_value": 0.2262,
+    "dynamic_range": 207,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 90.59,
+    "midtones_percentage": 9.39,
+    "highlights_percentage": 0.02
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8888,
+        "bbox": [
+          51.24,
+          155.53,
+          1915.16,
+          2458.6
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.6383,
+        "bbox": [
+          827.44,
+          1025.3,
+          1191.57,
+          1288.16
+        ]
+      },
+      {
+        "class": "tie",
+        "confidence": 0.3405,
+        "bbox": [
+          350.16,
+          1388.38,
+          1710.69,
+          2353.36
+        ]
+      }
+    ],
+    "object_count": 3,
+    "object_types": {
+      "person": 1,
+      "tie": 2
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          780,
+          881,
+          911,
+          1012
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          910,
+          334,
+          1489,
+          913
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1235.67,
+          "y": 653.35,
+          "visibility": 2,
+          "confidence": 0.9985
+        },
+        {
+          "name": "left_eye",
+          "x": 1296.58,
+          "y": 533.54,
+          "visibility": 2,
+          "confidence": 0.9597
+        },
+        {
+          "name": "right_eye",
+          "x": 1083.61,
+          "y": 537.12,
+          "visibility": 2,
+          "confidence": 0.9991
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0216
+        },
+        {
+          "name": "right_ear",
+          "x": 782.39,
+          "y": 598.88,
+          "visibility": 2,
+          "confidence": 0.9962
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1464.51,
+          "y": 1204.27,
+          "visibility": 2,
+          "confidence": 0.9922
+        },
+        {
+          "name": "right_shoulder",
+          "x": 414.12,
+          "y": 1245.42,
+          "visibility": 2,
+          "confidence": 0.9812
+        },
+        {
+          "name": "left_elbow",
+          "x": 1645.65,
+          "y": 1965.54,
+          "visibility": 2,
+          "confidence": 0.8071
+        },
+        {
+          "name": "right_elbow",
+          "x": 485.92,
+          "y": 2144.42,
+          "visibility": 2,
+          "confidence": 0.6072
+        },
+        {
+          "name": "left_wrist",
+          "x": 1720.03,
+          "y": 1799.29,
+          "visibility": 2,
+          "confidence": 0.8587
+        },
+        {
+          "name": "right_wrist",
+          "x": 1337.67,
+          "y": 1864.48,
+          "visibility": 2,
+          "confidence": 0.8329
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.226
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1349
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0081
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0051
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0007
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0004
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FSY-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FSY-0001-0000-0000.json"
+  }
+}

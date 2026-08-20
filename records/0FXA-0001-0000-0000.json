@@ -1,0 +1,311 @@
+{
+  "identifier": "NG1229",
+  "full_title": "The Virgin and Child",
+  "short_title": "The Virgin and Child",
+  "object_name": "Picture",
+  "style": "high Renaissance",
+  "material": "oil on wood",
+  "dimensions": "28.5 × 19.6 cm",
+  "production_date": "probably 1565-70",
+  "brief_description": "The Virgin gently cradles her son. Luis de Morales sensitively observes the instinctive gesture of the newborn baby tucking his hand through her red gown searching for milk. Mother and child lean into each other, their gazes tenderly interlocking.\n\nMorales explores the sense of touch through both the figures' gestures and their fabrics, which range from a soft transparent veil to the heavy folds of the Virgin's blue mantle. His close observation of detail extends to the figures' individually painted eyelashes and hairs.\n\nThe Virgin and Child, sculpted by a soft light, emerge from a pitch-dark background -- a smoky effect that recalls the figures in Leonardo da Vinci’s paintings. The small format suggests that the panel was intended for private devotion. Morales was active in the Spanish region of Extremadura and painted several of these small devotional paintings for the clergy and private clients there.",
+  "accession_date": "1887-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Gerard F. de Zoete, 1887",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Luis de Morales",
+    "birth_date": "1546",
+    "death_date": "1586",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-1229-00-000037-web.jpg",
+    "filename": "N-1229-00-000037-web.jpg",
+    "image_key": "N-1229-00-000037",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2671,
+    "aspect_ratio": 0.7188,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 1102290
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 1099,
+    "horizontal_lines": 31,
+    "vertical_lines": 595,
+    "diagonal_lines": 473,
+    "edge_density": 0.0371,
+    "dominant_angles": [
+      82.4,
+      77.0,
+      77.8,
+      80.8,
+      75.1,
+      78.9,
+      77.5,
+      74.4,
+      79.9,
+      79.2
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      67,
+      56,
+      44
+    ],
+    "mean_color_hex": "#43382c",
+    "color_palette": [
+      "#110d0e",
+      "#181816",
+      "#3c1f16",
+      "#573926",
+      "#baad84",
+      "#887054",
+      "#71533c",
+      "#a08e6b",
+      "#1b312e",
+      "#3b5c58"
+    ],
+    "unique_colors": 114375,
+    "color_diversity": 0.0223,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 58.18,
+    "contrast_level": "medium",
+    "contrast_value": 0.4021,
+    "dynamic_range": 214,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 72.91,
+    "midtones_percentage": 22.37,
+    "highlights_percentage": 4.72
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8665,
+        "bbox": [
+          51.85,
+          133.4,
+          1885.04,
+          2671.0
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3266,
+        "bbox": [
+          86.61,
+          1482.89,
+          1226.42,
+          2668.26
+        ]
+      }
+    ],
+    "object_count": 2,
+    "object_types": {
+      "person": 2
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1120,
+          614,
+          1201,
+          695
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          936,
+          466,
+          1023,
+          553
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1084,
+          561,
+          1171,
+          648
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 787.41,
+          "y": 977.47,
+          "visibility": 2,
+          "confidence": 0.998
+        },
+        {
+          "name": "left_eye",
+          "x": 821.86,
+          "y": 783.85,
+          "visibility": 2,
+          "confidence": 0.9986
+        },
+        {
+          "name": "right_eye",
+          "x": 648.6,
+          "y": 899.84,
+          "visibility": 2,
+          "confidence": 0.9621
+        },
+        {
+          "name": "left_ear",
+          "x": 1067.25,
+          "y": 642.55,
+          "visibility": 2,
+          "confidence": 0.9932
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1807
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1583.85,
+          "y": 1295.99,
+          "visibility": 2,
+          "confidence": 0.9937
+        },
+        {
+          "name": "right_shoulder",
+          "x": 564.36,
+          "y": 1348.32,
+          "visibility": 2,
+          "confidence": 0.9953
+        },
+        {
+          "name": "left_elbow",
+          "x": 1668.36,
+          "y": 2375.14,
+          "visibility": 2,
+          "confidence": 0.7642
+        },
+        {
+          "name": "right_elbow",
+          "x": 311.82,
+          "y": 2114.26,
+          "visibility": 2,
+          "confidence": 0.8304
+        },
+        {
+          "name": "left_wrist",
+          "x": 832.48,
+          "y": 2428.09,
+          "visibility": 2,
+          "confidence": 0.8244
+        },
+        {
+          "name": "right_wrist",
+          "x": 613.84,
+          "y": 2326.51,
+          "visibility": 2,
+          "confidence": 0.7992
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1743
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.25
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0086
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0135
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0014
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0022
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FXA-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FXA-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "identifier": "NG6322",
+  "full_title": "The Duke of Wellington",
+  "short_title": "The Duke of Wellington",
+  "object_name": "Picture",
+  "style": "Romantic",
+  "material": "oil on wood",
+  "dimensions": "64.3 × 52.4 cm",
+  "production_date": "1812-14",
+  "brief_description": "This portrait of Arthur Wellesley, 1st Duke of Wellington, was painted after he had defeated the French forces of Napoleon and entered Madrid victorious in August 1812.\n\nWellington sat for Goya shortly after his arrival in Madrid, and the artist produced a large painting of the Duke on horseback (Apsley House, London), a drawing (British Museum, London) and our painting on panel. Although this portrait was probably painted directly from life, Goya later altered Wellington's pose and made significant changes to the composition as the Duke was awarded the different medals and military orders he wears here.\n\nWellington was a short man, and Goya paints him in an upright pose with his head held high, as if wishing to appear taller. The composition's simplicity focuses our attention on Wellington's face. This is not the look of a triumphant man: his face is gaunt and exhausted from battle, contrasting with the bright crimson military uniform he wears.",
+  "accession_date": "1961-01-01",
+  "current_location": "Room 38, The National Gallery (London)",
+  "credit_line": "Bought with aid from the Wolfson Foundation and a special Exchequer grant, 1961",
+  "associated_concepts": "Spanish",
+  "creator": {
+    "name": "Francisco de Goya",
+    "birth_date": "1746",
+    "death_date": "1828",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6322-00-000031-web.jpg",
+    "filename": "N-6322-00-000031-web.jpg",
+    "image_key": "N-6322-00-000031",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2364,
+    "aspect_ratio": 0.8122,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 871341
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 735,
+    "horizontal_lines": 3,
+    "vertical_lines": 364,
+    "diagonal_lines": 368,
+    "edge_density": 0.0239,
+    "dominant_angles": [
+      -45.0,
+      -80.0,
+      -78.0,
+      -82.8,
+      -80.0,
+      -81.1,
+      -41.8,
+      -60.0,
+      -81.2,
+      -80.7
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      42,
+      33,
+      26
+    ],
+    "mean_color_hex": "#2a211a",
+    "color_palette": [
+      "#1f1e17",
+      "#25241f",
+      "#18140f",
+      "#2a120d",
+      "#402c1e",
+      "#5a3d2b",
+      "#745139",
+      "#48120c",
+      "#8a6950",
+      "#ab8a6d"
+    ],
+    "unique_colors": 84036,
+    "color_diversity": 0.0185,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 35.75,
+    "contrast_level": "low",
+    "contrast_value": 0.1575,
+    "dynamic_range": 225,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 95.28,
+    "midtones_percentage": 4.7,
+    "highlights_percentage": 0.03
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8401,
+        "bbox": [
+          351.98,
+          318.13,
+          1786.3,
+          2364.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          492,
+          1879,
+          596,
+          1983
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          508,
+          2109,
+          640,
+          2241
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          594,
+          532,
+          1080,
+          1018
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 810.48,
+          "y": 826.5,
+          "visibility": 2,
+          "confidence": 0.9962
+        },
+        {
+          "name": "left_eye",
+          "x": 944.76,
+          "y": 724.12,
+          "visibility": 2,
+          "confidence": 0.9976
+        },
+        {
+          "name": "right_eye",
+          "x": 746.6,
+          "y": 716.64,
+          "visibility": 2,
+          "confidence": 0.9565
+        },
+        {
+          "name": "left_ear",
+          "x": 1181.41,
+          "y": 808.71,
+          "visibility": 2,
+          "confidence": 0.9883
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1365
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1348.51,
+          "y": 1442.62,
+          "visibility": 2,
+          "confidence": 0.9822
+        },
+        {
+          "name": "right_shoulder",
+          "x": 691.85,
+          "y": 1325.57,
+          "visibility": 2,
+          "confidence": 0.9436
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4407
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1838
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3698
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.148
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0477
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0334
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.002
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0017
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0005
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0ETV-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0ETV-0001-0000-0000.json"
+  }
+}

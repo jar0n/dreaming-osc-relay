@@ -1,0 +1,281 @@
+{
+  "identifier": "NG2601",
+  "full_title": "An Old Woman Reading",
+  "short_title": "An Old Woman Reading",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on wood",
+  "dimensions": "17.8 × 14.3 cm",
+  "production_date": "17th century",
+  "brief_description": "An old woman looks down intently at the large book she holds open -- very likely a Bible, since she's dressed in the plain clothing often worn by Calvinists, followers of a strict branch of the Protestant faith. This isn't a portrait but a tronie, pictures which showed stock characters, often with exaggerated facial expressions or gestures. In this case, though, it appears to be a visual example of what a pious old age should be.\n\nDavid Teniers the Younger was immensely successful as a painter and his work was widely copied and imitated. This appears to be an imitation painted at the end of the seventeenth century, probably after Teniers' death.",
+  "accession_date": "1910-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Salting Bequest, 1910",
+  "associated_concepts": "Flemish",
+  "creator": {
+    "name": "David Teniers the Younger",
+    "birth_date": "1610",
+    "death_date": "1690",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2601-00-000008-web.jpg",
+    "filename": "N-2601-00-000008-web.jpg",
+    "image_key": "N-2601-00-000008",
+    "image_type": "web",
+    "width": 1920,
+    "height": 2315,
+    "aspect_ratio": 0.8294,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 846628
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 247,
+    "horizontal_lines": 16,
+    "vertical_lines": 63,
+    "diagonal_lines": 168,
+    "edge_density": 0.013,
+    "dominant_angles": [
+      29.7,
+      24.5,
+      25.5,
+      25.8,
+      32.7,
+      23.6,
+      25.8,
+      29.1,
+      84.4,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      63,
+      53,
+      36
+    ],
+    "mean_color_hex": "#3f3524",
+    "color_palette": [
+      "#2e271d",
+      "#4c432d",
+      "#463b26",
+      "#362f22",
+      "#231f18",
+      "#442e1b",
+      "#5f442c",
+      "#765c3a",
+      "#8a7856",
+      "#a99d7a"
+    ],
+    "unique_colors": 38047,
+    "color_diversity": 0.0086,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 54.3,
+    "contrast_level": "low",
+    "contrast_value": 0.1451,
+    "dynamic_range": 231,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 95.66,
+    "midtones_percentage": 4.22,
+    "highlights_percentage": 0.11
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8205,
+        "bbox": [
+          47.67,
+          596.07,
+          1871.02,
+          2315.0
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          749,
+          836,
+          1165,
+          1252
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 1016.4,
+          "y": 1097.67,
+          "visibility": 2,
+          "confidence": 0.9993
+        },
+        {
+          "name": "left_eye",
+          "x": 1099.6,
+          "y": 1037.32,
+          "visibility": 2,
+          "confidence": 0.9568
+        },
+        {
+          "name": "right_eye",
+          "x": 956.21,
+          "y": 987.77,
+          "visibility": 2,
+          "confidence": 0.9996
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0204
+        },
+        {
+          "name": "right_ear",
+          "x": 751.37,
+          "y": 941.99,
+          "visibility": 2,
+          "confidence": 0.9987
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1062.37,
+          "y": 1391.99,
+          "visibility": 2,
+          "confidence": 0.9963
+        },
+        {
+          "name": "right_shoulder",
+          "x": 399.02,
+          "y": 1376.2,
+          "visibility": 2,
+          "confidence": 0.9988
+        },
+        {
+          "name": "left_elbow",
+          "x": 1238.31,
+          "y": 1832.04,
+          "visibility": 2,
+          "confidence": 0.8601
+        },
+        {
+          "name": "right_elbow",
+          "x": 190.83,
+          "y": 2060.39,
+          "visibility": 2,
+          "confidence": 0.9583
+        },
+        {
+          "name": "left_wrist",
+          "x": 1377.34,
+          "y": 1754.59,
+          "visibility": 2,
+          "confidence": 0.8299
+        },
+        {
+          "name": "right_wrist",
+          "x": 718.84,
+          "y": 1979.87,
+          "visibility": 2,
+          "confidence": 0.9587
+        },
+        {
+          "name": "left_hip",
+          "x": 1135.54,
+          "y": 2050.5,
+          "visibility": 2,
+          "confidence": 0.8567
+        },
+        {
+          "name": "right_hip",
+          "x": 729.21,
+          "y": 2125.83,
+          "visibility": 2,
+          "confidence": 0.8889
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3028
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3999
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0472
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0491
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": 6.34
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FVP-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FVP-0001-0000-0000.json"
+  }
+}

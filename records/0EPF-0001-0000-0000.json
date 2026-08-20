@@ -1,0 +1,353 @@
+{
+  "identifier": "NG6522",
+  "full_title": "River Landscape with Horseman and Peasants",
+  "short_title": "River Landscape with Horseman and Peasants",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "123 × 241 cm",
+  "production_date": "about 1658-60",
+  "brief_description": "Clear, soft light illuminates a peaceful landscape, giving a sense that everything is in its place and all's well with the world. But the rider's attention is caught by a young lad who seems to point anxiously towards something likely to disturb the tranquillity. Crouched in the bushes on the left, a man aims his gun at the birds on the river.\n\nCuyp was probably the most important of the Dutch landscape artists who drew on the experience and style of other Dutch painters who had lived and worked in Rome for several years, admiring their images of pastoral idylls bathed in golden light. When this painting arrived in Britain in 1764 it was highly praised, causing an upsurge of enthusiasm for Cuyp's work, and many of his most important pictures were brought into the country.",
+  "accession_date": "1989-01-01",
+  "current_location": "Room 19, The National Gallery (London)",
+  "credit_line": "Bought with the assistance of the National Heritage Memorial Fund and the Art Fund, 1989",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Aelbert Cuyp",
+    "birth_date": "1620",
+    "death_date": "1691",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-6522-00-000010-web.jpg",
+    "filename": "N-6522-00-000010-web.jpg",
+    "image_key": "N-6522-00-000010",
+    "image_type": "web",
+    "width": 1920,
+    "height": 988,
+    "aspect_ratio": 1.9433,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 461789
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1276,
+    "horizontal_lines": 728,
+    "vertical_lines": 30,
+    "diagonal_lines": 518,
+    "edge_density": 0.0827,
+    "dominant_angles": [
+      -3.7,
+      -4.3,
+      -7.0,
+      -3.9,
+      -1.2,
+      -0.7,
+      -7.2,
+      0.7,
+      -16.6,
+      -1.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      118,
+      109,
+      83
+    ],
+    "mean_color_hex": "#766d53",
+    "color_palette": [
+      "#423721",
+      "#594c2f",
+      "#292216",
+      "#97988a",
+      "#716442",
+      "#7d7e72",
+      "#bbb8a6",
+      "#e1cf9e",
+      "#92804f",
+      "#b7a673"
+    ],
+    "unique_colors": 52075,
+    "color_diversity": 0.0275,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 109.06,
+    "contrast_level": "medium",
+    "contrast_value": 0.4145,
+    "dynamic_range": 223,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 40.1,
+    "midtones_percentage": 43.5,
+    "highlights_percentage": 16.4
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7497,
+        "bbox": [
+          1718.1,
+          601.56,
+          1762.28,
+          727.75
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.6049,
+        "bbox": [
+          1455.88,
+          620.24,
+          1579.1,
+          839.94
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.402,
+        "bbox": [
+          889.28,
+          738.66,
+          1098.9,
+          844.46
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.3597,
+        "bbox": [
+          1466.63,
+          510.91,
+          1588.09,
+          721.05
+        ]
+      },
+      {
+        "class": "elephant",
+        "confidence": 0.3054,
+        "bbox": [
+          1100.77,
+          734.93,
+          1360.98,
+          839.03
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2773,
+        "bbox": [
+          1468.17,
+          511.0,
+          1565.44,
+          671.5
+        ]
+      }
+    ],
+    "object_count": 6,
+    "object_types": {
+      "person": 3,
+      "horse": 1,
+      "elephant": 2
+    },
+    "unique_classes": 3
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          1417,
+          729,
+          1482,
+          794
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1213,
+          490,
+          1281,
+          558
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1332,
+          491,
+          1421,
+          580
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2161
+        },
+        {
+          "name": "left_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0676
+        },
+        {
+          "name": "right_eye",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2512
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1525
+        },
+        {
+          "name": "right_ear",
+          "x": 1516.38,
+          "y": 531.75,
+          "visibility": 2,
+          "confidence": 0.7354
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1494.59,
+          "y": 561.0,
+          "visibility": 2,
+          "confidence": 0.849
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1519.57,
+          "y": 560.33,
+          "visibility": 2,
+          "confidence": 0.9637
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3351
+        },
+        {
+          "name": "right_elbow",
+          "x": 1537.22,
+          "y": 601.98,
+          "visibility": 2,
+          "confidence": 0.8699
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2408
+        },
+        {
+          "name": "right_wrist",
+          "x": 1554.74,
+          "y": 626.83,
+          "visibility": 2,
+          "confidence": 0.664
+        },
+        {
+          "name": "left_hip",
+          "x": 1499.35,
+          "y": 641.48,
+          "visibility": 2,
+          "confidence": 0.9159
+        },
+        {
+          "name": "right_hip",
+          "x": 1518.39,
+          "y": 642.0,
+          "visibility": 2,
+          "confidence": 0.9609
+        },
+        {
+          "name": "left_knee",
+          "x": 1503.94,
+          "y": 714.02,
+          "visibility": 2,
+          "confidence": 0.8103
+        },
+        {
+          "name": "right_knee",
+          "x": 1538.99,
+          "y": 714.04,
+          "visibility": 2,
+          "confidence": 0.9114
+        },
+        {
+          "name": "left_ankle",
+          "x": 1497.26,
+          "y": 785.66,
+          "visibility": 2,
+          "confidence": 0.7461
+        },
+        {
+          "name": "right_ankle",
+          "x": 1540.69,
+          "y": 785.88,
+          "visibility": 2,
+          "confidence": 0.8475
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "profile",
+        "arms_position": "lowered",
+        "legs_position": "extended",
+        "is_standing": true,
+        "is_sitting": false,
+        "body_angle_degrees": 3.38
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EPF-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EPF-0001-0000-0000.json"
+  }
+}

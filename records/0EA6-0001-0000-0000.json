@@ -1,0 +1,180 @@
+{
+  "identifier": "NG5014",
+  "full_title": "Still Life: Fruit",
+  "short_title": "Still Life: Fruit",
+  "object_name": "Picture",
+  "style": "Impressionist",
+  "material": "oil on wood",
+  "dimensions": "45.7 × 61 cm",
+  "production_date": "about 1878-82",
+  "brief_description": "A wine glass, a flask-shaped carafe, a knife and a plate of fruit are shown on a table, set against a flat dark background. The table is covered by a cloth decorated with flowers and blue stripes that help create a sense of recession into depth.\n\nMost of Monticelli's still life paintings were made between 1875 and 1885, with the majority, including this one, were completed from 1878 to 1882. The patterned tablecloth shown here is also present in the artist's Still Life: Oysters, Fish and A Vase of Wild Flowers (both in the National Gallery), making it possible that they were painted as pendants.\n\nThe position of the table, which is placed parallel to the picture plane, recalls similar compositions by Cezanne painted in the late 1880s. It is worth remembering that Cezanne was an admirer of Monticelli's use of impasto (thickly applied paint) as well as the directional brushstrokes of his later work, and the two painters were good friends during the 1880s.",
+  "accession_date": "1956-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented as part of the 'Harry Wearne Collection of Twelve Paintings by Monticelli' to the Tate Gallery, 1939; transferred, 1956",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Adolphe Monticelli",
+    "birth_date": "1824",
+    "death_date": "1886",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-5014-00-000012-web.jpg",
+    "filename": "N-5014-00-000012-web.jpg",
+    "image_key": "N-5014-00-000012",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1440,
+    "aspect_ratio": 1.3333,
+    "ratio_type": "standard (4:3)",
+    "orientation": "landscape",
+    "file_size_bytes": 947504
+  },
+  "composition_analysis": {
+    "complexity": "high",
+    "total_lines_detected": 3050,
+    "horizontal_lines": 1240,
+    "vertical_lines": 138,
+    "diagonal_lines": 1672,
+    "edge_density": 0.1315,
+    "dominant_angles": [
+      -45.0,
+      -45.0,
+      -1.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0,
+      -45.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      72,
+      54,
+      30
+    ],
+    "mean_color_hex": "#48361e",
+    "color_palette": [
+      "#121210",
+      "#281f17",
+      "#5d3718",
+      "#412d1a",
+      "#6f4c22",
+      "#826236",
+      "#9f783e",
+      "#4d4d36",
+      "#8b5e15",
+      "#ba9c77"
+    ],
+    "unique_colors": 129146,
+    "color_diversity": 0.0467,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 57.12,
+    "contrast_level": "low",
+    "contrast_value": 0.2782,
+    "dynamic_range": 254,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 75.62,
+    "midtones_percentage": 24.2,
+    "highlights_percentage": 0.19
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "fire hydrant",
+        "confidence": 0.3294,
+        "bbox": [
+          416.48,
+          17.85,
+          1552.64,
+          974.1
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "fire hydrant": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 4,
+    "faces_detected": 4,
+    "faces": [
+      {
+        "bbox": [
+          1096,
+          836,
+          1133,
+          873
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          544,
+          1328,
+          600,
+          1384
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1331,
+          567,
+          1388,
+          624
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          483,
+          1082,
+          553,
+          1152
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0EA6-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0EA6-0001-0000-0000.json"
+  }
+}

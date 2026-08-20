@@ -1,0 +1,281 @@
+{
+  "identifier": "NG672",
+  "full_title": "Self Portrait at the Age of 34",
+  "short_title": "Self Portrait at the Age of 34",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "91 × 75 cm",
+  "production_date": "1640",
+  "brief_description": "This is one of dozens of self portraits by Rembrandt. We see the artist in confident pose -- self-assured, dressed in expensive-looking fur and velvet, his hat laced with jewels. But, though he is a Dutchman living in the 1640s, Rembrandt is wearing the clothes of a gentleman of the 1520s and his pose is based on paintings by Dürer, Titian and Raphael from a similar date. So, as the subject of the painting, Rembrandt is portraying himself as a Renaissance gentleman, and as the artist he is both paying homage to and directly comparing himself with the most famous artists of that time.\n\nThe implications of this double echo would certainly have been understood by Rembrandt’s sophisticated clientele. By taking the pose and clothes of a gentleman he was claiming a much higher social status than was usually afforded to artists at the time. And by citing the works of three of the greatest Renaissance painters, he is implying that he is their equal.",
+  "accession_date": "1861-01-01",
+  "current_location": "Room 15, The National Gallery (London)",
+  "credit_line": "Bought, 1861",
+  "associated_concepts": "Dutch",
+  "creator": {
+    "name": "Rembrandt",
+    "birth_date": "1606",
+    "death_date": "1669",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0672-00-000055-web-g.jpg",
+    "filename": "N-0672-00-000055-web-g.jpg",
+    "image_key": "N-0672-00-000055",
+    "image_type": "web-g",
+    "width": 1920,
+    "height": 2286,
+    "aspect_ratio": 0.8399,
+    "ratio_type": "custom",
+    "orientation": "portrait",
+    "file_size_bytes": 603613
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 328,
+    "horizontal_lines": 106,
+    "vertical_lines": 159,
+    "diagonal_lines": 63,
+    "edge_density": 0.0118,
+    "dominant_angles": [
+      -90.0,
+      -90.0,
+      0.0,
+      -90.0,
+      -90.0,
+      0.0,
+      -90.0,
+      -90.0,
+      0.0,
+      -90.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      48,
+      38,
+      30
+    ],
+    "mean_color_hex": "#30261e",
+    "color_palette": [
+      "#3b3c3f",
+      "#261c13",
+      "#2f2318",
+      "#1b160f",
+      "#3c2c1d",
+      "#0f100d",
+      "#4a3420",
+      "#674326",
+      "#805b39",
+      "#a27752"
+    ],
+    "unique_colors": 39487,
+    "color_diversity": 0.009,
+    "color_temperature": "neutral"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 40.53,
+    "contrast_level": "low",
+    "contrast_value": 0.1498,
+    "dynamic_range": 227,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 97.62,
+    "midtones_percentage": 2.37,
+    "highlights_percentage": 0.01
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.8667,
+        "bbox": [
+          138.93,
+          533.46,
+          1579.23,
+          2081.6
+        ]
+      }
+    ],
+    "object_count": 1,
+    "object_types": {
+      "person": 1
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 1,
+    "faces_detected": 1,
+    "faces": [
+      {
+        "bbox": [
+          714,
+          655,
+          1081,
+          1022
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 1,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 921.27,
+          "y": 852.55,
+          "visibility": 2,
+          "confidence": 0.9983
+        },
+        {
+          "name": "left_eye",
+          "x": 968.44,
+          "y": 786.27,
+          "visibility": 2,
+          "confidence": 0.9877
+        },
+        {
+          "name": "right_eye",
+          "x": 836.09,
+          "y": 782.24,
+          "visibility": 2,
+          "confidence": 0.9971
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4906
+        },
+        {
+          "name": "right_ear",
+          "x": 686.86,
+          "y": 841.57,
+          "visibility": 2,
+          "confidence": 0.9667
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1170.5,
+          "y": 1257.47,
+          "visibility": 2,
+          "confidence": 0.9928
+        },
+        {
+          "name": "right_shoulder",
+          "x": 517.48,
+          "y": 1272.35,
+          "visibility": 2,
+          "confidence": 0.9938
+        },
+        {
+          "name": "left_elbow",
+          "x": 1451.68,
+          "y": 1792.76,
+          "visibility": 2,
+          "confidence": 0.8417
+        },
+        {
+          "name": "right_elbow",
+          "x": 471.28,
+          "y": 1869.32,
+          "visibility": 2,
+          "confidence": 0.8631
+        },
+        {
+          "name": "left_wrist",
+          "x": 1294.12,
+          "y": 1867.72,
+          "visibility": 2,
+          "confidence": 0.8467
+        },
+        {
+          "name": "right_wrist",
+          "x": 984.72,
+          "y": 1804.87,
+          "visibility": 2,
+          "confidence": 0.8899
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2717
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2857
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0186
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0223
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0035
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0036
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0CRJ-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0CRJ-0001-0000-0000.json"
+  }
+}

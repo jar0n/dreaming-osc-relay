@@ -1,0 +1,201 @@
+{
+  "identifier": "NG2723",
+  "full_title": "Landscape with Figures",
+  "short_title": "Landscape with Figures",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "171.5 × 246.4 cm",
+  "production_date": "probably 1670-1712",
+  "brief_description": "We look across a vast landscape. In the middle of the scene, a washerwoman walks along a dirt track, her clothing bright in the sun. Beyond her, further up the mountain, a shepherd drives his flock onward; in the foreground, two pairs of figures chat.\n\nThis large-scale picture was probably painted by Crescenzio Onofri, a pupil of the landscape artist Dughet. The artist has incorporated trees to frame the scene, and a winding path and sweeping valley to lead our eye through the composition. Warm browns in the foreground gradually change to cool blues and greys in the mountains, creating a sense of distance.\n\nOnofri moved from Rome to Florence in the 1690s. He collaborated with others artists, who added figures to his landscapes; Francesco Petrucci probably worked on these ones. The companion piece to this painting, Landscape with Fishermen, is also in the National Gallery's collection.",
+  "accession_date": "1849-01-01",
+  "current_location": "Not on display",
+  "credit_line": "Presented by Philip Pusey, 1849",
+  "associated_concepts": "Italian",
+  "creator": {
+    "name": "Crescenzio Onofri",
+    "birth_date": "1640",
+    "death_date": "1712",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": null,
+    "department": "Main Collection",
+    "location": null
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-2723-00-000014-web.jpg",
+    "filename": "N-2723-00-000014-web.jpg",
+    "image_key": "N-2723-00-000014",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1331,
+    "aspect_ratio": 1.4425,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 685050
+  },
+  "composition_analysis": {
+    "complexity": "medium",
+    "total_lines_detected": 1412,
+    "horizontal_lines": 600,
+    "vertical_lines": 51,
+    "diagonal_lines": 761,
+    "edge_density": 0.065,
+    "dominant_angles": [
+      17.1,
+      14.6,
+      6.2,
+      1.1,
+      23.0,
+      12.5,
+      17.8,
+      20.1,
+      16.2,
+      21.1
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      92,
+      89,
+      71
+    ],
+    "mean_color_hex": "#5c5947",
+    "color_palette": [
+      "#251f17",
+      "#322d21",
+      "#8f9283",
+      "#433d2c",
+      "#57513a",
+      "#a3a48d",
+      "#7e8173",
+      "#6e684b",
+      "#bcb997",
+      "#948859"
+    ],
+    "unique_colors": 58318,
+    "color_diversity": 0.0228,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 88.13,
+    "contrast_level": "medium",
+    "contrast_value": 0.3965,
+    "dynamic_range": 232,
+    "tonal_key": "mid-key",
+    "shadows_percentage": 56.36,
+    "midtones_percentage": 37.22,
+    "highlights_percentage": 6.42
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.4165,
+        "bbox": [
+          930.27,
+          831.61,
+          976.82,
+          911.06
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.385,
+        "bbox": [
+          929.04,
+          804.15,
+          974.67,
+          909.99
+        ]
+      },
+      {
+        "class": "horse",
+        "confidence": 0.2598,
+        "bbox": [
+          837.02,
+          1058.06,
+          961.26,
+          1271.62
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2539,
+        "bbox": [
+          675.49,
+          1037.72,
+          725.22,
+          1106.16
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 3,
+      "horse": 1
+    },
+    "unique_classes": 2
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 3,
+    "faces_detected": 3,
+    "faces": [
+      {
+        "bbox": [
+          257,
+          431,
+          311,
+          485
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          1557,
+          617,
+          1627,
+          687
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          332,
+          612,
+          413,
+          693
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 0,
+    "pose_keypoints": [],
+    "pose_analysis": []
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0GGC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0GGC-0001-0000-0000.json"
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "identifier": "NG798",
+  "full_title": "Triple Portrait of Cardinal de Richelieu",
+  "short_title": "Triple Portrait of Cardinal de Richelieu",
+  "object_name": "Picture",
+  "style": "baroque",
+  "material": "oil on canvas",
+  "dimensions": "58.7 × 72.8 cm",
+  "production_date": "probably 1642",
+  "brief_description": "This triple portrait was intended as a model for a full-length statue of Armand-Jean du Plessis, duc de Richelieu (1585--1642), who became Cardinal in 1622 and the Chief Minister of France in 1624. He wears a Cardinal's robe, skull cap and blue ribbon adorned with the Order of the Holy Spirit, symbolised by the dove at the bottom of the painting. The head is repeated in this painting in three different poses: facing forward and in profile turned to the right and left. The central portrait relates to the artist's full-length painting Cardinal de Richelieu, also in the National Gallery. The triple portrait was executed in Paris and sent to Rome to the Italian sculptor Francesco Mochi (1580--1654) in around 1642.\n\nChampaigne probably painted the central and right heads: an inscription above the latter reads: 'this is the better one'. The rest of the painting was likely carried out by his workshop.",
+  "accession_date": "1869-01-01",
+  "current_location": "Room 29, The National Gallery (London)",
+  "credit_line": "Presented by Sir Augustus Wollaston Franks, 1869",
+  "associated_concepts": "French",
+  "creator": {
+    "name": "Philippe de Champaigne",
+    "birth_date": "1602",
+    "death_date": "1674",
+    "association": "Artist"
+  },
+  "institution": {
+    "collection_name": "The National Gallery (London)",
+    "department": "Main Collection",
+    "location": "London, UK"
+  },
+  "production_place": {
+    "location_type": "production",
+    "country": null,
+    "city": null
+  },
+  "image": {
+    "path": "/Users/jaronghani/numiko/labs/dreaming-frontend/work-images/6000px/N-0798-00-000034-web.jpg",
+    "filename": "N-0798-00-000034-web.jpg",
+    "image_key": "N-0798-00-000034",
+    "image_type": "web",
+    "width": 1920,
+    "height": 1538,
+    "aspect_ratio": 1.2484,
+    "ratio_type": "custom",
+    "orientation": "landscape",
+    "file_size_bytes": 773938
+  },
+  "composition_analysis": {
+    "complexity": "low",
+    "total_lines_detected": 404,
+    "horizontal_lines": 71,
+    "vertical_lines": 96,
+    "diagonal_lines": 237,
+    "edge_density": 0.0255,
+    "dominant_angles": [
+      -79.1,
+      -72.2,
+      -73.9,
+      -73.0,
+      -81.8,
+      -70.9,
+      -81.5,
+      -81.3,
+      -81.3,
+      -77.0
+    ]
+  },
+  "perspective_analysis": {
+    "perspective_type": "skipped",
+    "has_perspective": false,
+    "convergence_strength": 0.0,
+    "num_vanishing_points": 0,
+    "vanishing_points": []
+  },
+  "color_analysis": {
+    "mean_color_rgb": [
+      102,
+      80,
+      62
+    ],
+    "mean_color_hex": "#66503e",
+    "color_palette": [
+      "#2d281d",
+      "#6e3b27",
+      "#413a2c",
+      "#91513d",
+      "#625843",
+      "#81775d",
+      "#909181",
+      "#b08f66",
+      "#b3b09b",
+      "#466264"
+    ],
+    "unique_colors": 69271,
+    "color_diversity": 0.0235,
+    "color_temperature": "warm"
+  },
+  "tonal_analysis": {
+    "mean_brightness": 84.85,
+    "contrast_level": "low",
+    "contrast_value": 0.2983,
+    "dynamic_range": 231,
+    "tonal_key": "low-key (dark)",
+    "shadows_percentage": 57.62,
+    "midtones_percentage": 39.65,
+    "highlights_percentage": 2.73
+  },
+  "object_detection": {
+    "detected_objects": [
+      {
+        "class": "person",
+        "confidence": 0.7578,
+        "bbox": [
+          307.18,
+          182.25,
+          1478.93,
+          1516.71
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.7079,
+        "bbox": [
+          2.31,
+          206.62,
+          633.67,
+          1332.05
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.4476,
+        "bbox": [
+          1254.12,
+          186.25,
+          1919.41,
+          1519.48
+        ]
+      },
+      {
+        "class": "person",
+        "confidence": 0.2961,
+        "bbox": [
+          769.23,
+          195.46,
+          1916.59,
+          1516.56
+        ]
+      }
+    ],
+    "object_count": 4,
+    "object_types": {
+      "person": 4
+    },
+    "unique_classes": 1
+  },
+  "body_parts_detection": {
+    "body_parts_detected": 2,
+    "faces_detected": 2,
+    "faces": [
+      {
+        "bbox": [
+          542,
+          492,
+          596,
+          546
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      },
+      {
+        "bbox": [
+          685,
+          285,
+          1130,
+          730
+        ],
+        "confidence": 1.0,
+        "detector": "opencv_haar"
+      }
+    ],
+    "hands_detected": 0,
+    "hands": []
+  },
+  "figure_detection": {
+    "figures_detected": 3,
+    "pose_keypoints": [
+      [
+        {
+          "name": "nose",
+          "x": 878.06,
+          "y": 546.81,
+          "visibility": 2,
+          "confidence": 0.9946
+        },
+        {
+          "name": "left_eye",
+          "x": 982.24,
+          "y": 450.72,
+          "visibility": 2,
+          "confidence": 0.9958
+        },
+        {
+          "name": "right_eye",
+          "x": 828.38,
+          "y": 449.05,
+          "visibility": 2,
+          "confidence": 0.9651
+        },
+        {
+          "name": "left_ear",
+          "x": 1174.19,
+          "y": 517.74,
+          "visibility": 2,
+          "confidence": 0.9672
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2848
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1288.74,
+          "y": 1059.0,
+          "visibility": 2,
+          "confidence": 0.9039
+        },
+        {
+          "name": "right_shoulder",
+          "x": 741.08,
+          "y": 998.18,
+          "visibility": 2,
+          "confidence": 0.9393
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0643
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1201
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1447
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.1973
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0106
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0166
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0082
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0117
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0055
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0075
+        }
+      ],
+      [
+        {
+          "name": "nose",
+          "x": 1350.61,
+          "y": 554.62,
+          "visibility": 2,
+          "confidence": 0.975
+        },
+        {
+          "name": "left_eye",
+          "x": 1431.27,
+          "y": 481.27,
+          "visibility": 2,
+          "confidence": 0.9905
+        },
+        {
+          "name": "right_eye",
+          "x": 1355.08,
+          "y": 467.05,
+          "visibility": 2,
+          "confidence": 0.5255
+        },
+        {
+          "name": "left_ear",
+          "x": 1650.3,
+          "y": 529.52,
+          "visibility": 2,
+          "confidence": 0.9666
+        },
+        {
+          "name": "right_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0107
+        },
+        {
+          "name": "left_shoulder",
+          "x": 1710.0,
+          "y": 1046.5,
+          "visibility": 2,
+          "confidence": 0.7943
+        },
+        {
+          "name": "right_shoulder",
+          "x": 1640.42,
+          "y": 854.06,
+          "visibility": 2,
+          "confidence": 0.5926
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0541
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0292
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0852
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.054
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0066
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0067
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0034
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0036
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0026
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0032
+        }
+      ],
+      [
+        {
+          "name": "nose",
+          "x": 585.3,
+          "y": 558.24,
+          "visibility": 2,
+          "confidence": 0.9894
+        },
+        {
+          "name": "left_eye",
+          "x": 590.24,
+          "y": 503.09,
+          "visibility": 2,
+          "confidence": 0.6334
+        },
+        {
+          "name": "right_eye",
+          "x": 501.84,
+          "y": 502.06,
+          "visibility": 2,
+          "confidence": 0.996
+        },
+        {
+          "name": "left_ear",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0028
+        },
+        {
+          "name": "right_ear",
+          "x": 295.08,
+          "y": 556.18,
+          "visibility": 2,
+          "confidence": 0.9871
+        },
+        {
+          "name": "left_shoulder",
+          "x": 423.8,
+          "y": 869.18,
+          "visibility": 2,
+          "confidence": 0.8552
+        },
+        {
+          "name": "right_shoulder",
+          "x": 214.75,
+          "y": 878.85,
+          "visibility": 2,
+          "confidence": 0.879
+        },
+        {
+          "name": "left_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2229
+        },
+        {
+          "name": "right_elbow",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.3651
+        },
+        {
+          "name": "left_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.2966
+        },
+        {
+          "name": "right_wrist",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.4973
+        },
+        {
+          "name": "left_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0514
+        },
+        {
+          "name": "right_hip",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.046
+        },
+        {
+          "name": "left_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0075
+        },
+        {
+          "name": "right_knee",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0065
+        },
+        {
+          "name": "left_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0025
+        },
+        {
+          "name": "right_ankle",
+          "x": 0.0,
+          "y": 0.0,
+          "visibility": 0,
+          "confidence": 0.0016
+        }
+      ]
+    ],
+    "pose_analysis": [
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      },
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      },
+      {
+        "body_orientation": "frontal_or_back",
+        "arms_position": "lowered",
+        "legs_position": "unknown",
+        "is_standing": null,
+        "is_sitting": null,
+        "body_angle_degrees": null
+      }
+    ]
+  },
+  "source": {
+    "ng_record_id": null,
+    "source_file": "ng-image-data/0FEC-0001-0000-0000.json",
+    "api_url": "https://data.ng.ac.uk/0FEC-0001-0000-0000.json"
+  }
+}
