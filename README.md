@@ -41,3 +41,42 @@ Without it the relay still runs with minimal work info.
 schema changes:
 
     ./sync_from_backend.sh [path-to-dreaming-v3-backend]
+
+## Troubleshooting
+
+Run `./check-network.sh` first if the relay starts but cannot reach the
+server. It names the cause rather than guessing at it.
+
+**`error: Failed to spawn: dreaming-osc-relay`** — the relay was launched
+from somewhere other than this folder, so `uv` found no project. Use
+`start-relay-runpod.sh`, which changes directory first.
+
+**`ImportError: cannot import name 'OscTranslator'`** — `schema.py` has been
+overwritten by `sync_from_backend.sh` running without a backend checkout
+beside it. That script is a maintenance tool for after a backend schema
+change; it is not a setup step and running the relay needs nothing from it.
+Replace this folder with a fresh copy.
+
+**`certificate verify failed: unable to get local issuer certificate`**, or
+TLS handshakes timing out — something between the machine and the server is
+inspecting or blocking TLS. `./check-network.sh` distinguishes the three
+cases:
+
+- *Not Runpod's certificate.* The network is re-signing TLS with its own
+  root (common on university and corporate Macs). The relay verifies
+  against the OS trust store by default, so the root the machine already
+  trusts is honoured. If it still fails, that root is not in the Keychain
+  either and only IT can add it; a phone hotspot is the quick way round.
+- *Runpod's certificate, but unverifiable.* Same fix, same default. Use
+  `--no-system-trust` to confirm the difference: with it the failure
+  returns, without it the relay connects.
+- *TLS fine, relay still drops.* A proxy allowing ordinary HTTPS but
+  breaking the WebSocket upgrade. Nothing on this side helps; use another
+  network.
+
+None of this touches the venue, where the relay points at
+`http://127.0.0.1:8000` on the same machine and no TLS is involved.
+
+**First run needs the internet.** `uv` builds `.venv` and fetches three
+packages the first time. Run it once somewhere with a connection; after
+that the folder is self-contained.
