@@ -79,7 +79,26 @@ def main() -> int:
                              "127.0.0.1:57120)")
     parser.add_argument("--records", type=Path, default=None,
                         help="artwork records dir (default: bundled)")
+    parser.add_argument("--no-system-trust", action="store_true",
+                        help="verify TLS against Python's bundled CA file "
+                             "instead of the OS trust store (debugging)")
     args = parser.parse_args()
+
+    if not args.no_system_trust:
+        # A managed Mac keeps its network's TLS-inspection root in the
+        # Keychain, so browsers accept the re-signed certificate while
+        # Python - which reads a static CA *file* - rejects it as
+        # "unable to get local issuer certificate". Verifying against the
+        # OS store instead makes the relay trust exactly what the machine
+        # already trusts. Absent on the venue's plain-ws local server, and
+        # a missing truststore must never stop the relay starting.
+        try:
+            import truststore
+
+            truststore.inject_into_ssl()
+        except Exception as exc:  # noqa: BLE001 - TLS is an enrichment here
+            print(f"~ system trust store unavailable ({exc}); "
+                  "falling back to the bundled CA file")
 
     import websockets.sync.client as ws_client
 

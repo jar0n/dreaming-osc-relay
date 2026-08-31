@@ -6,6 +6,10 @@ requires-python = ">=3.10"
 dependencies = [
     "websockets>=13",
     "python-osc>=1.8",
+    # so TLS verification uses the OS trust store (see --system-trust
+    # in cli.py): managed Macs carry their proxy root in the Keychain,
+    # which the CA *file* Python reads by default never sees
+    "truststore>=0.10",
 ]
 
 [project.scripts]
