@@ -33,9 +33,9 @@ itself, the four affect params as last felt, and `/dreaming/stab focus <pid>`.
 Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
 `/affect` (bundled) with `/affect/valence|arousal|dominance|approach` (one
 float each), `/dreaming/stab pair <pid>` as the crossing is said and the next
-work hangs beside it, `/dreaming/sssh <pid>` when the wall's depth field has
-built (a set time after each focus change, dropped if attention moves on
-first), `/dreaming/stab rest` and `/done` as the dream ends. Recorded-dream
+work hangs beside it, `/dreaming/stab rest` and `/done` as the dream ends,
+then `/dreaming/sssh atlas` as the wall resets to the atlas (a set time after
+the end, 0 by default, dropped if the next dream begins first). Recorded-dream
 replays fire exactly like live dreams; reconnect catch-up history never
 re-fires.
 

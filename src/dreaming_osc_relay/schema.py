@@ -9,9 +9,9 @@ import re
 import threading
 
 ROOT = "/dreaming"
-#: seconds after a focus change until the wall's depth field has built (the
-#: UE wall's DepthSwarmSeconds default), when /dreaming/sssh is sent
-SSSH_DELAY_S = 4.0
+#: seconds after a dream ends until the wall has reset to the atlas and its
+#: depth field has built, when /dreaming/sssh is sent; 0 = with `done`
+SSSH_DELAY_S = 0.0
 AFFECT_AXES = ("valence", "arousal", "dominance", "approach")
 
 
@@ -490,8 +490,8 @@ class OscTranslator:
     def __init__(self, records: dict, destinations: list[str],
                  profile="web", corrections=None, sssh_delay=SSSH_DELAY_S):
         self.records = records
-        #: seconds from a focus change to /dreaming/sssh; a callable is read
-        #: per focus change so the admin's setting applies live
+        #: seconds from a dream's end to /dreaming/sssh; a callable is read
+        #: each time so the admin's setting applies live
         self.sssh_delay = sssh_delay
         self._affect: dict | None = None  # the last feeling, for focus bursts
         self._sssh_timer: threading.Timer | None = None
@@ -593,20 +593,19 @@ class OscTranslator:
         return messages
 
     def delayed(self, event: str, data: dict) -> list:
-        """What this event sends later: [(seconds, [(address, args)])]. A
-        focus change sends /dreaming/sssh once the wall's depth field has
-        built; the next focus change cancels one still pending."""
-        if event in ("seed", "attention") and data.get("pid"):
-            return [(self.current_sssh_delay(),
-                     [(f"{ROOT}/sssh", [str(data["pid"])])])]
+        """What this event sends later: [(seconds, [(address, args)])]. The
+        end of a dream sends /dreaming/sssh once the wall has reset to the
+        atlas; a new dream beginning first cancels one still pending."""
+        if event == "done":
+            return [(self.current_sssh_delay(), [(f"{ROOT}/sssh", ["atlas"])])]
         return []
 
     def handle(self, event: str, data: dict) -> None:
         try:
             self._emit(self.messages(event, data))
             later = self.delayed(event, data)
-            if event in ("seed", "attention") and self._sssh_timer is not None:
-                self._sssh_timer.cancel()  # attention moved on first
+            if event == "seed" and self._sssh_timer is not None:
+                self._sssh_timer.cancel()  # the next dream began first
                 self._sssh_timer = None
             for delay, messages in later:
                 timer = threading.Timer(delay, self._emit, args=(messages,))
@@ -622,9 +621,9 @@ def osc_timeline(records: dict, events: list[dict], profile: str = "web",
     """What a recorded dream sent (or would send) to OSC, point by point:
     [{t, event, messages: [[address, args], ...]}] for every event that
     produces a message, under the given profile and corrections, with the
-    delayed `sssh` placed where it fires (or dropped where attention moved
-    on first). A fresh translator walks the events in order, so the journey
-    history matches a live run; nothing is emitted."""
+    delayed `sssh` placed where it fires after the end (or dropped where the
+    next dream began first). A fresh translator walks the events in order,
+    so the journey history matches a live run; nothing is emitted."""
     translator = OscTranslator(records, [], profile=profile,
                                corrections=corrections, sssh_delay=sssh_delay)
     out, pending = [], None
@@ -635,9 +634,9 @@ def osc_timeline(records: dict, events: list[dict], profile: str = "web",
             later = translator.delayed(event, data)
         except Exception as exc:  # noqa: BLE001 - shown, not fatal
             messages, later = [(f"{ROOT}/error", [f"{type(exc).__name__}: {exc}"])], []
-        if event in ("seed", "attention"):
+        if event == "seed":
             if pending is not None and pending["t"] > t:
-                pending = None  # cancelled: attention moved on first
+                pending = None  # cancelled: the next dream began first
             elif pending is not None:
                 out.append(pending); pending = None
         if messages:
