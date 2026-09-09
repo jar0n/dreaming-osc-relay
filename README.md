@@ -28,16 +28,34 @@ Needs [uv](https://docs.astral.sh/uv/) (or any Python 3.10+ with
 
 Per focus change: `/dreaming/work`, `/work/*`, `/composition/*`,
 `/colour/*`, `/tonal/*`, `/objects/*`, `/faces/*`, `/figures/*`, `/tags`,
-`/history/*` - plus the dream extras `/dreaming/voice`, `/pool`,
-`/visitor`, `/absorbed`, `/done`. Recorded-dream replays fire exactly like
-live dreams; reconnect catch-up history never re-fires.
+`/pct/*`, `/mood/*`, `/history/*`, then `/hop/*` and `/link` for the hop
+itself, the four affect params as last felt, and `/dreaming/stab focus <pid>`.
+Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
+`/affect` (bundled) with `/affect/valence|arousal|dominance|approach` (one
+float each), `/dreaming/stab pair <pid>` as the crossing is said and the next
+work hangs beside it, `/dreaming/sssh <pid>` when the wall's depth field has
+built (a set time after each focus change, dropped if attention moves on
+first), `/dreaming/stab rest` and `/done` as the dream ends. Recorded-dream
+replays fire exactly like live dreams; reconnect catch-up history never
+re-fires.
+
+Two profiles. `web` is the faithful OSCManager.js schema with raw values;
+`supercollider` rewrites the same addresses into the ranges the venue patch
+reads (percentile ranks, key without suffix, tags in its vocabulary), each
+rewrite switchable on its own. The relay follows the server's admin
+settings for the profile, the corrections and the `sssh` delay: read once
+on connect from `/review/api/dream/status` and again on every live `status`
+event, applied from the next work. `--profile web|supercollider` pins the
+profile instead. The backend's dream browser (`/review/dreams`) shows what
+any recorded dream sends under either profile, message for message.
 
 The full per-work metadata comes from the bundled `records/` directory.
 Without it the relay still runs with minimal work info.
 
 ## Updating from the backend
 
-`schema.py` and `records/` are mirrors of the backend repo. After backend
+`schema.py` and `records/` are mirrors of the backend repo (the schema is
+`src/dreaming/server/osc.py` there, header comment included). After backend
 schema changes:
 
     ./sync_from_backend.sh [path-to-dreaming-v3-backend]
