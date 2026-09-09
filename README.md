@@ -24,6 +24,41 @@ Needs [uv](https://docs.astral.sh/uv/) (or any Python 3.10+ with
 - Auto-reconnects every 5s if the feed drops. Shows up as `osc-relay` in
   the backend admin's client list.
 
+## Finding the server: `--discover`
+
+At the venue there is no address to write down. The two machines are
+joined by a direct cable with no DHCP, so each end self-assigns a
+`169.254.x.y` picked afresh every time it boots or the cable is
+replugged. Rather than editing a launcher script at the venue with the
+lid open, let the relay go and find it:
+
+    uv run dreaming-osc-relay --discover --token <DREAM_TOKEN>
+
+Bare `--discover` sweeps the networks this machine is actually on - the
+cable's `169.254.0.0/16` at the venue, the office LAN in rehearsal, and
+it needs telling neither apart. Name a range instead if you want one:
+
+    --discover '169.254.*.*'        # quote it, or the shell eats the *
+    --discover 192.168.1.0/24
+
+It sweeps for anything accepting connections on port 8000, then opens a
+real WebSocket to each candidate before settling on it: port 8000 is a
+popular port, and "something answered" is not the same as "the dream
+server". A whole `169.254.0.0/16` takes about 30 seconds to rule out and
+usually far less to find something; a `/24` takes about a second.
+
+Two things follow from doing it this way, both wanted:
+
+- The machines can be started in either order. With nothing to talk to
+  the relay just sweeps again every 5s until the server appears.
+- The address is never trusted for good. If the feed drops three times
+  running, the relay takes it that the server has moved (rebooted, or the
+  cable replugged) and sweeps for it again, rather than reconnecting
+  forever to an address nobody is answering on.
+
+`--discover` overrides `--server`, so `start-relay-runpod.sh` and the
+cloud are unaffected.
+
 ## What it emits
 
 Per focus change: `/dreaming/work`, `/work/*`, `/composition/*`,
@@ -46,6 +81,20 @@ schema changes:
 
 Run `./check-network.sh` first if the relay starts but cannot reach the
 server. It names the cause rather than guessing at it.
+
+**`--discover` finds nothing at the venue.** The sweep prints what it
+believes about the network before it starts. `no route to that network
+from here` or `on no network worth sweeping` means macOS has not
+self-assigned an address on the cable: check it is seated at both ends,
+and give it fifteen seconds - self-assignment is not instant. If instead
+it says `this machine is 169.254.x.y` and still finds nothing, the cable
+is up and the far end is not: the server is not running, or not yet
+listening on port 8000.
+
+**`is a dream server but rejected the token`.** Discovery worked and the
+address is right; `--token` does not match the server's `DREAM_TOKEN`.
+This is the one failure the sweep can name exactly, which is why it
+handshakes rather than trusting an open port.
 
 **`error: Failed to spawn: dreaming-osc-relay`** — the relay was launched
 from somewhere other than this folder, so `uv` found no project. Use
