@@ -67,7 +67,7 @@ Per focus change: `/dreaming/work`, `/work/*`, `/composition/*`,
 itself, the four affect params as last felt, and `/dreaming/stab focus <pid>`.
 Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
 `/affect` (bundled) with `/affect/valence|arousal|dominance|approach` (one
-float each), `/dreaming/stab pair <pid>` as the crossing is said and the next
+float each, 0..1 with rest at 0.5), `/dreaming/stab pair <pid>` as the crossing is said and the next
 work hangs beside it, `/dreaming/stab rest` and `/done` as the dream ends,
 then `/dreaming/sssh atlas` as the wall resets to the atlas (a set time after
 the end, 0 by default, dropped if the next dream begins first). Recorded-dream

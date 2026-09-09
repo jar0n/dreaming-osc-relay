@@ -17,9 +17,12 @@ AFFECT_AXES = ("valence", "arousal", "dominance", "approach")
 
 def affect_messages(axes: dict | None) -> list:
     """The four affect params: bundled in fixed order, and one address each
-    so a patch can wire any of them without unpacking."""
+    so a patch can wire any of them without unpacking. The dream keeps its
+    axes at -1..1 (0 = rest); the wire carries 0..1 (0.5 = rest), the range
+    the patch's controls read."""
     axes = axes or {}
-    values = [float(axes.get(a, 0.0)) for a in AFFECT_AXES]
+    values = [round(min(1.0, max(0.0, (float(axes.get(a, 0.0)) + 1.0) / 2.0)), 4)
+              for a in AFFECT_AXES]
     return ([(f"{ROOT}/affect", values)]
             + [(f"{ROOT}/affect/{a}", [v]) for a, v in zip(AFFECT_AXES, values)])
 
