@@ -61,6 +61,7 @@ cloud are unaffected.
 
 ## What it emits
 
+As a dream begins, `/dreaming/dreammode 1` (and `0` as it ends).
 Per focus change: `/dreaming/work`, `/work/*`, `/composition/*`,
 `/colour/*`, `/tonal/*`, `/objects/*`, `/faces/*`, `/figures/*`, `/tags`,
 `/pct/*`, `/mood/*`, `/history/*`, then `/hop/*` and `/link` for the hop

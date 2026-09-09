@@ -581,6 +581,8 @@ class OscTranslator:
         if event in ("seed", "attention"):
             pid = data.get("pid", "")
             messages = self._focus(pid, data.get("title"), data.get("via"))
+            if event == "seed":  # the mode flips before the work's bundle
+                messages = [(f"{ROOT}/dreammode", [1])] + messages
             if event == "attention":
                 messages = messages + event_messages(event, data)
             if self._affect is not None:
@@ -592,7 +594,8 @@ class OscTranslator:
         if event == "voice" and data.get("transition") and data.get("text"):
             messages = messages + [(f"{ROOT}/stab", ["pair", str(data.get("pid", ""))])]
         if event == "done":
-            messages = messages + [(f"{ROOT}/stab", ["rest", ""])]
+            messages = messages + [(f"{ROOT}/dreammode", [0]),
+                                   (f"{ROOT}/stab", ["rest", ""])]
         return messages
 
     def delayed(self, event: str, data: dict) -> list:
