@@ -20,22 +20,20 @@ ATLAS_RESET_AXES = ("valence", "arousal", "dominance")
 
 
 def affect_messages(axes: dict | None) -> list:
-    """The four affect params: bundled in fixed order, and one address each
-    so a patch can wire any of them without unpacking. The dream keeps its
-    axes at -1..1 (0 = rest); the wire carries 0..1 (0.5 = rest), the range
-    the patch's controls read."""
+    """The four affect params, one address each so a patch wires any of
+    them directly; there is no bundled form. The dream keeps its axes at
+    -1..1 (0 = rest); the wire carries 0..1 (0.5 = rest), the range the
+    patch's controls read."""
     axes = axes or {}
     values = [round(min(1.0, max(0.0, (float(axes.get(a, 0.0)) + 1.0) / 2.0)), 4)
               for a in AFFECT_AXES]
-    return ([(f"{ROOT}/affect", values)]
-            + [(f"{ROOT}/affect/{a}", [v]) for a, v in zip(AFFECT_AXES, values)])
+    return [(f"{ROOT}/affect/{a}", [v]) for a, v in zip(AFFECT_AXES, values)]
 
 
 def atlas_messages() -> list:
     """What the wall is told as it settles back into the atlas, where the
     sssh used to stand: valence, arousal and dominance at 0, one address
-    each. Approach is not sent, and neither is the four-value bundle, which
-    could not leave approach out without changing shape."""
+    each. Approach is not sent."""
     return [(f"{ROOT}/affect/{a}", [0.0]) for a in ATLAS_RESET_AXES]
 
 

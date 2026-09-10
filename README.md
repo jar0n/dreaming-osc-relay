@@ -67,8 +67,8 @@ Per focus change: `/dreaming/work`, `/work/*`, `/composition/*`,
 `/pct/*`, `/mood/*`, `/history/*`, then `/hop/*` and `/link` for the hop
 itself, the four affect params as last felt, and `/dreaming/stab focus <pid>`.
 Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
-`/affect` (bundled) with `/affect/valence|arousal|dominance|approach` (one
-float each, 0..1 with rest at 0.5), `/dreaming/stab pair <pid>` as the crossing is said and the next
+`/affect/valence|arousal|dominance|approach` (one float each, 0..1 with
+rest at 0.5; never bundled), `/dreaming/stab pair <pid>` as the crossing is said and the next
 work hangs beside it, `/dreaming/stab rest` and `/done` as the dream ends,
 then the affect reset as the wall resets to the atlas: `/affect/valence`,
 `/affect/arousal` and `/affect/dominance` each to 0, nothing for approach
