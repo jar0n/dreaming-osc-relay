@@ -21,9 +21,14 @@ basic work info only.
 
 The relay follows the server's admin settings: the OSC profile (web schema
 or SuperCollider patch), which of the patch's corrections apply, and how
-long after a focus change /dreaming/sssh fires. It reads them once on
+long after a dream ends the affect reset fires. It reads them once on
 connect and again on every live `status` event, so a change on the admin
 screen reaches the gear on the next work. --profile pins the profile instead.
+
+--debug prints every OSC message as it is re-emitted, burst by burst: a
+header naming the dream event and the count, then one indented line per
+message with its address and arguments - what the gear is hearing, in the
+relay's own terminal.
 """
 
 from __future__ import annotations
@@ -258,6 +263,10 @@ def main() -> int:
     parser.add_argument("--no-system-trust", action="store_true",
                         help="verify TLS against Python's bundled CA file "
                              "instead of the OS trust store (debugging)")
+    parser.add_argument("--debug", action="store_true",
+                        help="print every OSC message as it is re-emitted "
+                             "(address and arguments, grouped by the dream "
+                             "event that caused it)")
     args = parser.parse_args()
 
     # Redirected to a log, print() would sit in an 8k buffer - which is a
@@ -304,9 +313,11 @@ def main() -> int:
     translator = OscTranslator(records, destinations,
                                profile=lambda: settings.profile,
                                corrections=lambda: settings.corrections,
-                               sssh_delay=lambda: settings.sssh_s)
+                               sssh_delay=lambda: settings.sssh_s,
+                               log=print if args.debug else None)
     print(f"~ dreaming-osc-relay: {len(records)} records, emitting to "
-          f"{', '.join(destinations)}")
+          f"{', '.join(destinations)}"
+          + (" (--debug: every OSC message is shown)" if args.debug else ""))
 
     server = args.server or os.environ.get("DREAM_SERVER")
     if args.discover:
@@ -337,8 +348,8 @@ def main() -> int:
                 failures = 0
                 while True:
                     event = handle_message(translator, ws.recv(), settings)
-                    if event and event != "status":
-                        print(f"  -> {event}")
+                    if event and event != "status" and not args.debug:
+                        print(f"  -> {event}")  # --debug shows the burst instead
         except KeyboardInterrupt:
             print("~ relay closed")
             return 0

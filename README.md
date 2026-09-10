@@ -23,6 +23,24 @@ Needs [uv](https://docs.astral.sh/uv/) (or any Python 3.10+ with
   (default `127.0.0.1:57120`, the SuperCollider port).
 - Auto-reconnects every 5s if the feed drops. Shows up as `osc-relay` in
   the backend admin's client list.
+- `--debug` prints every OSC message as it is re-emitted, so you can see
+  what the gear is hearing without a sniffer:
+
+      osc 14:02:11 attention: 64 messages
+          /dreaming/work NG6703 'After the Audience'
+          /dreaming/work/title 'After the Audience'
+          ...
+          /dreaming/affect/approach 0.6
+          /dreaming/stab focus NG6703
+      osc 14:02:40 sssh: 3 messages
+          /dreaming/affect/valence 0
+          /dreaming/affect/arousal 0
+          /dreaming/affect/dominance 0
+
+  The header names the dream event and the count (the delayed affect
+  reset appears as `sssh` when it actually fires); each line below is one
+  message, address then arguments. Without the flag the relay prints only
+  `-> <event>` per event.
 
 ## Finding the server: `--discover`
 
