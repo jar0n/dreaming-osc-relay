@@ -20,8 +20,9 @@ faces...); without it the relay still runs, emitting the event stream and
 basic work info only.
 
 The relay follows the server's admin settings: the OSC profile (web schema
-or SuperCollider patch), which of the patch's corrections apply, and how
-long after a dream ends the affect reset fires. It reads them once on
+or SuperCollider patch), which of the patch's corrections apply, how long
+after a dream ends the affect reset fires, and which works play on which
+narration channel (/dreaming/narration/work-N). It reads them once on
 connect and again on every live `status` event, so a change on the admin
 screen reaches the gear on the next work. --profile pins the profile instead.
 
@@ -58,6 +59,7 @@ class Settings:
         self.profile = self.pinned or "web"
         self.corrections: set | None = None  # None = all of them
         self.sssh_s = SSSH_DELAY_S
+        self.narration: dict = {}  # pid -> soundtrack channel 1..18
 
     def apply(self, status: dict) -> str:
         """Take the fields a `status` carries; returns a one-line summary."""
@@ -72,10 +74,16 @@ class Settings:
                 self.sssh_s = max(0.0, min(30.0, float(status["osc_sssh_s"])))
         except (TypeError, ValueError):
             pass
+        if isinstance(status.get("osc_narration"), dict):
+            self.narration = {str(pid): int(slot) for pid, slot
+                              in status["osc_narration"].items()
+                              if str(slot).isdigit() and 1 <= int(slot) <= 18}
         return (f"profile {self.profile}{' (pinned)' if self.pinned else ''}, "
                 f"sssh after {self.sssh_s:g}s"
                 + (f", corrections {','.join(sorted(self.corrections)) or 'none'}"
-                   if self.corrections is not None else ""))
+                   if self.corrections is not None else "")
+                + f", {len(self.narration)} narration work"
+                  f"{'' if len(self.narration) == 1 else 's'}")
 
 
 def fetch_status(server: str, token: str | None) -> dict:
@@ -314,7 +322,8 @@ def main() -> int:
                                profile=lambda: settings.profile,
                                corrections=lambda: settings.corrections,
                                sssh_delay=lambda: settings.sssh_s,
-                               log=print if args.debug else None)
+                               log=print if args.debug else None,
+                               narration=lambda: settings.narration)
     print(f"~ dreaming-osc-relay: {len(records)} records, emitting to "
           f"{', '.join(destinations)}"
           + (" (--debug: every OSC message is shown)" if args.debug else ""))

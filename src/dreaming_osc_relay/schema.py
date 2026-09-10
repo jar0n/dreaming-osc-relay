@@ -17,6 +17,24 @@ AFFECT_AXES = ("valence", "arousal", "dominance", "approach")
 #: the axes zeroed on the wire as the wall resets to the atlas; approach is
 #: left alone, so the reset sends nothing for it
 ATLAS_RESET_AXES = ("valence", "arousal", "dominance")
+#: the wall's soundtrack channels, /dreaming/narration/work-1 .. work-18;
+#: which work plays on which is narration.py's business (kept here so the
+#: venue relay's copy of this module stands alone)
+NARRATION_SLOTS = 18
+
+
+def narration_slot(value) -> int | None:
+    """A channel number 1..NARRATION_SLOTS, or None for anything else
+    (blank, 0, out of range, not a number)."""
+    try:
+        slot = int(str(value).strip())
+    except (TypeError, ValueError):
+        return None
+    return slot if 1 <= slot <= NARRATION_SLOTS else None
+
+
+def narration_address(slot: int) -> str:
+    return f"{ROOT}/narration/work-{int(slot)}"
 
 
 def affect_messages(axes: dict | None) -> list:
@@ -502,8 +520,13 @@ class OscTranslator:
 
     def __init__(self, records: dict, destinations: list[str],
                  profile="web", corrections=None, sssh_delay=SSSH_DELAY_S,
-                 log=None):
+                 log=None, narration=None):
         self.records = records
+        #: pid -> narration channel (1..18), or a callable returning that
+        #: mapping, read per focus change so an assignment made on the admin
+        #: applies to the next work; None = no soundtracks
+        self.narration = narration
+        self._narration_slot: int | None = None  # the channel now up
         #: a callable taking one line, told every message as it is sent
         #: (the server's log); None sends silently
         self.log = log
@@ -563,6 +586,23 @@ class OscTranslator:
         profile = self.profile() if callable(self.profile) else self.profile
         return profile if profile in PROFILES else "web"
 
+    def current_narration(self) -> dict:
+        mapping = self.narration() if callable(self.narration) else self.narration
+        return mapping if isinstance(mapping, dict) else {}
+
+    def _narration_change(self, pid: str | None) -> tuple[list, list]:
+        """(what goes down, what comes up) as attention moves to `pid`
+        (None = the atlas): the channel now up goes to 0 unless the new work
+        is on the same one; the new work's channel goes to 1."""
+        wanted = narration_slot(self.current_narration().get(pid)) if pid else None
+        down, up = [], []
+        if self._narration_slot is not None and self._narration_slot != wanted:
+            down.append((narration_address(self._narration_slot), [0.0]))
+        if wanted is not None and wanted != self._narration_slot:
+            up.append((narration_address(wanted), [1.0]))
+        self._narration_slot = wanted
+        return down, up
+
     def _sidecars(self, pid: str) -> dict:
         """The mood and face readings OSC did not carry before: two small
         JSON reads per focus change, or nothing if unavailable."""
@@ -593,26 +633,31 @@ class OscTranslator:
         """What this event sends at once, as (address, args) pairs, advancing
         the journey history as sending would - so a dry run over a recording
         reproduces the live stream message for message. Focus changes carry
-        the work, the four affect params as last felt, and a "focus" stab;
-        a crossing line a "pair" stab; the end a "rest" stab."""
+        the work, the four affect params as last felt, the narration channel
+        changes (see narration.py) and a "focus" stab; a crossing line a
+        "pair" stab; the end a "rest" stab."""
         if event in ("seed", "attention"):
             pid = data.get("pid", "")
-            messages = self._focus(pid, data.get("title"), data.get("via"))
+            down, up = self._narration_change(pid)
+            # the last work's soundtrack goes down before the new bundle
+            messages = down + self._focus(pid, data.get("title"), data.get("via"))
             if event == "seed":  # the mode flips before the work's bundle
                 messages = [(f"{ROOT}/dreammode", [1])] + messages
             if event == "attention":
                 messages = messages + event_messages(event, data)
             if self._affect is not None:
                 messages = messages + affect_messages(self._affect)
-            return messages + [(f"{ROOT}/stab", ["focus", str(pid)])]
+            # its own soundtrack comes up with the focus stab
+            return messages + up + [(f"{ROOT}/stab", ["focus", str(pid)])]
         if event == "affect":
             self._affect = data.get("axes") or {}
         messages = event_messages(event, data)
         if event == "voice" and data.get("transition") and data.get("text"):
             messages = messages + [(f"{ROOT}/stab", ["pair", str(data.get("pid", ""))])]
         if event == "done":
-            messages = messages + [(f"{ROOT}/dreammode", [0]),
-                                   (f"{ROOT}/stab", ["rest", ""])]
+            down, _ = self._narration_change(None)  # back to the atlas
+            messages = messages + down + [(f"{ROOT}/dreammode", [0]),
+                                          (f"{ROOT}/stab", ["rest", ""])]
         return messages
 
     def delayed(self, event: str, data: dict) -> list:
@@ -664,7 +709,8 @@ def _show_arg(value) -> str:
 
 
 def osc_timeline(records: dict, events: list[dict], profile: str = "web",
-                 corrections=None, sssh_delay=SSSH_DELAY_S) -> list[dict]:
+                 corrections=None, sssh_delay=SSSH_DELAY_S,
+                 narration=None) -> list[dict]:
     """What a recorded dream sent (or would send) to OSC, point by point:
     [{t, event, messages: [[address, args], ...]}] for every event that
     produces a message, under the given profile and corrections, with the
@@ -672,7 +718,8 @@ def osc_timeline(records: dict, events: list[dict], profile: str = "web",
     it fires after the end (or dropped where the next dream began first). A fresh translator walks the events in order,
     so the journey history matches a live run; nothing is emitted."""
     translator = OscTranslator(records, [], profile=profile,
-                               corrections=corrections, sssh_delay=sssh_delay)
+                               corrections=corrections, sssh_delay=sssh_delay,
+                               narration=narration)
     out, pending = [], None
     for entry in events:
         t, event, data = entry.get("t", 0.0), entry.get("event"), entry.get("data") or {}

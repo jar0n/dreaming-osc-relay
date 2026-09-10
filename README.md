@@ -87,7 +87,10 @@ itself, the four affect params as last felt, and `/dreaming/stab focus <pid>`.
 Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
 `/affect/valence|arousal|dominance|approach` (one float each, 0..1 with
 rest at 0.5; never bundled), `/dreaming/stab pair <pid>` as the crossing is said and the next
-work hangs beside it, `/dreaming/stab rest` and `/done` as the dream ends,
+work hangs beside it, `/dreaming/narration/work-N` 1 as the dream arrives
+at a work assigned to soundtrack channel N (1..18, set on the work's review
+page in the backend admin) and 0 as it leaves it,
+`/dreaming/stab rest` and `/done` as the dream ends,
 then the affect reset as the wall resets to the atlas: `/affect/valence`,
 `/affect/arousal` and `/affect/dominance` each to 0, nothing for approach
 and no bundle (a set time after the end, 0 by default, dropped if the next
@@ -99,7 +102,8 @@ Two profiles. `web` is the faithful OSCManager.js schema with raw values;
 `supercollider` rewrites the same addresses into the ranges the venue patch
 reads (percentile ranks, key without suffix, tags in its vocabulary), each
 rewrite switchable on its own. The relay follows the server's admin
-settings for the profile, the corrections and the `sssh` delay: read once
+settings for the profile, the corrections, the `sssh` delay and the
+narration channel assignments: read once
 on connect from `/review/api/dream/status` and again on every live `status`
 event, applied from the next work. `--profile web|supercollider` pins the
 profile instead. The backend's dream browser (`/review/dreams`) shows what
