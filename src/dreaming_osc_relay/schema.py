@@ -7,12 +7,16 @@ from __future__ import annotations
 import queue
 import re
 import threading
+import time
 
 ROOT = "/dreaming"
 #: seconds after a dream ends until the wall has reset to the atlas and its
-#: depth field has built, when /dreaming/sssh is sent; 0 = with `done`
+#: depth field has built, when the atlas pose is sent; 0 = with `done`
 SSSH_DELAY_S = 0.0
 AFFECT_AXES = ("valence", "arousal", "dominance", "approach")
+#: the wall at rest in the atlas, in the dream's -1..1 axes: 0 on the wire
+#: for valence, arousal and dominance, 1 on the wire for approach
+ATLAS_AFFECT = {"valence": -1.0, "arousal": -1.0, "dominance": -1.0, "approach": 1.0}
 
 
 def affect_messages(axes: dict | None) -> list:
@@ -25,6 +29,13 @@ def affect_messages(axes: dict | None) -> list:
               for a in AFFECT_AXES]
     return ([(f"{ROOT}/affect", values)]
             + [(f"{ROOT}/affect/{a}", [v]) for a, v in zip(AFFECT_AXES, values)])
+
+
+def atlas_messages() -> list:
+    """What the wall is told as it settles back into the atlas: the affect
+    params at the atlas pose (0, 0, 0 and approach 1), the sssh that used to
+    stand here."""
+    return affect_messages(ATLAS_AFFECT)
 
 
 def _s(value) -> str | None:
@@ -491,9 +502,13 @@ class OscTranslator:
     """
 
     def __init__(self, records: dict, destinations: list[str],
-                 profile="web", corrections=None, sssh_delay=SSSH_DELAY_S):
+                 profile="web", corrections=None, sssh_delay=SSSH_DELAY_S,
+                 log=None):
         self.records = records
-        #: seconds from a dream's end to /dreaming/sssh; a callable is read
+        #: a callable taking one line, told every message as it is sent
+        #: (the server's log); None sends silently
+        self.log = log
+        #: seconds from a dream's end to the atlas pose on /dreaming/affect; a callable is read
         #: each time so the admin's setting applies live
         self.sssh_delay = sssh_delay
         self._affect: dict | None = None  # the last feeling, for focus bursts
@@ -516,13 +531,16 @@ class OscTranslator:
         self._current: tuple[str, str] | None = None  # (pid, title)
         self._position = 0
 
-    def _emit(self, messages: list) -> None:
+    def _emit(self, messages: list, event: str = "") -> None:
         for address, args in messages:
             for client in self.clients:
                 try:
                     client.send_message(address, args)
                 except OSError:
                     pass  # UDP best-effort: the dream does not care
+        if self.log is not None and messages:
+            for line in osc_log_lines(event, messages):
+                self.log(line)
 
     def _focus(self, pid: str, title: str | None, via: str | None) -> list:
         history = None
@@ -600,21 +618,23 @@ class OscTranslator:
 
     def delayed(self, event: str, data: dict) -> list:
         """What this event sends later: [(seconds, [(address, args)])]. The
-        end of a dream sends /dreaming/sssh once the wall has reset to the
-        atlas; a new dream beginning first cancels one still pending."""
+        end of a dream sends the affect params at the atlas pose once the
+        wall has reset to the atlas; a new dream beginning first cancels one
+        still pending."""
         if event == "done":
-            return [(self.current_sssh_delay(), [(f"{ROOT}/sssh", ["atlas"])])]
+            return [(self.current_sssh_delay(), atlas_messages())]
         return []
 
     def handle(self, event: str, data: dict) -> None:
         try:
-            self._emit(self.messages(event, data))
+            self._emit(self.messages(event, data), event)
             later = self.delayed(event, data)
             if event == "seed" and self._sssh_timer is not None:
                 self._sssh_timer.cancel()  # the next dream began first
                 self._sssh_timer = None
             for delay, messages in later:
-                timer = threading.Timer(delay, self._emit, args=(messages,))
+                timer = threading.Timer(delay, self._emit,
+                                        args=(messages, "sssh"))
                 timer.daemon = True
                 timer.start()
                 self._sssh_timer = timer
@@ -622,13 +642,35 @@ class OscTranslator:
             print(f"osc: skipped {event}: {exc}", flush=True)  # kill the bus
 
 
+def osc_log_lines(event: str, messages: list, now=None) -> list[str]:
+    """How a burst reads in the server log: a header naming the dream
+    event and the count, then one indented line per message as sent, so the
+    log shows the wall exactly what the patch heard and when."""
+    stamp = time.strftime("%H:%M:%S", time.localtime(now))
+    label = event or "osc"
+    lines = [f"osc {stamp} {label}: {len(messages)} message"
+             f"{'' if len(messages) == 1 else 's'}"]
+    for address, args in messages:
+        shown = " ".join(_show_arg(a) for a in args)
+        lines.append(f"    {address} {shown}".rstrip())
+    return lines
+
+
+def _show_arg(value) -> str:
+    if isinstance(value, str):
+        return repr(value) if (" " in value or not value) else value
+    if isinstance(value, float):
+        return f"{value:g}"
+    return str(value)
+
+
 def osc_timeline(records: dict, events: list[dict], profile: str = "web",
                  corrections=None, sssh_delay=SSSH_DELAY_S) -> list[dict]:
     """What a recorded dream sent (or would send) to OSC, point by point:
     [{t, event, messages: [[address, args], ...]}] for every event that
     produces a message, under the given profile and corrections, with the
-    delayed `sssh` placed where it fires after the end (or dropped where the
-    next dream began first). A fresh translator walks the events in order,
+    delayed `sssh` point (the atlas pose on the affect params) placed where
+    it fires after the end (or dropped where the next dream began first). A fresh translator walks the events in order,
     so the journey history matches a live run; nothing is emitted."""
     translator = OscTranslator(records, [], profile=profile,
                                corrections=corrections, sssh_delay=sssh_delay)
