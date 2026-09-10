@@ -70,11 +70,10 @@ Between works: `/dreaming/voice`, `/pool`, `/visitor`, `/absorbed`,
 `/affect` (bundled) with `/affect/valence|arousal|dominance|approach` (one
 float each, 0..1 with rest at 0.5), `/dreaming/stab pair <pid>` as the crossing is said and the next
 work hangs beside it, `/dreaming/stab rest` and `/done` as the dream ends,
-then the affect params once more at the atlas pose as the wall resets to
-the atlas: `/affect 0 0 0 1` and the four single addresses, 0 on valence,
-arousal and dominance, 1 on approach (a set time after the end, 0 by
-default, dropped if the next dream begins first; this replaced
-`/dreaming/sssh atlas` on 10 Sep 2026). Recorded-dream
+then the affect reset as the wall resets to the atlas: `/affect/valence`,
+`/affect/arousal` and `/affect/dominance` each to 0, nothing for approach
+and no bundle (a set time after the end, 0 by default, dropped if the next
+dream begins first; this replaced `/dreaming/sssh atlas` on 10 Sep 2026). Recorded-dream
 replays fire exactly like live dreams; reconnect catch-up history never
 re-fires.
 

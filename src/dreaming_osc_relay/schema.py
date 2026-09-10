@@ -11,12 +11,12 @@ import time
 
 ROOT = "/dreaming"
 #: seconds after a dream ends until the wall has reset to the atlas and its
-#: depth field has built, when the atlas pose is sent; 0 = with `done`
+#: depth field has built, when the affect reset is sent; 0 = with `done`
 SSSH_DELAY_S = 0.0
 AFFECT_AXES = ("valence", "arousal", "dominance", "approach")
-#: the wall at rest in the atlas, in the dream's -1..1 axes: 0 on the wire
-#: for valence, arousal and dominance, 1 on the wire for approach
-ATLAS_AFFECT = {"valence": -1.0, "arousal": -1.0, "dominance": -1.0, "approach": 1.0}
+#: the axes zeroed on the wire as the wall resets to the atlas; approach is
+#: left alone, so the reset sends nothing for it
+ATLAS_RESET_AXES = ("valence", "arousal", "dominance")
 
 
 def affect_messages(axes: dict | None) -> list:
@@ -32,10 +32,11 @@ def affect_messages(axes: dict | None) -> list:
 
 
 def atlas_messages() -> list:
-    """What the wall is told as it settles back into the atlas: the affect
-    params at the atlas pose (0, 0, 0 and approach 1), the sssh that used to
-    stand here."""
-    return affect_messages(ATLAS_AFFECT)
+    """What the wall is told as it settles back into the atlas, where the
+    sssh used to stand: valence, arousal and dominance at 0, one address
+    each. Approach is not sent, and neither is the four-value bundle, which
+    could not leave approach out without changing shape."""
+    return [(f"{ROOT}/affect/{a}", [0.0]) for a in ATLAS_RESET_AXES]
 
 
 def _s(value) -> str | None:
@@ -508,7 +509,7 @@ class OscTranslator:
         #: a callable taking one line, told every message as it is sent
         #: (the server's log); None sends silently
         self.log = log
-        #: seconds from a dream's end to the atlas pose on /dreaming/affect; a callable is read
+        #: seconds from a dream's end to the affect reset; a callable is read
         #: each time so the admin's setting applies live
         self.sssh_delay = sssh_delay
         self._affect: dict | None = None  # the last feeling, for focus bursts
@@ -618,8 +619,8 @@ class OscTranslator:
 
     def delayed(self, event: str, data: dict) -> list:
         """What this event sends later: [(seconds, [(address, args)])]. The
-        end of a dream sends the affect params at the atlas pose once the
-        wall has reset to the atlas; a new dream beginning first cancels one
+        end of a dream zeroes valence, arousal and dominance once the wall
+        has reset to the atlas; a new dream beginning first cancels one
         still pending."""
         if event == "done":
             return [(self.current_sssh_delay(), atlas_messages())]
@@ -669,7 +670,7 @@ def osc_timeline(records: dict, events: list[dict], profile: str = "web",
     """What a recorded dream sent (or would send) to OSC, point by point:
     [{t, event, messages: [[address, args], ...]}] for every event that
     produces a message, under the given profile and corrections, with the
-    delayed `sssh` point (the atlas pose on the affect params) placed where
+    delayed `sssh` point (the affect reset) placed where
     it fires after the end (or dropped where the next dream began first). A fresh translator walks the events in order,
     so the journey history matches a live run; nothing is emitted."""
     translator = OscTranslator(records, [], profile=profile,
